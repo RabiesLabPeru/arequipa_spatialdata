@@ -6,7 +6,7 @@ This repository contains spatial data files produced by the Zoonotic Disease Res
 
 These files were generated from official data sources by manually digitizing and tracing original map visualizations in Google Earth to obtain spatial representations of the mapped information.
 
-If you find these data useful, please feel free to use them for your own research. The DOI for the current version and citation instructions are provided in the **Citation** section below.
+If you find these data useful, we encourage their use in your own research. Please provide appropriate credit to the Zoonotic Disease Research Center (ZDRC) team and cite this dataset according to the instructions provided in the Citation section below. The DOI for the current version is included there.
 
 ## Data Contents
 
