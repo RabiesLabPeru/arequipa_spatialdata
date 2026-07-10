@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Limites_Cluster_32_11may2023.kml</name>
+	<StyleMap id="m_ylw-pushpin1200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin12">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl12">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7fff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7fff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Limites_Cluster_32_11may2023</name>
+		<Placemark>
+			<name>CIUDAD_DE_DIOS_03</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.67931912355573,-16.33596833608781,0 -71.6764002069261,-16.35396300360192,0 -71.67514232995021,-16.36182936518955,0 -71.66366755757846,-16.36665837002588,0 -71.66287493159251,-16.37268186200665,0 -71.66142227889966,-16.37349048271704,0 -71.66137562966048,-16.37398513756221,0 -71.66072807475838,-16.3743559026251,0 -71.66076544111201,-16.37469265731153,0 -71.66060972735227,-16.37516515245474,0 -71.65999692737698,-16.37563580678469,0 -71.65952591678248,-16.37598270365195,0 -71.65942750854731,-16.37639428428314,0 -71.65939845445229,-16.37676012940525,0 -71.65939210173684,-16.37710588730936,0 -71.65938589385703,-16.37744374903534,0 -71.65848609338509,-16.37813034366323,0 -71.65795726271617,-16.37825417596163,0 -71.65750510340477,-16.37805748478731,0 -71.65681487334828,-16.37754986611973,0 -71.65638155314461,-16.37740245574856,0 -71.65598027988605,-16.37747539467086,0 -71.65552579439425,-16.37810027924482,0 -71.65439382894887,-16.37586552097657,0 -71.6537010542697,-16.37444232141999,0 -71.6528724681028,-16.37315258302961,0 -71.65206610438473,-16.3722204531917,0 -71.65148632683075,-16.37177017735775,0 -71.64950709946932,-16.37057518065559,0 -71.64579323134942,-16.3694139721091,0 -71.63772452908204,-16.36667901076826,0 -71.6381696911525,-16.36587184835989,0 -71.63748461055725,-16.36485755511862,0 -71.63745773213539,-16.36401844244677,0 -71.63776606816769,-16.36322397421449,0 -71.63669704044209,-16.35985549679682,0 -71.63478317945597,-16.35686567888296,0 -71.63315903878089,-16.35219907846743,0 -71.6328933082136,-16.34928107761745,0 -71.63061955938976,-16.34175080732267,0 -71.62764491968194,-16.33842423794184,0 -71.62663933221428,-16.33479568202424,0 -71.62344036624764,-16.33020396083447,0 -71.6291788660517,-16.32741158102891,0 -71.63123256001151,-16.32671588364812,0 -71.64301282408798,-16.32607473346729,0 -71.64395624480447,-16.32555143006376,0 -71.64360972860253,-16.32356253782891,0 -71.64461740024105,-16.32321495797154,0 -71.64661524135593,-16.32255221168504,0 -71.64719310549644,-16.32238552922284,0 -71.64882176487602,-16.32197085800563,0 -71.65017625508436,-16.32163644662286,0 -71.65081933102297,-16.32146713700498,0 -71.65236945158209,-16.32131615521712,0 -71.65356359122335,-16.3201481127134,0 -71.65511950558013,-16.31869928557172,0 -71.6610048945298,-16.31305332260584,0 -71.65984311500141,-16.31110177214129,0 -71.65471286576333,-16.30494307897636,0 -71.65145962281123,-16.30384564304758,0 -71.64629704768178,-16.30105340570047,0 -71.64772081104809,-16.29310250765957,0 -71.64971781333826,-16.29089627206982,0 -71.64922914912123,-16.28604794437278,0 -71.65816830522358,-16.28056997007377,0 -71.66353091347138,-16.28378136422763,0 -71.66754034826052,-16.2892450036631,0 -71.66923024754014,-16.29328003461465,0 -71.67063999979734,-16.30195512471793,0 -71.68028480612615,-16.31244597023603,0 -71.67989685122274,-16.31393650954696,0 -71.6804387809367,-16.32180552671192,0 -71.67931912355573,-16.33596833608781,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>32</name>
+			<LookAt>
+				<longitude>-71.60851546313278</longitude>
+				<latitude>-16.36756396336572</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0600170787781239</heading>
+				<tilt>28.54050929588319</tilt>
+				<range>25742.56766372671</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin1200</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.65566503636209,-16.34915404711947,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

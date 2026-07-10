@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Polygons_risk_cluster09_day1</name>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>2. Los Andes hasta Av. Leticia</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-71.51627447180509,-16.38321991007534,0 -71.51549258230891,-16.38276623217595,0 -71.51481342453479,-16.38232863461029,0 -71.51422756934537,-16.38196709152487,0 -71.51389576840771,-16.38138385063372,0 -71.51374105769831,-16.3809283210592,0 -71.5138872826161,-16.38058885897593,0 -71.51433465328448,-16.38027470443979,0 -71.51439910594716,-16.37982825823985,0 -71.51394167381905,-16.37926130348299,0 -71.51344272796959,-16.37883769418901,0 -71.5142636915712,-16.37847924227589,0 -71.51485683737779,-16.37871839996408,0 -71.5151979229916,-16.37825304723307,0 -71.51619011645128,-16.37883786320859,0 -71.517560638831,-16.37961777292121,0 -71.51836591252396,-16.37998620534134,0 -71.51796548924375,-16.3806674871657,0 -71.51764066170334,-16.38121398937534,0 -71.5166427147132,-16.38292220997114,0 -71.51627447180509,-16.38321991007534,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>3. Los Andes hasta Mexico</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-71.51838064185948,-16.37999911870388,0 -71.51623850032085,-16.37878191080467,0 -71.51733751511074,-16.37729979662237,0 -71.51775222413282,-16.37652392849365,0 -71.51801141490273,-16.37617578183276,0 -71.51864383474121,-16.37520096275134,0 -71.5190170652876,-16.37469365147078,0 -71.51927625038674,-16.37392769902172,0 -71.51981536582441,-16.37326120245432,0 -71.52119427552495,-16.37406692617565,0 -71.52341558914901,-16.37525060522421,0 -71.52298358092288,-16.37601655673158,0 -71.52231860751965,-16.37561664786399,0 -71.5214093089875,-16.37664132016685,0 -71.52112741701144,-16.37691931495726,0 -71.52099619727815,-16.37681407861724,0 -71.51979086149841,-16.3778430679093,0 -71.51950695937089,-16.37830081660441,0 -71.51838064185948,-16.37999911870388,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>4. Mexico hasta Av. Justicia</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-71.51971225497587,-16.37328581217742,0 -71.51916970601685,-16.37395945418361,0 -71.51886120116593,-16.3748576189995,0 -71.51793570414971,-16.37616402541854,0 -71.51760593092347,-16.376592687305,0 -71.5162229958806,-16.37875643310255,0 -71.51510601199826,-16.37820527277838,0 -71.51274440144746,-16.37664366953995,0 -71.51393590348168,-16.37511274493905,0 -71.51536138855957,-16.37313274293781,0 -71.51570179839162,-16.3726938682516,0 -71.5158507282415,-16.37242849863861,0 -71.51609539809724,-16.37211209468264,0 -71.51658473993884,-16.37146906896973,0 -71.51971225497587,-16.37328581217742,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>7. Iglesia Cristo Rey</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-71.51668479608706,-16.37125641564596,0 -71.51695974330167,-16.3708703501131,0 -71.5175231865616,-16.37110589595697,0 -71.5178699105051,-16.37117604073172,0 -71.51818701458276,-16.37134647564713,0 -71.51860821959595,-16.37168570454213,0 -71.5190317585182,-16.37198655459349,0 -71.51931090892184,-16.37185251616355,0 -71.51955584464065,-16.37179707330227,0 -71.51988569464328,-16.3717096436806,0 -71.52014880657161,-16.37170965056045,0 -71.52050576065056,-16.37180502853343,0 -71.52062906098605,-16.37177328940374,0 -71.52102873640609,-16.37161384987871,0 -71.52171251732241,-16.37195514918633,0 -71.52222764119446,-16.37198661437374,0 -71.52253886859175,-16.37217438019263,0 -71.52313223950713,-16.37278050662124,0 -71.52321946284361,-16.37297502150149,0 -71.52331158997602,-16.37317686853267,0 -71.52352885530557,-16.37358375618684,0 -71.5230519623972,-16.37449433814151,0 -71.52363310144467,-16.37485989356894,0 -71.52348125521358,-16.37513561046224,0 -71.51668479608706,-16.37125641564596,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>10. San Luis</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-71.50332047066379,-16.3682167442868,0 -71.50532793500092,-16.36821673902359,0 -71.50570935655159,-16.368229575689,0 -71.50594356618409,-16.36856985227372,0 -71.50614432023887,-16.36897433310908,0 -71.50627146506874,-16.36916694297936,0 -71.50675326905973,-16.36904495041647,0 -71.50686703237248,-16.36921829984185,0 -71.50560901131725,-16.370765624608,0 -71.50518073849095,-16.37050238718595,0 -71.50481269324381,-16.37005296035703,0 -71.50441788840789,-16.37019420885624,0 -71.50421044924744,-16.37056017100672,0 -71.50415691643819,-16.37068215871933,0 -71.5035145200976,-16.37027767378471,0 -71.50324685696975,-16.36995665517465,0 -71.50316655896654,-16.36972552231078,0 -71.50200221382406,-16.36969983690392,0 -71.50164755370835,-16.36966773303982,0 -71.50230334789157,-16.36883309058402,0 -71.50287882748525,-16.36840293183662,0 -71.50332047066379,-16.3682167442868,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

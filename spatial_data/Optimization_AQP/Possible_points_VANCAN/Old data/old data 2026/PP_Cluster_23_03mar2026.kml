@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CL23_Zamacola_03mar2026</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<Schema name="CL23_Zamacola" id="S_CL23_Zamacola_SSDDIISS0">
+		<SimpleField type="string" name="code"><displayName>&lt;b&gt;code&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="point_name"><displayName>&lt;b&gt;point_name&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="lat"><displayName>&lt;b&gt;lat&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="long"><displayName>&lt;b&gt;long&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="y_proj"><displayName>&lt;b&gt;y_proj&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="x_proj"><displayName>&lt;b&gt;x_proj&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="type_point"><displayName>&lt;b&gt;type_point&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="estratategy"><displayName>&lt;b&gt;estratategy&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle110">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>code</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/code]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/point_name]</td></tr>
+  <tr><td><b>lat</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/estratategy]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="normPointStyle230">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>code</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/code]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/point_name]</td></tr>
+  <tr><td><b>lat</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/estratategy]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="pointStyleMap23">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle230</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>CL23_PP_001</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_001</SimpleData>
+				<SimpleData name="point_name">IEP_SAN_FRANCISCO</SimpleData>
+				<SimpleData name="lat">-16.3208</SimpleData>
+				<SimpleData name="long">-71.5665</SimpleData>
+				<SimpleData name="y_proj">-1931521</SimpleData>
+				<SimpleData name="x_proj">2835921</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56645106824638,-16.32081682386854,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_002</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_002</SimpleData>
+				<SimpleData name="point_name">CANCHA_DE_TIERRA_HERNAN_BEDOYA</SimpleData>
+				<SimpleData name="lat">-16.3187</SimpleData>
+				<SimpleData name="long">-71.5665</SimpleData>
+				<SimpleData name="y_proj">-1931270</SimpleData>
+				<SimpleData name="x_proj">2835938</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56654582669934,-16.31869440044807,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_003</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_003</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_FLORA_TRISTAN</SimpleData>
+				<SimpleData name="lat">-16.3197</SimpleData>
+				<SimpleData name="long">-71.5601</SimpleData>
+				<SimpleData name="y_proj">-1931472</SimpleData>
+				<SimpleData name="x_proj">2836654</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56010772031489,-16.3197269985423,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_004</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_004</SimpleData>
+				<SimpleData name="point_name">PARQUE_FLORA_TRISTAN</SimpleData>
+				<SimpleData name="lat">-16.3179</SimpleData>
+				<SimpleData name="long">-71.5593</SimpleData>
+				<SimpleData name="y_proj">-1931269</SimpleData>
+				<SimpleData name="x_proj">2836770</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55929524918957,-16.31790571312272,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_005</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_005</SimpleData>
+				<SimpleData name="point_name">CANCHA_DE_TIERRA_PEDRO_P_DIAZ</SimpleData>
+				<SimpleData name="lat">-16.3175</SimpleData>
+				<SimpleData name="long">-71.5577</SimpleData>
+				<SimpleData name="y_proj">-1931245</SimpleData>
+				<SimpleData name="x_proj">2836951</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55774109380442,-16.31753651511594,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_006</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_006</SimpleData>
+				<SimpleData name="point_name">PARQUE_PEDRO_P_DIAZ</SimpleData>
+				<SimpleData name="lat">-16.3176</SimpleData>
+				<SimpleData name="long">-71.5553</SimpleData>
+				<SimpleData name="y_proj">-1931284</SimpleData>
+				<SimpleData name="x_proj">2837228</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55529228649337,-16.31760873190127,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_007</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_007</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA</SimpleData>
+				<SimpleData name="lat">-16.3176</SimpleData>
+				<SimpleData name="long">-71.5518</SimpleData>
+				<SimpleData name="y_proj">-1931322</SimpleData>
+				<SimpleData name="x_proj">2837624</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55181013424234,-16.31756416497915,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_008</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_008</SimpleData>
+				<SimpleData name="point_name">PARQUE_JOSE_MARIA_ARGUEDAS</SimpleData>
+				<SimpleData name="lat">-16.3197</SimpleData>
+				<SimpleData name="long">-71.5496</SimpleData>
+				<SimpleData name="y_proj">-1931598</SimpleData>
+				<SimpleData name="x_proj">2837850</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54957147582421,-16.31967311005778,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_009</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_009</SimpleData>
+				<SimpleData name="point_name">COLEGIO_JOSE_MARIA_ARGUEDAS</SimpleData>
+				<SimpleData name="lat">-16.3168</SimpleData>
+				<SimpleData name="long">-71.5498</SimpleData>
+				<SimpleData name="y_proj">-1931264</SimpleData>
+				<SimpleData name="x_proj">2837865</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54976617780191,-16.31684958652387,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_010</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_010</SimpleData>
+				<SimpleData name="point_name">CANCHA_SINTETICA_LA_REVANCHA</SimpleData>
+				<SimpleData name="lat">-16.3151</SimpleData>
+				<SimpleData name="long">-71.5467</SimpleData>
+				<SimpleData name="y_proj">-1931097</SimpleData>
+				<SimpleData name="x_proj">2838230</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54674240632296,-16.31510720438376,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_011</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_011</SimpleData>
+				<SimpleData name="point_name">COLEGIO_TALENTS_SCHOOL</SimpleData>
+				<SimpleData name="lat">-16.3157</SimpleData>
+				<SimpleData name="long">-71.5509</SimpleData>
+				<SimpleData name="y_proj">-1931118</SimpleData>
+				<SimpleData name="x_proj">2837746</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55094030430102,-16.31573443718809,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_012</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_012</SimpleData>
+				<SimpleData name="point_name">COLEGIO_INTERNACIONAL_JOHANNES_KEPLER</SimpleData>
+				<SimpleData name="lat">-16.3157</SimpleData>
+				<SimpleData name="long">-71.5527</SimpleData>
+				<SimpleData name="y_proj">-1931093</SimpleData>
+				<SimpleData name="x_proj">2837545</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55271463009966,-16.31570842774317,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_013</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_013</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_PEDRO_P_DIAZ</SimpleData>
+				<SimpleData name="lat">-16.3144</SimpleData>
+				<SimpleData name="long">-71.5544</SimpleData>
+				<SimpleData name="y_proj">-1930915</SimpleData>
+				<SimpleData name="x_proj">2837376</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55435596616411,-16.31436429899014,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_014</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_014</SimpleData>
+				<SimpleData name="point_name">PARQUE_DE_LA_FAMILIA</SimpleData>
+				<SimpleData name="lat">-16.3132</SimpleData>
+				<SimpleData name="long">-71.5562</SimpleData>
+				<SimpleData name="y_proj">-1930755</SimpleData>
+				<SimpleData name="x_proj">2837177</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55624652950442,-16.31321108333061,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_015</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_015</SimpleData>
+				<SimpleData name="point_name">IGLESIA_LAS_ASAMBLEAS_DE_DIOS</SimpleData>
+				<SimpleData name="lat">-16.3135</SimpleData>
+				<SimpleData name="long">-71.5528</SimpleData>
+				<SimpleData name="y_proj">-1930835</SimpleData>
+				<SimpleData name="x_proj">2837565</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55279052296834,-16.31351824714991,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_016</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_016</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_VILLA_CERRILLOS</SimpleData>
+				<SimpleData name="lat">-16.314</SimpleData>
+				<SimpleData name="long">-71.551</SimpleData>
+				<SimpleData name="y_proj">-1930916</SimpleData>
+				<SimpleData name="x_proj">2837762</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55099714784885,-16.31401951144192,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_017</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_017</SimpleData>
+				<SimpleData name="point_name">PLAZA_CIVICA_VILLA_CERRILLOS</SimpleData>
+				<SimpleData name="lat">-16.3138</SimpleData>
+				<SimpleData name="long">-71.549</SimpleData>
+				<SimpleData name="y_proj">-1930919</SimpleData>
+				<SimpleData name="x_proj">2837992</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54899334159398,-16.31383036192204,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_018</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_018</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_VILLA_CERRILLOS_II</SimpleData>
+				<SimpleData name="lat">-16.3123</SimpleData>
+				<SimpleData name="long">-71.5471</SimpleData>
+				<SimpleData name="y_proj">-1930758</SimpleData>
+				<SimpleData name="x_proj">2838231</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54706530186409,-16.31225234608749,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_019</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_019</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_VILLA_CERRILLOS_III</SimpleData>
+				<SimpleData name="lat">-16.3113</SimpleData>
+				<SimpleData name="long">-71.5495</SimpleData>
+				<SimpleData name="y_proj">-1930612</SimpleData>
+				<SimpleData name="x_proj">2837969</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54948374547206,-16.31126763900656,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_020</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_020</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_LOS_MONTEROS_I</SimpleData>
+				<SimpleData name="lat">-16.3115</SimpleData>
+				<SimpleData name="long">-71.552</SimpleData>
+				<SimpleData name="y_proj">-1930605</SimpleData>
+				<SimpleData name="x_proj">2837679</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55202019570706,-16.31147619142411,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_021</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_021</SimpleData>
+				<SimpleData name="point_name">PARQUE_PIROTECNICO_DE_CERRO</SimpleData>
+				<SimpleData name="lat">-16.3108</SimpleData>
+				<SimpleData name="long">-71.5587</SimpleData>
+				<SimpleData name="y_proj">-1930444</SimpleData>
+				<SimpleData name="x_proj">2836930</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5586937726552,-16.31081949941031,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_022</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_022</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_LA_FORTALEZA</SimpleData>
+				<SimpleData name="lat">-16.3094</SimpleData>
+				<SimpleData name="long">-71.5546</SimpleData>
+				<SimpleData name="y_proj">-1930333</SimpleData>
+				<SimpleData name="x_proj">2837410</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55462692070699,-16.30944511129789,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_023</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_023</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_LOS_ANGELES</SimpleData>
+				<SimpleData name="lat">-16.3085</SimpleData>
+				<SimpleData name="long">-71.552</SimpleData>
+				<SimpleData name="y_proj">-1930255</SimpleData>
+				<SimpleData name="x_proj">2837716</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55203435054915,-16.30849834043676,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_024</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_024</SimpleData>
+				<SimpleData name="point_name">TERMINAL_LOS_CANARIOS</SimpleData>
+				<SimpleData name="lat">-16.3066</SimpleData>
+				<SimpleData name="long">-71.5516</SimpleData>
+				<SimpleData name="y_proj">-1930033</SimpleData>
+				<SimpleData name="x_proj">2837785</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55164431395448,-16.3065727273915,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_025</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_025</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA</SimpleData>
+				<SimpleData name="lat">-16.3081</SimpleData>
+				<SimpleData name="long">-71.5475</SimpleData>
+				<SimpleData name="y_proj">-1930261</SimpleData>
+				<SimpleData name="x_proj">2838232</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54753427226301,-16.30807268564593,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_026</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_026</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_VILLA_PROGRESO</SimpleData>
+				<SimpleData name="lat">-16.3101</SimpleData>
+				<SimpleData name="long">-71.5478</SimpleData>
+				<SimpleData name="y_proj">-1930497</SimpleData>
+				<SimpleData name="x_proj">2838180</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54775733936391,-16.31010634095708,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_027</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_027</SimpleData>
+				<SimpleData name="point_name">IASD_TRES_ANGELES</SimpleData>
+				<SimpleData name="lat">-16.3076</SimpleData>
+				<SimpleData name="long">-71.5449</SimpleData>
+				<SimpleData name="y_proj">-1930239</SimpleData>
+				<SimpleData name="x_proj">2838532</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54494178483711,-16.30761199780735,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_028</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_028</SimpleData>
+				<SimpleData name="point_name">PARQUE_FUNDO_CABRERIAS</SimpleData>
+				<SimpleData name="lat">-16.303</SimpleData>
+				<SimpleData name="long">-71.5453</SimpleData>
+				<SimpleData name="y_proj">-1929687</SimpleData>
+				<SimpleData name="x_proj">2838549</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54532053681275,-16.30295228436723,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_029</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_029</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_INDEPENDENCIA</SimpleData>
+				<SimpleData name="lat">-16.2977</SimpleData>
+				<SimpleData name="long">-71.5465</SimpleData>
+				<SimpleData name="y_proj">-1929061</SimpleData>
+				<SimpleData name="x_proj">2838484</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54649505300146,-16.29774507219913,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_030</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_030</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_VILLA_REAL</SimpleData>
+				<SimpleData name="lat">-16.2931</SimpleData>
+				<SimpleData name="long">-71.5453</SimpleData>
+				<SimpleData name="y_proj">-1928534</SimpleData>
+				<SimpleData name="x_proj">2838683</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54526401103482,-16.29312738575986,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_031</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_031</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_INDEPENDENCIA_II</SimpleData>
+				<SimpleData name="lat">-16.2928</SimpleData>
+				<SimpleData name="long">-71.5482</SimpleData>
+				<SimpleData name="y_proj">-1928465</SimpleData>
+				<SimpleData name="x_proj">2838358</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54816536443359,-16.29284904617682,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_032</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_032</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_INDEPENDENCIA_B</SimpleData>
+				<SimpleData name="lat">-16.2891</SimpleData>
+				<SimpleData name="long">-71.5466</SimpleData>
+				<SimpleData name="y_proj">-1928039</SimpleData>
+				<SimpleData name="x_proj">2838588</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54657028562829,-16.28905335923679,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_033</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_033</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_28_DE_JULIO</SimpleData>
+				<SimpleData name="lat">-16.2885</SimpleData>
+				<SimpleData name="long">-71.5549</SimpleData>
+				<SimpleData name="y_proj">-1927874</SimpleData>
+				<SimpleData name="x_proj">2837647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55492143611529,-16.28854241350776,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_034</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_034</SimpleData>
+				<SimpleData name="point_name">ASOCIACION_DE_VIVIENDA_EMPRENDEDORES</SimpleData>
+				<SimpleData name="lat">-16.297</SimpleData>
+				<SimpleData name="long">-71.5357</SimpleData>
+				<SimpleData name="y_proj">-1929108</SimpleData>
+				<SimpleData name="x_proj">2839714</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.53573808870907,-16.2969966811746,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_035</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_035</SimpleData>
+				<SimpleData name="point_name">CANCHA_DE_TIERRA</SimpleData>
+				<SimpleData name="lat">-16.3017</SimpleData>
+				<SimpleData name="long">-71.5348</SimpleData>
+				<SimpleData name="y_proj">-1929674</SimpleData>
+				<SimpleData name="x_proj">2839764</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.53475494643992,-16.30171234330886,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_036</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_036</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_CHACHAMI_II</SimpleData>
+				<SimpleData name="lat">-16.3106</SimpleData>
+				<SimpleData name="long">-71.5435</SimpleData>
+				<SimpleData name="y_proj">-1930608</SimpleData>
+				<SimpleData name="x_proj">2838660</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54346902787668,-16.31059344911756,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_037</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_037</SimpleData>
+				<SimpleData name="point_name">Punto 1 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3141</SimpleData>
+				<SimpleData name="long">-71.5451</SimpleData>
+				<SimpleData name="y_proj">-1931002</SimpleData>
+				<SimpleData name="x_proj">2838426</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54513465645137,-16.31412498440141,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_038</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_038</SimpleData>
+				<SimpleData name="point_name">Punto 2 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3125</SimpleData>
+				<SimpleData name="long">-71.5428</SimpleData>
+				<SimpleData name="y_proj">-1930839</SimpleData>
+				<SimpleData name="x_proj">2838713</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54278813338388,-16.31248334697034,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_039</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_039</SimpleData>
+				<SimpleData name="point_name">Punto 3 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3122</SimpleData>
+				<SimpleData name="long">-71.5409</SimpleData>
+				<SimpleData name="y_proj">-1930824</SimpleData>
+				<SimpleData name="x_proj">2838937</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5408512809983,-16.31215565518061,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_040</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_040</SimpleData>
+				<SimpleData name="point_name">Punto 4 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3142</SimpleData>
+				<SimpleData name="long">-71.5409</SimpleData>
+				<SimpleData name="y_proj">-1931061</SimpleData>
+				<SimpleData name="x_proj">2838909</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54087163125966,-16.31417316037294,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_041</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_041</SimpleData>
+				<SimpleData name="point_name">Punto 5 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3156</SimpleData>
+				<SimpleData name="long">-71.5433</SimpleData>
+				<SimpleData name="y_proj">-1931203</SimpleData>
+				<SimpleData name="x_proj">2838616</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54328244617221,-16.31563752344201,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_042</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_042</SimpleData>
+				<SimpleData name="point_name">COMPLEJO_CHACHANI_1</SimpleData>
+				<SimpleData name="lat">-16.3168</SimpleData>
+				<SimpleData name="long">-71.5435</SimpleData>
+				<SimpleData name="y_proj">-1931332</SimpleData>
+				<SimpleData name="x_proj">2838573</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54353766545358,-16.3167631709609,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_043</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL23_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL23_PP_043</SimpleData>
+				<SimpleData name="point_name">Punto 6 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.318</SimpleData>
+				<SimpleData name="long">-71.5428</SimpleData>
+				<SimpleData name="y_proj">-1931487</SimpleData>
+				<SimpleData name="x_proj">2838638</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54281642957179,-16.31800294782491,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_044</name>
+		<visibility>0</visibility>
+		<description>loza deportiva</description>
+		<LookAt>
+			<longitude>-71.54169733825738</longitude>
+			<latitude>-16.2899346573688</latitude>
+			<altitude>0</altitude>
+			<heading>-0.002255260106827249</heading>
+			<tilt>8.53675759195116</tilt>
+			<range>1018.851243306615</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.54287265041188,-16.28783105685064,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_045</name>
+		<visibility>0</visibility>
+		<description>loza deportiva</description>
+		<LookAt>
+			<longitude>-71.53254237830951</longitude>
+			<latitude>-16.29376604666841</latitude>
+			<altitude>0</altitude>
+			<heading>-0.0204872955203027</heading>
+			<tilt>26.25985923305563</tilt>
+			<range>631.6715055150612</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.53327098631171,-16.2939573773759,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_046</name>
+		<visibility>0</visibility>
+		<description>loza deportiva jardines de chachani</description>
+		<LookAt>
+			<longitude>-71.54246137196704</longitude>
+			<latitude>-16.31231150564496</latitude>
+			<altitude>0</altitude>
+			<heading>-0.01906276153374156</heading>
+			<tilt>29.62884223782741</tilt>
+			<range>209.1451286001699</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.5424162727802,-16.31176316677097,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_047</name>
+		<visibility>0</visibility>
+		<description>Mercado El Progreso Villa Fontana</description>
+		<LookAt>
+			<longitude>-71.55536844989517</longitude>
+			<latitude>-16.31895022645204</latitude>
+			<altitude>0</altitude>
+			<heading>-0.0149528370480168</heading>
+			<tilt>27.42522056298252</tilt>
+			<range>369.2609877866582</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.55448233428018,-16.31831653854355,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_048</name>
+		<visibility>0</visibility>
+		<description>Mercado Central Villa Cerrillos</description>
+		<LookAt>
+			<longitude>-71.54973570568711</longitude>
+			<latitude>-16.31281025929415</latitude>
+			<altitude>0</altitude>
+			<heading>-0.01722224011239544</heading>
+			<tilt>29.26620366965549</tilt>
+			<range>361.0403848975628</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.54921256414684,-16.31252618795107,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL23_PP_049</name>
+		<visibility>0</visibility>
+		<description>I.E Las Abejitas</description>
+		<LookAt>
+			<longitude>-71.56674078540516</longitude>
+			<latitude>-16.31832671165167</latitude>
+			<altitude>0</altitude>
+			<heading>-0.01083710362440433</heading>
+			<tilt>26.18571087460654</tilt>
+			<range>263.0140720933571</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.56716710513417,-16.3182534535892,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

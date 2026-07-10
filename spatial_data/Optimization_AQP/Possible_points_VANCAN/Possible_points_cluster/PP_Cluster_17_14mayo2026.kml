@@ -1,0 +1,5285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PP_Cluster_17_14mayo2026</name>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
+	<Schema name="PP_Cluster_17_14mayo2026" id="S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+		<SimpleField type="int" name="n_microred">
+			<displayName>&lt;b&gt;n_microred&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="microred">
+			<displayName>&lt;b&gt;microred&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="int" name="cluster">
+			<displayName>&lt;b&gt;cluster&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="point_name">
+			<displayName>&lt;b&gt;point_name&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="code_point">
+			<displayName>&lt;b&gt;code_point&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="lat">
+			<displayName>&lt;b&gt;lat&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="long">
+			<displayName>&lt;b&gt;long&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="y_proj">
+			<displayName>&lt;b&gt;y_proj&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="x_proj">
+			<displayName>&lt;b&gt;x_proj&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="type_point">
+			<displayName>&lt;b&gt;type_point&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="estratategy">
+			<displayName>&lt;b&gt;estratategy&lt;/b&gt;</displayName>
+		</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>n_microred</b></td><td>$[PP_Cluster_17_14mayo2026/n_microred]</td></tr>
+  <tr><td><b>microred</b></td><td>$[PP_Cluster_17_14mayo2026/microred]</td></tr>
+  <tr><td><b>cluster</b></td><td>$[PP_Cluster_17_14mayo2026/cluster]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[PP_Cluster_17_14mayo2026/point_name]</td></tr>
+  <tr><td><b>code_point</b></td><td>$[PP_Cluster_17_14mayo2026/code_point]</td></tr>
+  <tr><td><b>lat</b></td><td>$[PP_Cluster_17_14mayo2026/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[PP_Cluster_17_14mayo2026/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[PP_Cluster_17_14mayo2026/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[PP_Cluster_17_14mayo2026/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[PP_Cluster_17_14mayo2026/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[PP_Cluster_17_14mayo2026/estratategy]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>n_microred</b></td><td>$[PP_Cluster_17_14mayo2026/n_microred]</td></tr>
+  <tr><td><b>microred</b></td><td>$[PP_Cluster_17_14mayo2026/microred]</td></tr>
+  <tr><td><b>cluster</b></td><td>$[PP_Cluster_17_14mayo2026/cluster]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[PP_Cluster_17_14mayo2026/point_name]</td></tr>
+  <tr><td><b>code_point</b></td><td>$[PP_Cluster_17_14mayo2026/code_point]</td></tr>
+  <tr><td><b>lat</b></td><td>$[PP_Cluster_17_14mayo2026/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[PP_Cluster_17_14mayo2026/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[PP_Cluster_17_14mayo2026/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[PP_Cluster_17_14mayo2026/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[PP_Cluster_17_14mayo2026/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[PP_Cluster_17_14mayo2026/estratategy]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>PP_Cluster_17_14mayo2026</name>
+		<Placemark>
+			<name>CL17_PP_001</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque Urb. Santa Maria (Movil)</SimpleData>
+					<SimpleData name="code_point">CL17_PP_001</SimpleData>
+					<SimpleData name="lat">-16.4114</SimpleData>
+					<SimpleData name="long">-71.5144</SimpleData>
+					<SimpleData name="y_proj">-1.94281e+09</SimpleData>
+					<SimpleData name="x_proj">2.84065e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.514386,-16.41136199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_002</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Mercado Manuel Prado</SimpleData>
+					<SimpleData name="code_point">CL17_PP_002</SimpleData>
+					<SimpleData name="lat">-16.4121</SimpleData>
+					<SimpleData name="long">-71.5127</SimpleData>
+					<SimpleData name="y_proj">-1.94292e+09</SimpleData>
+					<SimpleData name="x_proj">2.84083e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.512694,-16.41207600000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_003</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque_Jose_Olaya</SimpleData>
+					<SimpleData name="code_point">CL17_PP_003</SimpleData>
+					<SimpleData name="lat">-16.4129</SimpleData>
+					<SimpleData name="long">-71.5145</SimpleData>
+					<SimpleData name="y_proj">-1.943e+09</SimpleData>
+					<SimpleData name="x_proj">2.84062e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.514472,-16.41293200000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_004</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque_Thomas_Edison</SimpleData>
+					<SimpleData name="code_point">CL17_PP_004</SimpleData>
+					<SimpleData name="lat">-16.4128</SimpleData>
+					<SimpleData name="long">-71.5129</SimpleData>
+					<SimpleData name="y_proj">-1.943e+09</SimpleData>
+					<SimpleData name="x_proj">2.84079e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.512945,-16.412846,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_005</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque_Jesus_Con_Kennedy</SimpleData>
+					<SimpleData name="code_point">CL17_PP_005</SimpleData>
+					<SimpleData name="lat">-16.4125</SimpleData>
+					<SimpleData name="long">-71.5123</SimpleData>
+					<SimpleData name="y_proj">-1.94297e+09</SimpleData>
+					<SimpleData name="x_proj">2.84087e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51226799999999,-16.412476,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_006</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque_Av_Jesus_2Da_Cuadra</SimpleData>
+					<SimpleData name="code_point">CL17_PP_006</SimpleData>
+					<SimpleData name="lat">-16.4132</SimpleData>
+					<SimpleData name="long">-71.5115</SimpleData>
+					<SimpleData name="y_proj">-1.94306e+09</SimpleData>
+					<SimpleData name="x_proj">2.84095e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.511461,-16.41316699999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_007</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque 15 De Enero Iglesia</SimpleData>
+					<SimpleData name="code_point">CL17_PP_007</SimpleData>
+					<SimpleData name="lat">-16.4144</SimpleData>
+					<SimpleData name="long">-71.5108</SimpleData>
+					<SimpleData name="y_proj">-1.94321e+06</SimpleData>
+					<SimpleData name="x_proj">2.84101e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51082100000002,-16.414365,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_008</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque Manuel Prado</SimpleData>
+					<SimpleData name="code_point">CL17_PP_008</SimpleData>
+					<SimpleData name="lat">-16.4144</SimpleData>
+					<SimpleData name="long">-71.5128</SimpleData>
+					<SimpleData name="y_proj">-1.94319e+09</SimpleData>
+					<SimpleData name="x_proj">2.84079e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51280899999999,-16.41440299999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_009</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Centro De Salud Manuel Prado</SimpleData>
+					<SimpleData name="code_point">CL17_PP_009</SimpleData>
+					<SimpleData name="lat">-16.4157</SimpleData>
+					<SimpleData name="long">-71.5128</SimpleData>
+					<SimpleData name="y_proj">-1.94334e+06</SimpleData>
+					<SimpleData name="x_proj">2.84077e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51275800000001,-16.41569899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_010</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Mall_Aventura_Arequipa</SimpleData>
+					<SimpleData name="code_point">CL17_PP_010</SimpleData>
+					<SimpleData name="lat">-16.4174</SimpleData>
+					<SimpleData name="long">-71.5133</SimpleData>
+					<SimpleData name="y_proj">-1.94354e+09</SimpleData>
+					<SimpleData name="x_proj">2.84069e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51328599999999,-16.41743900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_011</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Iglesia_Senhor_De_Los_Milagros</SimpleData>
+					<SimpleData name="code_point">CL17_PP_011</SimpleData>
+					<SimpleData name="lat">-16.4165</SimpleData>
+					<SimpleData name="long">-71.5119</SimpleData>
+					<SimpleData name="y_proj">-1.94345e+09</SimpleData>
+					<SimpleData name="x_proj">2.84087e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51186199999999,-16.416518,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_012</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Av. Kenedy Con Ramon Castilla (Movil)</SimpleData>
+					<SimpleData name="code_point">CL17_PP_012</SimpleData>
+					<SimpleData name="lat">-16.4167</SimpleData>
+					<SimpleData name="long">-71.5106</SimpleData>
+					<SimpleData name="y_proj">-1.94349e+06</SimpleData>
+					<SimpleData name="x_proj">2.84101e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.510565,-16.416721,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_013</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque Benigno Ballon</SimpleData>
+					<SimpleData name="code_point">CL17_PP_013</SimpleData>
+					<SimpleData name="lat">-16.4161</SimpleData>
+					<SimpleData name="long">-71.5093</SimpleData>
+					<SimpleData name="y_proj">-1.94343e+09</SimpleData>
+					<SimpleData name="x_proj">2.84116e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50927400000002,-16.41605699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_014</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Jose Carlos Mariategui</SimpleData>
+					<SimpleData name="code_point">CL17_PP_014</SimpleData>
+					<SimpleData name="lat">-16.4164</SimpleData>
+					<SimpleData name="long">-71.5076</SimpleData>
+					<SimpleData name="y_proj">-1.94349e+09</SimpleData>
+					<SimpleData name="x_proj">2.84135e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50758500000002,-16.41640699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_015</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Grifo_Chaski_Gas_Cayo</SimpleData>
+					<SimpleData name="code_point">CL17_PP_015</SimpleData>
+					<SimpleData name="lat">-16.4168</SimpleData>
+					<SimpleData name="long">-71.5066</SimpleData>
+					<SimpleData name="y_proj">-1.94355e+09</SimpleData>
+					<SimpleData name="x_proj">2.84146e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50658899999999,-16.41680400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_016</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Grifo_JHP</SimpleData>
+					<SimpleData name="code_point">CL17_PP_016</SimpleData>
+					<SimpleData name="lat">-16.4179</SimpleData>
+					<SimpleData name="long">-71.5096</SimpleData>
+					<SimpleData name="y_proj">-1.94364e+09</SimpleData>
+					<SimpleData name="x_proj">2.8411e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50963899999999,-16.41793699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_017</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Grifo_Copar</SimpleData>
+					<SimpleData name="code_point">CL17_PP_017</SimpleData>
+					<SimpleData name="lat">-16.4188</SimpleData>
+					<SimpleData name="long">-71.5093</SimpleData>
+					<SimpleData name="y_proj">-1.94375e+09</SimpleData>
+					<SimpleData name="x_proj">2.84113e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50928,-16.418782,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_018</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque_Indoamerica</SimpleData>
+					<SimpleData name="code_point">CL17_PP_018</SimpleData>
+					<SimpleData name="lat">-16.4198</SimpleData>
+					<SimpleData name="long">-71.5107</SimpleData>
+					<SimpleData name="y_proj">-1.94385e+09</SimpleData>
+					<SimpleData name="x_proj">2.84096e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51065500000001,-16.41980999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_019</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque Jesus Maria</SimpleData>
+					<SimpleData name="code_point">CL17_PP_019</SimpleData>
+					<SimpleData name="lat">-16.4192</SimpleData>
+					<SimpleData name="long">-71.5118</SimpleData>
+					<SimpleData name="y_proj">-1.94376e+09</SimpleData>
+					<SimpleData name="x_proj">2.84084e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.511819,-16.41916700000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_020</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque Clisa</SimpleData>
+					<SimpleData name="code_point">CL17_PP_020</SimpleData>
+					<SimpleData name="lat">-16.4193</SimpleData>
+					<SimpleData name="long">-71.5158</SimpleData>
+					<SimpleData name="y_proj">-1.94372e+09</SimpleData>
+					<SimpleData name="x_proj">2.84038e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.515846,-16.41925900000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_021</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque Covisial</SimpleData>
+					<SimpleData name="code_point">CL17_PP_021</SimpleData>
+					<SimpleData name="lat">-16.4203</SimpleData>
+					<SimpleData name="long">-71.5156</SimpleData>
+					<SimpleData name="y_proj">-1.94385e+09</SimpleData>
+					<SimpleData name="x_proj">2.84039e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.515637,-16.420299,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_022</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Urb. Sor Ana De Los Angeles</SimpleData>
+					<SimpleData name="code_point">CL17_PP_022</SimpleData>
+					<SimpleData name="lat">-16.4218</SimpleData>
+					<SimpleData name="long">-71.515</SimpleData>
+					<SimpleData name="y_proj">-1.94403e+06</SimpleData>
+					<SimpleData name="x_proj">2.84044e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51498199999999,-16.421831,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_023</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque_Coviseal</SimpleData>
+					<SimpleData name="code_point">CL17_PP_023</SimpleData>
+					<SimpleData name="lat">-16.4232</SimpleData>
+					<SimpleData name="long">-71.5146</SimpleData>
+					<SimpleData name="y_proj">-1.94421e+09</SimpleData>
+					<SimpleData name="x_proj">2.84046e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51463200000001,-16.42324899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_024</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Complejo_Deportivo_Sor_Ana_De_Los_Angeles_Etapa_II</SimpleData>
+					<SimpleData name="code_point">CL17_PP_024</SimpleData>
+					<SimpleData name="lat">-16.4224</SimpleData>
+					<SimpleData name="long">-71.5141</SimpleData>
+					<SimpleData name="y_proj">-1.94411e+09</SimpleData>
+					<SimpleData name="x_proj">2.84053e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.514123,-16.42236600000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_025</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Urb. Guardia Civil 2</SimpleData>
+					<SimpleData name="code_point">CL17_PP_025</SimpleData>
+					<SimpleData name="lat">-16.4218</SimpleData>
+					<SimpleData name="long">-71.5134</SimpleData>
+					<SimpleData name="y_proj">-1.94405e+09</SimpleData>
+					<SimpleData name="x_proj">2.84063e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51336299999998,-16.421805,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_026</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque_Fortunato_Carrasco</SimpleData>
+					<SimpleData name="code_point">CL17_PP_026</SimpleData>
+					<SimpleData name="lat">-16.4211</SimpleData>
+					<SimpleData name="long">-71.5114</SimpleData>
+					<SimpleData name="y_proj">-1.94399e+09</SimpleData>
+					<SimpleData name="x_proj">2.84086e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51139999999999,-16.42109199999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_027</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque Caballero (Movil)</SimpleData>
+					<SimpleData name="code_point">CL17_PP_027</SimpleData>
+					<SimpleData name="lat">-16.4205</SimpleData>
+					<SimpleData name="long">-71.5092</SimpleData>
+					<SimpleData name="y_proj">-1.94396e+06</SimpleData>
+					<SimpleData name="x_proj">2.84112e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.509157,-16.42053200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_028</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque Pricipal Cesar Vallejo</SimpleData>
+					<SimpleData name="code_point">CL17_PP_028</SimpleData>
+					<SimpleData name="lat">-16.42</SimpleData>
+					<SimpleData name="long">-71.5074</SimpleData>
+					<SimpleData name="y_proj">-1.94391e+09</SimpleData>
+					<SimpleData name="x_proj">2.84133e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.507408,-16.41997900000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_029</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Complejo_Deportivo_Panchos</SimpleData>
+					<SimpleData name="code_point">CL17_PP_029</SimpleData>
+					<SimpleData name="lat">-16.4189</SimpleData>
+					<SimpleData name="long">-71.5076</SimpleData>
+					<SimpleData name="y_proj">-1.94378e+09</SimpleData>
+					<SimpleData name="x_proj">2.84132e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.507588,-16.41887500000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_030</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque_Infantil_Cesar_Vallejo</SimpleData>
+					<SimpleData name="code_point">CL17_PP_030</SimpleData>
+					<SimpleData name="lat">-16.4193</SimpleData>
+					<SimpleData name="long">-71.5056</SimpleData>
+					<SimpleData name="y_proj">-1.94385e+09</SimpleData>
+					<SimpleData name="x_proj">2.84154e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50555300000001,-16.419266,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_031</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Av. Jesus Alto Porongoche</SimpleData>
+					<SimpleData name="code_point">CL17_PP_031</SimpleData>
+					<SimpleData name="lat">-16.4195</SimpleData>
+					<SimpleData name="long">-71.5021</SimpleData>
+					<SimpleData name="y_proj">-1.94392e+09</SimpleData>
+					<SimpleData name="x_proj">2.84194e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.502053,-16.41949000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_032</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Urb_Vinha_Del_Mar</SimpleData>
+					<SimpleData name="code_point">CL17_PP_032</SimpleData>
+					<SimpleData name="lat">-16.4199</SimpleData>
+					<SimpleData name="long">-71.5033</SimpleData>
+					<SimpleData name="y_proj">-1.94396e+09</SimpleData>
+					<SimpleData name="x_proj">2.84179e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50332400000002,-16.41991200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_033</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque Infantiles Ulrich Neisser</SimpleData>
+					<SimpleData name="code_point">CL17_PP_033</SimpleData>
+					<SimpleData name="lat">-16.422</SimpleData>
+					<SimpleData name="long">-71.5045</SimpleData>
+					<SimpleData name="y_proj">-1.94419e+09</SimpleData>
+					<SimpleData name="x_proj">2.84163e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50446900000001,-16.42200700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_034</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Gobierno_Regional_De_Arequipa</SimpleData>
+					<SimpleData name="code_point">CL17_PP_034</SimpleData>
+					<SimpleData name="lat">-16.4221</SimpleData>
+					<SimpleData name="long">-71.5071</SimpleData>
+					<SimpleData name="y_proj">-1.94417e+09</SimpleData>
+					<SimpleData name="x_proj">2.84133e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.507109,-16.42212900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_035</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Urb. Guardia Cilvil 2 Y 3 (Movil)</SimpleData>
+					<SimpleData name="code_point">CL17_PP_035</SimpleData>
+					<SimpleData name="lat">-16.4227</SimpleData>
+					<SimpleData name="long">-71.5101</SimpleData>
+					<SimpleData name="y_proj">-1.94419e+09</SimpleData>
+					<SimpleData name="x_proj">2.84098e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51011100000001,-16.42266200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_036</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Colegio_San_Antonio_De_Padua</SimpleData>
+					<SimpleData name="code_point">CL17_PP_036</SimpleData>
+					<SimpleData name="lat">-16.4238</SimpleData>
+					<SimpleData name="long">-71.5126</SimpleData>
+					<SimpleData name="y_proj">-1.9443e+09</SimpleData>
+					<SimpleData name="x_proj">2.84069e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.512569,-16.42381900000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_037</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque_Mariano_Santos_Villa_Guardia_Civil</SimpleData>
+					<SimpleData name="code_point">CL17_PP_037</SimpleData>
+					<SimpleData name="lat">-16.4243</SimpleData>
+					<SimpleData name="long">-71.5143</SimpleData>
+					<SimpleData name="y_proj">-1.94433e+09</SimpleData>
+					<SimpleData name="x_proj">2.84049e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.514273,-16.424297,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_038</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Sunat</SimpleData>
+					<SimpleData name="code_point">CL17_PP_038</SimpleData>
+					<SimpleData name="lat">-16.4251</SimpleData>
+					<SimpleData name="long">-71.5151</SimpleData>
+					<SimpleData name="y_proj">-1.94442e+09</SimpleData>
+					<SimpleData name="x_proj">2.84038e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51512,-16.42510100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_039</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque_Santa_Rosa</SimpleData>
+					<SimpleData name="code_point">CL17_PP_039</SimpleData>
+					<SimpleData name="lat">-16.4252</SimpleData>
+					<SimpleData name="long">-71.5134</SimpleData>
+					<SimpleData name="y_proj">-1.94445e+09</SimpleData>
+					<SimpleData name="x_proj">2.84058e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51338800000001,-16.425218,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_040</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Urb. Guardia Civil</SimpleData>
+					<SimpleData name="code_point">CL17_PP_040</SimpleData>
+					<SimpleData name="lat">-16.4267</SimpleData>
+					<SimpleData name="long">-71.5127</SimpleData>
+					<SimpleData name="y_proj">-1.94463e+09</SimpleData>
+					<SimpleData name="x_proj">2.84064e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.512716,-16.42668700000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_041</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Urb. Las Terrazas Y Urb Los Alamos (Movil)</SimpleData>
+					<SimpleData name="code_point">CL17_PP_041</SimpleData>
+					<SimpleData name="lat">-16.4274</SimpleData>
+					<SimpleData name="long">-71.5124</SimpleData>
+					<SimpleData name="y_proj">-1.94472e+09</SimpleData>
+					<SimpleData name="x_proj">2.84067e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.512356,-16.42737600000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_042</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Cancha_Karito</SimpleData>
+					<SimpleData name="code_point">CL17_PP_042</SimpleData>
+					<SimpleData name="lat">-16.4269</SimpleData>
+					<SimpleData name="long">-71.5116</SimpleData>
+					<SimpleData name="y_proj">-1.94467e+09</SimpleData>
+					<SimpleData name="x_proj">2.84077e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51155300000001,-16.426855,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_043</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque_De_La_2Da_Etapa</SimpleData>
+					<SimpleData name="code_point">CL17_PP_043</SimpleData>
+					<SimpleData name="lat">-16.4262</SimpleData>
+					<SimpleData name="long">-71.5111</SimpleData>
+					<SimpleData name="y_proj">-1.9446e+09</SimpleData>
+					<SimpleData name="x_proj">2.84083e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51109599999998,-16.42623900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_044</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque_Infantil_Neptali_Valderrama</SimpleData>
+					<SimpleData name="code_point">CL17_PP_044</SimpleData>
+					<SimpleData name="lat">-16.4255</SimpleData>
+					<SimpleData name="long">-71.5116</SimpleData>
+					<SimpleData name="y_proj">-1.94451e+09</SimpleData>
+					<SimpleData name="x_proj">2.84078e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.511588,-16.42548500000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_045</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Asociacion_Las_Cucardas</SimpleData>
+					<SimpleData name="code_point">CL17_PP_045</SimpleData>
+					<SimpleData name="lat">-16.425</SimpleData>
+					<SimpleData name="long">-71.5107</SimpleData>
+					<SimpleData name="y_proj">-1.94446e+09</SimpleData>
+					<SimpleData name="x_proj">2.84089e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.510713,-16.42496299999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_046</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Urb_Colonial_Etapa_2</SimpleData>
+					<SimpleData name="code_point">CL17_PP_046</SimpleData>
+					<SimpleData name="lat">-16.4255</SimpleData>
+					<SimpleData name="long">-71.5098</SimpleData>
+					<SimpleData name="y_proj">-1.94453e+09</SimpleData>
+					<SimpleData name="x_proj">2.84099e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.509753,-16.42545100000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_047</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Colegio_Adonai_Internacional</SimpleData>
+					<SimpleData name="code_point">CL17_PP_047</SimpleData>
+					<SimpleData name="lat">-16.426</SimpleData>
+					<SimpleData name="long">-71.5098</SimpleData>
+					<SimpleData name="y_proj">-1.94458e+09</SimpleData>
+					<SimpleData name="x_proj">2.84097e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50981,-16.42596199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_048</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Urb. Colonial 1 Y 2 (Movil)</SimpleData>
+					<SimpleData name="code_point">CL17_PP_048</SimpleData>
+					<SimpleData name="lat">-16.425</SimpleData>
+					<SimpleData name="long">-71.5093</SimpleData>
+					<SimpleData name="y_proj">-1.94447e+09</SimpleData>
+					<SimpleData name="x_proj">2.84105e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.509291,-16.424962,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_049</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Urb. Las Marias (Movil)</SimpleData>
+					<SimpleData name="code_point">CL17_PP_049</SimpleData>
+					<SimpleData name="lat">-16.426</SimpleData>
+					<SimpleData name="long">-71.5092</SimpleData>
+					<SimpleData name="y_proj">-1.9446e+06</SimpleData>
+					<SimpleData name="x_proj">2.84104e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.509236,-16.42600400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_050</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Urb_Los_Jazmines</SimpleData>
+					<SimpleData name="code_point">CL17_PP_050</SimpleData>
+					<SimpleData name="lat">-16.4265</SimpleData>
+					<SimpleData name="long">-71.5084</SimpleData>
+					<SimpleData name="y_proj">-1.94467e+09</SimpleData>
+					<SimpleData name="x_proj">2.84113e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.508387,-16.42652400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_051</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Urb. 200 Millas (Movil)</SimpleData>
+					<SimpleData name="code_point">CL17_PP_051</SimpleData>
+					<SimpleData name="lat">-16.4238</SimpleData>
+					<SimpleData name="long">-71.5073</SimpleData>
+					<SimpleData name="y_proj">-1.94436e+09</SimpleData>
+					<SimpleData name="x_proj">2.84129e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.507282,-16.42381599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_052</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Deprove</SimpleData>
+					<SimpleData name="code_point">CL17_PP_052</SimpleData>
+					<SimpleData name="lat">-16.4234</SimpleData>
+					<SimpleData name="long">-71.5055</SimpleData>
+					<SimpleData name="y_proj">-1.94434e+09</SimpleData>
+					<SimpleData name="x_proj">2.8415e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50548000000001,-16.42337599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_053</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque Lencio Prado (Movil)</SimpleData>
+					<SimpleData name="code_point">CL17_PP_053</SimpleData>
+					<SimpleData name="lat">-16.4243</SimpleData>
+					<SimpleData name="long">-71.5053</SimpleData>
+					<SimpleData name="y_proj">-1.94445e+09</SimpleData>
+					<SimpleData name="x_proj">2.8415e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.505335,-16.42429100000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_054</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque_Leoncio_Prado</SimpleData>
+					<SimpleData name="code_point">CL17_PP_054</SimpleData>
+					<SimpleData name="lat">-16.4213</SimpleData>
+					<SimpleData name="long">-71.5013</SimpleData>
+					<SimpleData name="y_proj">-1.94415e+09</SimpleData>
+					<SimpleData name="x_proj">2.842e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50126199999998,-16.42132,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_055</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Skaterpark_Paucarpata</SimpleData>
+					<SimpleData name="code_point">CL17_PP_055</SimpleData>
+					<SimpleData name="lat">-16.4229</SimpleData>
+					<SimpleData name="long">-71.5014</SimpleData>
+					<SimpleData name="y_proj">-1.94433e+09</SimpleData>
+					<SimpleData name="x_proj">2.84197e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50139900000001,-16.42290600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_056</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Centro De Salud Ampl. Paucarpata</SimpleData>
+					<SimpleData name="code_point">CL17_PP_056</SimpleData>
+					<SimpleData name="lat">-16.4271</SimpleData>
+					<SimpleData name="long">-71.5033</SimpleData>
+					<SimpleData name="y_proj">-1.94481e+09</SimpleData>
+					<SimpleData name="x_proj">2.84169e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.503321,-16.42714599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_057</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque_Puente_Kennedy</SimpleData>
+					<SimpleData name="code_point">CL17_PP_057</SimpleData>
+					<SimpleData name="lat">-16.426</SimpleData>
+					<SimpleData name="long">-71.5047</SimpleData>
+					<SimpleData name="y_proj">-1.94466e+06</SimpleData>
+					<SimpleData name="x_proj">2.84155e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.504728,-16.42604800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_058</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Urb Villacontinental Y San Agustin (Movil)</SimpleData>
+					<SimpleData name="code_point">CL17_PP_058</SimpleData>
+					<SimpleData name="lat">-16.4291</SimpleData>
+					<SimpleData name="long">-71.5123</SimpleData>
+					<SimpleData name="y_proj">-1.94492e+09</SimpleData>
+					<SimpleData name="x_proj">2.84066e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51225200000002,-16.42907299999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_059</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque_Luz_De_Luna</SimpleData>
+					<SimpleData name="code_point">CL17_PP_059</SimpleData>
+					<SimpleData name="lat">-16.4295</SimpleData>
+					<SimpleData name="long">-71.5117</SimpleData>
+					<SimpleData name="y_proj">-1.94498e+09</SimpleData>
+					<SimpleData name="x_proj">2.84071e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.511719,-16.42950300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_060</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque_Zafiros_II</SimpleData>
+					<SimpleData name="code_point">CL17_PP_060</SimpleData>
+					<SimpleData name="lat">-16.4303</SimpleData>
+					<SimpleData name="long">-71.5105</SimpleData>
+					<SimpleData name="y_proj">-1.94508e+06</SimpleData>
+					<SimpleData name="x_proj">2.84084e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51047899999999,-16.43028200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_061</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque_Zafiros_I</SimpleData>
+					<SimpleData name="code_point">CL17_PP_061</SimpleData>
+					<SimpleData name="lat">-16.4303</SimpleData>
+					<SimpleData name="long">-71.5094</SimpleData>
+					<SimpleData name="y_proj">-1.9451e+09</SimpleData>
+					<SimpleData name="x_proj">2.84097e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50936,-16.43032,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_062</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Urb. Los Zafiros Y Urb. San Salvador (Movil)</SimpleData>
+					<SimpleData name="code_point">CL17_PP_062</SimpleData>
+					<SimpleData name="lat">-16.4309</SimpleData>
+					<SimpleData name="long">-71.5112</SimpleData>
+					<SimpleData name="y_proj">-1.94515e+09</SimpleData>
+					<SimpleData name="x_proj">2.84076e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51115,-16.430913,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_063</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque_Urb_Los_Jazmines</SimpleData>
+					<SimpleData name="code_point">CL17_PP_063</SimpleData>
+					<SimpleData name="lat">-16.4319</SimpleData>
+					<SimpleData name="long">-71.5094</SimpleData>
+					<SimpleData name="y_proj">-1.94529e+09</SimpleData>
+					<SimpleData name="x_proj">2.84094e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.509423,-16.43193500000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_064</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Colegio_Jose_Luis_Del_Carpio_Rivera</SimpleData>
+					<SimpleData name="code_point">CL17_PP_064</SimpleData>
+					<SimpleData name="lat">-16.433</SimpleData>
+					<SimpleData name="long">-71.5104</SimpleData>
+					<SimpleData name="y_proj">-1.9454e+06</SimpleData>
+					<SimpleData name="x_proj">2.84082e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.510398,-16.432965,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_065</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Local_Municipalidad_De_Paucarpata</SimpleData>
+					<SimpleData name="code_point">CL17_PP_065</SimpleData>
+					<SimpleData name="lat">-16.4336</SimpleData>
+					<SimpleData name="long">-71.5105</SimpleData>
+					<SimpleData name="y_proj">-1.94548e+09</SimpleData>
+					<SimpleData name="x_proj">2.8408e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.510492,-16.43361400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_066</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Quinta_Dorada_Eventos</SimpleData>
+					<SimpleData name="code_point">CL17_PP_066</SimpleData>
+					<SimpleData name="lat">-16.4383</SimpleData>
+					<SimpleData name="long">-71.5068</SimpleData>
+					<SimpleData name="y_proj">-1.94607e+09</SimpleData>
+					<SimpleData name="x_proj">2.84116e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50675099999999,-16.43831199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_067</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Grifo_Colon</SimpleData>
+					<SimpleData name="code_point">CL17_PP_067</SimpleData>
+					<SimpleData name="lat">-16.4427</SimpleData>
+					<SimpleData name="long">-71.5036</SimpleData>
+					<SimpleData name="y_proj">-1.94663e+09</SimpleData>
+					<SimpleData name="x_proj">2.84146e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50357299999999,-16.44267300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_068</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Grifo_Primax_Santa_Fe</SimpleData>
+					<SimpleData name="code_point">CL17_PP_068</SimpleData>
+					<SimpleData name="lat">-16.4448</SimpleData>
+					<SimpleData name="long">-71.5043</SimpleData>
+					<SimpleData name="y_proj">-1.94686e+09</SimpleData>
+					<SimpleData name="x_proj">2.84135e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50431,-16.444751,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_069</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Av. Alfonso Ugarte (Movil)</SimpleData>
+					<SimpleData name="code_point">CL17_PP_069</SimpleData>
+					<SimpleData name="lat">-16.4377</SimpleData>
+					<SimpleData name="long">-71.4974</SimpleData>
+					<SimpleData name="y_proj">-1.94612e+09</SimpleData>
+					<SimpleData name="x_proj">2.84222e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.497434,-16.437672,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_070</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Iglesia_Santa_Ana_De_Paucarpata</SimpleData>
+					<SimpleData name="code_point">CL17_PP_070</SimpleData>
+					<SimpleData name="lat">-16.4329</SimpleData>
+					<SimpleData name="long">-71.5039</SimpleData>
+					<SimpleData name="y_proj">-1.94548e+09</SimpleData>
+					<SimpleData name="x_proj">2.84156e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.503882,-16.43293700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_071</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Plaza_De_Paucarpata</SimpleData>
+					<SimpleData name="code_point">CL17_PP_071</SimpleData>
+					<SimpleData name="lat">-16.4328</SimpleData>
+					<SimpleData name="long">-71.5043</SimpleData>
+					<SimpleData name="y_proj">-1.94546e+09</SimpleData>
+					<SimpleData name="x_proj">2.84151e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50431399999999,-16.432821,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_072</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Cementerio_De_Paucarpata</SimpleData>
+					<SimpleData name="code_point">CL17_PP_072</SimpleData>
+					<SimpleData name="lat">-16.4302</SimpleData>
+					<SimpleData name="long">-71.5032</SimpleData>
+					<SimpleData name="y_proj">-1.94516e+09</SimpleData>
+					<SimpleData name="x_proj">2.84167e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50315800000001,-16.43018199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_073</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque_Cristo_Rey</SimpleData>
+					<SimpleData name="code_point">CL17_PP_073</SimpleData>
+					<SimpleData name="lat">-16.4292</SimpleData>
+					<SimpleData name="long">-71.5016</SimpleData>
+					<SimpleData name="y_proj">-1.94506e+09</SimpleData>
+					<SimpleData name="x_proj">2.84187e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.501572,-16.429157,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_074</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque Cristo Rey</SimpleData>
+					<SimpleData name="code_point">CL17_PP_074</SimpleData>
+					<SimpleData name="lat">-16.4299</SimpleData>
+					<SimpleData name="long">-71.5</SimpleData>
+					<SimpleData name="y_proj">-1.94518e+09</SimpleData>
+					<SimpleData name="x_proj">2.84204e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.499968,-16.42993699999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_075</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Jiron San Martin (Movil)</SimpleData>
+					<SimpleData name="code_point">CL17_PP_075</SimpleData>
+					<SimpleData name="lat">-16.4278</SimpleData>
+					<SimpleData name="long">-71.5003</SimpleData>
+					<SimpleData name="y_proj">-1.94492e+09</SimpleData>
+					<SimpleData name="x_proj">2.84203e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50026799999999,-16.427797,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_076</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Estadio_Maximo_Carrasco_Meza</SimpleData>
+					<SimpleData name="code_point">CL17_PP_076</SimpleData>
+					<SimpleData name="lat">-16.4269</SimpleData>
+					<SimpleData name="long">-71.5015</SimpleData>
+					<SimpleData name="y_proj">-1.9448e+06</SimpleData>
+					<SimpleData name="x_proj">2.84191e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.501474,-16.42690400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_077</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Cancha Deportiva Campo De Marte</SimpleData>
+					<SimpleData name="code_point">CL17_PP_077</SimpleData>
+					<SimpleData name="lat">-16.4268</SimpleData>
+					<SimpleData name="long">-71.4992</SimpleData>
+					<SimpleData name="y_proj">-1.94481e+09</SimpleData>
+					<SimpleData name="x_proj">2.84216e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.499222,-16.42675399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_078</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Morro_De_Arica</SimpleData>
+					<SimpleData name="code_point">CL17_PP_078</SimpleData>
+					<SimpleData name="lat">-16.425</SimpleData>
+					<SimpleData name="long">-71.5001</SimpleData>
+					<SimpleData name="y_proj">-1.9446e+09</SimpleData>
+					<SimpleData name="x_proj">2.84209e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50007000000001,-16.42501400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_079</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Cancha_Sintetica_La_Colonial</SimpleData>
+					<SimpleData name="code_point">CL17_PP_079</SimpleData>
+					<SimpleData name="lat">-16.4232</SimpleData>
+					<SimpleData name="long">-71.4992</SimpleData>
+					<SimpleData name="y_proj">-1.94439e+09</SimpleData>
+					<SimpleData name="x_proj">2.84221e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.499199,-16.423188,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_080</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Av. Mariscal Sucre (Movil)</SimpleData>
+					<SimpleData name="code_point">CL17_PP_080</SimpleData>
+					<SimpleData name="lat">-16.422</SimpleData>
+					<SimpleData name="long">-71.4989</SimpleData>
+					<SimpleData name="y_proj">-1.94426e+09</SimpleData>
+					<SimpleData name="x_proj">2.84226e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.498914,-16.422046,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_081</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Las nubes (Movil)</SimpleData>
+					<SimpleData name="code_point">CL17_PP_081</SimpleData>
+					<SimpleData name="lat">-16.4223</SimpleData>
+					<SimpleData name="long">-71.4975</SimpleData>
+					<SimpleData name="y_proj">-1.9443e+09</SimpleData>
+					<SimpleData name="x_proj">2.84242e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.497506,-16.422251,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_082</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Iglesia_Evangelica_Peruana_Campo_De_Marte</SimpleData>
+					<SimpleData name="code_point">CL17_PP_082</SimpleData>
+					<SimpleData name="lat">-16.4228</SimpleData>
+					<SimpleData name="long">-71.496</SimpleData>
+					<SimpleData name="y_proj">-1.94438e+09</SimpleData>
+					<SimpleData name="x_proj">2.84258e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49601900000002,-16.422753,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_083</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Alto De La Luna</SimpleData>
+					<SimpleData name="code_point">CL17_PP_083</SimpleData>
+					<SimpleData name="lat">-16.4226</SimpleData>
+					<SimpleData name="long">-71.4954</SimpleData>
+					<SimpleData name="y_proj">-1.94437e+09</SimpleData>
+					<SimpleData name="x_proj">2.84265e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49541200000002,-16.42258400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_084</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Colegio_Circa_Virgen_De_Chapi</SimpleData>
+					<SimpleData name="code_point">CL17_PP_084</SimpleData>
+					<SimpleData name="lat">-16.4253</SimpleData>
+					<SimpleData name="long">-71.496</SimpleData>
+					<SimpleData name="y_proj">-1.94469e+06</SimpleData>
+					<SimpleData name="x_proj">2.84255e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.496,-16.42534599999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_085</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Urb. Nuevo Peru</SimpleData>
+					<SimpleData name="code_point">CL17_PP_085</SimpleData>
+					<SimpleData name="lat">-16.4248</SimpleData>
+					<SimpleData name="long">-71.4976</SimpleData>
+					<SimpleData name="y_proj">-1.94461e+09</SimpleData>
+					<SimpleData name="x_proj">2.84237e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49763,-16.42482799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_086</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Urb. Morro De Arica</SimpleData>
+					<SimpleData name="code_point">CL17_PP_086</SimpleData>
+					<SimpleData name="lat">-16.4258</SimpleData>
+					<SimpleData name="long">-71.4984</SimpleData>
+					<SimpleData name="y_proj">-1.94471e+09</SimpleData>
+					<SimpleData name="x_proj">2.84227e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.498374,-16.42577199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_087</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Espaldas Colegio Heroes Del Cenepa</SimpleData>
+					<SimpleData name="code_point">CL17_PP_087</SimpleData>
+					<SimpleData name="lat">-16.4264</SimpleData>
+					<SimpleData name="long">-71.4981</SimpleData>
+					<SimpleData name="y_proj">-1.94479e+09</SimpleData>
+					<SimpleData name="x_proj">2.8423e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.498087,-16.42643899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_088</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque Planetario</SimpleData>
+					<SimpleData name="code_point">CL17_PP_088</SimpleData>
+					<SimpleData name="lat">-16.4282</SimpleData>
+					<SimpleData name="long">-71.4982</SimpleData>
+					<SimpleData name="y_proj">-1.94499e+09</SimpleData>
+					<SimpleData name="x_proj">2.84226e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49820699999999,-16.42818600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_089</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Centro De Salud Campo De Marte</SimpleData>
+					<SimpleData name="code_point">CL17_PP_089</SimpleData>
+					<SimpleData name="lat">-16.4273</SimpleData>
+					<SimpleData name="long">-71.4967</SimpleData>
+					<SimpleData name="y_proj">-1.94491e+09</SimpleData>
+					<SimpleData name="x_proj">2.84244e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49674400000001,-16.427298,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_090</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Jesus_De_Nazareno</SimpleData>
+					<SimpleData name="code_point">CL17_PP_090</SimpleData>
+					<SimpleData name="lat">-16.4309</SimpleData>
+					<SimpleData name="long">-71.4987</SimpleData>
+					<SimpleData name="y_proj">-1.94531e+09</SimpleData>
+					<SimpleData name="x_proj">2.84217e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.4987,-16.43092799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_091</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">San Lucas San Ignacio (Movil)</SimpleData>
+					<SimpleData name="code_point">CL17_PP_091</SimpleData>
+					<SimpleData name="lat">-16.4319</SimpleData>
+					<SimpleData name="long">-71.4969</SimpleData>
+					<SimpleData name="y_proj">-1.94544e+09</SimpleData>
+					<SimpleData name="x_proj">2.84236e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.496871,-16.43186600000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_092</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Cancha_Deportiva_Cristo_Rey</SimpleData>
+					<SimpleData name="code_point">CL17_PP_092</SimpleData>
+					<SimpleData name="lat">-16.4298</SimpleData>
+					<SimpleData name="long">-71.496</SimpleData>
+					<SimpleData name="y_proj">-1.94521e+09</SimpleData>
+					<SimpleData name="x_proj">2.84249e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.496003,-16.42983200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_093</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Campo_De_Marte_I</SimpleData>
+					<SimpleData name="code_point">CL17_PP_093</SimpleData>
+					<SimpleData name="lat">-16.4256</SimpleData>
+					<SimpleData name="long">-71.4948</SimpleData>
+					<SimpleData name="y_proj">-1.94473e+09</SimpleData>
+					<SimpleData name="x_proj">2.84268e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49479000000001,-16.42562100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_094</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Av Los Claveles (Movil)</SimpleData>
+					<SimpleData name="code_point">CL17_PP_094</SimpleData>
+					<SimpleData name="lat">-16.4258</SimpleData>
+					<SimpleData name="long">-71.4934</SimpleData>
+					<SimpleData name="y_proj">-1.94478e+09</SimpleData>
+					<SimpleData name="x_proj">2.84284e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.493407,-16.425838,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_095</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_La_Colina</SimpleData>
+					<SimpleData name="code_point">CL17_PP_095</SimpleData>
+					<SimpleData name="lat">-16.4266</SimpleData>
+					<SimpleData name="long">-71.4938</SimpleData>
+					<SimpleData name="y_proj">-1.94487e+09</SimpleData>
+					<SimpleData name="x_proj">2.84278e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49382,-16.42663099999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_096</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Tupac Amaru (Movil)</SimpleData>
+					<SimpleData name="code_point">CL17_PP_096</SimpleData>
+					<SimpleData name="lat">-16.4272</SimpleData>
+					<SimpleData name="long">-71.4932</SimpleData>
+					<SimpleData name="y_proj">-1.94494e+09</SimpleData>
+					<SimpleData name="x_proj">2.84284e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.493173,-16.42719399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_097</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Av. El Sol (Movil)</SimpleData>
+					<SimpleData name="code_point">CL17_PP_097</SimpleData>
+					<SimpleData name="lat">-16.4277</SimpleData>
+					<SimpleData name="long">-71.493</SimpleData>
+					<SimpleData name="y_proj">-1.945e+06</SimpleData>
+					<SimpleData name="x_proj">2.84286e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49299000000001,-16.427726,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_098</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Av. Primavera (Movil)</SimpleData>
+					<SimpleData name="code_point">CL17_PP_098</SimpleData>
+					<SimpleData name="lat">-16.4288</SimpleData>
+					<SimpleData name="long">-71.4927</SimpleData>
+					<SimpleData name="y_proj">-1.94513e+09</SimpleData>
+					<SimpleData name="x_proj">2.84287e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49274899999999,-16.42875000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_099</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Alto De La Luna (Movil)</SimpleData>
+					<SimpleData name="code_point">CL17_PP_099</SimpleData>
+					<SimpleData name="lat">-16.4287</SimpleData>
+					<SimpleData name="long">-71.4927</SimpleData>
+					<SimpleData name="y_proj">-1.94512e+09</SimpleData>
+					<SimpleData name="x_proj">2.84288e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49270300000001,-16.42865900000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_100</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Cristo Rey (Movil)</SimpleData>
+					<SimpleData name="code_point">CL17_PP_100</SimpleData>
+					<SimpleData name="lat">-16.4292</SimpleData>
+					<SimpleData name="long">-71.4936</SimpleData>
+					<SimpleData name="y_proj">-1.94517e+09</SimpleData>
+					<SimpleData name="x_proj">2.84277e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.493616,-16.42922699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_101</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Campo_De_Marte</SimpleData>
+					<SimpleData name="code_point">CL17_PP_101</SimpleData>
+					<SimpleData name="lat">-16.4267</SimpleData>
+					<SimpleData name="long">-71.4903</SimpleData>
+					<SimpleData name="y_proj">-1.94491e+09</SimpleData>
+					<SimpleData name="x_proj">2.84318e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49032,-16.42666900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_102</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque La Ramosa</SimpleData>
+					<SimpleData name="code_point">CL17_PP_102</SimpleData>
+					<SimpleData name="lat">-16.4279</SimpleData>
+					<SimpleData name="long">-71.4902</SimpleData>
+					<SimpleData name="y_proj">-1.94506e+09</SimpleData>
+					<SimpleData name="x_proj">2.84317e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.490236,-16.42790700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_103</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Cancha Deportiva La Finca</SimpleData>
+					<SimpleData name="code_point">CL17_PP_103</SimpleData>
+					<SimpleData name="lat">-16.4294</SimpleData>
+					<SimpleData name="long">-71.4909</SimpleData>
+					<SimpleData name="y_proj">-1.94523e+09</SimpleData>
+					<SimpleData name="x_proj">2.84308e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49087800000001,-16.42940899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_104</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Cancha Deportiva Nueva Alborada</SimpleData>
+					<SimpleData name="code_point">CL17_PP_104</SimpleData>
+					<SimpleData name="lat">-16.4327</SimpleData>
+					<SimpleData name="long">-71.4926</SimpleData>
+					<SimpleData name="y_proj">-1.94559e+09</SimpleData>
+					<SimpleData name="x_proj">2.84284e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49257899999999,-16.43265299999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_105</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Centro De Salud Nueva Alborada</SimpleData>
+					<SimpleData name="code_point">CL17_PP_105</SimpleData>
+					<SimpleData name="lat">-16.4338</SimpleData>
+					<SimpleData name="long">-71.4913</SimpleData>
+					<SimpleData name="y_proj">-1.94574e+09</SimpleData>
+					<SimpleData name="x_proj">2.84297e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49132799999998,-16.43384200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_106</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Capilla_Santa_Maria_De_La_Alborada</SimpleData>
+					<SimpleData name="code_point">CL17_PP_106</SimpleData>
+					<SimpleData name="lat">-16.4354</SimpleData>
+					<SimpleData name="long">-71.4911</SimpleData>
+					<SimpleData name="y_proj">-1.94593e+09</SimpleData>
+					<SimpleData name="x_proj">2.84298e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.491055,-16.435385,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_107</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Estadio_Nueva_Alborada</SimpleData>
+					<SimpleData name="code_point">CL17_PP_107</SimpleData>
+					<SimpleData name="lat">-16.4351</SimpleData>
+					<SimpleData name="long">-71.4896</SimpleData>
+					<SimpleData name="y_proj">-1.94591e+09</SimpleData>
+					<SimpleData name="x_proj">2.84315e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48959799999999,-16.43505600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_108</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Cancha Deportiva Texas 2000</SimpleData>
+					<SimpleData name="code_point">CL17_PP_108</SimpleData>
+					<SimpleData name="lat">-16.4313</SimpleData>
+					<SimpleData name="long">-71.4891</SimpleData>
+					<SimpleData name="y_proj">-1.94548e+09</SimpleData>
+					<SimpleData name="x_proj">2.84325e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.489141,-16.431323,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_109</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Taller Buena Vista Zona A</SimpleData>
+					<SimpleData name="code_point">CL17_PP_109</SimpleData>
+					<SimpleData name="lat">-16.4294</SimpleData>
+					<SimpleData name="long">-71.4883</SimpleData>
+					<SimpleData name="y_proj">-1.94526e+09</SimpleData>
+					<SimpleData name="x_proj">2.84336e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48834000000001,-16.429393,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_110</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Taller Buenvista Zona B</SimpleData>
+					<SimpleData name="code_point">CL17_PP_110</SimpleData>
+					<SimpleData name="lat">-16.4275</SimpleData>
+					<SimpleData name="long">-71.4891</SimpleData>
+					<SimpleData name="y_proj">-1.94503e+09</SimpleData>
+					<SimpleData name="x_proj">2.8433e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.489097,-16.42754400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_111</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">IEI_Buena_Vista</SimpleData>
+					<SimpleData name="code_point">CL17_PP_111</SimpleData>
+					<SimpleData name="lat">-16.4272</SimpleData>
+					<SimpleData name="long">-71.4879</SimpleData>
+					<SimpleData name="y_proj">-1.94501e+09</SimpleData>
+					<SimpleData name="x_proj">2.84344e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48793999999999,-16.427226,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_112</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Casa_Parque_Infantil</SimpleData>
+					<SimpleData name="code_point">CL17_PP_112</SimpleData>
+					<SimpleData name="lat">-16.4255</SimpleData>
+					<SimpleData name="long">-71.4881</SimpleData>
+					<SimpleData name="y_proj">-1.94481e+09</SimpleData>
+					<SimpleData name="x_proj">2.84344e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48808699999999,-16.42549900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_113</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Nueva_Carretera_Buena_Vista</SimpleData>
+					<SimpleData name="code_point">CL17_PP_113</SimpleData>
+					<SimpleData name="lat">-16.4239</SimpleData>
+					<SimpleData name="long">-71.4859</SimpleData>
+					<SimpleData name="y_proj">-1.94465e+09</SimpleData>
+					<SimpleData name="x_proj">2.84371e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.485927,-16.423949,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_114</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Ampliacion_Buena_Vista</SimpleData>
+					<SimpleData name="code_point">CL17_PP_114</SimpleData>
+					<SimpleData name="lat">-16.4282</SimpleData>
+					<SimpleData name="long">-71.487</SimpleData>
+					<SimpleData name="y_proj">-1.94514e+09</SimpleData>
+					<SimpleData name="x_proj">2.84353e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.486992,-16.42820499999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_115</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Buena_Vista_III</SimpleData>
+					<SimpleData name="code_point">CL17_PP_115</SimpleData>
+					<SimpleData name="lat">-16.43</SimpleData>
+					<SimpleData name="long">-71.4858</SimpleData>
+					<SimpleData name="y_proj">-1.94537e+09</SimpleData>
+					<SimpleData name="x_proj">2.84364e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.485832,-16.43003799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_116</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Cancha Deportiva Cerrito Buena Vista 2</SimpleData>
+					<SimpleData name="code_point">CL17_PP_116</SimpleData>
+					<SimpleData name="lat">-16.4324</SimpleData>
+					<SimpleData name="long">-71.4874</SimpleData>
+					<SimpleData name="y_proj">-1.94562e+09</SimpleData>
+					<SimpleData name="x_proj">2.84343e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48737499999999,-16.432392,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_117</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Cancha Deportiva Cerrito Buena Vista 3</SimpleData>
+					<SimpleData name="code_point">CL17_PP_117</SimpleData>
+					<SimpleData name="lat">-16.4316</SimpleData>
+					<SimpleData name="long">-71.4851</SimpleData>
+					<SimpleData name="y_proj">-1.94556e+09</SimpleData>
+					<SimpleData name="x_proj">2.8437e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.485078,-16.43164100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_118</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Buena_Vista_II</SimpleData>
+					<SimpleData name="code_point">CL17_PP_118</SimpleData>
+					<SimpleData name="lat">-16.4339</SimpleData>
+					<SimpleData name="long">-71.4856</SimpleData>
+					<SimpleData name="y_proj">-1.94582e+09</SimpleData>
+					<SimpleData name="x_proj">2.84361e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.485634,-16.43387,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_119</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Escuela Santa Maria</SimpleData>
+					<SimpleData name="code_point">CL17_PP_119</SimpleData>
+					<SimpleData name="lat">-16.435</SimpleData>
+					<SimpleData name="long">-71.4864</SimpleData>
+					<SimpleData name="y_proj">-1.94595e+09</SimpleData>
+					<SimpleData name="x_proj">2.84351e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48644400000001,-16.43503799999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_120</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Tres_Marias</SimpleData>
+					<SimpleData name="code_point">CL17_PP_120</SimpleData>
+					<SimpleData name="lat">-16.436</SimpleData>
+					<SimpleData name="long">-71.4863</SimpleData>
+					<SimpleData name="y_proj">-1.94606e+09</SimpleData>
+					<SimpleData name="x_proj">2.84351e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48627699999999,-16.436027,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_121</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Virgen De La Sunta (Movil)</SimpleData>
+					<SimpleData name="code_point">CL17_PP_121</SimpleData>
+					<SimpleData name="lat">-16.436</SimpleData>
+					<SimpleData name="long">-71.4835</SimpleData>
+					<SimpleData name="y_proj">-1.9461e+09</SimpleData>
+					<SimpleData name="x_proj">2.84383e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.483459,-16.43602599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_122</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Reservorio_De_Agua</SimpleData>
+					<SimpleData name="code_point">CL17_PP_122</SimpleData>
+					<SimpleData name="lat">-16.4351</SimpleData>
+					<SimpleData name="long">-71.4837</SimpleData>
+					<SimpleData name="y_proj">-1.94599e+09</SimpleData>
+					<SimpleData name="x_proj">2.84381e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.483745,-16.43513300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_123</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Paradero Final Santa Maria 2</SimpleData>
+					<SimpleData name="code_point">CL17_PP_123</SimpleData>
+					<SimpleData name="lat">-16.433</SimpleData>
+					<SimpleData name="long">-71.484</SimpleData>
+					<SimpleData name="y_proj">-1.94574e+09</SimpleData>
+					<SimpleData name="x_proj">2.84381e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.484028,-16.43300099999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_124</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque_Santa_Maria</SimpleData>
+					<SimpleData name="code_point">CL17_PP_124</SimpleData>
+					<SimpleData name="lat">-16.4326</SimpleData>
+					<SimpleData name="long">-71.4828</SimpleData>
+					<SimpleData name="y_proj">-1.9457e+09</SimpleData>
+					<SimpleData name="x_proj">2.84395e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.4828,-16.432579,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_125</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Kioscos Santa Maria (Movil)</SimpleData>
+					<SimpleData name="code_point">CL17_PP_125</SimpleData>
+					<SimpleData name="lat">-16.4324</SimpleData>
+					<SimpleData name="long">-71.4818</SimpleData>
+					<SimpleData name="y_proj">-1.94569e+09</SimpleData>
+					<SimpleData name="x_proj">2.84407e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48181200000001,-16.43237600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_126</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Paradero Final Santa Maria 1</SimpleData>
+					<SimpleData name="code_point">CL17_PP_126</SimpleData>
+					<SimpleData name="lat">-16.4346</SimpleData>
+					<SimpleData name="long">-71.4819</SimpleData>
+					<SimpleData name="y_proj">-1.94595e+09</SimpleData>
+					<SimpleData name="x_proj">2.84402e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48193999999999,-16.434572,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_127</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Estadio_Santa_Maria</SimpleData>
+					<SimpleData name="code_point">CL17_PP_127</SimpleData>
+					<SimpleData name="lat">-16.434</SimpleData>
+					<SimpleData name="long">-71.4812</SimpleData>
+					<SimpleData name="y_proj">-1.94589e+09</SimpleData>
+					<SimpleData name="x_proj">2.84411e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48120800000001,-16.43398300000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_128</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Iglesia_Del_Nazareno_Huacsapata</SimpleData>
+					<SimpleData name="code_point">CL17_PP_128</SimpleData>
+					<SimpleData name="lat">-16.4311</SimpleData>
+					<SimpleData name="long">-71.48</SimpleData>
+					<SimpleData name="y_proj">-1.94557e+09</SimpleData>
+					<SimpleData name="x_proj">2.84429e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.479994,-16.43112400000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_129</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Los Angeles</SimpleData>
+					<SimpleData name="code_point">CL17_PP_129</SimpleData>
+					<SimpleData name="lat">-16.4356</SimpleData>
+					<SimpleData name="long">-71.4805</SimpleData>
+					<SimpleData name="y_proj">-1.94609e+09</SimpleData>
+					<SimpleData name="x_proj">2.84417e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48048199999998,-16.435622,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_130</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Cancha_De_Tierra_122</SimpleData>
+					<SimpleData name="code_point">CL17_PP_130</SimpleData>
+					<SimpleData name="lat">-16.4331</SimpleData>
+					<SimpleData name="long">-71.4746</SimpleData>
+					<SimpleData name="y_proj">-1.94587e+09</SimpleData>
+					<SimpleData name="x_proj">2.84487e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47463999999999,-16.43311800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_131</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_122</SimpleData>
+					<SimpleData name="code_point">CL17_PP_131</SimpleData>
+					<SimpleData name="lat">-16.4354</SimpleData>
+					<SimpleData name="long">-71.4738</SimpleData>
+					<SimpleData name="y_proj">-1.94615e+09</SimpleData>
+					<SimpleData name="x_proj">2.84494e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47375700000001,-16.435359,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_132</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Mirador San Lucas</SimpleData>
+					<SimpleData name="code_point">CL17_PP_132</SimpleData>
+					<SimpleData name="lat">-16.4323</SimpleData>
+					<SimpleData name="long">-71.4983</SimpleData>
+					<SimpleData name="y_proj">-1.94547e+09</SimpleData>
+					<SimpleData name="x_proj">2.8422e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.498311,-16.432278,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_133</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque Divino Ninho Jesus</SimpleData>
+					<SimpleData name="code_point">CL17_PP_133</SimpleData>
+					<SimpleData name="lat">-16.4211</SimpleData>
+					<SimpleData name="long">-71.5141</SimpleData>
+					<SimpleData name="y_proj">-1.94397e+09</SimpleData>
+					<SimpleData name="x_proj">2.84055e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51412000000002,-16.42114900000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_134</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Calle Malecon Arica Con Belaunde</SimpleData>
+					<SimpleData name="code_point">CL17_PP_134</SimpleData>
+					<SimpleData name="lat">-16.4237</SimpleData>
+					<SimpleData name="long">-71.5014</SimpleData>
+					<SimpleData name="y_proj">-1.94442e+06</SimpleData>
+					<SimpleData name="x_proj">2.84196e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.501411,-16.423677,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_135</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">IEI Campo Marte</SimpleData>
+					<SimpleData name="code_point">CL17_PP_135</SimpleData>
+					<SimpleData name="lat">-16.4261</SimpleData>
+					<SimpleData name="long">-71.4972</SimpleData>
+					<SimpleData name="y_proj">-1.94476e+09</SimpleData>
+					<SimpleData name="x_proj">2.8424e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49720000000001,-16.42605700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_136</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Coliseo El Penhon</SimpleData>
+					<SimpleData name="code_point">CL17_PP_136</SimpleData>
+					<SimpleData name="lat">-16.4275</SimpleData>
+					<SimpleData name="long">-71.491</SimpleData>
+					<SimpleData name="y_proj">-1.945e+09</SimpleData>
+					<SimpleData name="x_proj">2.84308e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49103887000001,-16.42746475999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_137</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Cancha Sintetica La Calerita</SimpleData>
+					<SimpleData name="code_point">CL17_PP_137</SimpleData>
+					<SimpleData name="lat">-16.4244</SimpleData>
+					<SimpleData name="long">-71.4991</SimpleData>
+					<SimpleData name="y_proj">-1.94453e+09</SimpleData>
+					<SimpleData name="x_proj">2.84222e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49905337999999,-16.42437540000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_138</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Mercado Alto Porongoche</SimpleData>
+					<SimpleData name="code_point">CL17_PP_138</SimpleData>
+					<SimpleData name="lat">-16.4198</SimpleData>
+					<SimpleData name="long">-71.5025</SimpleData>
+					<SimpleData name="y_proj">-1.94396e+09</SimpleData>
+					<SimpleData name="x_proj">2.84189e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.5024682,-16.41981082999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_139</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque Sor Ana De Los Angeles</SimpleData>
+					<SimpleData name="code_point">CL17_PP_139</SimpleData>
+					<SimpleData name="lat">-16.4229</SimpleData>
+					<SimpleData name="long">-71.5157</SimpleData>
+					<SimpleData name="y_proj">-1.94416e+09</SimpleData>
+					<SimpleData name="x_proj">2.84035e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51566758,-16.42294075000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_140</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque Sor Ana De Los Angeles II Etapa</SimpleData>
+					<SimpleData name="code_point">CL17_PP_140</SimpleData>
+					<SimpleData name="lat">-16.4222</SimpleData>
+					<SimpleData name="long">-71.5137</SimpleData>
+					<SimpleData name="y_proj">-1.94409e+09</SimpleData>
+					<SimpleData name="x_proj">2.84058e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51373071,-16.42215656999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_141</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque Mirador San Ignacio</SimpleData>
+					<SimpleData name="code_point">CL17_PP_141</SimpleData>
+					<SimpleData name="lat">-16.4319</SimpleData>
+					<SimpleData name="long">-71.4956</SimpleData>
+					<SimpleData name="y_proj">-1.94546e+09</SimpleData>
+					<SimpleData name="x_proj">2.8425e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49562903,-16.43191621,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_142</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Capilla Virgen De Chapi La Finca</SimpleData>
+					<SimpleData name="code_point">CL17_PP_142</SimpleData>
+					<SimpleData name="lat">-16.4285</SimpleData>
+					<SimpleData name="long">-71.491</SimpleData>
+					<SimpleData name="y_proj">-1.94512e+09</SimpleData>
+					<SimpleData name="x_proj">2.84307e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49102488000001,-16.42853371,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_143</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque Comite 11 - N. Alborada</SimpleData>
+					<SimpleData name="code_point">CL17_PP_143</SimpleData>
+					<SimpleData name="lat">-16.4316</SimpleData>
+					<SimpleData name="long">-71.4905</SimpleData>
+					<SimpleData name="y_proj">-1.94549e+09</SimpleData>
+					<SimpleData name="x_proj">2.8431e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49045467999998,-16.43157001000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL17_PP_144</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_17_14mayo2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">16</SimpleData>
+					<SimpleData name="microred">AMPLIACION PAUCARPATA</SimpleData>
+					<SimpleData name="cluster">17</SimpleData>
+					<SimpleData name="point_name">Parque Comite 1 - N. Alborada</SimpleData>
+					<SimpleData name="code_point">CL17_PP_144</SimpleData>
+					<SimpleData name="lat">-16.4323</SimpleData>
+					<SimpleData name="long">-71.4914</SimpleData>
+					<SimpleData name="y_proj">-1.94556e+09</SimpleData>
+					<SimpleData name="x_proj">2.84298e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49135104999999,-16.43228995,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

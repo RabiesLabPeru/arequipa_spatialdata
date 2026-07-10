@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Limites_Cluster_11_11may2023.kml</name>
+	<StyleMap id="m_ylw-pushpin1200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin311">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin228</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin245</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin12">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl12">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin245">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin228">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Limites_Cluster_11_11may2023</name>
+		<Placemark>
+			<name>EDIFICADORES_MISTI_01</name>
+			<styleUrl>#msn_ylw-pushpin311</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.51370350413214,-16.38105307779481,0 -71.51401232080553,-16.38175160659001,0 -71.51442496931803,-16.38221584365834,0 -71.51487888475641,-16.38254338384583,0 -71.51522168178423,-16.38280399233632,0 -71.51549026166076,-16.38299612377826,0 -71.51591194303877,-16.38344688367829,0 -71.51641455556624,-16.38418501852079,0 -71.51713846997538,-16.38526160566602,0 -71.51799994384911,-16.38573652423231,0 -71.5187128885901,-16.38597849005287,0 -71.51945004264529,-16.38612223996572,0 -71.51995843538894,-16.38633545086996,0 -71.52042644917955,-16.38689736302442,0 -71.52068545333042,-16.38755975586188,0 -71.52129611238334,-16.38809002384328,0 -71.52234126199349,-16.38829780261161,0 -71.52272405058865,-16.38841910320187,0 -71.52316481854555,-16.38879181014607,0 -71.5233572872902,-16.38911970499617,0 -71.52391912638747,-16.3896459900925,0 -71.52468540674664,-16.38999454467952,0 -71.52605263748775,-16.39002733079377,0 -71.52678857456407,-16.39028857490738,0 -71.52823137367629,-16.39114461812139,0 -71.52975158279646,-16.39122374521342,0 -71.53038653286893,-16.39143744079512,0 -71.53066935915076,-16.39171088077127,0 -71.53058367498366,-16.39357090800309,0 -71.53115885112986,-16.39537866895103,0 -71.53049414436711,-16.39559682109405,0 -71.52957059708584,-16.39631265410549,0 -71.52834429989871,-16.39632394536558,0 -71.52829154912951,-16.39647334245189,0 -71.53068809565815,-16.39835701263155,0 -71.53117920894826,-16.39907861164492,0 -71.53145982123173,-16.39902730771734,0 -71.53177734072696,-16.39975307271744,0 -71.53146984232555,-16.40007136700348,0 -71.53071149074727,-16.40115630056502,0 -71.52810317092745,-16.40386500394893,0 -71.5273941276845,-16.40424045629704,0 -71.52186893924114,-16.39986407680241,0 -71.52155024281736,-16.39938829732645,0 -71.51636486784932,-16.40280386668104,0 -71.5154644728609,-16.40208942371215,0 -71.51523058263605,-16.40225564962352,0 -71.51384186312863,-16.40115666371183,0 -71.51365666545971,-16.40092684224671,0 -71.5123224657189,-16.39979804063395,0 -71.51188732349215,-16.39958726384617,0 -71.51109641544416,-16.3985613796453,0 -71.51087792067045,-16.3977210778768,0 -71.51025572167394,-16.39673529526655,0 -71.50980836391189,-16.39601147951275,0 -71.50901841253742,-16.39515682893307,0 -71.50753208593369,-16.3944508584783,0 -71.50713800335734,-16.39372633658759,0 -71.507438515064,-16.39303308627802,0 -71.50819934056925,-16.39252970933024,0 -71.50822780613238,-16.39197260843939,0 -71.50887058614447,-16.39157953461689,0 -71.50973431296762,-16.39183606112565,0 -71.51012925226846,-16.39102837236289,0 -71.51075711607884,-16.39003635977253,0 -71.50992858378605,-16.3893666541572,0 -71.50952714625392,-16.38903933416781,0 -71.50991465721678,-16.38774388158197,0 -71.50869091489288,-16.38633967971492,0 -71.50869348448863,-16.38590398416808,0 -71.50997907284253,-16.38583578897492,0 -71.51083860499251,-16.38557377885165,0 -71.510810316039,-16.38521316802727,0 -71.51044970596978,-16.38489467071384,0 -71.51014764519333,-16.38454759100132,0 -71.51000959715437,-16.3840320796724,0 -71.51006725891182,-16.38379560311884,0 -71.5106046042068,-16.38365090478048,0 -71.5135081503753,-16.3816042951842,0 -71.51341944903908,-16.38092567452187,0 -71.51380867134162,-16.380626308842,0 -71.51370350413214,-16.38105307779481,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>11</name>
+			<LookAt>
+				<longitude>-71.5130791302965</longitude>
+				<latitude>-16.40352477795384</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0412796659436268</heading>
+				<tilt>15.96056680340861</tilt>
+				<range>17148.65933812375</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin1200</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.51996262737485,-16.39381901513618,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

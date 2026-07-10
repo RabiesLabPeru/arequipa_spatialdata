@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CL07_ASA_02may2023</name>
+	<Schema name="CL07_ASA" id="S_CL07_ASA_SSDDIISS">
+		<SimpleField type="string" name="code"><displayName>&lt;b&gt;code&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="point_name"><displayName>&lt;b&gt;point_name&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="lat"><displayName>&lt;b&gt;lat&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="long"><displayName>&lt;b&gt;long&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="y_proj"><displayName>&lt;b&gt;y_proj&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="x_proj"><displayName>&lt;b&gt;x_proj&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="type_point"><displayName>&lt;b&gt;type_point&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="estratategy"><displayName>&lt;b&gt;estratategy&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle5">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>code</b></td><td>$[CL07_ASA/code]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[CL07_ASA/point_name]</td></tr>
+  <tr><td><b>lat</b></td><td>$[CL07_ASA/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[CL07_ASA/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[CL07_ASA/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[CL07_ASA/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[CL07_ASA/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[CL07_ASA/estratategy]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle5">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>code</b></td><td>$[CL07_ASA/code]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[CL07_ASA/point_name]</td></tr>
+  <tr><td><b>lat</b></td><td>$[CL07_ASA/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[CL07_ASA/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[CL07_ASA/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[CL07_ASA/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[CL07_ASA/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[CL07_ASA/estratategy]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>CL07_PP_001</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_001</SimpleData>
+				<SimpleData name="point_name">Capilla 1ro de Enero</SimpleData>
+				<SimpleData name="lat">-16.3733</SimpleData>
+				<SimpleData name="long">-71.528</SimpleData>
+				<SimpleData name="y_proj">-1938173</SimpleData>
+				<SimpleData name="x_proj">2839604</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.52795148562477,-16.37333023736494,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_002</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_002</SimpleData>
+				<SimpleData name="point_name">COLEGIO_ANDENES_DE_CHILINA</SimpleData>
+				<SimpleData name="lat">-16.373</SimpleData>
+				<SimpleData name="long">-71.5294</SimpleData>
+				<SimpleData name="y_proj">-1938117</SimpleData>
+				<SimpleData name="x_proj">2839441</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.52942968331283,-16.37301716372033,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_003</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_003</SimpleData>
+				<SimpleData name="point_name">Loza deportiva Villa Salvador</SimpleData>
+				<SimpleData name="lat">-16.3705</SimpleData>
+				<SimpleData name="long">-71.5306</SimpleData>
+				<SimpleData name="y_proj">-1937805</SimpleData>
+				<SimpleData name="x_proj">2839343</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.53058781543724,-16.37048096913651,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_004</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_004</SimpleData>
+				<SimpleData name="point_name">PARQUE_PAMPA_CHICA</SimpleData>
+				<SimpleData name="lat">-16.3696</SimpleData>
+				<SimpleData name="long">-71.5295</SimpleData>
+				<SimpleData name="y_proj">-1937716</SimpleData>
+				<SimpleData name="x_proj">2839473</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.52953819628709,-16.36960977720327,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_005</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_005</SimpleData>
+				<SimpleData name="point_name">Estadio Campeones del 81</SimpleData>
+				<SimpleData name="lat">-16.3695</SimpleData>
+				<SimpleData name="long">-71.528</SimpleData>
+				<SimpleData name="y_proj">-1937727</SimpleData>
+				<SimpleData name="x_proj">2839653</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.52795824390039,-16.36953515874398,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_006</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_006</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_VILLA_FLORIDA</SimpleData>
+				<SimpleData name="lat">-16.3686</SimpleData>
+				<SimpleData name="long">-71.5275</SimpleData>
+				<SimpleData name="y_proj">-1937625</SimpleData>
+				<SimpleData name="x_proj">2839721</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.52746611035091,-16.36861322638179,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_007</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_007</SimpleData>
+				<SimpleData name="point_name">Local Comunal 1ro Enero</SimpleData>
+				<SimpleData name="lat">-16.3714</SimpleData>
+				<SimpleData name="long">-71.5257</SimpleData>
+				<SimpleData name="y_proj">-1937969</SimpleData>
+				<SimpleData name="x_proj">2839881</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.52574231058429,-16.37136323689828,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_008</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_008</SimpleData>
+				<SimpleData name="point_name">Villa Independiente Zona B</SimpleData>
+				<SimpleData name="lat">-16.3703</SimpleData>
+				<SimpleData name="long">-71.523</SimpleData>
+				<SimpleData name="y_proj">-1937879</SimpleData>
+				<SimpleData name="x_proj">2840202</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.52303457269652,-16.37029950720722,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_009</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_009</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_VILLA_INDEPENDIENTE_ZONA_B</SimpleData>
+				<SimpleData name="lat">-16.3699</SimpleData>
+				<SimpleData name="long">-71.5194</SimpleData>
+				<SimpleData name="y_proj">-1937878</SimpleData>
+				<SimpleData name="x_proj">2840615</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.51943308741792,-16.36990995227375,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_010</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_010</SimpleData>
+				<SimpleData name="point_name">P.S. San Juan Bautista</SimpleData>
+				<SimpleData name="lat">-16.3688</SimpleData>
+				<SimpleData name="long">-71.5194</SimpleData>
+				<SimpleData name="y_proj">-1937746</SimpleData>
+				<SimpleData name="x_proj">2840639</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.51935470613475,-16.36877512881161,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_011</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_011</SimpleData>
+				<SimpleData name="point_name">Loza deportiva Independencia Zona B</SimpleData>
+				<SimpleData name="lat">-16.3675</SimpleData>
+				<SimpleData name="long">-71.5213</SimpleData>
+				<SimpleData name="y_proj">-1937572</SimpleData>
+				<SimpleData name="x_proj">2840434</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.52130762070281,-16.36750357960527,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_012</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_012</SimpleData>
+				<SimpleData name="point_name">PARQUE_TEMATICO</SimpleData>
+				<SimpleData name="lat">-16.3676</SimpleData>
+				<SimpleData name="long">-71.5239</SimpleData>
+				<SimpleData name="y_proj">-1937555</SimpleData>
+				<SimpleData name="x_proj">2840140</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.52388528565425,-16.36763723656562,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_013</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_013</SimpleData>
+				<SimpleData name="point_name">C.S. Independencia</SimpleData>
+				<SimpleData name="lat">-16.3669</SimpleData>
+				<SimpleData name="long">-71.5249</SimpleData>
+				<SimpleData name="y_proj">-1937453</SimpleData>
+				<SimpleData name="x_proj">2840035</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.52489930414431,-16.36688024682697,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_014</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_014</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_VILLA_FLORIDA</SimpleData>
+				<SimpleData name="lat">-16.3663</SimpleData>
+				<SimpleData name="long">-71.5267</SimpleData>
+				<SimpleData name="y_proj">-1937364</SimpleData>
+				<SimpleData name="x_proj">2839840</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.52667944418678,-16.36631195737839,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_015</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_015</SimpleData>
+				<SimpleData name="point_name">I.E. Beethoven</SimpleData>
+				<SimpleData name="lat">-16.364</SimpleData>
+				<SimpleData name="long">-71.5223</SimpleData>
+				<SimpleData name="y_proj">-1937145</SimpleData>
+				<SimpleData name="x_proj">2840373</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.52225021096869,-16.36396967536383,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_016</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_016</SimpleData>
+				<SimpleData name="point_name">COLEGIO_BEETHOVEN</SimpleData>
+				<SimpleData name="lat">-16.3632</SimpleData>
+				<SimpleData name="long">-71.5213</SimpleData>
+				<SimpleData name="y_proj">-1937071</SimpleData>
+				<SimpleData name="x_proj">2840491</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.52129076418345,-16.36323652075622,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_017</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_017</SimpleData>
+				<SimpleData name="point_name">Loza deportiva Independencia A II</SimpleData>
+				<SimpleData name="lat">-16.3625</SimpleData>
+				<SimpleData name="long">-71.5195</SimpleData>
+				<SimpleData name="y_proj">-1937011</SimpleData>
+				<SimpleData name="x_proj">2840706</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.51947658775511,-16.36253192920882,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_018</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_018</SimpleData>
+				<SimpleData name="point_name">Centro Deportivo Villa Asuncion</SimpleData>
+				<SimpleData name="lat">-16.3618</SimpleData>
+				<SimpleData name="long">-71.5159</SimpleData>
+				<SimpleData name="y_proj">-1936971</SimpleData>
+				<SimpleData name="x_proj">2841125</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.51587157319528,-16.36180669569016,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_019</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_019</SimpleData>
+				<SimpleData name="point_name">Grifo de Villa Chachas</SimpleData>
+				<SimpleData name="lat">-16.3645</SimpleData>
+				<SimpleData name="long">-71.5154</SimpleData>
+				<SimpleData name="y_proj">-1937291</SimpleData>
+				<SimpleData name="x_proj">2841139</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.51544239354185,-16.36448325416256,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_020</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_020</SimpleData>
+				<SimpleData name="point_name">PARQUE_LOS_EUCALIPTOS</SimpleData>
+				<SimpleData name="lat">-16.3644</SimpleData>
+				<SimpleData name="long">-71.5166</SimpleData>
+				<SimpleData name="y_proj">-1937268</SimpleData>
+				<SimpleData name="x_proj">2841005</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.51662679010443,-16.3644121883758,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_021</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_021</SimpleData>
+				<SimpleData name="point_name">Parque La Familia</SimpleData>
+				<SimpleData name="lat">-16.3657</SimpleData>
+				<SimpleData name="long">-71.5194</SimpleData>
+				<SimpleData name="y_proj">-1937387</SimpleData>
+				<SimpleData name="x_proj">2840672</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.51941219372155,-16.36572421885332,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_022</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_022</SimpleData>
+				<SimpleData name="point_name">Complejo Deportivo Lealtad Democratica</SimpleData>
+				<SimpleData name="lat">-16.367</SimpleData>
+				<SimpleData name="long">-71.5161</SimpleData>
+				<SimpleData name="y_proj">-1937575</SimpleData>
+				<SimpleData name="x_proj">2841027</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.51614164618746,-16.36697785051302,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_023</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_023</SimpleData>
+				<SimpleData name="point_name">Gran Chaparral</SimpleData>
+				<SimpleData name="lat">-16.3657</SimpleData>
+				<SimpleData name="long">-71.5127</SimpleData>
+				<SimpleData name="y_proj">-1937471</SimpleData>
+				<SimpleData name="x_proj">2841436</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5126803945011,-16.36572170544096,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_024</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_024</SimpleData>
+				<SimpleData name="point_name">Las Malvinas</SimpleData>
+				<SimpleData name="lat">-16.3682</SimpleData>
+				<SimpleData name="long">-71.5121</SimpleData>
+				<SimpleData name="y_proj">-1937775</SimpleData>
+				<SimpleData name="x_proj">2841464</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.51213851387274,-16.36824739587618,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_025</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_025</SimpleData>
+				<SimpleData name="point_name">Terminal El Gran Chaparral (movil)</SimpleData>
+				<SimpleData name="lat">-16.3639</SimpleData>
+				<SimpleData name="long">-71.51</SimpleData>
+				<SimpleData name="y_proj">-1937294</SimpleData>
+				<SimpleData name="x_proj">2841758</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.51004440823969,-16.36393213237809,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_026</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_026</SimpleData>
+				<SimpleData name="point_name">Institucion educativa El Mirador</SimpleData>
+				<SimpleData name="lat">-16.3624</SimpleData>
+				<SimpleData name="long">-71.5122</SimpleData>
+				<SimpleData name="y_proj">-1937088</SimpleData>
+				<SimpleData name="x_proj">2841535</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5121901156467,-16.36240783881777,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_027</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_027</SimpleData>
+				<SimpleData name="point_name">Centro Deportivo el Mirador</SimpleData>
+				<SimpleData name="lat">-16.3604</SimpleData>
+				<SimpleData name="long">-71.5132</SimpleData>
+				<SimpleData name="y_proj">-1936843</SimpleData>
+				<SimpleData name="x_proj">2841448</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5131809375995,-16.36043282649943,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_028</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_028</SimpleData>
+				<SimpleData name="point_name">Centro Deportivo Villa Solidaridad</SimpleData>
+				<SimpleData name="lat">-16.3594</SimpleData>
+				<SimpleData name="long">-71.5092</SimpleData>
+				<SimpleData name="y_proj">-1936777</SimpleData>
+				<SimpleData name="x_proj">2841907</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.50924907326016,-16.35944538198575,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_029</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_029</SimpleData>
+				<SimpleData name="point_name">TERMINAL_DE_BUSES_EL_MIRADOR</SimpleData>
+				<SimpleData name="lat">-16.3601</SimpleData>
+				<SimpleData name="long">-71.5094</SimpleData>
+				<SimpleData name="y_proj">-1936856</SimpleData>
+				<SimpleData name="x_proj">2841882</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5093891309549,-16.36013083568235,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_030</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_030</SimpleData>
+				<SimpleData name="point_name">RESERVORIO MIRADOR ZONA C</SimpleData>
+				<SimpleData name="lat">-16.3583</SimpleData>
+				<SimpleData name="long">-71.5055</SimpleData>
+				<SimpleData name="y_proj">-1936686</SimpleData>
+				<SimpleData name="x_proj">2842342</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.50554987155631,-16.35827200884116,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_031</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_031</SimpleData>
+				<SimpleData name="point_name">Mirador C (movil)</SimpleData>
+				<SimpleData name="lat">-16.3591</SimpleData>
+				<SimpleData name="long">-71.5032</SimpleData>
+				<SimpleData name="y_proj">-1936814</SimpleData>
+				<SimpleData name="x_proj">2842602</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.50315938695456,-16.35910717648706,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_032</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_032</SimpleData>
+				<SimpleData name="point_name">Los Portales del Mirador</SimpleData>
+				<SimpleData name="lat">-16.3577</SimpleData>
+				<SimpleData name="long">-71.5014</SimpleData>
+				<SimpleData name="y_proj">-1936668</SimpleData>
+				<SimpleData name="x_proj">2842819</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.50140656245466,-16.35767931525092,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_033</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_033</SimpleData>
+				<SimpleData name="point_name">Terminal Los Angeles del Misti</SimpleData>
+				<SimpleData name="lat">-16.3609</SimpleData>
+				<SimpleData name="long">-71.5012</SimpleData>
+				<SimpleData name="y_proj">-1937052</SimpleData>
+				<SimpleData name="x_proj">2842806</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.50115298451645,-16.36092159330479,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_034</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_034</SimpleData>
+				<SimpleData name="point_name">Campo deportivo Programa Municipal 1 Zona B</SimpleData>
+				<SimpleData name="lat">-16.3628</SimpleData>
+				<SimpleData name="long">-71.5034</SimpleData>
+				<SimpleData name="y_proj">-1937247</SimpleData>
+				<SimpleData name="x_proj">2842529</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.50337864771313,-16.36282005151381,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL07_PP_035</name>
+		<styleUrl>#pointStyleMap5</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL07_ASA_SSDDIISS">
+				<SimpleData name="code">CL07_PP_035</SimpleData>
+				<SimpleData name="point_name">Terminal 3 Balcones</SimpleData>
+				<SimpleData name="lat">-16.3645</SimpleData>
+				<SimpleData name="long">-71.5044</SimpleData>
+				<SimpleData name="y_proj">-1937430</SimpleData>
+				<SimpleData name="x_proj">2842396</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.50435248573802,-16.36448201842245,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

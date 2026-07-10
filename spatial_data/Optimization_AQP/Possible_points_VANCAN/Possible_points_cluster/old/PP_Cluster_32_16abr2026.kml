@@ -1,0 +1,1471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PP_Cluster_32_16abr2026.kml</name>
+	<Schema name="PP_Cluster_32_16abr2026" id="S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+		<SimpleField type="string" name="n_microred">
+			<displayName>&lt;b&gt;n_microred&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="microred">
+			<displayName>&lt;b&gt;microred&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="cluster">
+			<displayName>&lt;b&gt;cluster&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="point_name">
+			<displayName>&lt;b&gt;point_name&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="code_point">
+			<displayName>&lt;b&gt;code_point&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="lat">
+			<displayName>&lt;b&gt;lat&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="long">
+			<displayName>&lt;b&gt;long&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="y_proj">
+			<displayName>&lt;b&gt;y_proj&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="x_proj">
+			<displayName>&lt;b&gt;x_proj&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="type_point">
+			<displayName>&lt;b&gt;type_point&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="strategy">
+			<displayName>&lt;b&gt;strategy&lt;/b&gt;</displayName>
+		</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>n_microred</b></td><td>$[PP_Cluster_32_16abr2026/n_microred]</td></tr>
+  <tr><td><b>microred</b></td><td>$[PP_Cluster_32_16abr2026/microred]</td></tr>
+  <tr><td><b>cluster</b></td><td>$[PP_Cluster_32_16abr2026/cluster]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[PP_Cluster_32_16abr2026/point_name]</td></tr>
+  <tr><td><b>code_point</b></td><td>$[PP_Cluster_32_16abr2026/code_point]</td></tr>
+  <tr><td><b>lat</b></td><td>$[PP_Cluster_32_16abr2026/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[PP_Cluster_32_16abr2026/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[PP_Cluster_32_16abr2026/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[PP_Cluster_32_16abr2026/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[PP_Cluster_32_16abr2026/type_point]</td></tr>
+  <tr><td><b>strategy</b></td><td>$[PP_Cluster_32_16abr2026/strategy]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>n_microred</b></td><td>$[PP_Cluster_32_16abr2026/n_microred]</td></tr>
+  <tr><td><b>microred</b></td><td>$[PP_Cluster_32_16abr2026/microred]</td></tr>
+  <tr><td><b>cluster</b></td><td>$[PP_Cluster_32_16abr2026/cluster]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[PP_Cluster_32_16abr2026/point_name]</td></tr>
+  <tr><td><b>code_point</b></td><td>$[PP_Cluster_32_16abr2026/code_point]</td></tr>
+  <tr><td><b>lat</b></td><td>$[PP_Cluster_32_16abr2026/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[PP_Cluster_32_16abr2026/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[PP_Cluster_32_16abr2026/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[PP_Cluster_32_16abr2026/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[PP_Cluster_32_16abr2026/type_point]</td></tr>
+  <tr><td><b>strategy</b></td><td>$[PP_Cluster_32_16abr2026/strategy]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>PP_Cluster_32_16abr2026</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>CL32_PP_001</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Losa Deportiva</SimpleData>
+					<SimpleData name="code_point">CL32_PP_001</SimpleData>
+					<SimpleData name="lat">-16.325552</SimpleData>
+					<SimpleData name="long">-71.646299</SimpleData>
+					<SimpleData name="y_proj">-1931079.722</SimpleData>
+					<SimpleData name="x_proj">2826805.688</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.646299,-16.32555199999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_002</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Cancha Deportiva Sector 45 Y 46</SimpleData>
+					<SimpleData name="code_point">CL32_PP_002</SimpleData>
+					<SimpleData name="lat">-16.330352</SimpleData>
+					<SimpleData name="long">-71.64854</SimpleData>
+					<SimpleData name="y_proj">-1931615.303</SimpleData>
+					<SimpleData name="x_proj">2826489.65</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.64854,-16.33035200000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_003</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Plaza Jardines Del Colca</SimpleData>
+					<SimpleData name="code_point">CL32_PP_003</SimpleData>
+					<SimpleData name="lat">-16.333899</SimpleData>
+					<SimpleData name="long">-71.652604</SimpleData>
+					<SimpleData name="y_proj">-1931981.036</SimpleData>
+					<SimpleData name="x_proj">2825983.145</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.652604,-16.33389900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_004</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Asoc. Villa Tamboloza Deportiva</SimpleData>
+					<SimpleData name="code_point">CL32_PP_004</SimpleData>
+					<SimpleData name="lat">-16.337748</SimpleData>
+					<SimpleData name="long">-71.644546</SimpleData>
+					<SimpleData name="y_proj">-1932533.423</SimpleData>
+					<SimpleData name="x_proj">2826846.866</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.64454600000001,-16.33774800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_005</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Losa Deportiva</SimpleData>
+					<SimpleData name="code_point">CL32_PP_005</SimpleData>
+					<SimpleData name="lat">-16.344454</SimpleData>
+					<SimpleData name="long">-71.645524</SimpleData>
+					<SimpleData name="y_proj">-1933308.507</SimpleData>
+					<SimpleData name="x_proj">2826649.324</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.64552399999998,-16.34445399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_006</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Losa Deportiva</SimpleData>
+					<SimpleData name="code_point">CL32_PP_006</SimpleData>
+					<SimpleData name="lat">-16.350671</SimpleData>
+					<SimpleData name="long">-71.640766</SimpleData>
+					<SimpleData name="y_proj">-1934097.797</SimpleData>
+					<SimpleData name="x_proj">2827108.264</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.640766,-16.350671,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_007</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Asoc. Amivifnueva Vida (Movil)</SimpleData>
+					<SimpleData name="code_point">CL32_PP_007</SimpleData>
+					<SimpleData name="lat">-16.355525</SimpleData>
+					<SimpleData name="long">-71.639009</SimpleData>
+					<SimpleData name="y_proj">-1934689.615</SimpleData>
+					<SimpleData name="x_proj">2827244.62</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.639009,-16.355525,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_008</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Cancha De Tierra</SimpleData>
+					<SimpleData name="code_point">CL32_PP_008</SimpleData>
+					<SimpleData name="lat">-16.368053</SimpleData>
+					<SimpleData name="long">-71.645612</SimpleData>
+					<SimpleData name="y_proj">-1936077.883</SimpleData>
+					<SimpleData name="x_proj">2826334.06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.645612,-16.368053,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_009</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Losa Deportiva Amifiv</SimpleData>
+					<SimpleData name="code_point">CL32_PP_009</SimpleData>
+					<SimpleData name="lat">-16.370805</SimpleData>
+					<SimpleData name="long">-71.654298</SimpleData>
+					<SimpleData name="y_proj">-1936292.412</SimpleData>
+					<SimpleData name="x_proj">2825314.029</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.654298,-16.37080499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_010</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Losa Deportiva</SimpleData>
+					<SimpleData name="code_point">CL32_PP_010</SimpleData>
+					<SimpleData name="lat">-16.361474</SimpleData>
+					<SimpleData name="long">-71.656178</SimpleData>
+					<SimpleData name="y_proj">-1935173.565</SimpleData>
+					<SimpleData name="x_proj">2825221.677</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.65617799999998,-16.36147399999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_011</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Losa Deportiva Amifiv</SimpleData>
+					<SimpleData name="code_point">CL32_PP_011</SimpleData>
+					<SimpleData name="lat">-16.35689</SimpleData>
+					<SimpleData name="long">-71.651469</SimpleData>
+					<SimpleData name="y_proj">-1934694.237</SimpleData>
+					<SimpleData name="x_proj">2825814.67</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.65146900000001,-16.35689,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_012</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Losa Deportiva</SimpleData>
+					<SimpleData name="code_point">CL32_PP_012</SimpleData>
+					<SimpleData name="lat">-16.345776</SimpleData>
+					<SimpleData name="long">-71.659949</SimpleData>
+					<SimpleData name="y_proj">-1933283.715</SimpleData>
+					<SimpleData name="x_proj">2824997.175</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.659949,-16.345776,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_013</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Plaza Jardines Del Colca</SimpleData>
+					<SimpleData name="code_point">CL32_PP_013</SimpleData>
+					<SimpleData name="lat">-16.342439</SimpleData>
+					<SimpleData name="long">-71.651881</SimpleData>
+					<SimpleData name="y_proj">-1932992.619</SimpleData>
+					<SimpleData name="x_proj">2825954.78</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.651881,-16.34243900000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_014</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">La Tiendita</SimpleData>
+					<SimpleData name="code_point">CL32_PP_014</SimpleData>
+					<SimpleData name="lat">-16.341124</SimpleData>
+					<SimpleData name="long">-71.650959</SimpleData>
+					<SimpleData name="y_proj">-1932849.746</SimpleData>
+					<SimpleData name="x_proj">2826076.283</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.650959,-16.34112400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_015</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Tianfu Sac</SimpleData>
+					<SimpleData name="code_point">CL32_PP_015</SimpleData>
+					<SimpleData name="lat">-16.339738</SimpleData>
+					<SimpleData name="long">-71.648119</SimpleData>
+					<SimpleData name="y_proj">-1932722.466</SimpleData>
+					<SimpleData name="x_proj">2826416.121</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.64811899999999,-16.33973800000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_016</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Asoc. Jardin Del Colcaparte Baja (Movil)</SimpleData>
+					<SimpleData name="code_point">CL32_PP_016</SimpleData>
+					<SimpleData name="lat">-16.338807</SimpleData>
+					<SimpleData name="long">-71.654448</SimpleData>
+					<SimpleData name="y_proj">-1932534.218</SimpleData>
+					<SimpleData name="x_proj">2825710.727</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.65444799999999,-16.338807,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_017</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Losa Deportiva</SimpleData>
+					<SimpleData name="code_point">CL32_PP_017</SimpleData>
+					<SimpleData name="lat">-16.313058</SimpleData>
+					<SimpleData name="long">-71.666871</SimpleData>
+					<SimpleData name="y_proj">-1929356.691</SimpleData>
+					<SimpleData name="x_proj">2824634.703</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.666871,-16.31305800000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_018</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Losa Deportiva</SimpleData>
+					<SimpleData name="code_point">CL32_PP_018</SimpleData>
+					<SimpleData name="lat">-16.311159</SimpleData>
+					<SimpleData name="long">-71.675267</SimpleData>
+					<SimpleData name="y_proj">-1929029.303</SimpleData>
+					<SimpleData name="x_proj">2823707.383</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.67526700000001,-16.31115900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_019</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Losa Deportiva</SimpleData>
+					<SimpleData name="code_point">CL32_PP_019</SimpleData>
+					<SimpleData name="lat">-16.306235</SimpleData>
+					<SimpleData name="long">-71.669721</SimpleData>
+					<SimpleData name="y_proj">-1928520.274</SimpleData>
+					<SimpleData name="x_proj">2824399.524</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.669721,-16.30623500000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_020</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Losa Deportiva</SimpleData>
+					<SimpleData name="code_point">CL32_PP_020</SimpleData>
+					<SimpleData name="lat">-16.307086</SimpleData>
+					<SimpleData name="long">-71.666097</SimpleData>
+					<SimpleData name="y_proj">-1928665.261</SimpleData>
+					<SimpleData name="x_proj">2824799.406</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.66609699999998,-16.307086,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_021</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Losa Deportiva</SimpleData>
+					<SimpleData name="code_point">CL32_PP_021</SimpleData>
+					<SimpleData name="lat">-16.295578</SimpleData>
+					<SimpleData name="long">-71.658679</SimpleData>
+					<SimpleData name="y_proj">-1927406.566</SimpleData>
+					<SimpleData name="x_proj">2825788.682</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.65867900000001,-16.295578,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_022</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Losa Deportiva Nueva Yura</SimpleData>
+					<SimpleData name="code_point">CL32_PP_022</SimpleData>
+					<SimpleData name="lat">-16.292937</SimpleData>
+					<SimpleData name="long">-71.65564</SimpleData>
+					<SimpleData name="y_proj">-1927134.32</SimpleData>
+					<SimpleData name="x_proj">2826167.276</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.65564000000001,-16.29293699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_023</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Losa Deportiva</SimpleData>
+					<SimpleData name="code_point">CL32_PP_023</SimpleData>
+					<SimpleData name="lat">-16.289391</SimpleData>
+					<SimpleData name="long">-71.653613</SimpleData>
+					<SimpleData name="y_proj">-1926743.228</SimpleData>
+					<SimpleData name="x_proj">2826442.789</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.65361300000001,-16.28939099999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_024</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Granja De Liebres</SimpleData>
+					<SimpleData name="code_point">CL32_PP_024</SimpleData>
+					<SimpleData name="lat">-16.289482</SimpleData>
+					<SimpleData name="long">-71.651832</SimpleData>
+					<SimpleData name="y_proj">-1926776.069</SimpleData>
+					<SimpleData name="x_proj">2826643.565</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.65183199999998,-16.28948199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_025</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Losa Deportiva</SimpleData>
+					<SimpleData name="code_point">CL32_PP_025</SimpleData>
+					<SimpleData name="lat">-16.286153</SimpleData>
+					<SimpleData name="long">-71.651108</SimpleData>
+					<SimpleData name="y_proj">-1926394.235</SimpleData>
+					<SimpleData name="x_proj">2826768.541</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.65110799999999,-16.28615300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_026</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Losa Deportiva La Pascana</SimpleData>
+					<SimpleData name="code_point">CL32_PP_026</SimpleData>
+					<SimpleData name="lat">-16.28599</SimpleData>
+					<SimpleData name="long">-71.657214</SimpleData>
+					<SimpleData name="y_proj">-1926299.155</SimpleData>
+					<SimpleData name="x_proj">2826078.268</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.657214,-16.28598999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_027</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Local Social Yura</SimpleData>
+					<SimpleData name="code_point">CL32_PP_027</SimpleData>
+					<SimpleData name="lat">-16.297051</SimpleData>
+					<SimpleData name="long">-71.65918</SimpleData>
+					<SimpleData name="y_proj">-1927573.261</SimpleData>
+					<SimpleData name="x_proj">2825712.903</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.65918000000002,-16.29705100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_028</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Paradero Final De Combis</SimpleData>
+					<SimpleData name="code_point">CL32_PP_028</SimpleData>
+					<SimpleData name="lat">-16.34803</SimpleData>
+					<SimpleData name="long">-71.660088</SimpleData>
+					<SimpleData name="y_proj">-1933546.578</SimpleData>
+					<SimpleData name="x_proj">2824952.301</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.660088,-16.34802999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_029</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Avenida</SimpleData>
+					<SimpleData name="code_point">CL32_PP_029</SimpleData>
+					<SimpleData name="lat">-16.343659</SimpleData>
+					<SimpleData name="long">-71.656898</SimpleData>
+					<SimpleData name="y_proj">-1933073.253</SimpleData>
+					<SimpleData name="x_proj">2825370.342</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.65689799999998,-16.343659,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_030</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Avenida</SimpleData>
+					<SimpleData name="code_point">CL32_PP_030</SimpleData>
+					<SimpleData name="lat">-16.345966</SimpleData>
+					<SimpleData name="long">-71.654691</SimpleData>
+					<SimpleData name="y_proj">-1933371.612</SimpleData>
+					<SimpleData name="x_proj">2825590.693</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.654691,-16.345966,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_031</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Avenida</SimpleData>
+					<SimpleData name="code_point">CL32_PP_031</SimpleData>
+					<SimpleData name="lat">-16.348645</SimpleData>
+					<SimpleData name="long">-71.654112</SimpleData>
+					<SimpleData name="y_proj">-1933693.334</SimpleData>
+					<SimpleData name="x_proj">2825621.699</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.65411199999998,-16.34864499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_032</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Pronohi Zona 0</SimpleData>
+					<SimpleData name="code_point">CL32_PP_032</SimpleData>
+					<SimpleData name="lat">-16.364559</SimpleData>
+					<SimpleData name="long">-71.647271</SimpleData>
+					<SimpleData name="y_proj">-1935646.971</SimpleData>
+					<SimpleData name="x_proj">2826191.257</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.647271,-16.36455899999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_033</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Consorcio Sector Ii</SimpleData>
+					<SimpleData name="code_point">CL32_PP_033</SimpleData>
+					<SimpleData name="lat">-16.35783</SimpleData>
+					<SimpleData name="long">-71.642119</SimpleData>
+					<SimpleData name="y_proj">-1934921.37</SimpleData>
+					<SimpleData name="x_proj">2826862.278</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.64211899999999,-16.35783000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_034</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Local Social Asc. De Vivienda Ciudad Nueva</SimpleData>
+					<SimpleData name="code_point">CL32_PP_034</SimpleData>
+					<SimpleData name="lat">-16.2919809</SimpleData>
+					<SimpleData name="long">-71.65722023</SimpleData>
+					<SimpleData name="y_proj">-1927002.415</SimpleData>
+					<SimpleData name="x_proj">2826000.415</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.65722022999999,-16.2919809,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_035</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Cancha Sintetica Sector 5 Y 6 Asojac</SimpleData>
+					<SimpleData name="code_point">CL32_PP_035</SimpleData>
+					<SimpleData name="lat">-16.34436969</SimpleData>
+					<SimpleData name="long">-71.65249288</SimpleData>
+					<SimpleData name="y_proj">-1933211.64</SimpleData>
+					<SimpleData name="x_proj">2825860.475</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.65249288,-16.34436969000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_036</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Local Social Consorcio</SimpleData>
+					<SimpleData name="code_point">CL32_PP_036</SimpleData>
+					<SimpleData name="lat">-16.36607679</SimpleData>
+					<SimpleData name="long">-71.64556782</SimpleData>
+					<SimpleData name="y_proj">-1935846.435</SimpleData>
+					<SimpleData name="x_proj">2826364.649</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.64556782,-16.36607679,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL32_PP_037</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_32_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">3</SimpleData>
+					<SimpleData name="microred">CIUDAD DE DIOS</SimpleData>
+					<SimpleData name="cluster">32</SimpleData>
+					<SimpleData name="point_name">Local Social Consorcio Zn 2</SimpleData>
+					<SimpleData name="code_point">CL32_PP_037</SimpleData>
+					<SimpleData name="lat">-16.35719865</SimpleData>
+					<SimpleData name="long">-71.64050001</SimpleData>
+					<SimpleData name="y_proj">-1934867.476</SimpleData>
+					<SimpleData name="x_proj">2827053.956</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.64050000999998,-16.35719864999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
+	</Folder>
+</Document>
+</kml>

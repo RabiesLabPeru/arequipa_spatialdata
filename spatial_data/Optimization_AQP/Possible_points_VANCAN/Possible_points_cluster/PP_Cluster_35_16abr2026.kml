@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PP_Cluster_35_16abr2026.kml</name>
+	<Schema name="PP_Cluster_35_16abr2026" id="S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+		<SimpleField type="string" name="n_microred">
+			<displayName>&lt;b&gt;n_microred&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="microred">
+			<displayName>&lt;b&gt;microred&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="cluster">
+			<displayName>&lt;b&gt;cluster&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="point_name">
+			<displayName>&lt;b&gt;point_name&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="code_point">
+			<displayName>&lt;b&gt;code_point&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="lat">
+			<displayName>&lt;b&gt;lat&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="long">
+			<displayName>&lt;b&gt;long&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="y_proj">
+			<displayName>&lt;b&gt;y_proj&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="x_proj">
+			<displayName>&lt;b&gt;x_proj&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="type_point">
+			<displayName>&lt;b&gt;type_point&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="estratategy">
+			<displayName>&lt;b&gt;estratategy&lt;/b&gt;</displayName>
+		</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>n_microred</b></td><td>$[PP_Cluster_35_16abr2026/n_microred]</td></tr>
+  <tr><td><b>microred</b></td><td>$[PP_Cluster_35_16abr2026/microred]</td></tr>
+  <tr><td><b>cluster</b></td><td>$[PP_Cluster_35_16abr2026/cluster]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[PP_Cluster_35_16abr2026/point_name]</td></tr>
+  <tr><td><b>code_point</b></td><td>$[PP_Cluster_35_16abr2026/code_point]</td></tr>
+  <tr><td><b>lat</b></td><td>$[PP_Cluster_35_16abr2026/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[PP_Cluster_35_16abr2026/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[PP_Cluster_35_16abr2026/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[PP_Cluster_35_16abr2026/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[PP_Cluster_35_16abr2026/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[PP_Cluster_35_16abr2026/estratategy]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>n_microred</b></td><td>$[PP_Cluster_35_16abr2026/n_microred]</td></tr>
+  <tr><td><b>microred</b></td><td>$[PP_Cluster_35_16abr2026/microred]</td></tr>
+  <tr><td><b>cluster</b></td><td>$[PP_Cluster_35_16abr2026/cluster]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[PP_Cluster_35_16abr2026/point_name]</td></tr>
+  <tr><td><b>code_point</b></td><td>$[PP_Cluster_35_16abr2026/code_point]</td></tr>
+  <tr><td><b>lat</b></td><td>$[PP_Cluster_35_16abr2026/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[PP_Cluster_35_16abr2026/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[PP_Cluster_35_16abr2026/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[PP_Cluster_35_16abr2026/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[PP_Cluster_35_16abr2026/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[PP_Cluster_35_16abr2026/estratategy]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>PP_Cluster_35_16abr2026</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>CL35_PP_001</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Mercado</SimpleData>
+					<SimpleData name="code_point">CL35_PP_001</SimpleData>
+					<SimpleData name="lat">-16.326957</SimpleData>
+					<SimpleData name="long">-72.194205</SimpleData>
+					<SimpleData name="y_proj">-1924518725</SimpleData>
+					<SimpleData name="x_proj">2764768063</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.194205,-16.32695699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_002</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Parque Del Bloque 5</SimpleData>
+					<SimpleData name="code_point">CL35_PP_002</SimpleData>
+					<SimpleData name="lat">-16.329436</SimpleData>
+					<SimpleData name="long">-72.197391</SimpleData>
+					<SimpleData name="y_proj">-1924770384</SimpleData>
+					<SimpleData name="x_proj">2764376963</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.197391,-16.32943599999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_003</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Modulo_C</SimpleData>
+					<SimpleData name="code_point">CL35_PP_003</SimpleData>
+					<SimpleData name="lat">-16.331922</SimpleData>
+					<SimpleData name="long">-72.199982</SimpleData>
+					<SimpleData name="y_proj">-1925030046</SimpleData>
+					<SimpleData name="x_proj">2764053032</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.19998200000001,-16.331922,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_004</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Cancha_Deportiva_Chicharito_2</SimpleData>
+					<SimpleData name="code_point">CL35_PP_004</SimpleData>
+					<SimpleData name="lat">-16.340105</SimpleData>
+					<SimpleData name="long">-72.206146</SimpleData>
+					<SimpleData name="y_proj">-1925913294</SimpleData>
+					<SimpleData name="x_proj">2763254048</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.206146,-16.34010499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_005</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Espiritu_Santo</SimpleData>
+					<SimpleData name="code_point">CL35_PP_005</SimpleData>
+					<SimpleData name="lat">-16.340877</SimpleData>
+					<SimpleData name="long">-72.214044</SimpleData>
+					<SimpleData name="y_proj">-1925908237</SimpleData>
+					<SimpleData name="x_proj">2762351896</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.21404400000002,-16.34087700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_006</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Tienda_De_Abarrotes_Espiritu_Santo</SimpleData>
+					<SimpleData name="code_point">CL35_PP_006</SimpleData>
+					<SimpleData name="lat">-16.344137</SimpleData>
+					<SimpleData name="long">-72.219895</SimpleData>
+					<SimpleData name="y_proj">-1926219.09</SimpleData>
+					<SimpleData name="x_proj">2761649979</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.21989499999999,-16.34413699999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_007</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Asoc_El_Triunfo</SimpleData>
+					<SimpleData name="code_point">CL35_PP_007</SimpleData>
+					<SimpleData name="lat">-16.35179</SimpleData>
+					<SimpleData name="long">-72.220465</SimpleData>
+					<SimpleData name="y_proj">-1927107.8</SimpleData>
+					<SimpleData name="x_proj">2761489844</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.22046500000002,-16.35179,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_008</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Los_Angeles</SimpleData>
+					<SimpleData name="code_point">CL35_PP_008</SimpleData>
+					<SimpleData name="lat">-16.352313</SimpleData>
+					<SimpleData name="long">-72.228049</SimpleData>
+					<SimpleData name="y_proj">-1927077408</SimpleData>
+					<SimpleData name="x_proj">2760626421</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.228049,-16.35231300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_009</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Local_Social_La_Nueva_Arequipa</SimpleData>
+					<SimpleData name="code_point">CL35_PP_009</SimpleData>
+					<SimpleData name="lat">-16.356606</SimpleData>
+					<SimpleData name="long">-72.234457</SimpleData>
+					<SimpleData name="y_proj">-1927502393</SimpleData>
+					<SimpleData name="x_proj">2759848764</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.23445700000001,-16.356606,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_010</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Bonanza</SimpleData>
+					<SimpleData name="code_point">CL35_PP_010</SimpleData>
+					<SimpleData name="lat">-16.365193</SimpleData>
+					<SimpleData name="long">-72.240662</SimpleData>
+					<SimpleData name="y_proj">-1928432.26</SimpleData>
+					<SimpleData name="x_proj">2759040396</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.240662,-16.365193,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_011</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">El_Majenhito</SimpleData>
+					<SimpleData name="code_point">CL35_PP_011</SimpleData>
+					<SimpleData name="lat">-16.357486</SimpleData>
+					<SimpleData name="long">-72.260964</SimpleData>
+					<SimpleData name="y_proj">-1927285575</SimpleData>
+					<SimpleData name="x_proj">2756843349</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.260964,-16.35748599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_012</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Local_Social_Reservistas</SimpleData>
+					<SimpleData name="code_point">CL35_PP_012</SimpleData>
+					<SimpleData name="lat">-16.406534</SimpleData>
+					<SimpleData name="long">-72.262083</SimpleData>
+					<SimpleData name="y_proj">-1933010382</SimpleData>
+					<SimpleData name="x_proj">2756103694</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.26208299999999,-16.40653399999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_013</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Fundo_Nazareno</SimpleData>
+					<SimpleData name="code_point">CL35_PP_013</SimpleData>
+					<SimpleData name="lat">-16.385737</SimpleData>
+					<SimpleData name="long">-72.269763</SimpleData>
+					<SimpleData name="y_proj">-1930484617</SimpleData>
+					<SimpleData name="x_proj">2755496594</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.26976299999998,-16.38573700000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_014</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Losa Deportiva Al Costado Del Inicial Ninho Salvador</SimpleData>
+					<SimpleData name="code_point">CL35_PP_014</SimpleData>
+					<SimpleData name="lat">-16.330843</SimpleData>
+					<SimpleData name="long">-72.195953</SimpleData>
+					<SimpleData name="y_proj">-1924952438</SimpleData>
+					<SimpleData name="x_proj">2764521878</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.195953,-16.33084300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_015</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Ie Modulo C</SimpleData>
+					<SimpleData name="code_point">CL35_PP_015</SimpleData>
+					<SimpleData name="lat">-16.33099</SimpleData>
+					<SimpleData name="long">-72.194356</SimpleData>
+					<SimpleData name="y_proj">-1924988942</SimpleData>
+					<SimpleData name="x_proj">2764700529</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.194356,-16.33098999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_016</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Losa Deportiva</SimpleData>
+					<SimpleData name="code_point">CL35_PP_016</SimpleData>
+					<SimpleData name="lat">-16.327916</SimpleData>
+					<SimpleData name="long">-72.196336</SimpleData>
+					<SimpleData name="y_proj">-1924605224</SimpleData>
+					<SimpleData name="x_proj">2764515216</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.19633600000002,-16.32791599999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_017</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Local Socail Espiritu Santo</SimpleData>
+					<SimpleData name="code_point">CL35_PP_017</SimpleData>
+					<SimpleData name="lat">-16.342102</SimpleData>
+					<SimpleData name="long">-72.215344</SimpleData>
+					<SimpleData name="y_proj">-1926035898</SimpleData>
+					<SimpleData name="x_proj">2762189675</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.215344,-16.34210200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_018</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Locasl Social</SimpleData>
+					<SimpleData name="code_point">CL35_PP_018</SimpleData>
+					<SimpleData name="lat">-16.35411</SimpleData>
+					<SimpleData name="long">-72.246766</SimpleData>
+					<SimpleData name="y_proj">-1927061788</SimpleData>
+					<SimpleData name="x_proj">2758489382</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.24676599999998,-16.35410999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_019</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Ie Nueva Arequipa</SimpleData>
+					<SimpleData name="code_point">CL35_PP_019</SimpleData>
+					<SimpleData name="lat">-16.358242</SimpleData>
+					<SimpleData name="long">-72.238189</SimpleData>
+					<SimpleData name="y_proj">-1927648773</SimpleData>
+					<SimpleData name="x_proj">2759406689</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.23818900000002,-16.35824199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_020</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Ruedo De Toros Quebradita</SimpleData>
+					<SimpleData name="code_point">CL35_PP_020</SimpleData>
+					<SimpleData name="lat">-16.328434</SimpleData>
+					<SimpleData name="long">-72.191284</SimpleData>
+					<SimpleData name="y_proj">-1924726899</SimpleData>
+					<SimpleData name="x_proj">2765079719</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.191284,-16.32843400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_021</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Cancha Sintetica Pepes</SimpleData>
+					<SimpleData name="code_point">CL35_PP_021</SimpleData>
+					<SimpleData name="lat">-16.343386</SimpleData>
+					<SimpleData name="long">-72.20778</SimpleData>
+					<SimpleData name="y_proj">-1926277542</SimpleData>
+					<SimpleData name="x_proj">2763028342</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.20777999999999,-16.34338600000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_022</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Local Social Mercado Jardin</SimpleData>
+					<SimpleData name="code_point">CL35_PP_022</SimpleData>
+					<SimpleData name="lat">-16.345593</SimpleData>
+					<SimpleData name="long">-72.216533</SimpleData>
+					<SimpleData name="y_proj">-1926430084</SimpleData>
+					<SimpleData name="x_proj">2762011654</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.216533,-16.34559300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_023</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Cancha Deportiva La Revancha</SimpleData>
+					<SimpleData name="code_point">CL35_PP_023</SimpleData>
+					<SimpleData name="lat">-16.347191</SimpleData>
+					<SimpleData name="long">-72.22224</SimpleData>
+					<SimpleData name="y_proj">-1926548167</SimpleData>
+					<SimpleData name="x_proj">2761346818</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.22224,-16.34719100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_024</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Asociacion Los Huaranguitos</SimpleData>
+					<SimpleData name="code_point">CL35_PP_024</SimpleData>
+					<SimpleData name="lat">-16.341655</SimpleData>
+					<SimpleData name="long">-72.235171</SimpleData>
+					<SimpleData name="y_proj">-1925744274</SimpleData>
+					<SimpleData name="x_proj">2759954.97</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.23517099999998,-16.341655,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_025</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Avenida</SimpleData>
+					<SimpleData name="code_point">CL35_PP_025</SimpleData>
+					<SimpleData name="lat">-16.351211</SimpleData>
+					<SimpleData name="long">-72.238041</SimpleData>
+					<SimpleData name="y_proj">-1926827842</SimpleData>
+					<SimpleData name="x_proj">2759511302</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.238041,-16.351211,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_026</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Feria Internacional Expomajes</SimpleData>
+					<SimpleData name="code_point">CL35_PP_026</SimpleData>
+					<SimpleData name="lat">-16.33516029</SimpleData>
+					<SimpleData name="long">-72.19762921</SimpleData>
+					<SimpleData name="y_proj">-1925437489</SimpleData>
+					<SimpleData name="x_proj">2764278408</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.19762921,-16.33516029000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_027</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Complejo Deportivo Sagitario</SimpleData>
+					<SimpleData name="code_point">CL35_PP_027</SimpleData>
+					<SimpleData name="lat">-16.33827111</SimpleData>
+					<SimpleData name="long">-72.20325499</SimpleData>
+					<SimpleData name="y_proj">-1925733594</SimpleData>
+					<SimpleData name="x_proj">2763603701</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.20325499,-16.33827110999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_028</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Complejo De Futbol San Francisco</SimpleData>
+					<SimpleData name="code_point">CL35_PP_028</SimpleData>
+					<SimpleData name="lat">-16.33886481</SimpleData>
+					<SimpleData name="long">-72.20290826</SimpleData>
+					<SimpleData name="y_proj">-1925807269</SimpleData>
+					<SimpleData name="x_proj">2763635454</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.20290826,-16.33886480999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_029</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Cancha Deportiva El Chicharito</SimpleData>
+					<SimpleData name="code_point">CL35_PP_029</SimpleData>
+					<SimpleData name="lat">-16.33961036</SimpleData>
+					<SimpleData name="long">-72.20478238</SimpleData>
+					<SimpleData name="y_proj">-1925871.88</SimpleData>
+					<SimpleData name="x_proj">2763414334</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.20478237999998,-16.33961035999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_030</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Complejo La Cantera</SimpleData>
+					<SimpleData name="code_point">CL35_PP_030</SimpleData>
+					<SimpleData name="lat">-16.34154766</SimpleData>
+					<SimpleData name="long">-72.20500978</SimpleData>
+					<SimpleData name="y_proj">-1926095866</SimpleData>
+					<SimpleData name="x_proj">2763364392</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.20500978,-16.34154766000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_031</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">I.E Primaria Las Gardenias</SimpleData>
+					<SimpleData name="code_point">CL35_PP_031</SimpleData>
+					<SimpleData name="lat">-16.34250973</SimpleData>
+					<SimpleData name="long">-72.20814824</SimpleData>
+					<SimpleData name="y_proj">-1926170539</SimpleData>
+					<SimpleData name="x_proj">2762997695</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.20814824,-16.34250973,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL35_PP_032</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_35_16abr2026_SSSSSSSSSSS">
+					<SimpleData name="n_microred">4</SimpleData>
+					<SimpleData name="microred">PEDREGAL</SimpleData>
+					<SimpleData name="cluster">35</SimpleData>
+					<SimpleData name="point_name">Local Social Las Gardenias</SimpleData>
+					<SimpleData name="code_point">CL35_PP_032</SimpleData>
+					<SimpleData name="lat">-16.34279777</SimpleData>
+					<SimpleData name="long">-72.20727503</SimpleData>
+					<SimpleData name="y_proj">-1926214801</SimpleData>
+					<SimpleData name="x_proj">2763092765</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.20727502999999,-16.34279777,0</coordinates>
+			</Point>
+		</Placemark>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
+	</Folder>
+</Document>
+</kml>

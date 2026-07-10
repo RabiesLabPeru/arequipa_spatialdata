@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PUESTOS DE SALUD CAYLLOMA.kml</name>
+	<StyleMap id="msn_red-circle0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-circle0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-circle1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_red-circle1">
+		<IconStyle>
+			<scale>0.945455</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_red-circle0">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>PUESTOS DE SALUD CAYLLOMA</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>C.S. LA COLINA</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>-72.17464062174128</longitude>
+				<latitude>-16.34172441140247</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01445184517048633</heading>
+				<tilt>26.69265625220055</tilt>
+				<range>470.4250406540986</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-72.17451936198694,-16.34178339799604,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. SANDRITA PEREZ</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>-72.19011745407614</longitude>
+				<latitude>-16.36243591138809</latitude>
+				<altitude>0</altitude>
+				<heading>-0.009881209207791284</heading>
+				<tilt>26.67340484362187</tilt>
+				<range>439.3567350668025</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-72.19029117814416,-16.36201905728293,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. B-2</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>-72.25712415793016</longitude>
+				<latitude>-16.33569594066552</latitude>
+				<altitude>0</altitude>
+				<heading>0.5169409844813782</heading>
+				<tilt>24.48758220449122</tilt>
+				<range>154.5959833956155</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-72.2575073515163,-16.33579216751113,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. B-1</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>-72.23848910230309</longitude>
+				<latitude>-16.32093213398264</latitude>
+				<altitude>0</altitude>
+				<heading>0.01130421921387586</heading>
+				<tilt>21.2021751679753</tilt>
+				<range>303.3411027261261</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-72.23852585157864,-16.32092347993692,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Limites_Cluster_35_11may2023.kml</name>
+	<StyleMap id="m_ylw-pushpin1200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin12">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl12">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Limites_Cluster_35_11may2023</name>
+		<Placemark>
+			<name>PEDREGAL_03</name>
+			<styleUrl>#m_ylw-pushpin1200</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-72.19688623603204,-16.32325787782327,0 -72.20942450381645,-16.33369194940475,0 -72.22148704365291,-16.33765924627924,0 -72.23235038170863,-16.34068627609889,0 -72.24681555554946,-16.33921217319471,0 -72.2634526290168,-16.35211636659032,0 -72.26609505999339,-16.36935343651834,0 -72.27586345133172,-16.40018047731983,0 -72.27261644403193,-16.42577797590661,0 -72.26422493362563,-16.42883290797983,0 -72.25732499088184,-16.42418739352924,0 -72.25640428929815,-16.39867394367109,0 -72.2540323719363,-16.39306469913009,0 -72.24959060673966,-16.38836803045299,0 -72.24502529664056,-16.38435302206526,0 -72.24366221550214,-16.37951850429317,0 -72.2422060498574,-16.37544104004115,0 -72.2361563509093,-16.37028775223686,0 -72.23294949167781,-16.36852978063786,0 -72.23090519061529,-16.36353655798792,0 -72.22781199290749,-16.36106298093845,0 -72.22395173420281,-16.35788850678415,0 -72.22056090711014,-16.35683682276305,0 -72.21894863442907,-16.35584632583251,0 -72.21757306396856,-16.35436979180638,0 -72.21527859820874,-16.35302883734279,0 -72.21229753083199,-16.3487510323105,0 -72.20941966901829,-16.3470521279902,0 -72.20860216631628,-16.34590866667876,0 -72.20774877300508,-16.34533510412022,0 -72.20685699263468,-16.34471882880498,0 -72.20577487656375,-16.34372764065003,0 -72.20509149887893,-16.34344114925097,0 -72.20434642416225,-16.34311832240256,0 -72.20381912610367,-16.34209308401892,0 -72.20365325193364,-16.34164089601235,0 -72.20310877517247,-16.34122096979267,0 -72.20255690014746,-16.33983921519645,0 -72.20234124290353,-16.33916583053438,0 -72.20197740852991,-16.33852161637415,0 -72.20189202280032,-16.33737023382645,0 -72.20213459625927,-16.33619278337609,0 -72.20145232912537,-16.33371605866101,0 -72.19676583603049,-16.33903861883611,0 -72.18731406220965,-16.32652663339598,0 -72.1905113771551,-16.32545210201446,0 -72.19379778883392,-16.32610021522439,0 -72.19469804270938,-16.32584679351481,0 -72.19688623603204,-16.32325787782327,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>35</name>
+			<LookAt>
+				<longitude>-72.13008280172188</longitude>
+				<latitude>-16.35531824167627</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0006358179974083742</heading>
+				<tilt>8.957305955155753</tilt>
+				<range>55889.80067641167</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin1200</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-72.24643810647002,-16.3605111297735,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

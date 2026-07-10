@@ -1,0 +1,5021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PP_Cluster_18_16abr2026.kml</name>
+	<Schema name="PP_Cluster_18_03mar2026" id="S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+		<SimpleField type="int" name="n_microred">
+			<displayName>&lt;b&gt;n_microred&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="microred">
+			<displayName>&lt;b&gt;microred&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="int" name="cluster">
+			<displayName>&lt;b&gt;cluster&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="point_name">
+			<displayName>&lt;b&gt;point_name&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="code_point">
+			<displayName>&lt;b&gt;code_point&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="lat">
+			<displayName>&lt;b&gt;lat&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="long">
+			<displayName>&lt;b&gt;long&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="y_proj">
+			<displayName>&lt;b&gt;y_proj&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="x_proj">
+			<displayName>&lt;b&gt;x_proj&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="type_point">
+			<displayName>&lt;b&gt;type_point&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="strategy">
+			<displayName>&lt;b&gt;strategy&lt;/b&gt;</displayName>
+		</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>n_microred</b></td><td>$[PP_Cluster_18_03mar2026/n_microred]</td></tr>
+  <tr><td><b>microred</b></td><td>$[PP_Cluster_18_03mar2026/microred]</td></tr>
+  <tr><td><b>cluster</b></td><td>$[PP_Cluster_18_03mar2026/cluster]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[PP_Cluster_18_03mar2026/point_name]</td></tr>
+  <tr><td><b>code_point</b></td><td>$[PP_Cluster_18_03mar2026/code_point]</td></tr>
+  <tr><td><b>lat</b></td><td>$[PP_Cluster_18_03mar2026/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[PP_Cluster_18_03mar2026/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[PP_Cluster_18_03mar2026/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[PP_Cluster_18_03mar2026/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[PP_Cluster_18_03mar2026/type_point]</td></tr>
+  <tr><td><b>strategy</b></td><td>$[PP_Cluster_18_03mar2026/strategy]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>n_microred</b></td><td>$[PP_Cluster_18_03mar2026/n_microred]</td></tr>
+  <tr><td><b>microred</b></td><td>$[PP_Cluster_18_03mar2026/microred]</td></tr>
+  <tr><td><b>cluster</b></td><td>$[PP_Cluster_18_03mar2026/cluster]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[PP_Cluster_18_03mar2026/point_name]</td></tr>
+  <tr><td><b>code_point</b></td><td>$[PP_Cluster_18_03mar2026/code_point]</td></tr>
+  <tr><td><b>lat</b></td><td>$[PP_Cluster_18_03mar2026/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[PP_Cluster_18_03mar2026/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[PP_Cluster_18_03mar2026/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[PP_Cluster_18_03mar2026/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[PP_Cluster_18_03mar2026/type_point]</td></tr>
+  <tr><td><b>strategy</b></td><td>$[PP_Cluster_18_03mar2026/strategy]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>PP_Cluster_18_16abr2026</name>
+		<Placemark>
+			<name>CL18_PP_001</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">IEP_Santa_Rosa_De_Lima</SimpleData>
+					<SimpleData name="code_point">CL18_PP_001</SimpleData>
+					<SimpleData name="lat">-16.4212</SimpleData>
+					<SimpleData name="long">-71.498</SimpleData>
+					<SimpleData name="y_proj">-1.94417e+09</SimpleData>
+					<SimpleData name="x_proj">2.84237e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.498012,-16.421191,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_002</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Parque Comite 1</SimpleData>
+					<SimpleData name="code_point">CL18_PP_002</SimpleData>
+					<SimpleData name="lat">-16.4217</SimpleData>
+					<SimpleData name="long">-71.4977</SimpleData>
+					<SimpleData name="y_proj">-1.94423e+06</SimpleData>
+					<SimpleData name="x_proj">2.84241e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49765600000001,-16.42165700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_003</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Parque California</SimpleData>
+					<SimpleData name="code_point">CL18_PP_003</SimpleData>
+					<SimpleData name="lat">-16.4198</SimpleData>
+					<SimpleData name="long">-71.4954</SimpleData>
+					<SimpleData name="y_proj">-1.94405e+09</SimpleData>
+					<SimpleData name="x_proj">2.84268e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49544299999999,-16.41983199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_004</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">CEP_Nuestra_Senhora_De_Copacabana</SimpleData>
+					<SimpleData name="code_point">CL18_PP_004</SimpleData>
+					<SimpleData name="lat">-16.4218</SimpleData>
+					<SimpleData name="long">-71.4964</SimpleData>
+					<SimpleData name="y_proj">-1.94427e+09</SimpleData>
+					<SimpleData name="x_proj">2.84255e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.496387,-16.421797,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_005</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Parroquia_De_Luz_Y_Alegria</SimpleData>
+					<SimpleData name="code_point">CL18_PP_005</SimpleData>
+					<SimpleData name="lat">-16.422</SimpleData>
+					<SimpleData name="long">-71.4948</SimpleData>
+					<SimpleData name="y_proj">-1.94431e+09</SimpleData>
+					<SimpleData name="x_proj">2.84273e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.494783,-16.42198699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_006</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Parque Luz Y Alegria</SimpleData>
+					<SimpleData name="code_point">CL18_PP_006</SimpleData>
+					<SimpleData name="lat">-16.4216</SimpleData>
+					<SimpleData name="long">-71.4946</SimpleData>
+					<SimpleData name="y_proj">-1.94426e+09</SimpleData>
+					<SimpleData name="x_proj">2.84276e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49461399999998,-16.42157600000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_007</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Colegio_Ninhos_De_La_Paz</SimpleData>
+					<SimpleData name="code_point">CL18_PP_007</SimpleData>
+					<SimpleData name="lat">-16.4213</SimpleData>
+					<SimpleData name="long">-71.4939</SimpleData>
+					<SimpleData name="y_proj">-1.94424e+09</SimpleData>
+					<SimpleData name="x_proj">2.84284e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49387199999998,-16.42134300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_008</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Centro_De_Salud_Alto_Jesus</SimpleData>
+					<SimpleData name="code_point">CL18_PP_008</SimpleData>
+					<SimpleData name="lat">-16.4227</SimpleData>
+					<SimpleData name="long">-71.4945</SimpleData>
+					<SimpleData name="y_proj">-1.94439e+06</SimpleData>
+					<SimpleData name="x_proj">2.84275e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49449,-16.42265599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_009</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Parque_Alto_Jesus</SimpleData>
+					<SimpleData name="code_point">CL18_PP_009</SimpleData>
+					<SimpleData name="lat">-16.4231</SimpleData>
+					<SimpleData name="long">-71.4935</SimpleData>
+					<SimpleData name="y_proj">-1.94445e+09</SimpleData>
+					<SimpleData name="x_proj">2.84286e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.493495,-16.423059,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_010</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Mercado Alto Jesus</SimpleData>
+					<SimpleData name="code_point">CL18_PP_010</SimpleData>
+					<SimpleData name="lat">-16.4239</SimpleData>
+					<SimpleData name="long">-71.493</SimpleData>
+					<SimpleData name="y_proj">-1.94456e+06</SimpleData>
+					<SimpleData name="x_proj">2.84291e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49300599999999,-16.423935,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_011</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Cancha Deportiva Alto Jesus</SimpleData>
+					<SimpleData name="code_point">CL18_PP_011</SimpleData>
+					<SimpleData name="lat">-16.4257</SimpleData>
+					<SimpleData name="long">-71.4926</SimpleData>
+					<SimpleData name="y_proj">-1.94477e+06</SimpleData>
+					<SimpleData name="x_proj">2.84293e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49255100000001,-16.42572000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_012</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">IEI_Alto_Jesus</SimpleData>
+					<SimpleData name="code_point">CL18_PP_012</SimpleData>
+					<SimpleData name="lat">-16.4236</SimpleData>
+					<SimpleData name="long">-71.4912</SimpleData>
+					<SimpleData name="y_proj">-1.94454e+09</SimpleData>
+					<SimpleData name="x_proj">2.84312e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49120500000001,-16.42357699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_013</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Curva Alto Jesus</SimpleData>
+					<SimpleData name="code_point">CL18_PP_013</SimpleData>
+					<SimpleData name="lat">-16.4227</SimpleData>
+					<SimpleData name="long">-71.4906</SimpleData>
+					<SimpleData name="y_proj">-1.94445e+09</SimpleData>
+					<SimpleData name="x_proj">2.8432e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.490594,-16.422717,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_014</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Parque_Triangulo</SimpleData>
+					<SimpleData name="code_point">CL18_PP_014</SimpleData>
+					<SimpleData name="lat">-16.4232</SimpleData>
+					<SimpleData name="long">-71.4895</SimpleData>
+					<SimpleData name="y_proj">-1.94452e+09</SimpleData>
+					<SimpleData name="x_proj">2.84331e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48950499999999,-16.42322200000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_015</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Local Social Valle Encantado</SimpleData>
+					<SimpleData name="code_point">CL18_PP_015</SimpleData>
+					<SimpleData name="lat">-16.4239</SimpleData>
+					<SimpleData name="long">-71.4878</SimpleData>
+					<SimpleData name="y_proj">-1.94462e+09</SimpleData>
+					<SimpleData name="x_proj">2.8435e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48775499999999,-16.42390699999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_016</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Ampliacion Alto Jesus</SimpleData>
+					<SimpleData name="code_point">CL18_PP_016</SimpleData>
+					<SimpleData name="lat">-16.4234</SimpleData>
+					<SimpleData name="long">-71.4881</SimpleData>
+					<SimpleData name="y_proj">-1.94456e+09</SimpleData>
+					<SimpleData name="x_proj">2.84347e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48812299999999,-16.42342400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_017</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Colegio Paulo VI Circa</SimpleData>
+					<SimpleData name="code_point">CL18_PP_017</SimpleData>
+					<SimpleData name="lat">-16.4219</SimpleData>
+					<SimpleData name="long">-71.4879</SimpleData>
+					<SimpleData name="y_proj">-1.94439e+09</SimpleData>
+					<SimpleData name="x_proj">2.84351e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.487936,-16.42193499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_018</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Complejo Usos Multiples Israel</SimpleData>
+					<SimpleData name="code_point">CL18_PP_018</SimpleData>
+					<SimpleData name="lat">-16.4207</SimpleData>
+					<SimpleData name="long">-71.4886</SimpleData>
+					<SimpleData name="y_proj">-1.94423e+09</SimpleData>
+					<SimpleData name="x_proj">2.84345e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48862200000001,-16.420672,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_019</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_El_Penhon</SimpleData>
+					<SimpleData name="code_point">CL18_PP_019</SimpleData>
+					<SimpleData name="lat">-16.4214</SimpleData>
+					<SimpleData name="long">-71.4902</SimpleData>
+					<SimpleData name="y_proj">-1.9443e+09</SimpleData>
+					<SimpleData name="x_proj">2.84326e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.490151,-16.42138199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_020</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Av. Jesus Con 1 De Abril</SimpleData>
+					<SimpleData name="code_point">CL18_PP_020</SimpleData>
+					<SimpleData name="lat">-16.4214</SimpleData>
+					<SimpleData name="long">-71.4911</SimpleData>
+					<SimpleData name="y_proj">-1.94429e+09</SimpleData>
+					<SimpleData name="x_proj">2.84316e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.491083,-16.42141900000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_021</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva Luz Y Alegria Parte Alta</SimpleData>
+					<SimpleData name="code_point">CL18_PP_021</SimpleData>
+					<SimpleData name="lat">-16.4211</SimpleData>
+					<SimpleData name="long">-71.4927</SimpleData>
+					<SimpleData name="y_proj">-1.94423e+09</SimpleData>
+					<SimpleData name="x_proj">2.84298e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49268000000001,-16.42110199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_022</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Parque Comite 5</SimpleData>
+					<SimpleData name="code_point">CL18_PP_022</SimpleData>
+					<SimpleData name="lat">-16.4199</SimpleData>
+					<SimpleData name="long">-71.4924</SimpleData>
+					<SimpleData name="y_proj">-1.94409e+09</SimpleData>
+					<SimpleData name="x_proj">2.84302e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49244899999999,-16.41990400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_023</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Iglesia_Evangelica_Los_Santos</SimpleData>
+					<SimpleData name="code_point">CL18_PP_023</SimpleData>
+					<SimpleData name="lat">-16.4196</SimpleData>
+					<SimpleData name="long">-71.4933</SimpleData>
+					<SimpleData name="y_proj">-1.94404e+09</SimpleData>
+					<SimpleData name="x_proj">2.84294e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49325899999998,-16.41955400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_024</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Parque_El_Monolito</SimpleData>
+					<SimpleData name="code_point">CL18_PP_024</SimpleData>
+					<SimpleData name="lat">-16.4191</SimpleData>
+					<SimpleData name="long">-71.4941</SimpleData>
+					<SimpleData name="y_proj">-1.94398e+09</SimpleData>
+					<SimpleData name="x_proj">2.84284e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49412599999999,-16.41911400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_025</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Mercado Micaela Bastidas</SimpleData>
+					<SimpleData name="code_point">CL18_PP_025</SimpleData>
+					<SimpleData name="lat">-16.4174</SimpleData>
+					<SimpleData name="long">-71.4933</SimpleData>
+					<SimpleData name="y_proj">-1.94379e+09</SimpleData>
+					<SimpleData name="x_proj">2.84296e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.493325,-16.41740899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_026</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Av. Che Guevara Con Universidad</SimpleData>
+					<SimpleData name="code_point">CL18_PP_026</SimpleData>
+					<SimpleData name="lat">-16.419</SimpleData>
+					<SimpleData name="long">-71.4918</SimpleData>
+					<SimpleData name="y_proj">-1.94399e+09</SimpleData>
+					<SimpleData name="x_proj">2.84311e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.491801,-16.41896299999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_027</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Reservorio_Ciudad_Blanca</SimpleData>
+					<SimpleData name="code_point">CL18_PP_027</SimpleData>
+					<SimpleData name="lat">-16.4196</SimpleData>
+					<SimpleData name="long">-71.491</SimpleData>
+					<SimpleData name="y_proj">-1.94408e+06</SimpleData>
+					<SimpleData name="x_proj">2.84319e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49104,-16.419636,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_028</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Parque_Ciudad_Blanca</SimpleData>
+					<SimpleData name="code_point">CL18_PP_028</SimpleData>
+					<SimpleData name="lat">-16.4185</SimpleData>
+					<SimpleData name="long">-71.4909</SimpleData>
+					<SimpleData name="y_proj">-1.94395e+09</SimpleData>
+					<SimpleData name="x_proj">2.84322e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49091300000001,-16.41849400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_029</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Comisaria_Ciudad_Blanca</SimpleData>
+					<SimpleData name="code_point">CL18_PP_029</SimpleData>
+					<SimpleData name="lat">-16.4177</SimpleData>
+					<SimpleData name="long">-71.4917</SimpleData>
+					<SimpleData name="y_proj">-1.94384e+09</SimpleData>
+					<SimpleData name="x_proj">2.84314e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.491659,-16.417708,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_030</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Complejo Deportivo Zona A</SimpleData>
+					<SimpleData name="code_point">CL18_PP_030</SimpleData>
+					<SimpleData name="lat">-16.4183</SimpleData>
+					<SimpleData name="long">-71.4898</SimpleData>
+					<SimpleData name="y_proj">-1.94394e+09</SimpleData>
+					<SimpleData name="x_proj">2.84335e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48975200000001,-16.418283,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_031</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Ciudad_Blanca</SimpleData>
+					<SimpleData name="code_point">CL18_PP_031</SimpleData>
+					<SimpleData name="lat">-16.4174</SimpleData>
+					<SimpleData name="long">-71.4892</SimpleData>
+					<SimpleData name="y_proj">-1.94383e+09</SimpleData>
+					<SimpleData name="x_proj">2.84343e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.489193,-16.417351,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_032</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Av. Tupac Amaru Con Proletario</SimpleData>
+					<SimpleData name="code_point">CL18_PP_032</SimpleData>
+					<SimpleData name="lat">-16.4161</SimpleData>
+					<SimpleData name="long">-71.4913</SimpleData>
+					<SimpleData name="y_proj">-1.94366e+09</SimpleData>
+					<SimpleData name="x_proj">2.8432e+06</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49129599999999,-16.41610600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_033</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Ciudad_Blanca_Iii</SimpleData>
+					<SimpleData name="code_point">CL18_PP_033</SimpleData>
+					<SimpleData name="lat">-16.4161</SimpleData>
+					<SimpleData name="long">-71.4895</SimpleData>
+					<SimpleData name="y_proj">-1.94368e+09</SimpleData>
+					<SimpleData name="x_proj">2.8434e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.489531,-16.41608400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_034</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Parque Comite 10</SimpleData>
+					<SimpleData name="code_point">CL18_PP_034</SimpleData>
+					<SimpleData name="lat">-16.4154</SimpleData>
+					<SimpleData name="long">-71.4894</SimpleData>
+					<SimpleData name="y_proj">-1.9436e+09</SimpleData>
+					<SimpleData name="x_proj">2.84342e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48944400000001,-16.41539599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_035</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">IEI_Nuestra_Senhora_De_La_Solidaridad</SimpleData>
+					<SimpleData name="code_point">CL18_PP_035</SimpleData>
+					<SimpleData name="lat">-16.4141</SimpleData>
+					<SimpleData name="long">-71.4892</SimpleData>
+					<SimpleData name="y_proj">-1.94345e+09</SimpleData>
+					<SimpleData name="x_proj">2.84346e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48922699999999,-16.4141,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_036</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Av. Virgen De Chapi Con Calle Olaya (Gradas)</SimpleData>
+					<SimpleData name="code_point">CL18_PP_036</SimpleData>
+					<SimpleData name="lat">-16.414</SimpleData>
+					<SimpleData name="long">-71.4874</SimpleData>
+					<SimpleData name="y_proj">-1.94346e+09</SimpleData>
+					<SimpleData name="x_proj">2.84367e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48742300000001,-16.41401999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_037</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Mercado Santa Rosa</SimpleData>
+					<SimpleData name="code_point">CL18_PP_037</SimpleData>
+					<SimpleData name="lat">-16.4157</SimpleData>
+					<SimpleData name="long">-71.4873</SimpleData>
+					<SimpleData name="y_proj">-1.94366e+09</SimpleData>
+					<SimpleData name="x_proj">2.84366e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.487314,-16.41571,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_038</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Colegio_Jose_Maria_Arguedas</SimpleData>
+					<SimpleData name="code_point">CL18_PP_038</SimpleData>
+					<SimpleData name="lat">-16.4159</SimpleData>
+					<SimpleData name="long">-71.4862</SimpleData>
+					<SimpleData name="y_proj">-1.9437e+09</SimpleData>
+					<SimpleData name="x_proj">2.84379e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.486175,-16.41587100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_039</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Av. Villa Olimpica Con Av. Coronel Gamarra</SimpleData>
+					<SimpleData name="code_point">CL18_PP_039</SimpleData>
+					<SimpleData name="lat">-16.4156</SimpleData>
+					<SimpleData name="long">-71.4851</SimpleData>
+					<SimpleData name="y_proj">-1.94369e+09</SimpleData>
+					<SimpleData name="x_proj">2.84392e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.485058,-16.415647,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_040</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Ciudad_Blanca_III</SimpleData>
+					<SimpleData name="code_point">CL18_PP_040</SimpleData>
+					<SimpleData name="lat">-16.4159</SimpleData>
+					<SimpleData name="long">-71.4842</SimpleData>
+					<SimpleData name="y_proj">-1.94372e+09</SimpleData>
+					<SimpleData name="x_proj">2.84402e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.484162,-16.41586300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_041</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Parque_Infantil_3</SimpleData>
+					<SimpleData name="code_point">CL18_PP_041</SimpleData>
+					<SimpleData name="lat">-16.4171</SimpleData>
+					<SimpleData name="long">-71.4846</SimpleData>
+					<SimpleData name="y_proj">-1.94386e+09</SimpleData>
+					<SimpleData name="x_proj">2.84395e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48459499999998,-16.417114,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_042</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Mercado Israel 2</SimpleData>
+					<SimpleData name="code_point">CL18_PP_042</SimpleData>
+					<SimpleData name="lat">-16.4195</SimpleData>
+					<SimpleData name="long">-71.4871</SimpleData>
+					<SimpleData name="y_proj">-1.94411e+09</SimpleData>
+					<SimpleData name="x_proj">2.84364e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48706199999999,-16.419489,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_043</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Local Social PedrO Vilcapaza</SimpleData>
+					<SimpleData name="code_point">CL18_PP_043</SimpleData>
+					<SimpleData name="lat">-16.4214</SimpleData>
+					<SimpleData name="long">-71.486</SimpleData>
+					<SimpleData name="y_proj">-1.94435e+09</SimpleData>
+					<SimpleData name="x_proj">2.84373e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48602,-16.421434,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_044</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Estadio_Israel</SimpleData>
+					<SimpleData name="code_point">CL18_PP_044</SimpleData>
+					<SimpleData name="lat">-16.4205</SimpleData>
+					<SimpleData name="long">-71.4855</SimpleData>
+					<SimpleData name="y_proj">-1.94425e+09</SimpleData>
+					<SimpleData name="x_proj">2.8438e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.485506,-16.42045500000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_045</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Comisaria_Israel</SimpleData>
+					<SimpleData name="code_point">CL18_PP_045</SimpleData>
+					<SimpleData name="lat">-16.4191</SimpleData>
+					<SimpleData name="long">-71.4851</SimpleData>
+					<SimpleData name="y_proj">-1.94409e+09</SimpleData>
+					<SimpleData name="x_proj">2.84387e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48511399999998,-16.41905800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_046</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Mercado Belen</SimpleData>
+					<SimpleData name="code_point">CL18_PP_046</SimpleData>
+					<SimpleData name="lat">-16.4183</SimpleData>
+					<SimpleData name="long">-71.4842</SimpleData>
+					<SimpleData name="y_proj">-1.94401e+09</SimpleData>
+					<SimpleData name="x_proj">2.84398e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48417499999999,-16.41833099999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_047</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Complejo_Deportivo_Del_Comite_11</SimpleData>
+					<SimpleData name="code_point">CL18_PP_047</SimpleData>
+					<SimpleData name="lat">-16.4186</SimpleData>
+					<SimpleData name="long">-71.4833</SimpleData>
+					<SimpleData name="y_proj">-1.94406e+09</SimpleData>
+					<SimpleData name="x_proj">2.84407e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48333,-16.41862100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_048</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Nido Comite 12</SimpleData>
+					<SimpleData name="code_point">CL18_PP_048</SimpleData>
+					<SimpleData name="lat">-16.4185</SimpleData>
+					<SimpleData name="long">-71.483</SimpleData>
+					<SimpleData name="y_proj">-1.94404e+09</SimpleData>
+					<SimpleData name="x_proj">2.84412e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48294999999999,-16.418454,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_049</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Parque_Adan_Y_Eva</SimpleData>
+					<SimpleData name="code_point">CL18_PP_049</SimpleData>
+					<SimpleData name="lat">-16.4172</SimpleData>
+					<SimpleData name="long">-71.4833</SimpleData>
+					<SimpleData name="y_proj">-1.94389e+09</SimpleData>
+					<SimpleData name="x_proj">2.8441e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.483284,-16.41721200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_050</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Parque Comite 10</SimpleData>
+					<SimpleData name="code_point">CL18_PP_050</SimpleData>
+					<SimpleData name="lat">-16.417</SimpleData>
+					<SimpleData name="long">-71.482</SimpleData>
+					<SimpleData name="y_proj">-1.94388e+09</SimpleData>
+					<SimpleData name="x_proj">2.84424e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.482015,-16.41701,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_051</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Monumento_Inca</SimpleData>
+					<SimpleData name="code_point">CL18_PP_051</SimpleData>
+					<SimpleData name="lat">-16.4161</SimpleData>
+					<SimpleData name="long">-71.4822</SimpleData>
+					<SimpleData name="y_proj">-1.94377e+09</SimpleData>
+					<SimpleData name="x_proj">2.84423e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48224999999999,-16.41605799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_052</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Mercado_Inmaculada_Concepcion</SimpleData>
+					<SimpleData name="code_point">CL18_PP_052</SimpleData>
+					<SimpleData name="lat">-16.4158</SimpleData>
+					<SimpleData name="long">-71.4826</SimpleData>
+					<SimpleData name="y_proj">-1.94373e+09</SimpleData>
+					<SimpleData name="x_proj">2.84419e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48262200000002,-16.415776,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_053</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Av Progreso Con 24 De Junio Estadio Zona B</SimpleData>
+					<SimpleData name="code_point">CL18_PP_053</SimpleData>
+					<SimpleData name="lat">-16.4142</SimpleData>
+					<SimpleData name="long">-71.4847</SimpleData>
+					<SimpleData name="y_proj">-1.94352e+09</SimpleData>
+					<SimpleData name="x_proj">2.84398e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48466500000001,-16.41422399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_054</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Cancha Jose Maria Arguedas</SimpleData>
+					<SimpleData name="code_point">CL18_PP_054</SimpleData>
+					<SimpleData name="lat">-16.413</SimpleData>
+					<SimpleData name="long">-71.4857</SimpleData>
+					<SimpleData name="y_proj">-1.94336e+09</SimpleData>
+					<SimpleData name="x_proj">2.84388e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.485688,-16.41296499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_055</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Colegio_Sorana</SimpleData>
+					<SimpleData name="code_point">CL18_PP_055</SimpleData>
+					<SimpleData name="lat">-16.414</SimpleData>
+					<SimpleData name="long">-71.4827</SimpleData>
+					<SimpleData name="y_proj">-1.94352e+09</SimpleData>
+					<SimpleData name="x_proj">2.84421e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48270100000002,-16.414008,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_056</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Cancha Contisuyo</SimpleData>
+					<SimpleData name="code_point">CL18_PP_056</SimpleData>
+					<SimpleData name="lat">-16.4127</SimpleData>
+					<SimpleData name="long">-71.4822</SimpleData>
+					<SimpleData name="y_proj">-1.94338e+09</SimpleData>
+					<SimpleData name="x_proj">2.84428e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.482203,-16.41271800000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_057</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Centro De Salud San Juan</SimpleData>
+					<SimpleData name="code_point">CL18_PP_057</SimpleData>
+					<SimpleData name="lat">-16.414</SimpleData>
+					<SimpleData name="long">-71.482</SimpleData>
+					<SimpleData name="y_proj">-1.94353e+06</SimpleData>
+					<SimpleData name="x_proj">2.84428e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48201400000001,-16.41401999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_058</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Ciudad_Blanca_C</SimpleData>
+					<SimpleData name="code_point">CL18_PP_058</SimpleData>
+					<SimpleData name="lat">-16.4135</SimpleData>
+					<SimpleData name="long">-71.481</SimpleData>
+					<SimpleData name="y_proj">-1.94348e+09</SimpleData>
+					<SimpleData name="x_proj">2.8444e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.481049,-16.41350399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_059</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Comite 23</SimpleData>
+					<SimpleData name="code_point">CL18_PP_059</SimpleData>
+					<SimpleData name="lat">-16.4133</SimpleData>
+					<SimpleData name="long">-71.4801</SimpleData>
+					<SimpleData name="y_proj">-1.94347e+09</SimpleData>
+					<SimpleData name="x_proj">2.84451e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.480068,-16.41331199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_060</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Cancha Comite 24</SimpleData>
+					<SimpleData name="code_point">CL18_PP_060</SimpleData>
+					<SimpleData name="lat">-16.4152</SimpleData>
+					<SimpleData name="long">-71.4784</SimpleData>
+					<SimpleData name="y_proj">-1.94372e+09</SimpleData>
+					<SimpleData name="x_proj">2.84467e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47844399999998,-16.41518300000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_061</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Colegio_Maria_Auxiliadora</SimpleData>
+					<SimpleData name="code_point">CL18_PP_061</SimpleData>
+					<SimpleData name="lat">-16.4154</SimpleData>
+					<SimpleData name="long">-71.4792</SimpleData>
+					<SimpleData name="y_proj">-1.94374e+09</SimpleData>
+					<SimpleData name="x_proj">2.84459e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47917900000002,-16.415448,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_062</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Parque El Inca</SimpleData>
+					<SimpleData name="code_point">CL18_PP_062</SimpleData>
+					<SimpleData name="lat">-16.4163</SimpleData>
+					<SimpleData name="long">-71.4813</SimpleData>
+					<SimpleData name="y_proj">-1.94381e+09</SimpleData>
+					<SimpleData name="x_proj">2.84433e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48132200000001,-16.41630499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_063</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Parque_Ciudad_Blanca_C</SimpleData>
+					<SimpleData name="code_point">CL18_PP_063</SimpleData>
+					<SimpleData name="lat">-16.4164</SimpleData>
+					<SimpleData name="long">-71.479</SimpleData>
+					<SimpleData name="y_proj">-1.94385e+09</SimpleData>
+					<SimpleData name="x_proj">2.8446e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47898000000001,-16.416358,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_064</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Nicaragua</SimpleData>
+					<SimpleData name="code_point">CL18_PP_064</SimpleData>
+					<SimpleData name="lat">-16.4171</SimpleData>
+					<SimpleData name="long">-71.4795</SimpleData>
+					<SimpleData name="y_proj">-1.94393e+09</SimpleData>
+					<SimpleData name="x_proj">2.84453e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.479471,-16.41714899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_065</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Cerrito Verde</SimpleData>
+					<SimpleData name="code_point">CL18_PP_065</SimpleData>
+					<SimpleData name="lat">-16.4161</SimpleData>
+					<SimpleData name="long">-71.4764</SimpleData>
+					<SimpleData name="y_proj">-1.94385e+09</SimpleData>
+					<SimpleData name="x_proj">2.84489e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.476444,-16.41611,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_066</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Iglesia_De_Dios</SimpleData>
+					<SimpleData name="code_point">CL18_PP_066</SimpleData>
+					<SimpleData name="lat">-16.4128</SimpleData>
+					<SimpleData name="long">-71.4774</SimpleData>
+					<SimpleData name="y_proj">-1.94345e+09</SimpleData>
+					<SimpleData name="x_proj">2.84483e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47736199999999,-16.41277500000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_067</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">La Pasada De Cristo Parte Baja</SimpleData>
+					<SimpleData name="code_point">CL18_PP_067</SimpleData>
+					<SimpleData name="lat">-16.4121</SimpleData>
+					<SimpleData name="long">-71.4764</SimpleData>
+					<SimpleData name="y_proj">-1.94338e+09</SimpleData>
+					<SimpleData name="x_proj">2.84495e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47638399999998,-16.41210000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_068</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">La Posada De Cristo Parte Alta</SimpleData>
+					<SimpleData name="code_point">CL18_PP_068</SimpleData>
+					<SimpleData name="lat">-16.4118</SimpleData>
+					<SimpleData name="long">-71.4753</SimpleData>
+					<SimpleData name="y_proj">-1.94335e+09</SimpleData>
+					<SimpleData name="x_proj">2.84507e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47532200000001,-16.41175100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_069</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Senhor_De_Los_Milagros_2</SimpleData>
+					<SimpleData name="code_point">CL18_PP_069</SimpleData>
+					<SimpleData name="lat">-16.4135</SimpleData>
+					<SimpleData name="long">-71.4734</SimpleData>
+					<SimpleData name="y_proj">-1.94358e+09</SimpleData>
+					<SimpleData name="x_proj">2.84527e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.473401,-16.41352699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_070</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Complejo -Deportivo Sr. De Los Milagros</SimpleData>
+					<SimpleData name="code_point">CL18_PP_070</SimpleData>
+					<SimpleData name="lat">-16.4142</SimpleData>
+					<SimpleData name="long">-71.4726</SimpleData>
+					<SimpleData name="y_proj">-1.94368e+09</SimpleData>
+					<SimpleData name="x_proj">2.84534e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47263,-16.414222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_071</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Terminal_De_Combis</SimpleData>
+					<SimpleData name="code_point">CL18_PP_071</SimpleData>
+					<SimpleData name="lat">-16.4137</SimpleData>
+					<SimpleData name="long">-71.4706</SimpleData>
+					<SimpleData name="y_proj">-1.94364e+09</SimpleData>
+					<SimpleData name="x_proj">2.84558e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.470595,-16.41368900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_072</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Colegio_Gral_Velasco_Alvarado</SimpleData>
+					<SimpleData name="code_point">CL18_PP_072</SimpleData>
+					<SimpleData name="lat">-16.4122</SimpleData>
+					<SimpleData name="long">-71.4682</SimpleData>
+					<SimpleData name="y_proj">-1.94349e+09</SimpleData>
+					<SimpleData name="x_proj">2.84587e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.468209,-16.41218800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_073</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Centro_Poblacional_Los_Portales</SimpleData>
+					<SimpleData name="code_point">CL18_PP_073</SimpleData>
+					<SimpleData name="lat">-16.4126</SimpleData>
+					<SimpleData name="long">-71.4674</SimpleData>
+					<SimpleData name="y_proj">-1.94355e+09</SimpleData>
+					<SimpleData name="x_proj">2.84596e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.46738600000002,-16.412625,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_074</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Los_Portales</SimpleData>
+					<SimpleData name="code_point">CL18_PP_074</SimpleData>
+					<SimpleData name="lat">-16.4125</SimpleData>
+					<SimpleData name="long">-71.4659</SimpleData>
+					<SimpleData name="y_proj">-1.94356e+06</SimpleData>
+					<SimpleData name="x_proj">2.84613e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.46590999999999,-16.412534,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_075</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Cancha_Los_Portales_De_Chiguata</SimpleData>
+					<SimpleData name="code_point">CL18_PP_075</SimpleData>
+					<SimpleData name="lat">-16.4183</SimpleData>
+					<SimpleData name="long">-71.4587</SimpleData>
+					<SimpleData name="y_proj">-1.94434e+09</SimpleData>
+					<SimpleData name="x_proj">2.84687e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.45867899999999,-16.418333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_076</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Mercado_Los_Portales</SimpleData>
+					<SimpleData name="code_point">CL18_PP_076</SimpleData>
+					<SimpleData name="lat">-16.414</SimpleData>
+					<SimpleData name="long">-71.4679</SimpleData>
+					<SimpleData name="y_proj">-1.9437e+09</SimpleData>
+					<SimpleData name="x_proj">2.84588e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.467916,-16.413958,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_077</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_3_De_Mayo</SimpleData>
+					<SimpleData name="code_point">CL18_PP_077</SimpleData>
+					<SimpleData name="lat">-16.4149</SimpleData>
+					<SimpleData name="long">-71.4705</SimpleData>
+					<SimpleData name="y_proj">-1.94378e+09</SimpleData>
+					<SimpleData name="x_proj">2.84558e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47048099999999,-16.41485,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_078</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Colegio_Millenium_School_Los_Portales</SimpleData>
+					<SimpleData name="code_point">CL18_PP_078</SimpleData>
+					<SimpleData name="lat">-16.4157</SimpleData>
+					<SimpleData name="long">-71.4699</SimpleData>
+					<SimpleData name="y_proj">-1.94389e+09</SimpleData>
+					<SimpleData name="x_proj">2.84564e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.46987300000001,-16.41571099999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_079</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Sr. De Los Milagros-Parte Baja</SimpleData>
+					<SimpleData name="code_point">CL18_PP_079</SimpleData>
+					<SimpleData name="lat">-16.4161</SimpleData>
+					<SimpleData name="long">-71.4712</SimpleData>
+					<SimpleData name="y_proj">-1.94391e+09</SimpleData>
+					<SimpleData name="x_proj">2.84548e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47123999999999,-16.41609,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_080</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Entrada Sr. De Los Milagros</SimpleData>
+					<SimpleData name="code_point">CL18_PP_080</SimpleData>
+					<SimpleData name="lat">-16.4157</SimpleData>
+					<SimpleData name="long">-71.4741</SimpleData>
+					<SimpleData name="y_proj">-1.94383e+09</SimpleData>
+					<SimpleData name="x_proj">2.84516e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.474118,-16.41567599999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_081</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Terminal_De_Buses</SimpleData>
+					<SimpleData name="code_point">CL18_PP_081</SimpleData>
+					<SimpleData name="lat">-16.4165</SimpleData>
+					<SimpleData name="long">-71.4738</SimpleData>
+					<SimpleData name="y_proj">-1.94393e+06</SimpleData>
+					<SimpleData name="x_proj">2.84519e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47376,-16.41653500000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_082</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">26 De Julio</SimpleData>
+					<SimpleData name="code_point">CL18_PP_082</SimpleData>
+					<SimpleData name="lat">-16.4167</SimpleData>
+					<SimpleData name="long">-71.475</SimpleData>
+					<SimpleData name="y_proj">-1.94394e+06</SimpleData>
+					<SimpleData name="x_proj">2.84504e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.475039,-16.416722,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_083</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">IE_Virgen_Del_Carmen</SimpleData>
+					<SimpleData name="code_point">CL18_PP_083</SimpleData>
+					<SimpleData name="lat">-16.4176</SimpleData>
+					<SimpleData name="long">-71.4721</SimpleData>
+					<SimpleData name="y_proj">-1.94408e+06</SimpleData>
+					<SimpleData name="x_proj">2.84536e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47214,-16.41759200000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_084</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Ladrilleria_Corazon_De_Jesus</SimpleData>
+					<SimpleData name="code_point">CL18_PP_084</SimpleData>
+					<SimpleData name="lat">-16.4181</SimpleData>
+					<SimpleData name="long">-71.4697</SimpleData>
+					<SimpleData name="y_proj">-1.94416e+09</SimpleData>
+					<SimpleData name="x_proj">2.84562e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.469725,-16.41805199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_085</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Corazon De Jesus</SimpleData>
+					<SimpleData name="code_point">CL18_PP_085</SimpleData>
+					<SimpleData name="lat">-16.418</SimpleData>
+					<SimpleData name="long">-71.4708</SimpleData>
+					<SimpleData name="y_proj">-1.94414e+09</SimpleData>
+					<SimpleData name="x_proj">2.8455e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47082400000001,-16.41798199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_086</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Cancha Deportiva El Carmen</SimpleData>
+					<SimpleData name="code_point">CL18_PP_086</SimpleData>
+					<SimpleData name="lat">-16.4181</SimpleData>
+					<SimpleData name="long">-71.4726</SimpleData>
+					<SimpleData name="y_proj">-1.94413e+09</SimpleData>
+					<SimpleData name="x_proj">2.8453e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.472622,-16.41806099999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_087</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Cancha Deportiva Villa Jesus</SimpleData>
+					<SimpleData name="code_point">CL18_PP_087</SimpleData>
+					<SimpleData name="lat">-16.4182</SimpleData>
+					<SimpleData name="long">-71.4741</SimpleData>
+					<SimpleData name="y_proj">-1.94412e+09</SimpleData>
+					<SimpleData name="x_proj">2.84512e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47411200000001,-16.418197,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_088</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_El_Porvenir</SimpleData>
+					<SimpleData name="code_point">CL18_PP_088</SimpleData>
+					<SimpleData name="lat">-16.4179</SimpleData>
+					<SimpleData name="long">-71.4761</SimpleData>
+					<SimpleData name="y_proj">-1.94407e+09</SimpleData>
+					<SimpleData name="x_proj">2.8449e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.476119,-16.41792000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_089</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Cancha_Sintetica</SimpleData>
+					<SimpleData name="code_point">CL18_PP_089</SimpleData>
+					<SimpleData name="lat">-16.4185</SimpleData>
+					<SimpleData name="long">-71.4747</SimpleData>
+					<SimpleData name="y_proj">-1.94415e+09</SimpleData>
+					<SimpleData name="x_proj">2.84505e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47474500000001,-16.41850999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_090</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Balnearios_De_Jesus</SimpleData>
+					<SimpleData name="code_point">CL18_PP_090</SimpleData>
+					<SimpleData name="lat">-16.42</SimpleData>
+					<SimpleData name="long">-71.4741</SimpleData>
+					<SimpleData name="y_proj">-1.94434e+09</SimpleData>
+					<SimpleData name="x_proj">2.8451e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47412,-16.420042,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_091</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Balneario_De_Jesus</SimpleData>
+					<SimpleData name="code_point">CL18_PP_091</SimpleData>
+					<SimpleData name="lat">-16.4194</SimpleData>
+					<SimpleData name="long">-71.4724</SimpleData>
+					<SimpleData name="y_proj">-1.94429e+09</SimpleData>
+					<SimpleData name="x_proj">2.8453e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.472427,-16.419424,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_092</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Cancha Mirador De Jesus</SimpleData>
+					<SimpleData name="code_point">CL18_PP_092</SimpleData>
+					<SimpleData name="lat">-16.4204</SimpleData>
+					<SimpleData name="long">-71.4705</SimpleData>
+					<SimpleData name="y_proj">-1.94442e+09</SimpleData>
+					<SimpleData name="x_proj">2.8455e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.470518,-16.420371,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_093</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Parque Rosales De Chiguata</SimpleData>
+					<SimpleData name="code_point">CL18_PP_093</SimpleData>
+					<SimpleData name="lat">-16.4219</SimpleData>
+					<SimpleData name="long">-71.4665</SimpleData>
+					<SimpleData name="y_proj">-1.94466e+06</SimpleData>
+					<SimpleData name="x_proj">2.84594e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.46648500000001,-16.421918,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_094</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Los_Rosales</SimpleData>
+					<SimpleData name="code_point">CL18_PP_094</SimpleData>
+					<SimpleData name="lat">-16.4236</SimpleData>
+					<SimpleData name="long">-71.4644</SimpleData>
+					<SimpleData name="y_proj">-1.94488e+06</SimpleData>
+					<SimpleData name="x_proj">2.84616e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.464366,-16.42358399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_095</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Virgen De Chapi</SimpleData>
+					<SimpleData name="code_point">CL18_PP_095</SimpleData>
+					<SimpleData name="lat">-16.4244</SimpleData>
+					<SimpleData name="long">-71.4651</SimpleData>
+					<SimpleData name="y_proj">-1.94497e+09</SimpleData>
+					<SimpleData name="x_proj">2.84607e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.46507500000001,-16.42440899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_096</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Los_Rosales_2</SimpleData>
+					<SimpleData name="code_point">CL18_PP_096</SimpleData>
+					<SimpleData name="lat">-16.4252</SimpleData>
+					<SimpleData name="long">-71.466</SimpleData>
+					<SimpleData name="y_proj">-1.94505e+09</SimpleData>
+					<SimpleData name="x_proj">2.84595e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.46603100000002,-16.42523299999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_097</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Reservorio_Santa_Rosa</SimpleData>
+					<SimpleData name="code_point">CL18_PP_097</SimpleData>
+					<SimpleData name="lat">-16.4244</SimpleData>
+					<SimpleData name="long">-71.4683</SimpleData>
+					<SimpleData name="y_proj">-1.94493e+06</SimpleData>
+					<SimpleData name="x_proj">2.84571e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.468262,-16.42440300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_098</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Santa_Rosa</SimpleData>
+					<SimpleData name="code_point">CL18_PP_098</SimpleData>
+					<SimpleData name="lat">-16.4249</SimpleData>
+					<SimpleData name="long">-71.4691</SimpleData>
+					<SimpleData name="y_proj">-1.94498e+06</SimpleData>
+					<SimpleData name="x_proj">2.84561e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.46907899999998,-16.42494999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_099</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Estadio_Santa_Rosa</SimpleData>
+					<SimpleData name="code_point">CL18_PP_099</SimpleData>
+					<SimpleData name="lat">-16.423</SimpleData>
+					<SimpleData name="long">-71.4688</SimpleData>
+					<SimpleData name="y_proj">-1.94476e+09</SimpleData>
+					<SimpleData name="x_proj">2.84566e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.468847,-16.42302400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_100</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Colegio Santa Rosa</SimpleData>
+					<SimpleData name="code_point">CL18_PP_100</SimpleData>
+					<SimpleData name="lat">-16.4222</SimpleData>
+					<SimpleData name="long">-71.4689</SimpleData>
+					<SimpleData name="y_proj">-1.94466e+09</SimpleData>
+					<SimpleData name="x_proj">2.84567e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.46885499999999,-16.42215200000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_101</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Santa_Rosa_2</SimpleData>
+					<SimpleData name="code_point">CL18_PP_101</SimpleData>
+					<SimpleData name="lat">-16.4242</SimpleData>
+					<SimpleData name="long">-71.4711</SimpleData>
+					<SimpleData name="y_proj">-1.94487e+09</SimpleData>
+					<SimpleData name="x_proj">2.84539e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.471058,-16.42422500000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_102</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Cancha AA. HH. San Antonio</SimpleData>
+					<SimpleData name="code_point">CL18_PP_102</SimpleData>
+					<SimpleData name="lat">-16.4219</SimpleData>
+					<SimpleData name="long">-71.4724</SimpleData>
+					<SimpleData name="y_proj">-1.94458e+09</SimpleData>
+					<SimpleData name="x_proj">2.84527e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.472399,-16.42185699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_103</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Terminal_De_Transporte_Publico</SimpleData>
+					<SimpleData name="code_point">CL18_PP_103</SimpleData>
+					<SimpleData name="lat">-16.4224</SimpleData>
+					<SimpleData name="long">-71.4754</SimpleData>
+					<SimpleData name="y_proj">-1.9446e+09</SimpleData>
+					<SimpleData name="x_proj">2.84492e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.475388,-16.42238700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_104</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Virgen De Copacabana</SimpleData>
+					<SimpleData name="code_point">CL18_PP_104</SimpleData>
+					<SimpleData name="lat">-16.4212</SimpleData>
+					<SimpleData name="long">-71.4761</SimpleData>
+					<SimpleData name="y_proj">-1.94445e+09</SimpleData>
+					<SimpleData name="x_proj">2.84486e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.476069,-16.42120900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_105</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Cancha De Nazareno</SimpleData>
+					<SimpleData name="code_point">CL18_PP_105</SimpleData>
+					<SimpleData name="lat">-16.423</SimpleData>
+					<SimpleData name="long">-71.4777</SimpleData>
+					<SimpleData name="y_proj">-1.94464e+09</SimpleData>
+					<SimpleData name="x_proj">2.84465e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47771999999999,-16.42300499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_106</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">AA.HH. El Progreso</SimpleData>
+					<SimpleData name="code_point">CL18_PP_106</SimpleData>
+					<SimpleData name="lat">-16.4226</SimpleData>
+					<SimpleData name="long">-71.4816</SimpleData>
+					<SimpleData name="y_proj">-1.94454e+09</SimpleData>
+					<SimpleData name="x_proj">2.84422e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48160799999999,-16.42257000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_107</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Huacsapata</SimpleData>
+					<SimpleData name="code_point">CL18_PP_107</SimpleData>
+					<SimpleData name="lat">-16.4247</SimpleData>
+					<SimpleData name="long">-71.4798</SimpleData>
+					<SimpleData name="y_proj">-1.94481e+09</SimpleData>
+					<SimpleData name="x_proj">2.84439e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.479815,-16.42468099999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_108</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">AA.HH Cahualla Huacsapata</SimpleData>
+					<SimpleData name="code_point">CL18_PP_108</SimpleData>
+					<SimpleData name="lat">-16.4265</SimpleData>
+					<SimpleData name="long">-71.48</SimpleData>
+					<SimpleData name="y_proj">-1.94502e+09</SimpleData>
+					<SimpleData name="x_proj">2.84435e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.479963,-16.426465,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_109</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Comedor Rosaspata</SimpleData>
+					<SimpleData name="code_point">CL18_PP_109</SimpleData>
+					<SimpleData name="lat">-16.4271</SimpleData>
+					<SimpleData name="long">-71.4842</SimpleData>
+					<SimpleData name="y_proj">-1.94505e+09</SimpleData>
+					<SimpleData name="x_proj">2.84386e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48423000000001,-16.427128,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_110</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Estadio_Cahuaya_Rosaspata</SimpleData>
+					<SimpleData name="code_point">CL18_PP_110</SimpleData>
+					<SimpleData name="lat">-16.4278</SimpleData>
+					<SimpleData name="long">-71.4831</SimpleData>
+					<SimpleData name="y_proj">-1.94514e+09</SimpleData>
+					<SimpleData name="x_proj">2.84398e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.483071,-16.42784699999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_111</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Terminal Combis Huacsapata</SimpleData>
+					<SimpleData name="code_point">CL18_PP_111</SimpleData>
+					<SimpleData name="lat">-16.43</SimpleData>
+					<SimpleData name="long">-71.4818</SimpleData>
+					<SimpleData name="y_proj">-1.94541e+09</SimpleData>
+					<SimpleData name="x_proj">2.8441e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48179599999999,-16.429984,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_112</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Huacsapata 2</SimpleData>
+					<SimpleData name="code_point">CL18_PP_112</SimpleData>
+					<SimpleData name="lat">-16.4289</SimpleData>
+					<SimpleData name="long">-71.4803</SimpleData>
+					<SimpleData name="y_proj">-1.9453e+09</SimpleData>
+					<SimpleData name="x_proj">2.84428e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48033100000001,-16.42886300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_113</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Cementerio_El_Cebollar</SimpleData>
+					<SimpleData name="code_point">CL18_PP_113</SimpleData>
+					<SimpleData name="lat">-16.43</SimpleData>
+					<SimpleData name="long">-71.4787</SimpleData>
+					<SimpleData name="y_proj">-1.94545e+09</SimpleData>
+					<SimpleData name="x_proj">2.84445e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.478657,-16.429984,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_114</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_El_Cebollar</SimpleData>
+					<SimpleData name="code_point">CL18_PP_114</SimpleData>
+					<SimpleData name="lat">-16.428</SimpleData>
+					<SimpleData name="long">-71.4773</SimpleData>
+					<SimpleData name="y_proj">-1.94524e+09</SimpleData>
+					<SimpleData name="x_proj">2.84463e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47732600000001,-16.42802199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_115</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Esquina Macuchapi-El Cebollar</SimpleData>
+					<SimpleData name="code_point">CL18_PP_115</SimpleData>
+					<SimpleData name="lat">-16.4256</SimpleData>
+					<SimpleData name="long">-71.4758</SimpleData>
+					<SimpleData name="y_proj">-1.94497e+09</SimpleData>
+					<SimpleData name="x_proj">2.84483e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47581599999999,-16.425611,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_116</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Asoc_Pampa_El_Cebollar</SimpleData>
+					<SimpleData name="code_point">CL18_PP_116</SimpleData>
+					<SimpleData name="lat">-16.4266</SimpleData>
+					<SimpleData name="long">-71.473</SimpleData>
+					<SimpleData name="y_proj">-1.94513e+09</SimpleData>
+					<SimpleData name="x_proj">2.84514e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.473029,-16.42661799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_117</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Local Social El Cebollar</SimpleData>
+					<SimpleData name="code_point">CL18_PP_117</SimpleData>
+					<SimpleData name="lat">-16.4279</SimpleData>
+					<SimpleData name="long">-71.4725</SimpleData>
+					<SimpleData name="y_proj">-1.94528e+06</SimpleData>
+					<SimpleData name="x_proj">2.84518e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47253100000002,-16.42789,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_118</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Asoc_Casa_Huerta_Virgen_De_Chapi</SimpleData>
+					<SimpleData name="code_point">CL18_PP_118</SimpleData>
+					<SimpleData name="lat">-16.4314</SimpleData>
+					<SimpleData name="long">-71.4638</SimpleData>
+					<SimpleData name="y_proj">-1.9458e+09</SimpleData>
+					<SimpleData name="x_proj">2.84612e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.46379200000001,-16.43138400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_119</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Virgen_De_Chapi</SimpleData>
+					<SimpleData name="code_point">CL18_PP_119</SimpleData>
+					<SimpleData name="lat">-16.4346</SimpleData>
+					<SimpleData name="long">-71.4649</SimpleData>
+					<SimpleData name="y_proj">-1.94616e+06</SimpleData>
+					<SimpleData name="x_proj">2.84595e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.464904,-16.43457000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_120</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva La Pampa</SimpleData>
+					<SimpleData name="code_point">CL18_PP_120</SimpleData>
+					<SimpleData name="lat">-16.4116</SimpleData>
+					<SimpleData name="long">-71.4768</SimpleData>
+					<SimpleData name="y_proj">-1.94332e+09</SimpleData>
+					<SimpleData name="x_proj">2.84491e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.476795,-16.41162700000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_121</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva Huacsapata</SimpleData>
+					<SimpleData name="code_point">CL18_PP_121</SimpleData>
+					<SimpleData name="lat">-16.4294</SimpleData>
+					<SimpleData name="long">-71.481</SimpleData>
+					<SimpleData name="y_proj">-1.94535e+09</SimpleData>
+					<SimpleData name="x_proj">2.8442e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48095599999999,-16.429399,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_122</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva</SimpleData>
+					<SimpleData name="code_point">CL18_PP_122</SimpleData>
+					<SimpleData name="lat">-16.4155</SimpleData>
+					<SimpleData name="long">-71.4753</SimpleData>
+					<SimpleData name="y_proj">-1.94379e+09</SimpleData>
+					<SimpleData name="x_proj">2.84503e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47528299999999,-16.415512,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_123</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Complejo Turistico Mirador De Paucarpata</SimpleData>
+					<SimpleData name="code_point">CL18_PP_123</SimpleData>
+					<SimpleData name="lat">-16.4303</SimpleData>
+					<SimpleData name="long">-71.4832</SimpleData>
+					<SimpleData name="y_proj">-1.94543e+09</SimpleData>
+					<SimpleData name="x_proj">2.84393e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48322899999999,-16.43025900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_124</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Puesto De Salud Villa Jesus</SimpleData>
+					<SimpleData name="code_point">CL18_PP_124</SimpleData>
+					<SimpleData name="lat">-16.4182</SimpleData>
+					<SimpleData name="long">-71.4738</SimpleData>
+					<SimpleData name="y_proj">-1.94413e+09</SimpleData>
+					<SimpleData name="x_proj">2.84516e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47377781,-16.41820282,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_125</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Cancha Sintetica La Caleta</SimpleData>
+					<SimpleData name="code_point">CL18_PP_125</SimpleData>
+					<SimpleData name="lat">-16.4287</SimpleData>
+					<SimpleData name="long">-71.4768</SimpleData>
+					<SimpleData name="y_proj">-1.94532e+09</SimpleData>
+					<SimpleData name="x_proj">2.84469e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47677001,-16.42865637,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_126</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Mercado Nuevo Milenio</SimpleData>
+					<SimpleData name="code_point">CL18_PP_126</SimpleData>
+					<SimpleData name="lat">-16.4175</SimpleData>
+					<SimpleData name="long">-71.4734</SimpleData>
+					<SimpleData name="y_proj">-1.94405e+09</SimpleData>
+					<SimpleData name="x_proj">2.84521e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47342415999999,-16.41748032999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_127</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Iglesia De Alto Jesus</SimpleData>
+					<SimpleData name="code_point">CL18_PP_127</SimpleData>
+					<SimpleData name="lat">-16.4232</SimpleData>
+					<SimpleData name="long">-71.4941</SimpleData>
+					<SimpleData name="y_proj">-1.94445e+09</SimpleData>
+					<SimpleData name="x_proj">2.84279e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49411984,-16.42316776999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_128</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Centro De Salud Ciudad Blanca</SimpleData>
+					<SimpleData name="code_point">CL18_PP_128</SimpleData>
+					<SimpleData name="lat">-16.4174</SimpleData>
+					<SimpleData name="long">-71.491</SimpleData>
+					<SimpleData name="y_proj">-1.94381e+06</SimpleData>
+					<SimpleData name="x_proj">2.84321e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49104415000001,-16.41736699,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_129</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Cancha Julio C. Tello</SimpleData>
+					<SimpleData name="code_point">CL18_PP_129</SimpleData>
+					<SimpleData name="lat">-16.4171</SimpleData>
+					<SimpleData name="long">-71.4929</SimpleData>
+					<SimpleData name="y_proj">-1.94375e+09</SimpleData>
+					<SimpleData name="x_proj">2.84301e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49292124,-16.41706796,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_130</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Comedor Popular Virgen Del Pilar</SimpleData>
+					<SimpleData name="code_point">CL18_PP_130</SimpleData>
+					<SimpleData name="lat">-16.4198</SimpleData>
+					<SimpleData name="long">-71.4922</SimpleData>
+					<SimpleData name="y_proj">-1.94408e+09</SimpleData>
+					<SimpleData name="x_proj">2.84305e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49223795,-16.41980724999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_131</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Losa Deportiva Nicaragua</SimpleData>
+					<SimpleData name="code_point">CL18_PP_131</SimpleData>
+					<SimpleData name="lat">-16.4189</SimpleData>
+					<SimpleData name="long">-71.4811</SimpleData>
+					<SimpleData name="y_proj">-1.94411e+09</SimpleData>
+					<SimpleData name="x_proj">2.84432e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48112996,-16.41886264,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_132</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">I.E. Herores Del Pacifico</SimpleData>
+					<SimpleData name="code_point">CL18_PP_132</SimpleData>
+					<SimpleData name="lat">-16.4197</SimpleData>
+					<SimpleData name="long">-71.484</SimpleData>
+					<SimpleData name="y_proj">-1.94418e+09</SimpleData>
+					<SimpleData name="x_proj">2.84398e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48401402,-16.41973086000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL18_PP_133</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_18_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">15</SimpleData>
+					<SimpleData name="microred">CIUDAD BLANCA</SimpleData>
+					<SimpleData name="cluster">18</SimpleData>
+					<SimpleData name="point_name">Cancha Sintetica La Campinha</SimpleData>
+					<SimpleData name="code_point">CL18_PP_133</SimpleData>
+					<SimpleData name="lat">-16.4209</SimpleData>
+					<SimpleData name="long">-71.4786</SimpleData>
+					<SimpleData name="y_proj">-1.94438e+09</SimpleData>
+					<SimpleData name="x_proj">2.84458e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.47863283000001,-16.42085211,0</coordinates>
+			</Point>
+		</Placemark>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
+	</Folder>
+</Document>
+</kml>

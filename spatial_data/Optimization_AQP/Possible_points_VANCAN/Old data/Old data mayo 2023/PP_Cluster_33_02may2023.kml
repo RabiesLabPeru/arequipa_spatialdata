@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CL33_Pedregal_02may2023</name>
+	<Schema name="CL33_Pedregal" id="S_CL33_Pedregal_SSDDIISS">
+		<SimpleField type="string" name="code"><displayName>&lt;b&gt;code&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="point_name"><displayName>&lt;b&gt;point_name&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="lat"><displayName>&lt;b&gt;lat&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="long"><displayName>&lt;b&gt;long&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="y_proj"><displayName>&lt;b&gt;y_proj&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="x_proj"><displayName>&lt;b&gt;x_proj&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="type_point"><displayName>&lt;b&gt;type_point&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="estratategy"><displayName>&lt;b&gt;estratategy&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle31">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>code</b></td><td>$[CL33_Pedregal/code]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[CL33_Pedregal/point_name]</td></tr>
+  <tr><td><b>lat</b></td><td>$[CL33_Pedregal/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[CL33_Pedregal/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[CL33_Pedregal/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[CL33_Pedregal/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[CL33_Pedregal/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[CL33_Pedregal/estratategy]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle31">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>code</b></td><td>$[CL33_Pedregal/code]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[CL33_Pedregal/point_name]</td></tr>
+  <tr><td><b>lat</b></td><td>$[CL33_Pedregal/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[CL33_Pedregal/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[CL33_Pedregal/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[CL33_Pedregal/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[CL33_Pedregal/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[CL33_Pedregal/estratategy]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap31">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle31</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle31</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>CL33_PP_001</name>
+		<styleUrl>#pointStyleMap31</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL33_Pedregal_SSDDIISS">
+				<SimpleData name="code">CL33_PP_001</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_MODULO_D_II</SimpleData>
+				<SimpleData name="lat">-16.3239</SimpleData>
+				<SimpleData name="long">-72.1933</SimpleData>
+				<SimpleData name="y_proj">-1924169</SimpleData>
+				<SimpleData name="x_proj">2764903</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-72.19334589546034,-16.32388808967618,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL33_PP_002</name>
+		<styleUrl>#pointStyleMap31</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL33_Pedregal_SSDDIISS">
+				<SimpleData name="code">CL33_PP_002</SimpleData>
+				<SimpleData name="point_name">MODULE D (MOVIL)</SimpleData>
+				<SimpleData name="lat">-16.3207</SimpleData>
+				<SimpleData name="long">-72.1922</SimpleData>
+				<SimpleData name="y_proj">-1923811</SimpleData>
+				<SimpleData name="x_proj">2765067</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-72.19224541630808,-16.32071058766513,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL33_PP_003</name>
+		<styleUrl>#pointStyleMap31</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL33_Pedregal_SSDDIISS">
+				<SimpleData name="code">CL33_PP_003</SimpleData>
+				<SimpleData name="point_name">MODULO G</SimpleData>
+				<SimpleData name="lat">-16.3156</SimpleData>
+				<SimpleData name="long">-72.1908</SimpleData>
+				<SimpleData name="y_proj">-1923226</SimpleData>
+				<SimpleData name="x_proj">2765294</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-72.1908091,-16.3155697,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL33_PP_004</name>
+		<styleUrl>#pointStyleMap31</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL33_Pedregal_SSDDIISS">
+				<SimpleData name="code">CL33_PP_004</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_MODULO_G_III</SimpleData>
+				<SimpleData name="lat">-16.3121</SimpleData>
+				<SimpleData name="long">-72.1919</SimpleData>
+				<SimpleData name="y_proj">-1922812</SimpleData>
+				<SimpleData name="x_proj">2765211</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-72.19192342474051,-16.31214154293053,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL33_PP_005</name>
+		<styleUrl>#pointStyleMap31</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL33_Pedregal_SSDDIISS">
+				<SimpleData name="code">CL33_PP_005</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_MODULO_G_II</SimpleData>
+				<SimpleData name="lat">-16.3137</SimpleData>
+				<SimpleData name="long">-72.1865</SimpleData>
+				<SimpleData name="y_proj">-1923054</SimpleData>
+				<SimpleData name="x_proj">2765801</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-72.18653587027539,-16.31365214663719,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL33_PP_006</name>
+		<styleUrl>#pointStyleMap31</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL33_Pedregal_SSDDIISS">
+				<SimpleData name="code">CL33_PP_006</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_CIUDAD_MAJES</SimpleData>
+				<SimpleData name="lat">-16.3158</SimpleData>
+				<SimpleData name="long">-72.1781</SimpleData>
+				<SimpleData name="y_proj">-1923410</SimpleData>
+				<SimpleData name="x_proj">2766731</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-72.17806353833961,-16.31582667521079,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL33_PP_007</name>
+		<styleUrl>#pointStyleMap31</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL33_Pedregal_SSDDIISS">
+				<SimpleData name="code">CL33_PP_007</SimpleData>
+				<SimpleData name="point_name">COMPLEJO_RECREACIONAL_Y_RESTAURANT_CAMPESTRE</SimpleData>
+				<SimpleData name="lat">-16.3212</SimpleData>
+				<SimpleData name="long">-72.1744</SimpleData>
+				<SimpleData name="y_proj">-1924089</SimpleData>
+				<SimpleData name="x_proj">2767080</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-72.17437843396702,-16.32124212272618,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL33_PP_008</name>
+		<styleUrl>#pointStyleMap31</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL33_Pedregal_SSDDIISS">
+				<SimpleData name="code">CL33_PP_008</SimpleData>
+				<SimpleData name="point_name">PARQUE_EL_BOSQUE_MAJES</SimpleData>
+				<SimpleData name="lat">-16.3117</SimpleData>
+				<SimpleData name="long">-72.1735</SimpleData>
+				<SimpleData name="y_proj">-1922982</SimpleData>
+				<SimpleData name="x_proj">2767301</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-72.1734792287709,-16.31169126543553,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL33_PP_009</name>
+		<styleUrl>#pointStyleMap31</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL33_Pedregal_SSDDIISS">
+				<SimpleData name="code">CL33_PP_009</SimpleData>
+				<SimpleData name="point_name">IE_ALTO_TAHUAPALCCA</SimpleData>
+				<SimpleData name="lat">-16.3085</SimpleData>
+				<SimpleData name="long">-72.179</SimpleData>
+				<SimpleData name="y_proj">-1922545</SimpleData>
+				<SimpleData name="x_proj">2766720</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-72.17896851401539,-16.30852533231575,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL33_PP_010</name>
+		<styleUrl>#pointStyleMap31</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL33_Pedregal_SSDDIISS">
+				<SimpleData name="code">CL33_PP_010</SimpleData>
+				<SimpleData name="point_name">IE_SANDRO_MARIATEGUI_CHIAPPE</SimpleData>
+				<SimpleData name="lat">-16.309</SimpleData>
+				<SimpleData name="long">-72.1826</SimpleData>
+				<SimpleData name="y_proj">-1922556</SimpleData>
+				<SimpleData name="x_proj">2766305</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-72.18259054497145,-16.30899755152205,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL33_PP_011</name>
+		<styleUrl>#pointStyleMap31</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL33_Pedregal_SSDDIISS">
+				<SimpleData name="code">CL33_PP_011</SimpleData>
+				<SimpleData name="point_name">ESPINARENSES (MOVIL)</SimpleData>
+				<SimpleData name="lat">-16.307</SimpleData>
+				<SimpleData name="long">-72.1828</SimpleData>
+				<SimpleData name="y_proj">-1922318</SimpleData>
+				<SimpleData name="x_proj">2766312</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-72.1827557,-16.3069812,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL33_PP_012</name>
+		<styleUrl>#pointStyleMap31</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL33_Pedregal_SSDDIISS">
+				<SimpleData name="code">CL33_PP_012</SimpleData>
+				<SimpleData name="point_name">ESPINARENSES (MOVIL)</SimpleData>
+				<SimpleData name="lat">-16.3034</SimpleData>
+				<SimpleData name="long">-72.181</SimpleData>
+				<SimpleData name="y_proj">-1921922</SimpleData>
+				<SimpleData name="x_proj">2766556</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-72.18098745622493,-16.30341677992606,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL33_PP_013</name>
+		<styleUrl>#pointStyleMap31</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL33_Pedregal_SSDDIISS">
+				<SimpleData name="code">CL33_PP_013</SimpleData>
+				<SimpleData name="point_name">RESIDENTE ESPINARESES COLEGIO TUPAC AMARU (MOVIL)</SimpleData>
+				<SimpleData name="lat">-16.301</SimpleData>
+				<SimpleData name="long">-72.1808</SimpleData>
+				<SimpleData name="y_proj">-1921640</SimpleData>
+				<SimpleData name="x_proj">2766609</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-72.18078849999999,-16.3009793,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL33_PP_014</name>
+		<styleUrl>#pointStyleMap31</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL33_Pedregal_SSDDIISS">
+				<SimpleData name="code">CL33_PP_014</SimpleData>
+				<SimpleData name="point_name">ESPINARENSES LA PLAZA (MOVIL)</SimpleData>
+				<SimpleData name="lat">-16.2996</SimpleData>
+				<SimpleData name="long">-72.179</SimpleData>
+				<SimpleData name="y_proj">-1921496</SimpleData>
+				<SimpleData name="x_proj">2766834</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-72.1789531,-16.2995627,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL33_PP_015</name>
+		<styleUrl>#pointStyleMap31</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL33_Pedregal_SSDDIISS">
+				<SimpleData name="code">CL33_PP_015</SimpleData>
+				<SimpleData name="point_name">TIENDA EL HUAMBENHITO ESPINARENSES</SimpleData>
+				<SimpleData name="lat">-16.3014</SimpleData>
+				<SimpleData name="long">-72.1751</SimpleData>
+				<SimpleData name="y_proj">-1921755</SimpleData>
+				<SimpleData name="x_proj">2767246</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-72.1751105,-16.3013756,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL33_PP_016</name>
+		<styleUrl>#pointStyleMap31</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL33_Pedregal_SSDDIISS">
+				<SimpleData name="code">CL33_PP_016</SimpleData>
+				<SimpleData name="point_name">PARQUE_INFANTIL</SimpleData>
+				<SimpleData name="lat">-16.2949</SimpleData>
+				<SimpleData name="long">-72.175</SimpleData>
+				<SimpleData name="y_proj">-1920997</SimpleData>
+				<SimpleData name="x_proj">2767335</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-72.17503605792982,-16.29489877989854,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL33_PP_017</name>
+		<styleUrl>#pointStyleMap31</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL33_Pedregal_SSDDIISS">
+				<SimpleData name="code">CL33_PP_017</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_RESIDENTES_ESPINARENSES</SimpleData>
+				<SimpleData name="lat">-16.2949</SimpleData>
+				<SimpleData name="long">-72.1697</SimpleData>
+				<SimpleData name="y_proj">-1921060</SimpleData>
+				<SimpleData name="x_proj">2767935</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-72.1697381238433,-16.29488705835746,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL33_PP_018</name>
+		<styleUrl>#pointStyleMap31</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL33_Pedregal_SSDDIISS">
+				<SimpleData name="code">CL33_PP_018</SimpleData>
+				<SimpleData name="point_name">BODEGA_LA_SOLUCION</SimpleData>
+				<SimpleData name="lat">-16.2905</SimpleData>
+				<SimpleData name="long">-72.1691</SimpleData>
+				<SimpleData name="y_proj">-1920553</SimpleData>
+				<SimpleData name="x_proj">2768064</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-72.16907608479562,-16.29048645003864,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL33_PP_019</name>
+		<styleUrl>#pointStyleMap31</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL33_Pedregal_SSDDIISS">
+				<SimpleData name="code">CL33_PP_019</SimpleData>
+				<SimpleData name="point_name">APOYO_COMUNITARIO</SimpleData>
+				<SimpleData name="lat">-16.2831</SimpleData>
+				<SimpleData name="long">-72.1683</SimpleData>
+				<SimpleData name="y_proj">-1919697</SimpleData>
+				<SimpleData name="x_proj">2768240</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-72.16834044277115,-16.28310142899466,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

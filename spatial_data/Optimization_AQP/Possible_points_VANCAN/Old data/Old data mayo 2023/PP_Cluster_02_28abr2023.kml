@@ -1,0 +1,4593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CL02_Javier_Llosa_Garcia_28abr2023</name>
+	<Schema name="CL02_Javier_Llosa_Garcia_28abr2023" id="S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+		<SimpleField type="string" name="code"><displayName>&lt;b&gt;code&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="point_name"><displayName>&lt;b&gt;point_name&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="lat"><displayName>&lt;b&gt;lat&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="long"><displayName>&lt;b&gt;long&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="y_proj"><displayName>&lt;b&gt;y_proj&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="x_proj"><displayName>&lt;b&gt;x_proj&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="type_point"><displayName>&lt;b&gt;type_point&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="estratategy"><displayName>&lt;b&gt;estratategy&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle0">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>code</b></td><td>$[CL02_Javier_Llosa_Garcia_28abr2023/code]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[CL02_Javier_Llosa_Garcia_28abr2023/point_name]</td></tr>
+  <tr><td><b>lat</b></td><td>$[CL02_Javier_Llosa_Garcia_28abr2023/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[CL02_Javier_Llosa_Garcia_28abr2023/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[CL02_Javier_Llosa_Garcia_28abr2023/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[CL02_Javier_Llosa_Garcia_28abr2023/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[CL02_Javier_Llosa_Garcia_28abr2023/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[CL02_Javier_Llosa_Garcia_28abr2023/estratategy]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle0">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>code</b></td><td>$[CL02_Javier_Llosa_Garcia_28abr2023/code]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[CL02_Javier_Llosa_Garcia_28abr2023/point_name]</td></tr>
+  <tr><td><b>lat</b></td><td>$[CL02_Javier_Llosa_Garcia_28abr2023/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[CL02_Javier_Llosa_Garcia_28abr2023/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[CL02_Javier_Llosa_Garcia_28abr2023/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[CL02_Javier_Llosa_Garcia_28abr2023/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[CL02_Javier_Llosa_Garcia_28abr2023/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[CL02_Javier_Llosa_Garcia_28abr2023/estratategy]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>CL02_PP_001</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_001</SimpleData>
+				<SimpleData name="point_name">C.S. UPIS PAISAJISTA</SimpleData>
+				<SimpleData name="lat">-16.4616</SimpleData>
+				<SimpleData name="long">-71.5552</SimpleData>
+				<SimpleData name="y_proj">-1948197</SimpleData>
+				<SimpleData name="x_proj">2835357</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55524848957958,-16.46160093924219,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_002</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_002</SimpleData>
+				<SimpleData name="point_name">IGLESIA_UPIS_PAISAJISTA</SimpleData>
+				<SimpleData name="lat">-16.4603</SimpleData>
+				<SimpleData name="long">-71.5543</SimpleData>
+				<SimpleData name="y_proj">-1948061</SimpleData>
+				<SimpleData name="x_proj">2835480</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55430583681728,-16.460340344583,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_003</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_003</SimpleData>
+				<SimpleData name="point_name">GRIFO UPIS PAISAJISTA</SimpleData>
+				<SimpleData name="lat">-16.4603</SimpleData>
+				<SimpleData name="long">-71.5564</SimpleData>
+				<SimpleData name="y_proj">-1948029</SimpleData>
+				<SimpleData name="x_proj">2835245</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55639206990001,-16.46029534523539,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_004</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_004</SimpleData>
+				<SimpleData name="point_name">UPIS PAISAJISTA MZ J D</SimpleData>
+				<SimpleData name="lat">-16.4592</SimpleData>
+				<SimpleData name="long">-71.556</SimpleData>
+				<SimpleData name="y_proj">-1947904</SimpleData>
+				<SimpleData name="x_proj">2835302</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55601251223061,-16.45918899065012,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_005</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_005</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_TIRSO_BORJA_VIZCARRA</SimpleData>
+				<SimpleData name="lat">-16.4581</SimpleData>
+				<SimpleData name="long">-71.5548</SimpleData>
+				<SimpleData name="y_proj">-1947790</SimpleData>
+				<SimpleData name="x_proj">2835454</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55480244320138,-16.45809044125931,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_006</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_006</SimpleData>
+				<SimpleData name="point_name">CESMA</SimpleData>
+				<SimpleData name="lat">-16.4579</SimpleData>
+				<SimpleData name="long">-71.5543</SimpleData>
+				<SimpleData name="y_proj">-1947769</SimpleData>
+				<SimpleData name="x_proj">2835515</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55429145664648,-16.4578551244872,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_007</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_007</SimpleData>
+				<SimpleData name="point_name">CALLE TIABAYA CON CALLE LA JOYA</SimpleData>
+				<SimpleData name="lat">-16.4567</SimpleData>
+				<SimpleData name="long">-71.551</SimpleData>
+				<SimpleData name="y_proj">-1947673</SimpleData>
+				<SimpleData name="x_proj">2835900</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55102811920248,-16.45668455018481,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_008</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_008</SimpleData>
+				<SimpleData name="point_name">AV. JOSE MARIA ARGUEDAS CON AV. DEAN VALDIVIA</SimpleData>
+				<SimpleData name="lat">-16.4565</SimpleData>
+				<SimpleData name="long">-71.5542</SimpleData>
+				<SimpleData name="y_proj">-1947615</SimpleData>
+				<SimpleData name="x_proj">2835548</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55415240624258,-16.45652905256927,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_009</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_009</SimpleData>
+				<SimpleData name="point_name">PARQUE ARIAS ARAQUEZ</SimpleData>
+				<SimpleData name="lat">-16.4567</SimpleData>
+				<SimpleData name="long">-71.5557</SimpleData>
+				<SimpleData name="y_proj">-1947615</SimpleData>
+				<SimpleData name="x_proj">2835372</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55568024631549,-16.45669106429498,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_010</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_010</SimpleData>
+				<SimpleData name="point_name">CAMPINHA ECOLOGICA 2</SimpleData>
+				<SimpleData name="lat">-16.4569</SimpleData>
+				<SimpleData name="long">-71.5581</SimpleData>
+				<SimpleData name="y_proj">-1947604</SimpleData>
+				<SimpleData name="x_proj">2835099</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55806932712227,-16.4568606124249,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_011</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_011</SimpleData>
+				<SimpleData name="point_name">LOZA DEPORTIVA CAMPINHA ECOLOGICA</SimpleData>
+				<SimpleData name="lat">-16.4558</SimpleData>
+				<SimpleData name="long">-71.5595</SimpleData>
+				<SimpleData name="y_proj">-1947466</SimpleData>
+				<SimpleData name="x_proj">2834946</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55954420833297,-16.45583999726813,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_012</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_012</SimpleData>
+				<SimpleData name="point_name">LOZA DEPORTIVSA BUEN PANORAMA</SimpleData>
+				<SimpleData name="lat">-16.4546</SimpleData>
+				<SimpleData name="long">-71.5607</SimpleData>
+				<SimpleData name="y_proj">-1947302</SimpleData>
+				<SimpleData name="x_proj">2834836</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56066000819702,-16.45456182398278,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_013</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_013</SimpleData>
+				<SimpleData name="point_name">EL_MOLLECITO</SimpleData>
+				<SimpleData name="lat">-16.4521</SimpleData>
+				<SimpleData name="long">-71.5643</SimpleData>
+				<SimpleData name="y_proj">-1946963</SimpleData>
+				<SimpleData name="x_proj">2834454</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56431787666864,-16.45207177930295,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_014</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_014</SimpleData>
+				<SimpleData name="point_name">PARROQUIA_VIRGEN_DE_LA_CANDELARIA</SimpleData>
+				<SimpleData name="lat">-16.4514</SimpleData>
+				<SimpleData name="long">-71.5641</SimpleData>
+				<SimpleData name="y_proj">-1946890</SimpleData>
+				<SimpleData name="x_proj">2834483</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56413484744317,-16.45142711976078,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_015</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_015</SimpleData>
+				<SimpleData name="point_name">LOZA DEPORTIVA HUASACACHE</SimpleData>
+				<SimpleData name="lat">-16.4522</SimpleData>
+				<SimpleData name="long">-71.5626</SimpleData>
+				<SimpleData name="y_proj">-1946997</SimpleData>
+				<SimpleData name="x_proj">2834649</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5625848712005,-16.45217179993099,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_016</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_016</SimpleData>
+				<SimpleData name="point_name">MIRADOR BUEN PANORAMA</SimpleData>
+				<SimpleData name="lat">-16.4534</SimpleData>
+				<SimpleData name="long">-71.5602</SimpleData>
+				<SimpleData name="y_proj">-1947168</SimpleData>
+				<SimpleData name="x_proj">2834908</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56015759723594,-16.4533666557902,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_017</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_017</SimpleData>
+				<SimpleData name="point_name">AMPL_13_DE_AGOSTO</SimpleData>
+				<SimpleData name="lat">-16.4536</SimpleData>
+				<SimpleData name="long">-71.5592</SimpleData>
+				<SimpleData name="y_proj">-1947209</SimpleData>
+				<SimpleData name="x_proj">2835008</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55924928608954,-16.45361889290112,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_018</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_018</SimpleData>
+				<SimpleData name="point_name">COMPLEJO 13 DE AGOSTO</SimpleData>
+				<SimpleData name="lat">-16.4542</SimpleData>
+				<SimpleData name="long">-71.5584</SimpleData>
+				<SimpleData name="y_proj">-1947284</SimpleData>
+				<SimpleData name="x_proj">2835097</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55839901741076,-16.45416492750403,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_019</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_019</SimpleData>
+				<SimpleData name="point_name">ESTADIO 2 DE JUNIO</SimpleData>
+				<SimpleData name="lat">-16.4529</SimpleData>
+				<SimpleData name="long">-71.5576</SimpleData>
+				<SimpleData name="y_proj">-1947151</SimpleData>
+				<SimpleData name="x_proj">2835208</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55755935821311,-16.45294677221445,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_020</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_020</SimpleData>
+				<SimpleData name="point_name">CEMENTERIO_DE_HUNTER</SimpleData>
+				<SimpleData name="lat">-16.4538</SimpleData>
+				<SimpleData name="long">-71.5565</SimpleData>
+				<SimpleData name="y_proj">-1947268</SimpleData>
+				<SimpleData name="x_proj">2835313</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55653191537345,-16.45383194448516,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_021</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_021</SimpleData>
+				<SimpleData name="point_name">LOZA DEPORTIVA LEONES DEL SUR</SimpleData>
+				<SimpleData name="lat">-16.4529</SimpleData>
+				<SimpleData name="long">-71.5556</SimpleData>
+				<SimpleData name="y_proj">-1947167</SimpleData>
+				<SimpleData name="x_proj">2835426</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55564903115994,-16.45287976127304,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_022</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_022</SimpleData>
+				<SimpleData name="point_name">AV. VELASCO ALVARADO CON AV. DEAN VALDIVIA</SimpleData>
+				<SimpleData name="lat">-16.4552</SimpleData>
+				<SimpleData name="long">-71.5559</SimpleData>
+				<SimpleData name="y_proj">-1947436</SimpleData>
+				<SimpleData name="x_proj">2835362</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55594148133333,-16.45519752665044,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_023</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_023</SimpleData>
+				<SimpleData name="point_name">LOCAL_SOCIAL_ARIAS_ARAGUEZ</SimpleData>
+				<SimpleData name="lat">-16.4548</SimpleData>
+				<SimpleData name="long">-71.5547</SimpleData>
+				<SimpleData name="y_proj">-1947402</SimpleData>
+				<SimpleData name="x_proj">2835510</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5546918750844,-16.45477367403536,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_024</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_024</SimpleData>
+				<SimpleData name="point_name">IGLESIA_JESUS_EL_BUEN_PASTOR</SimpleData>
+				<SimpleData name="lat">-16.4549</SimpleData>
+				<SimpleData name="long">-71.5541</SimpleData>
+				<SimpleData name="y_proj">-1947423</SimpleData>
+				<SimpleData name="x_proj">2835581</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55405155176614,-16.4548800407673,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_025</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_025</SimpleData>
+				<SimpleData name="point_name">LOZA DEPORTIVA ALTO ALIANZA</SimpleData>
+				<SimpleData name="lat">-16.4553</SimpleData>
+				<SimpleData name="long">-71.5529</SimpleData>
+				<SimpleData name="y_proj">-1947483</SimpleData>
+				<SimpleData name="x_proj">2835709</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55287230930466,-16.45527108443637,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_026</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_026</SimpleData>
+				<SimpleData name="point_name">CALLE REVOLUCION CON CALLE 8 DE DICIEMBRE</SimpleData>
+				<SimpleData name="lat">-16.4529</SimpleData>
+				<SimpleData name="long">-71.5533</SimpleData>
+				<SimpleData name="y_proj">-1947201</SimpleData>
+				<SimpleData name="x_proj">2835686</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55334694330352,-16.45291686476284,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_027</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_027</SimpleData>
+				<SimpleData name="point_name">ESTADIO_JUAN_VELASCO_ALVARADO</SimpleData>
+				<SimpleData name="lat">-16.4519</SimpleData>
+				<SimpleData name="long">-71.5543</SimpleData>
+				<SimpleData name="y_proj">-1947066</SimpleData>
+				<SimpleData name="x_proj">2835592</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55430156424225,-16.45187079825922,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_028</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_028</SimpleData>
+				<SimpleData name="point_name">TRIANGULO PAMPAS DEL CUSCO</SimpleData>
+				<SimpleData name="lat">-16.4512</SimpleData>
+				<SimpleData name="long">-71.5562</SimpleData>
+				<SimpleData name="y_proj">-1946967</SimpleData>
+				<SimpleData name="x_proj">2835380</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55624527771958,-16.45123761781652,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_029</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_029</SimpleData>
+				<SimpleData name="point_name">AV_SACSAYHUAMAN</SimpleData>
+				<SimpleData name="lat">-16.4504</SimpleData>
+				<SimpleData name="long">-71.5571</SimpleData>
+				<SimpleData name="y_proj">-1946858</SimpleData>
+				<SimpleData name="x_proj">2835294</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5570957,-16.45039789999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_030</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_030</SimpleData>
+				<SimpleData name="point_name">EXPARADERO LA MERCED</SimpleData>
+				<SimpleData name="lat">-16.4508</SimpleData>
+				<SimpleData name="long">-71.5594</SimpleData>
+				<SimpleData name="y_proj">-1946876</SimpleData>
+				<SimpleData name="x_proj">2835025</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55942194028432,-16.45080140940475,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_031</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_031</SimpleData>
+				<SimpleData name="point_name">13 DE AGOSTO, UPIS LA MERCED Y AMPLIACION UPIS LA MERCED</SimpleData>
+				<SimpleData name="lat">-16.4511</SimpleData>
+				<SimpleData name="long">-71.5601</SimpleData>
+				<SimpleData name="y_proj">-1946902</SimpleData>
+				<SimpleData name="x_proj">2834940</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56013720938613,-16.45109977220963,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_032</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_032</SimpleData>
+				<SimpleData name="point_name">LOZA DEPORTIVA LA MERCED</SimpleData>
+				<SimpleData name="lat">-16.4493</SimpleData>
+				<SimpleData name="long">-71.5611</SimpleData>
+				<SimpleData name="y_proj">-1946679</SimpleData>
+				<SimpleData name="x_proj">2834857</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56107765688515,-16.44929986365573,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_033</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_033</SimpleData>
+				<SimpleData name="point_name">AMPL_PAMPAS_DEL_CUZCO</SimpleData>
+				<SimpleData name="lat">-16.4475</SimpleData>
+				<SimpleData name="long">-71.5642</SimpleData>
+				<SimpleData name="y_proj">-1946432</SimpleData>
+				<SimpleData name="x_proj">2834525</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56421733146315,-16.44753666577122,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_034</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_034</SimpleData>
+				<SimpleData name="point_name">CAPILLA_DE_PAMPAS_DEL_CUSCO</SimpleData>
+				<SimpleData name="lat">-16.4481</SimpleData>
+				<SimpleData name="long">-71.5659</SimpleData>
+				<SimpleData name="y_proj">-1946482</SimpleData>
+				<SimpleData name="x_proj">2834330</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56586649637744,-16.4481395290251,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_035</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_035</SimpleData>
+				<SimpleData name="point_name">PLAZOLETA_DE_PAMPAS_DEL_CUSCO</SimpleData>
+				<SimpleData name="lat">-16.4479</SimpleData>
+				<SimpleData name="long">-71.5662</SimpleData>
+				<SimpleData name="y_proj">-1946455</SimpleData>
+				<SimpleData name="x_proj">2834300</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56615023742074,-16.44794479350906,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_036</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_036</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_PAMPAS_DEL_CUZCO</SimpleData>
+				<SimpleData name="lat">-16.4466</SimpleData>
+				<SimpleData name="long">-71.5653</SimpleData>
+				<SimpleData name="y_proj">-1946303</SimpleData>
+				<SimpleData name="x_proj">2834415</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56529578278982,-16.44655662311135,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_037</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_037</SimpleData>
+				<SimpleData name="point_name">ESTADIO PAMPAS DEL CUSCO</SimpleData>
+				<SimpleData name="lat">-16.4464</SimpleData>
+				<SimpleData name="long">-71.564</SimpleData>
+				<SimpleData name="y_proj">-1946307</SimpleData>
+				<SimpleData name="x_proj">2834566</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56397915150272,-16.44644627611553,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_038</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_038</SimpleData>
+				<SimpleData name="point_name">PARQUE AMPLIACION PAMPAS DEL CUSCO</SimpleData>
+				<SimpleData name="lat">-16.448</SimpleData>
+				<SimpleData name="long">-71.5616</SimpleData>
+				<SimpleData name="y_proj">-1946519</SimpleData>
+				<SimpleData name="x_proj">2834817</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56158465252314,-16.44799300121769,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_039</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_039</SimpleData>
+				<SimpleData name="point_name">BODEGITA_ROMA</SimpleData>
+				<SimpleData name="lat">-16.4473</SimpleData>
+				<SimpleData name="long">-71.5618</SimpleData>
+				<SimpleData name="y_proj">-1946437</SimpleData>
+				<SimpleData name="x_proj">2834797</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56184161733673,-16.44732753680157,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_040</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_040</SimpleData>
+				<SimpleData name="point_name">CANCHA_DEPORTIVA_LOMA_VERDE</SimpleData>
+				<SimpleData name="lat">-16.4475</SimpleData>
+				<SimpleData name="long">-71.5605</SimpleData>
+				<SimpleData name="y_proj">-1946478</SimpleData>
+				<SimpleData name="x_proj">2834943</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56052505303707,-16.44753335020118,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_041</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_041</SimpleData>
+				<SimpleData name="point_name">SANTA MARTHA</SimpleData>
+				<SimpleData name="lat">-16.4469</SimpleData>
+				<SimpleData name="long">-71.5611</SimpleData>
+				<SimpleData name="y_proj">-1946401</SimpleData>
+				<SimpleData name="x_proj">2834880</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56114966306293,-16.44694152760559,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_042</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_042</SimpleData>
+				<SimpleData name="point_name">13 DE MAYO - BELEN</SimpleData>
+				<SimpleData name="lat">-16.4464</SimpleData>
+				<SimpleData name="long">-71.5606</SimpleData>
+				<SimpleData name="y_proj">-1946348</SimpleData>
+				<SimpleData name="x_proj">2834943</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56064999884752,-16.44644343494491,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_043</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_043</SimpleData>
+				<SimpleData name="point_name">JR. BELEN 13 DE MAYO (MOVIL)</SimpleData>
+				<SimpleData name="lat">-16.4468</SimpleData>
+				<SimpleData name="long">-71.5599</SimpleData>
+				<SimpleData name="y_proj">-1946396</SimpleData>
+				<SimpleData name="x_proj">2835025</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55989317233117,-16.44676719964018,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_044</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_044</SimpleData>
+				<SimpleData name="point_name">AV. OLLANTAYTAMBO</SimpleData>
+				<SimpleData name="lat">-16.4478</SimpleData>
+				<SimpleData name="long">-71.5595</SimpleData>
+				<SimpleData name="y_proj">-1946527</SimpleData>
+				<SimpleData name="x_proj">2835056</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55948939003562,-16.44783863361317,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_045</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_045</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_AVIS_LOS_ANGELES</SimpleData>
+				<SimpleData name="lat">-16.4463</SimpleData>
+				<SimpleData name="long">-71.5586</SimpleData>
+				<SimpleData name="y_proj">-1946361</SimpleData>
+				<SimpleData name="x_proj">2835177</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55859826766819,-16.44633409436398,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_046</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_046</SimpleData>
+				<SimpleData name="point_name">PARQUE HUAYNA CAPAC</SimpleData>
+				<SimpleData name="lat">-16.4472</SimpleData>
+				<SimpleData name="long">-71.5574</SimpleData>
+				<SimpleData name="y_proj">-1946473</SimpleData>
+				<SimpleData name="x_proj">2835306</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55737106344081,-16.4471502576981,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_047</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_047</SimpleData>
+				<SimpleData name="point_name">CEO UNSA</SimpleData>
+				<SimpleData name="lat">-16.4487</SimpleData>
+				<SimpleData name="long">-71.5567</SimpleData>
+				<SimpleData name="y_proj">-1946666</SimpleData>
+				<SimpleData name="x_proj">2835363</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55668030407952,-16.44872129587921,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_048</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_048</SimpleData>
+				<SimpleData name="point_name">PEDRO DIAZ CANSECO CON ZARUMILLA</SimpleData>
+				<SimpleData name="lat">-16.4503</SimpleData>
+				<SimpleData name="long">-71.5553</SimpleData>
+				<SimpleData name="y_proj">-1946863</SimpleData>
+				<SimpleData name="x_proj">2835495</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55533763250338,-16.45025670836082,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_049</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_049</SimpleData>
+				<SimpleData name="point_name">CALLE SAN ROMAN CON CALLE UCAYALI</SimpleData>
+				<SimpleData name="lat">-16.45</SimpleData>
+				<SimpleData name="long">-71.5542</SimpleData>
+				<SimpleData name="y_proj">-1946845</SimpleData>
+				<SimpleData name="x_proj">2835634</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55415079002519,-16.44997152354344,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_050</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_050</SimpleData>
+				<SimpleData name="point_name">PARQUE HEROES DEL CENEPA</SimpleData>
+				<SimpleData name="lat">-16.451</SimpleData>
+				<SimpleData name="long">-71.5522</SimpleData>
+				<SimpleData name="y_proj">-1946993</SimpleData>
+				<SimpleData name="x_proj">2835842</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55218962777802,-16.45102512051908,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_051</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_051</SimpleData>
+				<SimpleData name="point_name">PARQUE_ANDRES_AVELINO_CACERES</SimpleData>
+				<SimpleData name="lat">-16.4516</SimpleData>
+				<SimpleData name="long">-71.5518</SimpleData>
+				<SimpleData name="y_proj">-1947064</SimpleData>
+				<SimpleData name="x_proj">2835874</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55184393830596,-16.45158953301992,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_052</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_052</SimpleData>
+				<SimpleData name="point_name">IGLESIA_DE_JESUCRISTO_DE_LOS SANTOS_DE_LOS_ULTIMOS_DIAS</SimpleData>
+				<SimpleData name="lat">-16.4527</SimpleData>
+				<SimpleData name="long">-71.5508</SimpleData>
+				<SimpleData name="y_proj">-1947204</SimpleData>
+				<SimpleData name="x_proj">2835976</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55082148799443,-16.45267346492769,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_053</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_053</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_AUGUSTO_FREYRE_GARCIA</SimpleData>
+				<SimpleData name="lat">-16.4535</SimpleData>
+				<SimpleData name="long">-71.5498</SimpleData>
+				<SimpleData name="y_proj">-1947318</SimpleData>
+				<SimpleData name="x_proj">2836082</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54978035120627,-16.45353390914926,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_054</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_054</SimpleData>
+				<SimpleData name="point_name">AV. MIGUEL GRAU CON CALLE UGARTE</SimpleData>
+				<SimpleData name="lat">-16.452</SimpleData>
+				<SimpleData name="long">-71.5501</SimpleData>
+				<SimpleData name="y_proj">-1947137</SimpleData>
+				<SimpleData name="x_proj">2836066</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55009671438926,-16.4520261106845,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_055</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_055</SimpleData>
+				<SimpleData name="point_name">CAPILLA AUGUSTO FREYRE</SimpleData>
+				<SimpleData name="lat">-16.4506</SimpleData>
+				<SimpleData name="long">-71.5504</SimpleData>
+				<SimpleData name="y_proj">-1946971</SimpleData>
+				<SimpleData name="x_proj">2836052</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55037812590842,-16.4506407187389,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_056</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_056</SimpleData>
+				<SimpleData name="point_name">AV. UNION CON CALLE HUASCAR</SimpleData>
+				<SimpleData name="lat">-16.4498</SimpleData>
+				<SimpleData name="long">-71.5492</SimpleData>
+				<SimpleData name="y_proj">-1946885</SimpleData>
+				<SimpleData name="x_proj">2836201</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54916879455455,-16.4497792865235,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_057</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_057</SimpleData>
+				<SimpleData name="point_name">P.S. DANIEL ALCIDES CARRION</SimpleData>
+				<SimpleData name="lat">-16.4487</SimpleData>
+				<SimpleData name="long">-71.5507</SimpleData>
+				<SimpleData name="y_proj">-1946741</SimpleData>
+				<SimpleData name="x_proj">2836036</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5507425105607,-16.44872351725443,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_058</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_058</SimpleData>
+				<SimpleData name="point_name">CALLE SAN ROMAN CON CALLE SAN MIGUEL DE PIURA</SimpleData>
+				<SimpleData name="lat">-16.449</SimpleData>
+				<SimpleData name="long">-71.5535</SimpleData>
+				<SimpleData name="y_proj">-1946737</SimpleData>
+				<SimpleData name="x_proj">2835724</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55346386518075,-16.44897729497047,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_059</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_059</SimpleData>
+				<SimpleData name="point_name">NUEVA GENERACION CALLE BATANEROS</SimpleData>
+				<SimpleData name="lat">-16.4472</SimpleData>
+				<SimpleData name="long">-71.5531</SimpleData>
+				<SimpleData name="y_proj">-1946530</SimpleData>
+				<SimpleData name="x_proj">2835792</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5530752576319,-16.44717554102171,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_060</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_060</SimpleData>
+				<SimpleData name="point_name">PARQUE MILAGROS</SimpleData>
+				<SimpleData name="lat">-16.4465</SimpleData>
+				<SimpleData name="long">-71.5539</SimpleData>
+				<SimpleData name="y_proj">-1946441</SimpleData>
+				<SimpleData name="x_proj">2835705</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55391823509066,-16.44650590091001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_061</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_061</SimpleData>
+				<SimpleData name="point_name">C.S. HUNTER</SimpleData>
+				<SimpleData name="lat">-16.4454</SimpleData>
+				<SimpleData name="long">-71.5542</SimpleData>
+				<SimpleData name="y_proj">-1946310</SimpleData>
+				<SimpleData name="x_proj">2835691</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55416531238842,-16.44541962332269,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_062</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_062</SimpleData>
+				<SimpleData name="point_name">MERCADO FRAY MARTIN DE PORRES</SimpleData>
+				<SimpleData name="lat">-16.4466</SimpleData>
+				<SimpleData name="long">-71.5556</SimpleData>
+				<SimpleData name="y_proj">-1946433</SimpleData>
+				<SimpleData name="x_proj">2835514</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5555951361798,-16.44662094468438,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_063</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_063</SimpleData>
+				<SimpleData name="point_name">I.E_MARIANO_MELGAR</SimpleData>
+				<SimpleData name="lat">-16.4473</SimpleData>
+				<SimpleData name="long">-71.5558</SimpleData>
+				<SimpleData name="y_proj">-1946515</SimpleData>
+				<SimpleData name="x_proj">2835477</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55583646236576,-16.44734396404926,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_064</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_064</SimpleData>
+				<SimpleData name="point_name">AV. BERLIN CON CALLE LISBOA</SimpleData>
+				<SimpleData name="lat">-16.4455</SimpleData>
+				<SimpleData name="long">-71.5562</SimpleData>
+				<SimpleData name="y_proj">-1946292</SimpleData>
+				<SimpleData name="x_proj">2835458</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55621671182753,-16.44548431011871,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_065</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_065</SimpleData>
+				<SimpleData name="point_name">IE_JACOBO_HUNTER</SimpleData>
+				<SimpleData name="lat">-16.4441</SimpleData>
+				<SimpleData name="long">-71.5566</SimpleData>
+				<SimpleData name="y_proj">-1946128</SimpleData>
+				<SimpleData name="x_proj">2835433</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55659683529896,-16.44413136719808,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_066</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_066</SimpleData>
+				<SimpleData name="point_name">JR. BUENA VISTA CON AV. BRASILIA</SimpleData>
+				<SimpleData name="lat">-16.4451</SimpleData>
+				<SimpleData name="long">-71.5578</SimpleData>
+				<SimpleData name="y_proj">-1946223</SimpleData>
+				<SimpleData name="x_proj">2835286</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55778367992707,-16.44506776534294,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_067</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_067</SimpleData>
+				<SimpleData name="point_name">CALLE BUENOS AIRES CON AV. BRASILIA</SimpleData>
+				<SimpleData name="lat">-16.4455</SimpleData>
+				<SimpleData name="long">-71.5583</SimpleData>
+				<SimpleData name="y_proj">-1946270</SimpleData>
+				<SimpleData name="x_proj">2835222</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55829505757569,-16.44552217699007,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_068</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_068</SimpleData>
+				<SimpleData name="point_name">CALLE ALFONSO UGARTE CON CALLE CHILE</SimpleData>
+				<SimpleData name="lat">-16.4436</SimpleData>
+				<SimpleData name="long">-71.5607</SimpleData>
+				<SimpleData name="y_proj">-1946012</SimpleData>
+				<SimpleData name="x_proj">2834979</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56066563205941,-16.44357835636177,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_069</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_069</SimpleData>
+				<SimpleData name="point_name">CALLE MICAELA BASTIDAS PRONOI (MOVIL)</SimpleData>
+				<SimpleData name="lat">-16.4433</SimpleData>
+				<SimpleData name="long">-71.5615</SimpleData>
+				<SimpleData name="y_proj">-1945968</SimpleData>
+				<SimpleData name="x_proj">2834892</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56146675209644,-16.44328856309968,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_070</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_070</SimpleData>
+				<SimpleData name="point_name">PARQUE JUVENTUD UNIDA</SimpleData>
+				<SimpleData name="lat">-16.4426</SimpleData>
+				<SimpleData name="long">-71.5606</SimpleData>
+				<SimpleData name="y_proj">-1945893</SimpleData>
+				<SimpleData name="x_proj">2834998</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56061563674776,-16.44256326040038,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_071</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_071</SimpleData>
+				<SimpleData name="point_name">JOSE CARLOS MARIATEGUI Y COOPERATIVA LOS BALCONES (MOVIL)</SimpleData>
+				<SimpleData name="lat">-16.4407</SimpleData>
+				<SimpleData name="long">-71.5623</SimpleData>
+				<SimpleData name="y_proj">-1945651</SimpleData>
+				<SimpleData name="x_proj">2834834</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56227483894331,-16.44067735618803,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_072</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_072</SimpleData>
+				<SimpleData name="point_name">BELEN ZONA E</SimpleData>
+				<SimpleData name="lat">-16.4401</SimpleData>
+				<SimpleData name="long">-71.5612</SimpleData>
+				<SimpleData name="y_proj">-1945600</SimpleData>
+				<SimpleData name="x_proj">2834959</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56123812217665,-16.44013001628245,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_073</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_073</SimpleData>
+				<SimpleData name="point_name">CALLE SANTOS CHOCANO CON CALLE FRANCISCO MOSTAJO (MOVIL)</SimpleData>
+				<SimpleData name="lat">-16.4391</SimpleData>
+				<SimpleData name="long">-71.5609</SimpleData>
+				<SimpleData name="y_proj">-1945488</SimpleData>
+				<SimpleData name="x_proj">2835013</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56087885037047,-16.43914084077652,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_074</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_074</SimpleData>
+				<SimpleData name="point_name">ALTO_CAMINOS_DEL_INCA</SimpleData>
+				<SimpleData name="lat">-16.4384</SimpleData>
+				<SimpleData name="long">-71.5627</SimpleData>
+				<SimpleData name="y_proj">-1945378</SimpleData>
+				<SimpleData name="x_proj">2834818</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56268365526222,-16.43839547496993,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_075</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_075</SimpleData>
+				<SimpleData name="point_name">CAMINOS DEL INCA AMPLIACION CAMINOS DEL INCA Y ALTOS CAMINO DEL INCA</SimpleData>
+				<SimpleData name="lat">-16.4374</SimpleData>
+				<SimpleData name="long">-71.5623</SimpleData>
+				<SimpleData name="y_proj">-1945270</SimpleData>
+				<SimpleData name="x_proj">2834871</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56232599057199,-16.43744313270196,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_076</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_076</SimpleData>
+				<SimpleData name="point_name">CALLE CARLOS MANCHEGO CON AV. LAS AMERICAS (MOVIL)</SimpleData>
+				<SimpleData name="lat">-16.4378</SimpleData>
+				<SimpleData name="long">-71.5614</SimpleData>
+				<SimpleData name="y_proj">-1945328</SimpleData>
+				<SimpleData name="x_proj">2834967</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56143273870188,-16.4378424405598,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_077</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_077</SimpleData>
+				<SimpleData name="point_name">ASOC_VISTA_ALEGRE</SimpleData>
+				<SimpleData name="lat">-16.4357</SimpleData>
+				<SimpleData name="long">-71.5628</SimpleData>
+				<SimpleData name="y_proj">-1945056</SimpleData>
+				<SimpleData name="x_proj">2834845</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56275753891052,-16.43566767229467,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_078</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_078</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_28_DE_JULIO</SimpleData>
+				<SimpleData name="lat">-16.4365</SimpleData>
+				<SimpleData name="long">-71.5634</SimpleData>
+				<SimpleData name="y_proj">-1945149</SimpleData>
+				<SimpleData name="x_proj">2834762</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56338815667672,-16.43652725814914,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_079</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_079</SimpleData>
+				<SimpleData name="point_name">VISTA ALEGRE (FRENTE AL GRIFO)</SimpleData>
+				<SimpleData name="lat">-16.4352</SimpleData>
+				<SimpleData name="long">-71.5623</SimpleData>
+				<SimpleData name="y_proj">-1945010</SimpleData>
+				<SimpleData name="x_proj">2834906</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56226876898712,-16.43522186169755,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_080</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_080</SimpleData>
+				<SimpleData name="point_name">CRECE_LA_COLINA</SimpleData>
+				<SimpleData name="lat">-16.4372</SimpleData>
+				<SimpleData name="long">-71.5601</SimpleData>
+				<SimpleData name="y_proj">-1945271</SimpleData>
+				<SimpleData name="x_proj">2835130</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56006681682429,-16.43720384374164,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_081</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_081</SimpleData>
+				<SimpleData name="point_name">OVALO HUNTER</SimpleData>
+				<SimpleData name="lat">-16.44</SimpleData>
+				<SimpleData name="long">-71.5591</SimpleData>
+				<SimpleData name="y_proj">-1945615</SimpleData>
+				<SimpleData name="x_proj">2835207</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55906543018641,-16.44003009615841,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_082</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_082</SimpleData>
+				<SimpleData name="point_name">PARQUE QUINHONES</SimpleData>
+				<SimpleData name="lat">-16.4386</SimpleData>
+				<SimpleData name="long">-71.5576</SimpleData>
+				<SimpleData name="y_proj">-1945465</SimpleData>
+				<SimpleData name="x_proj">2835386</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55764367028134,-16.43859547646525,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_083</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_083</SimpleData>
+				<SimpleData name="point_name">AV. IRLANDA CON AV. ITALIA</SimpleData>
+				<SimpleData name="lat">-16.4379</SimpleData>
+				<SimpleData name="long">-71.5557</SimpleData>
+				<SimpleData name="y_proj">-1945411</SimpleData>
+				<SimpleData name="x_proj">2835612</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.555734067763,-16.4379300484751,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_084</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_084</SimpleData>
+				<SimpleData name="point_name">CALLE_GIRASOLES</SimpleData>
+				<SimpleData name="lat">-16.4382</SimpleData>
+				<SimpleData name="long">-71.5536</SimpleData>
+				<SimpleData name="y_proj">-1945470</SimpleData>
+				<SimpleData name="x_proj">2835845</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55364618385617,-16.43821065141031,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_085</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_085</SimpleData>
+				<SimpleData name="point_name">PARQUE_AREQUIPA</SimpleData>
+				<SimpleData name="lat">-16.4402</SimpleData>
+				<SimpleData name="long">-71.5549</SimpleData>
+				<SimpleData name="y_proj">-1945692</SimpleData>
+				<SimpleData name="x_proj">2835681</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55485828574156,-16.4402349025497,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_086</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_086</SimpleData>
+				<SimpleData name="point_name">MERCADO DE HUNTER</SimpleData>
+				<SimpleData name="lat">-16.4402</SimpleData>
+				<SimpleData name="long">-71.5557</SimpleData>
+				<SimpleData name="y_proj">-1945678</SimpleData>
+				<SimpleData name="x_proj">2835587</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55568887436252,-16.44019774103074,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_087</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_087</SimpleData>
+				<SimpleData name="point_name">MUNICIPALIDAD_DE_JACOBO_HUNTER</SimpleData>
+				<SimpleData name="lat">-16.4415</SimpleData>
+				<SimpleData name="long">-71.558</SimpleData>
+				<SimpleData name="y_proj">-1945805</SimpleData>
+				<SimpleData name="x_proj">2835304</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55803301799843,-16.44153087211204,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_088</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_088</SimpleData>
+				<SimpleData name="point_name">COLEGIO JEAN HARZIC</SimpleData>
+				<SimpleData name="lat">-16.4422</SimpleData>
+				<SimpleData name="long">-71.5565</SimpleData>
+				<SimpleData name="y_proj">-1945900</SimpleData>
+				<SimpleData name="x_proj">2835467</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55651979250317,-16.44218377673453,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_089</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_089</SimpleData>
+				<SimpleData name="point_name">AV. BRASILIA CON AV. VINHA DEL MAR</SimpleData>
+				<SimpleData name="lat">-16.4432</SimpleData>
+				<SimpleData name="long">-71.5558</SimpleData>
+				<SimpleData name="y_proj">-1946030</SimpleData>
+				<SimpleData name="x_proj">2835530</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55584065889474,-16.4432127235743,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_090</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_090</SimpleData>
+				<SimpleData name="point_name">COMISARIA HUNTER</SimpleData>
+				<SimpleData name="lat">-16.4414</SimpleData>
+				<SimpleData name="long">-71.555</SimpleData>
+				<SimpleData name="y_proj">-1945828</SimpleData>
+				<SimpleData name="x_proj">2835646</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55502713966885,-16.44140781780792,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_091</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_091</SimpleData>
+				<SimpleData name="point_name">I.E.P. Marianista primaria</SimpleData>
+				<SimpleData name="lat">-16.4425</SimpleData>
+				<SimpleData name="long">-71.5535</SimpleData>
+				<SimpleData name="y_proj">-1945981</SimpleData>
+				<SimpleData name="x_proj">2835805</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5534925299217,-16.44254795922699,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_092</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_092</SimpleData>
+				<SimpleData name="point_name">I.E.P Santa Sofia</SimpleData>
+				<SimpleData name="lat">-16.4435</SimpleData>
+				<SimpleData name="long">-71.5544</SimpleData>
+				<SimpleData name="y_proj">-1946077</SimpleData>
+				<SimpleData name="x_proj">2835694</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55436961516361,-16.44345550382175,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_093</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_093</SimpleData>
+				<SimpleData name="point_name">CALLE EGIPTO CON CALLE MONTEVIDEO</SimpleData>
+				<SimpleData name="lat">-16.4435</SimpleData>
+				<SimpleData name="long">-71.5535</SimpleData>
+				<SimpleData name="y_proj">-1946097</SimpleData>
+				<SimpleData name="x_proj">2835794</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55347684074526,-16.44353057245278,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_094</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_094</SimpleData>
+				<SimpleData name="point_name">PARQUE QUEQUENHA (MOVIL)</SimpleData>
+				<SimpleData name="lat">-16.4451</SimpleData>
+				<SimpleData name="long">-71.5525</SimpleData>
+				<SimpleData name="y_proj">-1946288</SimpleData>
+				<SimpleData name="x_proj">2835881</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55253316295196,-16.445057030482,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_095</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_095</SimpleData>
+				<SimpleData name="point_name">COLEGIO_MARIANISTA_SECUNDARIA</SimpleData>
+				<SimpleData name="lat">-16.4441</SimpleData>
+				<SimpleData name="long">-71.5517</SimpleData>
+				<SimpleData name="y_proj">-1946189</SimpleData>
+				<SimpleData name="x_proj">2835984</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5517299556283,-16.44412358023672,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_096</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_096</SimpleData>
+				<SimpleData name="point_name">LA HABANA CON SAN SALVADOR</SimpleData>
+				<SimpleData name="lat">-16.4442</SimpleData>
+				<SimpleData name="long">-71.5502</SimpleData>
+				<SimpleData name="y_proj">-1946221</SimpleData>
+				<SimpleData name="x_proj">2836155</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55021284297578,-16.44423876250742,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_097</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_097</SimpleData>
+				<SimpleData name="point_name">PARQUE EN CALLE CARTAGENA CON JERUSALEN</SimpleData>
+				<SimpleData name="lat">-16.4455</SimpleData>
+				<SimpleData name="long">-71.5506</SimpleData>
+				<SimpleData name="y_proj">-1946368</SimpleData>
+				<SimpleData name="x_proj">2836099</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55055463716629,-16.44552619703643,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_098</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_098</SimpleData>
+				<SimpleData name="point_name">I.E_JUAN PABLO_VIZCARDO_Y_GUZMAN</SimpleData>
+				<SimpleData name="lat">-16.4463</SimpleData>
+				<SimpleData name="long">-71.5515</SimpleData>
+				<SimpleData name="y_proj">-1946441</SimpleData>
+				<SimpleData name="x_proj">2835985</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55147700043499,-16.44625024954473,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_099</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_099</SimpleData>
+				<SimpleData name="point_name">CALLE MIGUEL GRAU CON CALLE BOLOGNESI</SimpleData>
+				<SimpleData name="lat">-16.4478</SimpleData>
+				<SimpleData name="long">-71.5506</SimpleData>
+				<SimpleData name="y_proj">-1946636</SimpleData>
+				<SimpleData name="x_proj">2836060</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55064076586719,-16.44781939408722,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_100</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_100</SimpleData>
+				<SimpleData name="point_name">LOS ROSALES</SimpleData>
+				<SimpleData name="lat">-16.4478</SimpleData>
+				<SimpleData name="long">-71.5492</SimpleData>
+				<SimpleData name="y_proj">-1946649</SimpleData>
+				<SimpleData name="x_proj">2836227</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54916907189356,-16.44776606882909,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_101</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_101</SimpleData>
+				<SimpleData name="point_name">PARQUE VILLA SAN ISIDRO</SimpleData>
+				<SimpleData name="lat">-16.4481</SimpleData>
+				<SimpleData name="long">-71.548</SimpleData>
+				<SimpleData name="y_proj">-1946707</SimpleData>
+				<SimpleData name="x_proj">2836357</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54797728958837,-16.44813180368806,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_102</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_102</SimpleData>
+				<SimpleData name="point_name">AV. LA AMISTAD CON EL MISTIANO</SimpleData>
+				<SimpleData name="lat">-16.4471</SimpleData>
+				<SimpleData name="long">-71.5474</SimpleData>
+				<SimpleData name="y_proj">-1946599</SimpleData>
+				<SimpleData name="x_proj">2836441</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5473560273268,-16.44714578412127,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_103</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_103</SimpleData>
+				<SimpleData name="point_name">CRUCE_LOS_BOSQUES</SimpleData>
+				<SimpleData name="lat">-16.4482</SimpleData>
+				<SimpleData name="long">-71.5417</SimpleData>
+				<SimpleData name="y_proj">-1946798</SimpleData>
+				<SimpleData name="x_proj">2837062</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54174399463578,-16.44823584001578,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_104</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_104</SimpleData>
+				<SimpleData name="point_name">ASOC_LOS_BOSQUES</SimpleData>
+				<SimpleData name="lat">-16.4432</SimpleData>
+				<SimpleData name="long">-71.5452</SimpleData>
+				<SimpleData name="y_proj">-1946166</SimpleData>
+				<SimpleData name="x_proj">2836738</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54518781764854,-16.44322718579273,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_105</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_105</SimpleData>
+				<SimpleData name="point_name">AV. LA FLORIDA - LOS MOLLES</SimpleData>
+				<SimpleData name="lat">-16.4431</SimpleData>
+				<SimpleData name="long">-71.5482</SimpleData>
+				<SimpleData name="y_proj">-1946108</SimpleData>
+				<SimpleData name="x_proj">2836403</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54816096446909,-16.44305240886248,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_106</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_106</SimpleData>
+				<SimpleData name="point_name">AV_LOS_ANGELES</SimpleData>
+				<SimpleData name="lat">-16.4408</SimpleData>
+				<SimpleData name="long">-71.5511</SimpleData>
+				<SimpleData name="y_proj">-1945803</SimpleData>
+				<SimpleData name="x_proj">2836098</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55111046461727,-16.4407710959255,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_107</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_107</SimpleData>
+				<SimpleData name="point_name">PARQUE_DE_LA_AMISTAD</SimpleData>
+				<SimpleData name="lat">-16.439</SimpleData>
+				<SimpleData name="long">-71.5494</SimpleData>
+				<SimpleData name="y_proj">-1945620</SimpleData>
+				<SimpleData name="x_proj">2836315</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54940428850885,-16.43903078784118,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_108</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_108</SimpleData>
+				<SimpleData name="point_name">LA CAPILLA</SimpleData>
+				<SimpleData name="lat">-16.4404</SimpleData>
+				<SimpleData name="long">-71.5468</SimpleData>
+				<SimpleData name="y_proj">-1945811</SimpleData>
+				<SimpleData name="x_proj">2836590</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54681789536964,-16.44038362851312,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_109</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_109</SimpleData>
+				<SimpleData name="point_name">COMPLEJO_DEPORTIVO_VILLA_CHILPINA</SimpleData>
+				<SimpleData name="lat">-16.4397</SimpleData>
+				<SimpleData name="long">-71.5431</SimpleData>
+				<SimpleData name="y_proj">-1945780</SimpleData>
+				<SimpleData name="x_proj">2837015</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54314600591307,-16.43972285237664,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_110</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_110</SimpleData>
+				<SimpleData name="point_name">VILLA JARDIN</SimpleData>
+				<SimpleData name="lat">-16.4392</SimpleData>
+				<SimpleData name="long">-71.5418</SimpleData>
+				<SimpleData name="y_proj">-1945737</SimpleData>
+				<SimpleData name="x_proj">2837169</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54184282073204,-16.43921895242761,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_111</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_111</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_LAS_PENHAS</SimpleData>
+				<SimpleData name="lat">-16.44</SimpleData>
+				<SimpleData name="long">-71.5392</SimpleData>
+				<SimpleData name="y_proj">-1945867</SimpleData>
+				<SimpleData name="x_proj">2837458</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5392014490086,-16.44003986109179,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_112</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_112</SimpleData>
+				<SimpleData name="point_name">ASOC_VILLA_JARDIN</SimpleData>
+				<SimpleData name="lat">-16.437</SimpleData>
+				<SimpleData name="long">-71.5391</SimpleData>
+				<SimpleData name="y_proj">-1945516</SimpleData>
+				<SimpleData name="x_proj">2837510</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.53908976792141,-16.43703589364594,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_113</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_113</SimpleData>
+				<SimpleData name="point_name">VILLA SALAVERRY</SimpleData>
+				<SimpleData name="lat">-16.4378</SimpleData>
+				<SimpleData name="long">-71.5426</SimpleData>
+				<SimpleData name="y_proj">-1945560</SimpleData>
+				<SimpleData name="x_proj">2837107</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54255416453054,-16.4377831892699,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_114</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_114</SimpleData>
+				<SimpleData name="point_name">RESTAURANT_EL_ERIZO</SimpleData>
+				<SimpleData name="lat">-16.4334</SimpleData>
+				<SimpleData name="long">-71.5518</SimpleData>
+				<SimpleData name="y_proj">-1944923</SimpleData>
+				<SimpleData name="x_proj">2836112</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55184649126039,-16.4333603626032,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_115</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_115</SimpleData>
+				<SimpleData name="point_name">IGLESIA BELLAVISTA (MOVIL)</SimpleData>
+				<SimpleData name="lat">-16.4291</SimpleData>
+				<SimpleData name="long">-71.5511</SimpleData>
+				<SimpleData name="y_proj">-1944431</SimpleData>
+				<SimpleData name="x_proj">2836255</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55107932558468,-16.42908975614683,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_116</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_116</SimpleData>
+				<SimpleData name="point_name">LAS GARDENIAS</SimpleData>
+				<SimpleData name="lat">-16.4309</SimpleData>
+				<SimpleData name="long">-71.5487</SimpleData>
+				<SimpleData name="y_proj">-1944677</SimpleData>
+				<SimpleData name="x_proj">2836495</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54874492766288,-16.43093366293285,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_117</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_117</SimpleData>
+				<SimpleData name="point_name">ENTRADA_VELLAVISTA</SimpleData>
+				<SimpleData name="lat">-16.4279</SimpleData>
+				<SimpleData name="long">-71.5476</SimpleData>
+				<SimpleData name="y_proj">-1944336</SimpleData>
+				<SimpleData name="x_proj">2836665</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54759672285049,-16.42790404418889,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_118</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_118</SimpleData>
+				<SimpleData name="point_name">ASOC_BELLAVISTA</SimpleData>
+				<SimpleData name="lat">-16.4236</SimpleData>
+				<SimpleData name="long">-71.5432</SimpleData>
+				<SimpleData name="y_proj">-1943891</SimpleData>
+				<SimpleData name="x_proj">2837221</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54318040370619,-16.42364773774028,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_119</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_119</SimpleData>
+				<SimpleData name="point_name">SENATI</SimpleData>
+				<SimpleData name="lat">-16.4206</SimpleData>
+				<SimpleData name="long">-71.5467</SimpleData>
+				<SimpleData name="y_proj">-1943492</SimpleData>
+				<SimpleData name="x_proj">2836857</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54674023670299,-16.42063277096025,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_120</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_120</SimpleData>
+				<SimpleData name="point_name">PARQUE_INOCENTES</SimpleData>
+				<SimpleData name="lat">-16.4179</SimpleData>
+				<SimpleData name="long">-71.5497</SimpleData>
+				<SimpleData name="y_proj">-1943132</SimpleData>
+				<SimpleData name="x_proj">2836553</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54973557791368,-16.41788750642157,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_121</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_121</SimpleData>
+				<SimpleData name="point_name">COCHERA_COLEGIO_SAN_JOSE</SimpleData>
+				<SimpleData name="lat">-16.4233</SimpleData>
+				<SimpleData name="long">-71.5515</SimpleData>
+				<SimpleData name="y_proj">-1943749</SimpleData>
+				<SimpleData name="x_proj">2836277</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55154279160951,-16.42333312024551,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_122</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_122</SimpleData>
+				<SimpleData name="point_name">ESTACION_FERROFIARIA_PARQUE_INDUSTRIAL</SimpleData>
+				<SimpleData name="lat">-16.4226</SimpleData>
+				<SimpleData name="long">-71.5547</SimpleData>
+				<SimpleData name="y_proj">-1943622</SimpleData>
+				<SimpleData name="x_proj">2835924</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5547405947087,-16.42259278177522,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_123</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_123</SimpleData>
+				<SimpleData name="point_name">PARQUE_VILLA_DON_GENARO</SimpleData>
+				<SimpleData name="lat">-16.4263</SimpleData>
+				<SimpleData name="long">-71.5562</SimpleData>
+				<SimpleData name="y_proj">-1944039</SimpleData>
+				<SimpleData name="x_proj">2835706</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.556236994466,-16.42630225401543,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_124</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_124</SimpleData>
+				<SimpleData name="point_name">PARQUE_MARIA_MONSERRAT</SimpleData>
+				<SimpleData name="lat">-16.4277</SimpleData>
+				<SimpleData name="long">-71.5574</SimpleData>
+				<SimpleData name="y_proj">-1944191</SimpleData>
+				<SimpleData name="x_proj">2835560</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55736528431814,-16.42772313982294,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_125</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_125</SimpleData>
+				<SimpleData name="point_name">COLEGIO _NUESTRA _SENHORA_DE_LOURDES</SimpleData>
+				<SimpleData name="lat">-16.4287</SimpleData>
+				<SimpleData name="long">-71.5579</SimpleData>
+				<SimpleData name="y_proj">-1944296</SimpleData>
+				<SimpleData name="x_proj">2835490</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55787572600455,-16.42867354123024,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_126</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_126</SimpleData>
+				<SimpleData name="point_name">PARROQUIA_SANTISIMA_TRINIDAD_TINGO</SimpleData>
+				<SimpleData name="lat">-16.4317</SimpleData>
+				<SimpleData name="long">-71.5613</SimpleData>
+				<SimpleData name="y_proj">-1944606</SimpleData>
+				<SimpleData name="x_proj">2835063</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56129595791342,-16.43167641589395,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_127</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_127</SimpleData>
+				<SimpleData name="point_name">POLIDEPORTIVO_MONTESSORI</SimpleData>
+				<SimpleData name="lat">-16.434</SimpleData>
+				<SimpleData name="long">-71.5609</SimpleData>
+				<SimpleData name="y_proj">-1944884</SimpleData>
+				<SimpleData name="x_proj">2835079</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56088889607514,-16.43399809506911,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_128</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_128</SimpleData>
+				<SimpleData name="point_name">PARQUE_ACUATICO_TINGO</SimpleData>
+				<SimpleData name="lat">-16.4317</SimpleData>
+				<SimpleData name="long">-71.5632</SimpleData>
+				<SimpleData name="y_proj">-1944580</SimpleData>
+				<SimpleData name="x_proj">2834845</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56321559970702,-16.43166177614227,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_129</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_129</SimpleData>
+				<SimpleData name="point_name">PARQUE_MORRO_DE_ARICA</SimpleData>
+				<SimpleData name="lat">-16.4332</SimpleData>
+				<SimpleData name="long">-71.5632</SimpleData>
+				<SimpleData name="y_proj">-1944761</SimpleData>
+				<SimpleData name="x_proj">2834822</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56324479906324,-16.43320387387832,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_130</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_130</SimpleData>
+				<SimpleData name="point_name">CALLE MORRO DE ARICA CON CALLE LOS ROSALES</SimpleData>
+				<SimpleData name="lat">-16.4331</SimpleData>
+				<SimpleData name="long">-71.5644</SimpleData>
+				<SimpleData name="y_proj">-1944738</SimpleData>
+				<SimpleData name="x_proj">2834697</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56435644540917,-16.43312792451457,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_131</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_131</SimpleData>
+				<SimpleData name="point_name">PUESTO_DE_SALUD_CAMINOS_DEL_INCA</SimpleData>
+				<SimpleData name="lat">-16.4345</SimpleData>
+				<SimpleData name="long">-71.564</SimpleData>
+				<SimpleData name="y_proj">-1944905</SimpleData>
+				<SimpleData name="x_proj">2834719</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56400584087936,-16.43451020652741,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_132</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_132</SimpleData>
+				<SimpleData name="point_name">28 DE JULIO Y LOS BALCONES</SimpleData>
+				<SimpleData name="lat">-16.4377</SimpleData>
+				<SimpleData name="long">-71.565</SimpleData>
+				<SimpleData name="y_proj">-1945265</SimpleData>
+				<SimpleData name="x_proj">2834567</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56497779333172,-16.43768167982046,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_133</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_133</SimpleData>
+				<SimpleData name="point_name">LOS MOLLES</SimpleData>
+				<SimpleData name="lat">-16.4409</SimpleData>
+				<SimpleData name="long">-71.5655</SimpleData>
+				<SimpleData name="y_proj">-1945642</SimpleData>
+				<SimpleData name="x_proj">2834464</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56550938230126,-16.44094580024637,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_134</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_134</SimpleData>
+				<SimpleData name="point_name">OVALO_TINGO_GRANDE</SimpleData>
+				<SimpleData name="lat">-16.4576</SimpleData>
+				<SimpleData name="long">-71.5748</SimpleData>
+				<SimpleData name="y_proj">-1947476</SimpleData>
+				<SimpleData name="x_proj">2833196</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.57478595377397,-16.45756105625411,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_135</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_135</SimpleData>
+				<SimpleData name="point_name">COSTA VERDE</SimpleData>
+				<SimpleData name="lat">-16.4589</SimpleData>
+				<SimpleData name="long">-71.5794</SimpleData>
+				<SimpleData name="y_proj">-1947572</SimpleData>
+				<SimpleData name="x_proj">2832661</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.57935898944258,-16.45887145152471,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_136</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_136</SimpleData>
+				<SimpleData name="point_name">HUAYRONDO</SimpleData>
+				<SimpleData name="lat">-16.4586</SimpleData>
+				<SimpleData name="long">-71.5828</SimpleData>
+				<SimpleData name="y_proj">-1947496</SimpleData>
+				<SimpleData name="x_proj">2832277</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.58277919333806,-16.45859157285303,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL02_PP_137</name>
+		<styleUrl>#pointStyleMap0</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL02_Javier_Llosa_Garcia_28abr2023_SSDDIISS">
+				<SimpleData name="code">CL02_PP_137</SimpleData>
+				<SimpleData name="point_name">ASOC_TINGO_GRANDE</SimpleData>
+				<SimpleData name="lat">-16.46</SimpleData>
+				<SimpleData name="long">-71.5827</SimpleData>
+				<SimpleData name="y_proj">-1947659</SimpleData>
+				<SimpleData name="x_proj">2832273</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.58265040854668,-16.45996900051009,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

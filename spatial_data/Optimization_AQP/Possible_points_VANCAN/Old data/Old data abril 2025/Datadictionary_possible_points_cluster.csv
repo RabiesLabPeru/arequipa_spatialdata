@@ -1,0 +1,12 @@
+Variable;Description;Values
+n_microred;Microred number;1 -20
+microred;Microred name;
+cluster;Cluster number;1 - 36
+code_point;Unique vaccination point code;
+name_point;Vaccination point name;
+lat;Latitude;
+long;Longitude;
+y_proj;Coordinates Y;
+x_proj;Coordinates X;
+type_point;Type of vaccination point;"Fixed: fixed point; Mobile: Mobile point"
+strategy;Type of strategy;"Establecido:  Point established by the health system; Propuesto: Point proposed by the LIEZ-UPCH team"

@@ -1,0 +1,1991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CL04_Buenos _Aires_03mar2026</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<Schema name="CL04_Buenos _Aires" id="S_CL04_Buenos__Aires_SSDDIISS">
+		<SimpleField type="string" name="code"><displayName>&lt;b&gt;code&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="point_name"><displayName>&lt;b&gt;point_name&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="lat"><displayName>&lt;b&gt;lat&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="long"><displayName>&lt;b&gt;long&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="y_proj"><displayName>&lt;b&gt;y_proj&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="x_proj"><displayName>&lt;b&gt;x_proj&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="type_point"><displayName>&lt;b&gt;type_point&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="estratategy"><displayName>&lt;b&gt;estratategy&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle110">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>code</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/code]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/point_name]</td></tr>
+  <tr><td><b>lat</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/estratategy]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="normPointStyle230">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>code</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/code]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/point_name]</td></tr>
+  <tr><td><b>lat</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/estratategy]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="pointStyleMap23">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle230</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>CL04_PP_001</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_001</SimpleData>
+				<SimpleData name="point_name">IGLESIA_BIBLICA_BAUTISTA_JESUS_EL_SALVADOR</SimpleData>
+				<SimpleData name="lat">-16.3549</SimpleData>
+				<SimpleData name="long">-71.5515</SimpleData>
+				<SimpleData name="y_proj">-1935707</SimpleData>
+				<SimpleData name="x_proj">2837176</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55148920489916,-16.35486126947614,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_002</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_002</SimpleData>
+				<SimpleData name="point_name">PLAZA_DE_BUENOS_AIRES</SimpleData>
+				<SimpleData name="lat">-16.3543</SimpleData>
+				<SimpleData name="long">-71.5504</SimpleData>
+				<SimpleData name="y_proj">-1935660</SimpleData>
+				<SimpleData name="x_proj">2837303</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55042888503723,-16.35434610773218,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_003</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_003</SimpleData>
+				<SimpleData name="point_name">ESTUDIO_DE_ESCULTURA_PROFESIONAL</SimpleData>
+				<SimpleData name="lat">-16.3532</SimpleData>
+				<SimpleData name="long">-71.5513</SimpleData>
+				<SimpleData name="y_proj">-1935513</SimpleData>
+				<SimpleData name="x_proj">2837220</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55129392942884,-16.35318413608564,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_004</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_004</SimpleData>
+				<SimpleData name="point_name">CRUCE_AV_AVIACION</SimpleData>
+				<SimpleData name="lat">-16.3523</SimpleData>
+				<SimpleData name="long">-71.5551</SimpleData>
+				<SimpleData name="y_proj">-1935361</SimpleData>
+				<SimpleData name="x_proj">2836805</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55505068714061,-16.35229421625098,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_005</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_005</SimpleData>
+				<SimpleData name="point_name">PARQUE_DEL_NINHO</SimpleData>
+				<SimpleData name="lat">-16.351</SimpleData>
+				<SimpleData name="long">-71.5546</SimpleData>
+				<SimpleData name="y_proj">-1935213</SimpleData>
+				<SimpleData name="x_proj">2836873</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55460658389892,-16.35098244799911,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_006</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_006</SimpleData>
+				<SimpleData name="point_name">POSTA_MEDICA_SAN_JOSE</SimpleData>
+				<SimpleData name="lat">-16.3481</SimpleData>
+				<SimpleData name="long">-71.5544</SimpleData>
+				<SimpleData name="y_proj">-1934879</SimpleData>
+				<SimpleData name="x_proj">2836930</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55442942433751,-16.34812183108079,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_007</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_007</SimpleData>
+				<SimpleData name="point_name">PARQUE_VILLA_CONTINENTAL</SimpleData>
+				<SimpleData name="lat">-16.3466</SimpleData>
+				<SimpleData name="long">-71.5545</SimpleData>
+				<SimpleData name="y_proj">-1934702</SimpleData>
+				<SimpleData name="x_proj">2836943</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55448341678448,-16.34662331034087,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_008</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_008</SimpleData>
+				<SimpleData name="point_name">CANCHA_VILLA_CONTINENTAL</SimpleData>
+				<SimpleData name="lat">-16.3455</SimpleData>
+				<SimpleData name="long">-71.5534</SimpleData>
+				<SimpleData name="y_proj">-1934579</SimpleData>
+				<SimpleData name="x_proj">2837076</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55344788256606,-16.34546667416895,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_009</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_009</SimpleData>
+				<SimpleData name="point_name">COLEGIO_CASIMIRO_CUADROS</SimpleData>
+				<SimpleData name="lat">-16.3485</SimpleData>
+				<SimpleData name="long">-71.552</SimpleData>
+				<SimpleData name="y_proj">-1934955</SimpleData>
+				<SimpleData name="x_proj">2837199</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55201204979872,-16.34851155395796,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_010</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_010</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_LA_CHAQUI</SimpleData>
+				<SimpleData name="lat">-16.3505</SimpleData>
+				<SimpleData name="long">-71.5522</SimpleData>
+				<SimpleData name="y_proj">-1935181</SimpleData>
+				<SimpleData name="x_proj">2837155</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55217680476925,-16.35045405868245,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_011</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_011</SimpleData>
+				<SimpleData name="point_name">MERCADO_DE_ALTO_CAYMA</SimpleData>
+				<SimpleData name="lat">-16.3499</SimpleData>
+				<SimpleData name="long">-71.5493</SimpleData>
+				<SimpleData name="y_proj">-1935157</SimpleData>
+				<SimpleData name="x_proj">2837486</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54931475813008,-16.34994276854738,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_012</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_012</SimpleData>
+				<SimpleData name="point_name">IE_EL_GRAN_HEROE_ANDRES_AVELINO_CACERES</SimpleData>
+				<SimpleData name="lat">-16.352</SimpleData>
+				<SimpleData name="long">-71.5469</SimpleData>
+				<SimpleData name="y_proj">-1935433</SimpleData>
+				<SimpleData name="x_proj">2837732</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54691126447955,-16.35203762473564,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_013</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_013</SimpleData>
+				<SimpleData name="point_name">IGLESIA_EVANGELICA_PENTECOSTAL_AREQUIPA</SimpleData>
+				<SimpleData name="lat">-16.35</SimpleData>
+				<SimpleData name="long">-71.5459</SimpleData>
+				<SimpleData name="y_proj">-1935202</SimpleData>
+				<SimpleData name="x_proj">2837872</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54590773819267,-16.34996177879728,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_014</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_014</SimpleData>
+				<SimpleData name="point_name">PARQUE_LOS_ANGELES</SimpleData>
+				<SimpleData name="lat">-16.3483</SimpleData>
+				<SimpleData name="long">-71.5494</SimpleData>
+				<SimpleData name="y_proj">-1934957</SimpleData>
+				<SimpleData name="x_proj">2837494</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54943532100107,-16.34825633197493,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_015</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_015</SimpleData>
+				<SimpleData name="point_name">CANCHA_RAMIRO_PRIALE</SimpleData>
+				<SimpleData name="lat">-16.3466</SimpleData>
+				<SimpleData name="long">-71.5498</SimpleData>
+				<SimpleData name="y_proj">-1934761</SimpleData>
+				<SimpleData name="x_proj">2837470</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54983584296271,-16.3466266237956,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_016</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_016</SimpleData>
+				<SimpleData name="point_name">COMPLEJO_DEPORTIVO_CASIMIRO_CUADROS_II</SimpleData>
+				<SimpleData name="lat">-16.3474</SimpleData>
+				<SimpleData name="long">-71.548</SimpleData>
+				<SimpleData name="y_proj">-1934871</SimpleData>
+				<SimpleData name="x_proj">2837671</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54797767664483,-16.34736140092868,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_017</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_017</SimpleData>
+				<SimpleData name="point_name">CANCHA_DE_FULBITO_LAS_MALVINAS</SimpleData>
+				<SimpleData name="lat">-16.3458</SimpleData>
+				<SimpleData name="long">-71.5467</SimpleData>
+				<SimpleData name="y_proj">-1934705</SimpleData>
+				<SimpleData name="x_proj">2837832</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54673926332767,-16.34582366917359,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_018</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_018</SimpleData>
+				<SimpleData name="point_name">PARQUE_SAN_JOSE_DE_PIRO</SimpleData>
+				<SimpleData name="lat">-16.3451</SimpleData>
+				<SimpleData name="long">-71.5455</SimpleData>
+				<SimpleData name="y_proj">-1934642</SimpleData>
+				<SimpleData name="x_proj">2837982</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54548973311057,-16.3451467484016,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_019</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_019</SimpleData>
+				<SimpleData name="point_name">PARQUE_ALA_DE_ANGEL</SimpleData>
+				<SimpleData name="lat">-16.3424</SimpleData>
+				<SimpleData name="long">-71.5465</SimpleData>
+				<SimpleData name="y_proj">-1934308</SimpleData>
+				<SimpleData name="x_proj">2837902</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54650780826088,-16.34241534572306,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_020</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_020</SimpleData>
+				<SimpleData name="point_name">PARQUE_VIRGEN_DE_LA_CANDELARIA</SimpleData>
+				<SimpleData name="lat">-16.3441</SimpleData>
+				<SimpleData name="long">-71.548</SimpleData>
+				<SimpleData name="y_proj">-1934484</SimpleData>
+				<SimpleData name="x_proj">2837715</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54797360765541,-16.34407312193027,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_021</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_021</SimpleData>
+				<SimpleData name="point_name">COMEDOR_POPULAR_SANTA_ROSA_DE_LIMA</SimpleData>
+				<SimpleData name="lat">-16.3454</SimpleData>
+				<SimpleData name="long">-71.5499</SimpleData>
+				<SimpleData name="y_proj">-1934612</SimpleData>
+				<SimpleData name="x_proj">2837482</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54987795254641,-16.34536498001106,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_022</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_022</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_SANTA_ROSA</SimpleData>
+				<SimpleData name="lat">-16.3445</SimpleData>
+				<SimpleData name="long">-71.5511</SimpleData>
+				<SimpleData name="y_proj">-1934500</SimpleData>
+				<SimpleData name="x_proj">2837357</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55107415486309,-16.34453750655644,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_023</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_023</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_CESAR_VALLEJO</SimpleData>
+				<SimpleData name="lat">-16.3431</SimpleData>
+				<SimpleData name="long">-71.5519</SimpleData>
+				<SimpleData name="y_proj">-1934322</SimpleData>
+				<SimpleData name="x_proj">2837285</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5518750399229,-16.34311038101308,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_024</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_024</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_SENHOR_DE_HUANCA</SimpleData>
+				<SimpleData name="lat">-16.3421</SimpleData>
+				<SimpleData name="long">-71.5508</SimpleData>
+				<SimpleData name="y_proj">-1934218</SimpleData>
+				<SimpleData name="x_proj">2837418</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55081527007667,-16.34211176347798,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_025</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_025</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_SOL_DE_ORO</SimpleData>
+				<SimpleData name="lat">-16.3403</SimpleData>
+				<SimpleData name="long">-71.5525</SimpleData>
+				<SimpleData name="y_proj">-1933980</SimpleData>
+				<SimpleData name="x_proj">2837251</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55249826894853,-16.34026193796873,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_026</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_026</SimpleData>
+				<SimpleData name="point_name">CANCHA_19_DE_ENERO</SimpleData>
+				<SimpleData name="lat">-16.3416</SimpleData>
+				<SimpleData name="long">-71.549</SimpleData>
+				<SimpleData name="y_proj">-1934179</SimpleData>
+				<SimpleData name="x_proj">2837631</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54899536873606,-16.34158399200138,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_027</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_027</SimpleData>
+				<SimpleData name="point_name">PARQUE_SAN_MIGUEL</SimpleData>
+				<SimpleData name="lat">-16.3405</SimpleData>
+				<SimpleData name="long">-71.5478</SimpleData>
+				<SimpleData name="y_proj">-1934070</SimpleData>
+				<SimpleData name="x_proj">2837786</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54775495129589,-16.34052359284715,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_028</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_028</SimpleData>
+				<SimpleData name="point_name">ESCUELA_DE_BEISBOL_CAYMA</SimpleData>
+				<SimpleData name="lat">-16.3375</SimpleData>
+				<SimpleData name="long">-71.5467</SimpleData>
+				<SimpleData name="y_proj">-1933731</SimpleData>
+				<SimpleData name="x_proj">2837942</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54671755227703,-16.33752489897142,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_029</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_029</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_ENACE_9</SimpleData>
+				<SimpleData name="lat">-16.3367</SimpleData>
+				<SimpleData name="long">-71.545</SimpleData>
+				<SimpleData name="y_proj">-1933656</SimpleData>
+				<SimpleData name="x_proj">2838152</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.544966533325,-16.33669792863423,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_030</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_030</SimpleData>
+				<SimpleData name="point_name">PARQUE_RECREACIONAL_SECTOR_12</SimpleData>
+				<SimpleData name="lat">-16.3369</SimpleData>
+				<SimpleData name="long">-71.5489</SimpleData>
+				<SimpleData name="y_proj">-1933626</SimpleData>
+				<SimpleData name="x_proj">2837703</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54889914620603,-16.33686303871742,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_031</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_031</SimpleData>
+				<SimpleData name="point_name">PARQUE_DIVINO_NINHO_DE_CAYMA</SimpleData>
+				<SimpleData name="lat">-16.3391</SimpleData>
+				<SimpleData name="long">-71.5536</SimpleData>
+				<SimpleData name="y_proj">-1933830</SimpleData>
+				<SimpleData name="x_proj">2837138</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55362319710271,-16.33910364817399,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_032</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_032</SimpleData>
+				<SimpleData name="point_name">CAMPO_DE_FUTBOL_VILLA_PARAISO</SimpleData>
+				<SimpleData name="lat">-16.3381</SimpleData>
+				<SimpleData name="long">-71.5546</SimpleData>
+				<SimpleData name="y_proj">-1933704</SimpleData>
+				<SimpleData name="x_proj">2837035</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55464066549457,-16.33814554780393,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_033</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_033</SimpleData>
+				<SimpleData name="point_name">COMPLEJO_DEPORTIVO_SECTOR_2</SimpleData>
+				<SimpleData name="lat">-16.3369</SimpleData>
+				<SimpleData name="long">-71.5526</SimpleData>
+				<SimpleData name="y_proj">-1933588</SimpleData>
+				<SimpleData name="x_proj">2837278</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55263995144516,-16.33694198986759,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_034</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_034</SimpleData>
+				<SimpleData name="point_name">CENTRO_RECREACIONAL_SECTOR_III</SimpleData>
+				<SimpleData name="lat">-16.3348</SimpleData>
+				<SimpleData name="long">-71.5521</SimpleData>
+				<SimpleData name="y_proj">-1933339</SimpleData>
+				<SimpleData name="x_proj">2837368</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55209393011548,-16.33476408506869,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_035</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_035</SimpleData>
+				<SimpleData name="point_name">COLEGIO_TERESITA_DE_JESUS</SimpleData>
+				<SimpleData name="lat">-16.3353</SimpleData>
+				<SimpleData name="long">-71.5506</SimpleData>
+				<SimpleData name="y_proj">-1933426</SimpleData>
+				<SimpleData name="x_proj">2837529</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55060776946691,-16.33534339576806,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_036</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_036</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_SAN_PEDRO</SimpleData>
+				<SimpleData name="lat">-16.3352</SimpleData>
+				<SimpleData name="long">-71.5477</SimpleData>
+				<SimpleData name="y_proj">-1933445</SimpleData>
+				<SimpleData name="x_proj">2837858</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5477246477359,-16.33520206197799,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_037</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_037</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_SECTOR_XIII</SimpleData>
+				<SimpleData name="lat">-16.3335</SimpleData>
+				<SimpleData name="long">-71.5469</SimpleData>
+				<SimpleData name="y_proj">-1933254</SimpleData>
+				<SimpleData name="x_proj">2837977</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54687667372544,-16.33347801195816,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_038</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_038</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_SECTOR_IV</SimpleData>
+				<SimpleData name="lat">-16.3329</SimpleData>
+				<SimpleData name="long">-71.549</SimpleData>
+				<SimpleData name="y_proj">-1933158</SimpleData>
+				<SimpleData name="x_proj">2837746</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54898083576502,-16.33289383648968,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_039</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_039</SimpleData>
+				<SimpleData name="point_name">COLEGIO_SAN_JUAN_MASIAS</SimpleData>
+				<SimpleData name="lat">-16.331</SimpleData>
+				<SimpleData name="long">-71.549</SimpleData>
+				<SimpleData name="y_proj">-1932938</SimpleData>
+				<SimpleData name="x_proj">2837770</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54897694608766,-16.33101882602267,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_040</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_040</SimpleData>
+				<SimpleData name="point_name">PARQUE_SECTOR_V</SimpleData>
+				<SimpleData name="lat">-16.3314</SimpleData>
+				<SimpleData name="long">-71.5481</SimpleData>
+				<SimpleData name="y_proj">-1932995</SimpleData>
+				<SimpleData name="x_proj">2837864</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54810726240378,-16.33141045960959,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_041</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_041</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_SECTOR_V</SimpleData>
+				<SimpleData name="lat">-16.3301</SimpleData>
+				<SimpleData name="long">-71.5463</SimpleData>
+				<SimpleData name="y_proj">-1932861</SimpleData>
+				<SimpleData name="x_proj">2838086</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54630215188669,-16.33007856835693,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_042</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_042</SimpleData>
+				<SimpleData name="point_name">PLAZA_DEAN_VALDIVIA_SECTOR_VI</SimpleData>
+				<SimpleData name="lat">-16.3291</SimpleData>
+				<SimpleData name="long">-71.5454</SimpleData>
+				<SimpleData name="y_proj">-1932755</SimpleData>
+				<SimpleData name="x_proj">2838204</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54537707463807,-16.32907655267852,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_043</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_043</SimpleData>
+				<SimpleData name="point_name">PARQUE_ENACE_6</SimpleData>
+				<SimpleData name="lat">-16.328</SimpleData>
+				<SimpleData name="long">-71.5441</SimpleData>
+				<SimpleData name="y_proj">-1932644</SimpleData>
+				<SimpleData name="x_proj">2838360</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54412674016953,-16.32799657176811,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_044</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_044</SimpleData>
+				<SimpleData name="point_name">COMISARIA_DEAN_VALDIVIA</SimpleData>
+				<SimpleData name="lat">-16.3317</SimpleData>
+				<SimpleData name="long">-71.5438</SimpleData>
+				<SimpleData name="y_proj">-1933087</SimpleData>
+				<SimpleData name="x_proj">2838346</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54382073023106,-16.33173739772763,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_045</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_045</SimpleData>
+				<SimpleData name="point_name">MERCADO_DEAN_VALDIVIA</SimpleData>
+				<SimpleData name="lat">-16.3301</SimpleData>
+				<SimpleData name="long">-71.5426</SimpleData>
+				<SimpleData name="y_proj">-1932915</SimpleData>
+				<SimpleData name="x_proj">2838510</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54255532768896,-16.33013512625613,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_046</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_046</SimpleData>
+				<SimpleData name="point_name">PARQUE_DE_LAS_TRES_ASTAS_SECTOR_8</SimpleData>
+				<SimpleData name="lat">-16.3292</SimpleData>
+				<SimpleData name="long">-71.5418</SimpleData>
+				<SimpleData name="y_proj">-1932819</SimpleData>
+				<SimpleData name="x_proj">2838608</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54179280491853,-16.32923649145912,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_047</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_047</SimpleData>
+				<SimpleData name="point_name">PARQUE_SECTOR_7</SimpleData>
+				<SimpleData name="lat">-16.3274</SimpleData>
+				<SimpleData name="long">-71.542</SimpleData>
+				<SimpleData name="y_proj">-1932606</SimpleData>
+				<SimpleData name="x_proj">2838605</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54203147143632,-16.32744814223207,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_048</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_048</SimpleData>
+				<SimpleData name="point_name">CAMPO_DEPORTIVO_1ROS_DE_JUNIO</SimpleData>
+				<SimpleData name="lat">-16.3239</SimpleData>
+				<SimpleData name="long">-71.5411</SimpleData>
+				<SimpleData name="y_proj">-1932197</SimpleData>
+				<SimpleData name="x_proj">2838756</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54110750595299,-16.32386425956216,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_049</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_049</SimpleData>
+				<SimpleData name="point_name">IGLESIA_PRIMERO_DE_JUNIO</SimpleData>
+				<SimpleData name="lat">-16.3249</SimpleData>
+				<SimpleData name="long">-71.5389</SimpleData>
+				<SimpleData name="y_proj">-1932349</SimpleData>
+				<SimpleData name="x_proj">2838989</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.538936133916,-16.3249263948026,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_050</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_050</SimpleData>
+				<SimpleData name="point_name">COLEGIO_11_DE_MAYO</SimpleData>
+				<SimpleData name="lat">-16.3173</SimpleData>
+				<SimpleData name="long">-71.5377</SimpleData>
+				<SimpleData name="y_proj">-1931471</SimpleData>
+				<SimpleData name="x_proj">2839227</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.53770488799958,-16.31732605105162,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_051</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_051</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_11_DE_MAYO</SimpleData>
+				<SimpleData name="lat">-16.3187</SimpleData>
+				<SimpleData name="long">-71.5365</SimpleData>
+				<SimpleData name="y_proj">-1931646</SimpleData>
+				<SimpleData name="x_proj">2839345</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.53650678202061,-16.31869043276966,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_052</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_052</SimpleData>
+				<SimpleData name="point_name">PARQUE_LAS_LOMADITAS</SimpleData>
+				<SimpleData name="lat">-16.3212</SimpleData>
+				<SimpleData name="long">-71.538</SimpleData>
+				<SimpleData name="y_proj">-1931922</SimpleData>
+				<SimpleData name="x_proj">2839146</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.53797529522856,-16.32119500115117,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_053</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_053</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_SENHOR_DE_LOS_MILAGROS</SimpleData>
+				<SimpleData name="lat">-16.3134</SimpleData>
+				<SimpleData name="long">-71.5334</SimpleData>
+				<SimpleData name="y_proj">-1931065</SimpleData>
+				<SimpleData name="x_proj">2839762</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.53343280137798,-16.31341035468319,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_054</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_054</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_PALPATA</SimpleData>
+				<SimpleData name="lat">-16.3146</SimpleData>
+				<SimpleData name="long">-71.5397</SimpleData>
+				<SimpleData name="y_proj">-1931128</SimpleData>
+				<SimpleData name="x_proj">2839041</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.53965026960256,-16.31461598957953,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_055</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_055</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_PALPATA_ZONA_B</SimpleData>
+				<SimpleData name="lat">-16.3117</SimpleData>
+				<SimpleData name="long">-71.5376</SimpleData>
+				<SimpleData name="y_proj">-1930815</SimpleData>
+				<SimpleData name="x_proj">2839316</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.53755776497945,-16.31172618291918,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_056</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_056</SimpleData>
+				<SimpleData name="point_name">PALPATA_B</SimpleData>
+				<SimpleData name="lat">-16.3096</SimpleData>
+				<SimpleData name="long">-71.5349</SimpleData>
+				<SimpleData name="y_proj">-1930600</SimpleData>
+				<SimpleData name="x_proj">2839644</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.53490753231594,-16.30961446214338,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_057</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_057</SimpleData>
+				<SimpleData name="point_name">COLEGIO_MUJERES_CON_ESPERANZA</SimpleData>
+				<SimpleData name="lat">-16.3103</SimpleData>
+				<SimpleData name="long">-71.5319</SimpleData>
+				<SimpleData name="y_proj">-1930718</SimpleData>
+				<SimpleData name="x_proj">2839981</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.53186659421796,-16.31028796664391,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_058</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_058</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_EMBAJADA_DE_JAPON_B</SimpleData>
+				<SimpleData name="lat">-16.3077</SimpleData>
+				<SimpleData name="long">-71.5311</SimpleData>
+				<SimpleData name="y_proj">-1930422</SimpleData>
+				<SimpleData name="x_proj">2840102</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5310897084463,-16.30769242700819,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_059</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_059</SimpleData>
+				<SimpleData name="point_name">LOCAL_SOCIAL_MUJERES_CON_ESPERANZA</SimpleData>
+				<SimpleData name="lat">-16.3067</SimpleData>
+				<SimpleData name="long">-71.5306</SimpleData>
+				<SimpleData name="y_proj">-1930306</SimpleData>
+				<SimpleData name="x_proj">2840173</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.53059010759827,-16.3066525688106,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_060</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_060</SimpleData>
+				<SimpleData name="point_name">EMBAJADA_DE_JAPON_B</SimpleData>
+				<SimpleData name="lat">-16.3058</SimpleData>
+				<SimpleData name="long">-71.5346</SimpleData>
+				<SimpleData name="y_proj">-1930160</SimpleData>
+				<SimpleData name="x_proj">2839726</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.53461900611939,-16.30583574042589,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_061</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_061</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_CABRERIAS</SimpleData>
+				<SimpleData name="lat">-16.303</SimpleData>
+				<SimpleData name="long">-71.5301</SimpleData>
+				<SimpleData name="y_proj">-1929886</SimpleData>
+				<SimpleData name="x_proj">2840270</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.53014262331128,-16.30302896836783,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_062</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_062</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_CABRERIAS_II</SimpleData>
+				<SimpleData name="lat">-16.3033</SimpleData>
+				<SimpleData name="long">-71.5276</SimpleData>
+				<SimpleData name="y_proj">-1929952</SimpleData>
+				<SimpleData name="x_proj">2840551</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.52763332468312,-16.30332211886207,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_063</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_063</SimpleData>
+				<SimpleData name="point_name">PJ_MARIANO_MELGAR</SimpleData>
+				<SimpleData name="lat">-16.3012</SimpleData>
+				<SimpleData name="long">-71.5321</SimpleData>
+				<SimpleData name="y_proj">-1929652</SimpleData>
+				<SimpleData name="x_proj">2840072</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.53209470855607,-16.30123950079102,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_064</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_064</SimpleData>
+				<SimpleData name="point_name">MIRADOR_TRANSOCEANICA_II</SimpleData>
+				<SimpleData name="lat">-16.3002</SimpleData>
+				<SimpleData name="long">-71.528</SimpleData>
+				<SimpleData name="y_proj">-1929579</SimpleData>
+				<SimpleData name="x_proj">2840554</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.52796567777862,-16.30018182012119,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_065</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_065</SimpleData>
+				<SimpleData name="point_name">CASA_BLANCA</SimpleData>
+				<SimpleData name="lat">-16.2983</SimpleData>
+				<SimpleData name="long">-71.5278</SimpleData>
+				<SimpleData name="y_proj">-1929355</SimpleData>
+				<SimpleData name="x_proj">2840594</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.52783685246095,-16.29826301282458,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_066</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_066</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_CASA_BLANCA</SimpleData>
+				<SimpleData name="lat">-16.296</SimpleData>
+				<SimpleData name="long">-71.5276</SimpleData>
+				<SimpleData name="y_proj">-1929089</SimpleData>
+				<SimpleData name="x_proj">2840654</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.52756898730125,-16.29596348509252,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_067</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_067</SimpleData>
+				<SimpleData name="point_name">LOCAL_SOCIAL_EL_MIRADOR_DE_TRANSOCEANICA</SimpleData>
+				<SimpleData name="lat">-16.296</SimpleData>
+				<SimpleData name="long">-71.5301</SimpleData>
+				<SimpleData name="y_proj">-1929067</SimpleData>
+				<SimpleData name="x_proj">2840368</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.53008643882819,-16.29604463439495,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_068</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL04_Buenos__Aires_SSDDIISS">
+				<SimpleData name="code">CL04_PP_068</SimpleData>
+				<SimpleData name="point_name">JARDIENES_DE_CAYMA</SimpleData>
+				<SimpleData name="lat">-16.2935</SimpleData>
+				<SimpleData name="long">-71.5277</SimpleData>
+				<SimpleData name="y_proj">-1928796</SimpleData>
+				<SimpleData name="x_proj">2840676</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.52766195202845,-16.29348299123797,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_069</name>
+		<visibility>0</visibility>
+		<description>capilla comite 16</description>
+		<LookAt>
+			<longitude>-71.5473279403532</longitude>
+			<latitude>-16.34913638061499</latitude>
+			<altitude>0</altitude>
+			<heading>0.006520220796086753</heading>
+			<tilt>35.74211483898841</tilt>
+			<range>591.9850787291222</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.54764788634184,-16.34966205281682,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_070</name>
+		<visibility>0</visibility>
+		<description>loza deportiva</description>
+		<LookAt>
+			<longitude>-71.54573234332847</longitude>
+			<latitude>-16.34821694682984</latitude>
+			<altitude>0</altitude>
+			<heading>-0.0002028847625594304</heading>
+			<tilt>4.667604445169422</tilt>
+			<range>407.466283006462</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.54639356654003,-16.34810033317753,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_071</name>
+		<visibility>0</visibility>
+		<description>capilla upis dean valdivia</description>
+		<LookAt>
+			<longitude>-71.54472541847316</longitude>
+			<latitude>-16.34855180420121</latitude>
+			<altitude>0</altitude>
+			<heading>-0.0004712371491223323</heading>
+			<tilt>9.688961985884374</tilt>
+			<range>464.8150451672094</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.54521022635105,-16.34801020630416,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_072</name>
+		<visibility>0</visibility>
+		<description>loza deportiva</description>
+		<LookAt>
+			<longitude>-71.54601340713536</longitude>
+			<latitude>-16.34175020635486</latitude>
+			<altitude>0</altitude>
+			<heading>8.772827623771916e-06</heading>
+			<tilt>14.84929771148988</tilt>
+			<range>653.7421946263185</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.54549528110125,-16.34116466381958,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_073</name>
+		<visibility>0</visibility>
+		<description>loza deportiva</description>
+		<LookAt>
+			<longitude>-71.54728800429734</longitude>
+			<latitude>-16.33909703481658</latitude>
+			<altitude>0</altitude>
+			<heading>0.0004204965529082977</heading>
+			<tilt>21.18927803479598</tilt>
+			<range>321.206851327684</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.54785064841167,-16.33892970089636,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_074</name>
+		<visibility>0</visibility>
+		<description>2 cuadras abajo del colegio kenneth hagin</description>
+		<LookAt>
+			<longitude>-71.54446457422945</longitude>
+			<latitude>-16.33437658962724</latitude>
+			<altitude>0</altitude>
+			<heading>-0.0003840493297265593</heading>
+			<tilt>21.66521471890642</tilt>
+			<range>463.5385550173268</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.54488119146438,-16.3338046268073,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_075</name>
+		<visibility>0</visibility>
+		<description>loza deportiva</description>
+		<LookAt>
+			<longitude>-71.54016692782076</longitude>
+			<latitude>-16.33042747238029</latitude>
+			<altitude>0</altitude>
+			<heading>-0.001573809490398564</heading>
+			<tilt>23.69215039038265</tilt>
+			<range>313.9298473211485</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.54057145726725,-16.33028888549131,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_076</name>
+		<visibility>0</visibility>
+		<description>loza deportiva</description>
+		<LookAt>
+			<longitude>-71.54012519399048</longitude>
+			<latitude>-16.32828189212377</latitude>
+			<altitude>0</altitude>
+			<heading>-0.001595558710640752</heading>
+			<tilt>22.05931123068396</tilt>
+			<range>381.6770885606703</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.54042295749099,-16.32819463945367,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_077</name>
+		<visibility>0</visibility>
+		<description>quinata los cipreces</description>
+		<LookAt>
+			<longitude>-71.53932021757508</longitude>
+			<latitude>-16.32663544134297</latitude>
+			<altitude>0</altitude>
+			<heading>-0.001844489932016858</heading>
+			<tilt>26.78214050139431</tilt>
+			<range>326.3529456554521</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.53952887210799,-16.32655780592052,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_078</name>
+		<visibility>0</visibility>
+		<description>IEP. happy childrens</description>
+		<LookAt>
+			<longitude>-71.53369972477587</longitude>
+			<latitude>-16.31596398928741</latitude>
+			<altitude>0</altitude>
+			<heading>-0.003445630104596325</heading>
+			<tilt>20.97859279921968</tilt>
+			<range>669.524811731629</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.53475025132714,-16.31526742787582,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_079</name>
+		<visibility>0</visibility>
+		<description>cancha deportiva milagros</description>
+		<LookAt>
+			<longitude>-71.53056410203592</longitude>
+			<latitude>-16.31243761417263</latitude>
+			<altitude>0</altitude>
+			<heading>-0.004409612117247195</heading>
+			<tilt>26.96239467519323</tilt>
+			<range>595.3316966645951</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.53143708834237,-16.3127883090608,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_080</name>
+		<visibility>0</visibility>
+		<description>los capulis</description>
+		<LookAt>
+			<longitude>-71.53707990085753</longitude>
+			<latitude>-16.31954528916699</latitude>
+			<altitude>0</altitude>
+			<heading>0.002708533454012665</heading>
+			<tilt>22.5613987445971</tilt>
+			<range>470.4463793817185</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.53778428983745,-16.31975273439395,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_081</name>
+		<visibility>0</visibility>
+		<description>loza deportiva</description>
+		<LookAt>
+			<longitude>-71.53881678011159</longitude>
+			<latitude>-16.31883968717468</latitude>
+			<altitude>0</altitude>
+			<heading>0.003146951871101558</heading>
+			<tilt>21.41435974530308</tilt>
+			<range>679.1493007536161</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.54031974178639,-16.31809685669269,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_082</name>
+		<visibility>0</visibility>
+		<description>parque agustino</description>
+		<LookAt>
+			<longitude>-71.54240192741972</longitude>
+			<latitude>-16.32657612094007</latitude>
+			<altitude>0</altitude>
+			<heading>0.004189406646219637</heading>
+			<tilt>24.24224117839562</tilt>
+			<range>403.1959058676889</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.54307705000203,-16.3259581434135,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_083</name>
+		<visibility>0</visibility>
+		<description>MYE INGENIEROS EJECUTORES</description>
+		<LookAt>
+			<longitude>-71.54493263338549</longitude>
+			<latitude>-16.32735626818835</latitude>
+			<altitude>0</altitude>
+			<heading>0.004898786961447342</heading>
+			<tilt>23.04520528069913</tilt>
+			<range>306.687761263138</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.54512304318156,-16.32696229653714,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_084</name>
+		<visibility>0</visibility>
+		<description>parque</description>
+		<LookAt>
+			<longitude>-71.5461898661148</longitude>
+			<latitude>-16.33127426968455</latitude>
+			<altitude>0</altitude>
+			<heading>0.005251341304036439</heading>
+			<tilt>23.07995274385334</tilt>
+			<range>277.2251529209354</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.54613222562791,-16.33100163433495,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_085</name>
+		<visibility>0</visibility>
+		<description>loza deportiva</description>
+		<LookAt>
+			<longitude>-71.5504814235601</longitude>
+			<latitude>-16.33411040376279</latitude>
+			<altitude>0</altitude>
+			<heading>0.006427381061184789</heading>
+			<tilt>21.82565761226666</tilt>
+			<range>394.9330269830811</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.55066426344693,-16.33408451768886,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_086</name>
+		<visibility>0</visibility>
+		<description>paruq villafrank</description>
+		<LookAt>
+			<longitude>-71.54888006519052</longitude>
+			<latitude>-16.33480124153838</latitude>
+			<altitude>0</altitude>
+			<heading>0.005992687444802421</heading>
+			<tilt>22.66059446982194</tilt>
+			<range>416.4297763591875</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.54885281907987,-16.33447042532494,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_087</name>
+		<visibility>0</visibility>
+		<description>parque comite 14</description>
+		<LookAt>
+			<longitude>-71.55493449287316</longitude>
+			<latitude>-16.34843002033415</latitude>
+			<altitude>0</altitude>
+			<heading>0.007716136634950402</heading>
+			<tilt>28.02984724645989</tilt>
+			<range>392.6881950066663</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.55548276265534,-16.34834389981092,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_088</name>
+		<visibility>0</visibility>
+		<description>IEI san benito de palermo</description>
+		<LookAt>
+			<longitude>-71.54952703396722</longitude>
+			<latitude>-16.35227308144814</latitude>
+			<altitude>0</altitude>
+			<heading>0.006114709052057504</heading>
+			<tilt>24.77254847945255</tilt>
+			<range>484.7244812666053</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.54986176338021,-16.35180737649216,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_089</name>
+		<visibility>0</visibility>
+		<description>AV PRINCIPAL</description>
+		<LookAt>
+			<longitude>-71.52851225488681</longitude>
+			<latitude>-16.29404481509384</latitude>
+			<altitude>0</altitude>
+			<heading>-4.084478943806507</heading>
+			<tilt>22.15435330085443</tilt>
+			<range>331.855078120902</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.52850310161008,-16.29405523884236,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_090</name>
+		<visibility>0</visibility>
+		<description>LOZA DEPORTIVA DE AA.HH SANTA ROSA DE LIMA</description>
+		<LookAt>
+			<longitude>-71.54407207498018</longitude>
+			<latitude>-16.33406644210826</latitude>
+			<altitude>0</altitude>
+			<heading>-4.079443002242404</heading>
+			<tilt>27.99370340703661</tilt>
+			<range>537.9570551782425</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.54247679340412,-16.33365003940827,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_091</name>
+		<visibility>0</visibility>
+		<description>CRUZ DEL SECTOR 9 CAYMA</description>
+		<LookAt>
+			<longitude>-71.54578942978495</longitude>
+			<latitude>-16.33590879847038</latitude>
+			<altitude>0</altitude>
+			<heading>-4.078959971984147</heading>
+			<tilt>27.99370340703661</tilt>
+			<range>537.9570551781718</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.54535123717261,-16.33552001945329,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_092</name>
+		<visibility>0</visibility>
+		<description>PARQUE CASIMIRO CUADROS</description>
+		<LookAt>
+			<longitude>-71.54654183025013</longitude>
+			<latitude>-16.34906956735476</latitude>
+			<altitude>0</altitude>
+			<heading>-4.078991593888019</heading>
+			<tilt>24.37367510378462</tilt>
+			<range>633.5976041113162</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.54708752067722,-16.34879944053285,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_093</name>
+		<visibility>0</visibility>
+		<description>A.h Ampliacion Casimiro Cuadro Sector 1</description>
+		<LookAt>
+			<longitude>-71.55365304529471</longitude>
+			<latitude>-16.34948155782064</latitude>
+			<altitude>0</altitude>
+			<heading>-4.076773010477024</heading>
+			<tilt>29.08067121962177</tilt>
+			<range>452.7414167249328</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.55413776018183,-16.34898754070048,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_094</name>
+		<visibility>0</visibility>
+		<description>PARQUE VILLA CONTINENTAL</description>
+		<LookAt>
+			<longitude>-71.55306738647521</longitude>
+			<latitude>-16.34482690609313</latitude>
+			<altitude>0</altitude>
+			<heading>-4.077010877461138</heading>
+			<tilt>27.49185443123678</tilt>
+			<range>325.7271267049044</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.55294360166648,-16.34442809855522,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_095</name>
+		<visibility>0</visibility>
+		<description>Iglesia Casimiro Cuadros</description>
+		<LookAt>
+			<longitude>-71.54981184300327</longitude>
+			<latitude>-16.34651744851467</latitude>
+			<altitude>0</altitude>
+			<heading>-0.0009575681920993688</heading>
+			<tilt>9.009812246381744</tilt>
+			<range>669.8777405613126</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.55081383090132,-16.34679306466909,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_096</name>
+		<visibility>0</visibility>
+		<description>Paradero Ruta Casimiro Buenos Aires Alto Cayma</description>
+		<LookAt>
+			<longitude>-71.54877326504786</longitude>
+			<latitude>-16.34335717180759</latitude>
+			<altitude>0</altitude>
+			<heading>-0.001733150470406485</heading>
+			<tilt>26.2665494635954</tilt>
+			<range>293.7703794034343</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.54919877316443,-16.3431957813127,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL04_PP_097</name>
+		<visibility>0</visibility>
+		<description>CAPILLA DE SOL DE ORO</description>
+		<LookAt>
+			<longitude>-71.54988470453122</longitude>
+			<latitude>-16.33966100598138</latitude>
+			<altitude>0</altitude>
+			<heading>-5.055068825737469</heading>
+			<tilt>34.87845674130551</tilt>
+			<range>372.8654252844914</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.55043781480755,-16.33983180655923,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

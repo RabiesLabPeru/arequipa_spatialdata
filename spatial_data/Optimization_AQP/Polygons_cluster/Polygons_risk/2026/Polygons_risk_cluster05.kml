@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Polygons_risk_cluster04.kml</name>
+	<visibility>0</visibility>
+	<open>1</open>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin13">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7faa00</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7faaff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffaa55</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0055</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin12">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin11">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffaa55</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin8">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff5555</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin9">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff55aa</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin9">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin8">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7faa00</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin11">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff55aa</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin12">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7faaff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffaa55</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0055</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff5555</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffaa55</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin13">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Brigada 1</name>
+		<visibility>0</visibility>
+		<styleUrl>#msn_ylw-pushpin5</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-71.51968561691505,-16.29517956107949,0 -71.52002182479201,-16.29617851025484,0 -71.52016964725743,-16.2963595603162,0 -71.52022642242287,-16.29650240838875,0 -71.52008711036177,-16.29664522741384,0 -71.5198385801218,-16.29678800622098,0 -71.51994674824552,-16.29712061790226,0 -71.51954999464631,-16.29747589736412,0 -71.51977409997487,-16.29759841880953,0 -71.51974408597728,-16.29774693217824,0 -71.51955237214219,-16.29818823142694,0 -71.51942763817561,-16.29860987269351,0 -71.51930389714431,-16.29905825787363,0 -71.51933279071524,-16.29916253945279,0 -71.51988007929478,-16.29878822492967,0 -71.52059477119282,-16.30077186021242,0 -71.52007621928232,-16.30103249830956,0 -71.51964134840877,-16.30061970727848,0 -71.5189799847285,-16.30107001034615,0 -71.51911643402462,-16.3012594853898,0 -71.51929937027452,-16.30152848805909,0 -71.519384550921,-16.30176927665849,0 -71.51949231155342,-16.30206442394723,0 -71.51958895400524,-16.30231780718967,0 -71.51968006628103,-16.30246238687798,0 -71.51971939259498,-16.30272146184292,0 -71.51984666224371,-16.30330101807751,0 -71.51997440152847,-16.30400333820354,0 -71.51990774336161,-16.30419323987314,0 -71.51997105345936,-16.30472698549539,0 -71.52008177726135,-16.305034952225,0 -71.52008238929005,-16.3052351269288,0 -71.52004412323824,-16.30540384439301,0 -71.51993918755596,-16.30546323684789,0 -71.51978947539595,-16.30549684757725,0 -71.51908301189177,-16.30568022734292,0 -71.51896082088923,-16.30562842565157,0 -71.51890747197142,-16.30556412591881,0 -71.51887924449204,-16.30550808739302,0 -71.51879299142782,-16.30539982969145,0 -71.51875152828269,-16.30538363576757,0 -71.51868554702358,-16.30539011676528,0 -71.51865611960984,-16.30541915785565,0 -71.51862934576718,-16.30547656378763,0 -71.51859843930329,-16.3055455245231,0 -71.51856472781731,-16.30560709741441,0 -71.51855192201997,-16.3056766271649,0 -71.51854585060588,-16.30572716044087,0 -71.51853779843037,-16.3057565518468,0 -71.51852491434889,-16.30581748518858,0 -71.51892125135515,-16.30663562988657,0 -71.51902160811979,-16.30720778325569,0 -71.51919409967896,-16.30847311068158,0 -71.51956694878368,-16.3084504361655,0 -71.51957010344255,-16.30870156810565,0 -71.51990035519222,-16.30875073852406,0 -71.52059747743266,-16.30986964385123,0 -71.52117432826205,-16.31014233860269,0 -71.52141798756664,-16.31076960803249,0 -71.52107200563044,-16.31157245562065,0 -71.52075977022697,-16.31201415609982,0 -71.51991742218711,-16.31225036439947,0 -71.51925856525264,-16.3124266962234,0 -71.51910425556588,-16.31233380299628,0 -71.5187773593977,-16.31225642750618,0 -71.51894038507908,-16.31131196240775,0 -71.5185949395821,-16.31111460507232,0 -71.51859903031827,-16.31025809243551,0 -71.51822948232812,-16.31012519093388,0 -71.51779558771847,-16.30989932725886,0 -71.51776275693493,-16.30962900773369,0 -71.51795527465819,-16.30846612772315,0 -71.51791851647597,-16.30830935175991,0 -71.51790013372026,-16.3081932586694,0 -71.51783345809905,-16.30805567190801,0 -71.51777001503928,-16.30795015841164,0 -71.51775841941827,-16.30793908187521,0 -71.51768124055782,-16.30787948458599,0 -71.51765831082935,-16.3078682108979,0 -71.51748676623788,-16.30781136404092,0 -71.51744575178294,-16.30781136201371,0 -71.51727423658524,-16.3078113533332,0 -71.51715850033717,-16.30778070532152,0 -71.51712453858124,-16.30774983009179,0 -71.51666888420039,-16.30625764392057,0 -71.5162855896518,-16.3048529187728,0 -71.51657716484017,-16.30381174314676,0 -71.51652065495226,-16.30359117879754,0 -71.51622198276644,-16.30306023323758,0 -71.51597487134832,-16.30268260905867,0 -71.51594479020824,-16.30241982305161,0 -71.5154480591234,-16.3017628460594,0 -71.51546405495357,-16.30030377354201,0 -71.51275902609787,-16.3017571419804,0 -71.51247066295711,-16.30111390276501,0 -71.51101950833851,-16.29701401218717,0 -71.5103510736477,-16.29535272206102,0 -71.51016905065134,-16.29463252122578,0 -71.51422871068154,-16.29390110497074,0 -71.5143227542537,-16.29415384174242,0 -71.51603955333324,-16.29372279227701,0 -71.51679104298509,-16.29380118818325,0 -71.51807518387284,-16.29336838264877,0 -71.51822506135022,-16.29301585773613,0 -71.5184768873409,-16.2929407787203,0 -71.51880457201834,-16.29285163764042,0 -71.51898765370426,-16.29305470817496,0 -71.51926424703787,-16.29379871992107,0 -71.51936689716325,-16.29412001214019,0 -71.51936978113564,-16.294295674781,0 -71.51968561691505,-16.29517956107949,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Brigada 2</name>
+		<visibility>0</visibility>
+		<styleUrl>#msn_ylw-pushpin6</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-71.52513727323117,-16.29695888198289,0 -71.52538513346082,-16.29713393755896,0 -71.52562831677308,-16.29718331051359,0 -71.52576394981482,-16.29800473637246,0 -71.52549738227985,-16.29807044127726,0 -71.52531776808084,-16.29870776063023,0 -71.52546504015089,-16.29956662710527,0 -71.52562879820465,-16.30033798894916,0 -71.52556392899901,-16.30077255110822,0 -71.5249095974697,-16.30088383362611,0 -71.5249152641188,-16.30109783112773,0 -71.52500451851074,-16.30139983494622,0 -71.52498276217764,-16.30156463967787,0 -71.52482787411998,-16.30151834261407,0 -71.52461416619384,-16.30150795902223,0 -71.52449310078048,-16.3015545957464,0 -71.5243087720919,-16.30180911939186,0 -71.52401349887634,-16.30221525130139,0 -71.52380514833146,-16.30241802632606,0 -71.52386710705565,-16.30254280492867,0 -71.52479210207126,-16.30248758325939,0 -71.52478279742073,-16.30271048928139,0 -71.52520567904111,-16.30264740525344,0 -71.52551266304674,-16.30284164772391,0 -71.52560451873735,-16.30297002029137,0 -71.52564838486784,-16.30312154049931,0 -71.52565846580481,-16.30316646906315,0 -71.52541260146003,-16.30356974543986,0 -71.52533274277113,-16.30393997678048,0 -71.52410393248384,-16.30415681571292,0 -71.52354637395315,-16.30420422894732,0 -71.52246548111935,-16.30442344632246,0 -71.52154358278096,-16.3045731483566,0 -71.52142852595186,-16.30374378500751,0 -71.521304416292,-16.30369090041923,0 -71.52115308789058,-16.30332070062654,0 -71.52108904995794,-16.30292928508179,0 -71.52108626060465,-16.30250194316043,0 -71.5211399973215,-16.30227157009024,0 -71.52123760783121,-16.30193640728749,0 -71.52185979093292,-16.30182456675671,0 -71.52194152200013,-16.30177410532233,0 -71.52182626883308,-16.30159036401508,0 -71.52169213197142,-16.30110814353237,0 -71.52151091327174,-16.30034488355433,0 -71.52133971650765,-16.29961736246543,0 -71.52122981935513,-16.29903022913065,0 -71.52108508022499,-16.29803878313822,0 -71.52078199525027,-16.29807522411482,0 -71.52074510484834,-16.29738518134808,0 -71.52092441097095,-16.29734300517442,0 -71.52089843980649,-16.29698111051595,0 -71.52093614564974,-16.29680362921203,0 -71.5209880948625,-16.29667973354315,0 -71.52101909664391,-16.29662504750836,0 -71.52106015471132,-16.29633381551384,0 -71.52128135356699,-16.29632738311143,0 -71.52120200383261,-16.29578041294626,0 -71.52140728303935,-16.29562439736694,0 -71.52140812109144,-16.29559372735981,0 -71.52151704471027,-16.29548194276609,0 -71.52232657552373,-16.29470788478555,0 -71.52334804390981,-16.29388192982097,0 -71.52339496438404,-16.29392294433846,0 -71.52340669488252,-16.29402025366077,0 -71.52387395535661,-16.29396189838745,0 -71.52401956854875,-16.29482455759373,0 -71.52422065832616,-16.29480660235249,0 -71.52436095547588,-16.29521955812276,0 -71.52437498608418,-16.29543950212832,0 -71.52450125252321,-16.2955023427194,0 -71.52466025690474,-16.29587490058421,0 -71.52482861997385,-16.29673672617994,0 -71.52503906365153,-16.29675689309791,0 -71.52513727323117,-16.29695888198289,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Brigada 3</name>
+		<visibility>0</visibility>
+		<styleUrl>#msn_ylw-pushpin8</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-71.52157238410096,-16.30463229837016,0 -71.52442084432901,-16.30415837979508,0 -71.52491039320354,-16.30409505362931,0 -71.5254434960914,-16.30401791719149,0 -71.52557866715307,-16.30433466498545,0 -71.52574793903821,-16.30431947169946,0 -71.52590988779637,-16.30419264821732,0 -71.52625695429406,-16.30468939436167,0 -71.5263933460586,-16.30468939486738,0 -71.52642379008948,-16.30484952155456,0 -71.52667465402436,-16.30480100577319,0 -71.52677239961436,-16.30505434820385,0 -71.52682731601192,-16.30506684008849,0 -71.52685526655858,-16.30557199310179,0 -71.52687146351015,-16.30595115847289,0 -71.52699919552356,-16.30665562274559,0 -71.52722175686841,-16.30664848918791,0 -71.52753344353187,-16.3066018532231,0 -71.52755206296945,-16.30720190471483,0 -71.52759452814725,-16.30755545886652,0 -71.52761030909757,-16.30817030045489,0 -71.52768488384017,-16.30838660006101,0 -71.52777278544933,-16.30868036596092,0 -71.52784068960042,-16.30876476659904,0 -71.52786214622142,-16.30894635990693,0 -71.52779550962714,-16.30910924454532,0 -71.52780152023755,-16.30925527197208,0 -71.52854302708207,-16.31047803908466,0 -71.52868904835357,-16.31095216512872,0 -71.528977987429,-16.31113027714537,0 -71.5292073934644,-16.31127286796407,0 -71.52937435058068,-16.3113587244709,0 -71.52985352441233,-16.31207719150701,0 -71.52941076637775,-16.31223354399249,0 -71.5292432172707,-16.31192759759391,0 -71.52909143804774,-16.31200015092281,0 -71.52910724833815,-16.31233759317872,0 -71.52835255829804,-16.31255390604038,0 -71.52737253659834,-16.31268522094551,0 -71.52655131291597,-16.31286247693656,0 -71.52547546258074,-16.31309513433422,0 -71.52400160794571,-16.31342752296424,0 -71.52352871610007,-16.31160208535396,0 -71.52285279732779,-16.31174408946154,0 -71.52268646755272,-16.31162013645367,0 -71.52264872868744,-16.31137426456533,0 -71.52264375095419,-16.31119818255466,0 -71.52271814140855,-16.31110853565835,0 -71.52289890706975,-16.31107713399598,0 -71.52254985280935,-16.30973424928516,0 -71.52240671935077,-16.30971684440583,0 -71.52222559483343,-16.30937782156709,0 -71.52218975405648,-16.30904077558888,0 -71.52239589124434,-16.30888398685802,0 -71.52223488442552,-16.30836156965864,0 -71.52265851013021,-16.30824999486056,0 -71.52252777505669,-16.30779341272859,0 -71.52167929468807,-16.3079306889044,0 -71.52154746257969,-16.30750944200577,0 -71.52258460807842,-16.30729812685849,0 -71.52226826871271,-16.30547668631775,0 -71.52175363905974,-16.3055417874663,0 -71.52157238410096,-16.30463229837016,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Brigada 4</name>
+		<visibility>0</visibility>
+		<styleUrl>#msn_ylw-pushpin1</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-71.53535997141655,-16.32820728170007,0 -71.53501835297527,-16.32780656657258,0 -71.53476037247691,-16.32738168299167,0 -71.53439290765706,-16.32698931436456,0 -71.53380769461275,-16.3259406690717,0 -71.53339544832933,-16.32539966777347,0 -71.53383618415708,-16.325017082284,0 -71.53358978761371,-16.32466058581076,0 -71.53451562149468,-16.32423210393168,0 -71.53540419427142,-16.32372840932822,0 -71.53585194926018,-16.32351055650133,0 -71.53696355115336,-16.32494680526039,0 -71.53652476886984,-16.32524479706071,0 -71.53668222767998,-16.32544840107313,0 -71.53717350377961,-16.32617393859308,0 -71.53716645329369,-16.3264312867536,0 -71.53741949620814,-16.32699751129618,0 -71.5375640826893,-16.32703305828466,0 -71.5378185345139,-16.32741995650734,0 -71.53783051222595,-16.32755123120367,0 -71.53806264215991,-16.32798227931175,0 -71.53786004802934,-16.32854933175362,0 -71.53807134557485,-16.32853641362632,0 -71.5384346071906,-16.32859724574411,0 -71.5386949139961,-16.32864737810392,0 -71.53889978356507,-16.32867934621911,0 -71.53892951680224,-16.32869413125887,0 -71.53896271815259,-16.32871091960519,0 -71.53899813945408,-16.32873795813694,0 -71.53905758707631,-16.32878534888853,0 -71.53909928034629,-16.32885625130653,0 -71.53948113176526,-16.3295801516535,0 -71.53979786653858,-16.33037060045111,0 -71.54004604163246,-16.33099873954912,0 -71.53916347470781,-16.33142985013236,0 -71.53796384774414,-16.33206093013859,0 -71.53726122594665,-16.33049385008028,0 -71.5364932790535,-16.33088321809009,0 -71.5360325807946,-16.32989248667571,0 -71.53598758328553,-16.32926097600738,0 -71.53535997141655,-16.32820728170007,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Brigada 5</name>
+		<visibility>0</visibility>
+		<styleUrl>#msn_ylw-pushpin12</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-71.54173373556424,-16.33144490939139,0 -71.54186952388025,-16.33174965933,0 -71.54211739459649,-16.33213104300051,0 -71.54238654722126,-16.33244098794312,0 -71.54246744882462,-16.33262279435213,0 -71.5425448702851,-16.33283773814424,0 -71.54219741420292,-16.33302923044004,0 -71.54219141739581,-16.33316767964988,0 -71.54212766994124,-16.33324095932283,0 -71.54200698339962,-16.33344208803509,0 -71.54192501083303,-16.33364372642387,0 -71.54206874005345,-16.3338487174323,0 -71.54221272680873,-16.33402585518249,0 -71.54261484084434,-16.33436296547298,0 -71.54302536395896,-16.33468687312553,0 -71.54312584186255,-16.33462702544652,0 -71.5434988593679,-16.33445071062403,0 -71.54370646376549,-16.33468149677436,0 -71.54388422218952,-16.33492953628803,0 -71.54389366749635,-16.3350571767887,0 -71.54391294268854,-16.33530290033049,0 -71.54388486996523,-16.33544329127986,0 -71.54390991948966,-16.33577633384515,0 -71.54396435987212,-16.33589794644907,0 -71.54410481583749,-16.33604620494354,0 -71.54414499600037,-16.33611005254637,0 -71.54350557976964,-16.33642778523253,0 -71.54291089017806,-16.33673124099841,0 -71.54232782032986,-16.33700016495341,0 -71.54212732320042,-16.3370396155224,0 -71.54198803150103,-16.33698227788608,0 -71.5414194478149,-16.33587890590719,0 -71.54157287773623,-16.33576715845934,0 -71.54145898375523,-16.33533799259462,0 -71.54128473003274,-16.33515617012216,0 -71.5411484773277,-16.33505764133564,0 -71.54105128379921,-16.3350071183391,0 -71.54094511730177,-16.33498724869878,0 -71.54078792139289,-16.33501847135431,0 -71.54050860673179,-16.33467734814959,0 -71.54049718989565,-16.33446881556027,0 -71.54031770241951,-16.33392686709319,0 -71.54039423547246,-16.33391277596641,0 -71.53963666939821,-16.33275936217121,0 -71.53852304999894,-16.33323706560044,0 -71.53797851233554,-16.33212506704892,0 -71.53865848371198,-16.3317734145084,0 -71.54034775625932,-16.33090785289063,0 -71.54076075347527,-16.33104680475187,0 -71.54101693818571,-16.33114421274851,0 -71.54134516451801,-16.33125691963396,0 -71.54159312539255,-16.33130904098159,0 -71.54173373556424,-16.33144490939139,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Brigada 6</name>
+		<visibility>0</visibility>
+		<styleUrl>#msn_ylw-pushpin9</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-71.54455294178216,-16.33787068391341,0 -71.54495694730433,-16.33775096662902,0 -71.54504731924931,-16.33779035235068,0 -71.5454213897896,-16.33768499247375,0 -71.54553486083437,-16.33802699723646,0 -71.54547815411651,-16.33811388113649,0 -71.54550748844343,-16.33829349762805,0 -71.54548727071824,-16.33849182661768,0 -71.54523925631102,-16.33859878891657,0 -71.54532303650731,-16.33886169494859,0 -71.54550937537914,-16.33889416909411,0 -71.54566814852113,-16.33915215566791,0 -71.54574725904233,-16.33917318644449,0 -71.54582783405252,-16.33950374037785,0 -71.54586495853131,-16.34025458785025,0 -71.54586324211367,-16.34051426912501,0 -71.54579860325735,-16.34055711276728,0 -71.54549722408957,-16.34060055952168,0 -71.54547671222956,-16.34057950647763,0 -71.54545058714724,-16.34051256707962,0 -71.54525502038369,-16.33995040180527,0 -71.54478386701123,-16.34007710060745,0 -71.54470911846083,-16.33993625401423,0 -71.54428980448003,-16.34001580517562,0 -71.54423370753717,-16.34011447621081,0 -71.5446396462565,-16.34044217055121,0 -71.54477278402194,-16.34052197365729,0 -71.5447762998355,-16.34062245431489,0 -71.54481000392279,-16.3407294047726,0 -71.54476928076363,-16.34105371291243,0 -71.5452319955893,-16.34162720648005,0 -71.54522189841988,-16.34169245478032,0 -71.54313822249289,-16.34196108660939,0 -71.54237511604603,-16.34205115049164,0 -71.54214713636364,-16.34007911302181,0 -71.54198341160883,-16.33849019347781,0 -71.54227753270733,-16.33835978136948,0 -71.54180867514805,-16.33767597723656,0 -71.54154091283139,-16.3373004599883,0 -71.54190427373852,-16.33712345290862,0 -71.54220688886845,-16.33710104094641,0 -71.5423963379985,-16.33703530294131,0 -71.54269483686122,-16.33689154474105,0 -71.54305713898312,-16.3367141629829,0 -71.5438531260158,-16.33629750716857,0 -71.5438628696956,-16.33631737406476,0 -71.54416338217825,-16.33616139948521,0 -71.54432685074919,-16.33651258609043,0 -71.54421232666927,-16.33659212449487,0 -71.54429148062779,-16.33678497066579,0 -71.54441467312232,-16.33679904328682,0 -71.5445103864223,-16.33697250380823,0 -71.54421160094104,-16.33711500380578,0 -71.54455294178216,-16.33787068391341,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Brigada 7</name>
+		<visibility>0</visibility>
+		<styleUrl>#msn_ylw-pushpin11</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-71.53879475886492,-16.33830932283032,0 -71.53867006338747,-16.33831024147921,0 -71.53862068746798,-16.33782025083103,0 -71.53880362624706,-16.33778996720795,0 -71.53879915771506,-16.33743819360377,0 -71.53882653460036,-16.33704669796082,0 -71.53885865316595,-16.3368211095193,0 -71.5389355020499,-16.33682109406002,0 -71.53894880805441,-16.33637161270767,0 -71.53905134113133,-16.33639796299654,0 -71.53913481794179,-16.33584659043196,0 -71.53913002152939,-16.33573952985912,0 -71.53918948566667,-16.33569998397271,0 -71.53918113742189,-16.33535879117035,0 -71.53911524641968,-16.33514401949731,0 -71.53937265305854,-16.33506748288444,0 -71.53856447776315,-16.33329572242578,0 -71.53917415623916,-16.33300114378569,0 -71.53934321617189,-16.33334310837525,0 -71.53945001994325,-16.33336673570285,0 -71.53954251182657,-16.33344754661326,0 -71.53959715668412,-16.33375911585443,0 -71.53929388476729,-16.33390025097518,0 -71.5394321374141,-16.33423494056845,0 -71.53975618314236,-16.33494360153118,0 -71.53989799377742,-16.33486050916044,0 -71.54004365131739,-16.334842326485,0 -71.54016876143062,-16.3348625108914,0 -71.54035234460883,-16.3351925183513,0 -71.54047148203647,-16.33524249121149,0 -71.5406444048628,-16.33569087482297,0 -71.54072808713849,-16.33567725652724,0 -71.54083035816262,-16.33582525198278,0 -71.54091814603761,-16.3360010890144,0 -71.54132127020337,-16.33587065505822,0 -71.54193617000351,-16.33705130384061,0 -71.53985638242146,-16.33781655729542,0 -71.54000366965603,-16.3392981100977,0 -71.54189072297329,-16.33855210928579,0 -71.54231292953286,-16.34205799400197,0 -71.54048583873035,-16.34231267521584,0 -71.54049419091579,-16.34262913810336,0 -71.53939161980932,-16.34278077212059,0 -71.53926217940898,-16.34224623636971,0 -71.53913335140906,-16.34150845908159,0 -71.53916970414329,-16.34065094227079,0 -71.53899058968699,-16.33962029025453,0 -71.53879475886492,-16.33830932283032,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Brigada 8</name>
+		<visibility>0</visibility>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-71.54577701681082,-16.34227686314652,0 -71.54612007666198,-16.34270204925545,0 -71.54634369766697,-16.34312198948902,0 -71.54651594329307,-16.34343056514945,0 -71.54661060732847,-16.3436075505285,0 -71.54605561849819,-16.34375414884315,0 -71.5456271138238,-16.34389400616916,0 -71.54497825679179,-16.34403675934462,0 -71.54364535081763,-16.34435657397192,0 -71.54293371802454,-16.3445758964111,0 -71.5426105743777,-16.34464344329047,0 -71.54078285893291,-16.34487826608785,0 -71.53999068585473,-16.34492789524224,0 -71.53988978866261,-16.34419836009402,0 -71.53981308240685,-16.34357869515415,0 -71.53976131963125,-16.34306095515453,0 -71.53948799062188,-16.34306166672972,0 -71.5394386729908,-16.34283348839931,0 -71.54004410199336,-16.34277637600659,0 -71.54069639288838,-16.34269243949381,0 -71.54067859686789,-16.34249607507722,0 -71.54117556695175,-16.34240819151692,0 -71.54369229022898,-16.34208132664558,0 -71.54544773988835,-16.34187179990778,0 -71.54577701681082,-16.34227686314652,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Brigada 9</name>
+		<visibility>0</visibility>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-71.54348764039109,-16.34451358783748,0 -71.54363600227231,-16.34506809628948,0 -71.54374203016914,-16.34544186828395,0 -71.54388687274012,-16.34593660787565,0 -71.54402519989249,-16.346444113068,0 -71.54408118403371,-16.34662402523496,0 -71.54413856353284,-16.34675694429498,0 -71.54419158538897,-16.3469053849867,0 -71.54425829566119,-16.34711682846322,0 -71.54439121907239,-16.34708190870753,0 -71.54451855245986,-16.34712620632678,0 -71.54453045515527,-16.3472643240124,0 -71.54456636356797,-16.34743137797431,0 -71.54460374718825,-16.3474480151524,0 -71.54468643448664,-16.34790642417106,0 -71.54474604054548,-16.34798076808531,0 -71.54479770336654,-16.34827415990437,0 -71.54476603267133,-16.34833246993576,0 -71.54470756857333,-16.34838875991063,0 -71.54465894460739,-16.34850095980929,0 -71.5446223334467,-16.34862023945924,0 -71.54459428057699,-16.34898394696587,0 -71.54453014676884,-16.34957756109775,0 -71.54443693376449,-16.34999628709134,0 -71.54434161014044,-16.35048542288316,0 -71.54430119047858,-16.35080135846012,0 -71.54458216001481,-16.35124312095775,0 -71.54486513475966,-16.35156664584494,0 -71.54513656441421,-16.35194971664966,0 -71.54528581562457,-16.35237927752451,0 -71.54533665682517,-16.35262707264398,0 -71.54534486592769,-16.35283106708805,0 -71.54551065522708,-16.35324558831806,0 -71.54576418364793,-16.35347462539625,0 -71.54586262375484,-16.35351626609453,0 -71.54602367284716,-16.35359304076699,0 -71.54618096511004,-16.35368387374564,0 -71.54645156516517,-16.35415783312346,0 -71.54648701129388,-16.35429211918709,0 -71.54600467894406,-16.35439674789844,0 -71.54553808714326,-16.3544509895057,0 -71.54541003682252,-16.35443012003807,0 -71.54465512448331,-16.35452944706467,0 -71.54365805893551,-16.35459231519166,0 -71.54313123009683,-16.35463566835213,0 -71.54304902454381,-16.35373499957378,0 -71.54297752408618,-16.35263987078873,0 -71.54235280822138,-16.34744944371739,0 -71.54222399151423,-16.34574605479716,0 -71.54282411723442,-16.34568613853694,0 -71.54273720957109,-16.34472496417451,0 -71.54348764039109,-16.34451358783748,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Brigada 10</name>
+		<visibility>0</visibility>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-71.54090917156472,-16.345921249541,0 -71.541522169188,-16.34583016079626,0 -71.54185696517835,-16.34581156646239,0 -71.54217281996226,-16.34575127426775,0 -71.54220191336191,-16.34672635307021,0 -71.54228657452369,-16.34759939583862,0 -71.54238177426947,-16.3483013435992,0 -71.54249650456528,-16.34951622204659,0 -71.54301027240462,-16.35467216130931,0 -71.54182408103861,-16.35481808992707,0 -71.540857388725,-16.3548798140964,0 -71.54076320722531,-16.35455342646486,0 -71.54071491864975,-16.35418792512561,0 -71.54085873686959,-16.3539168347415,0 -71.54086349702762,-16.35348874787444,0 -71.54072720897845,-16.35325168964106,0 -71.54058919442956,-16.35274405711315,0 -71.5403612242508,-16.35091562049616,0 -71.54032549210716,-16.35049994860195,0 -71.5402197342885,-16.34992409756154,0 -71.53990816612506,-16.3450274565866,0 -71.54027386264947,-16.34499595355944,0 -71.5408185179427,-16.34495093241224,0 -71.5408397593343,-16.34522391129759,0 -71.54090917156472,-16.345921249541,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Brigada 11</name>
+		<visibility>0</visibility>
+		<styleUrl>#msn_ylw-pushpin2</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-71.54604920620936,-16.35718604181348,0 -71.54592642803019,-16.35603692051009,0 -71.54584309656259,-16.35541229792967,0 -71.54571839969105,-16.35451560732855,0 -71.54641586469272,-16.3544101518567,0 -71.54649607988416,-16.35491103098684,0 -71.5468631426734,-16.35484580696712,0 -71.54727309805021,-16.35524810837993,0 -71.54734657037032,-16.35548837922067,0 -71.54735799742181,-16.35578168322633,0 -71.54740655011612,-16.3561584613737,0 -71.5475353972616,-16.3566819953826,0 -71.54764762222938,-16.35729536734847,0 -71.54855404005728,-16.35711192215169,0 -71.54865797212216,-16.35717113226869,0 -71.54859339802969,-16.35732310956816,0 -71.54851835176778,-16.35747326365061,0 -71.54852517578803,-16.35767428766153,0 -71.5485714145167,-16.35796762241422,0 -71.54862120534916,-16.35831127170485,0 -71.5486836037087,-16.35846205850777,0 -71.54871493002653,-16.35871327583835,0 -71.54852801203468,-16.35896607400571,0 -71.54858762603916,-16.35923311597326,0 -71.54859404614972,-16.35953686161421,0 -71.54865930221258,-16.36001254490552,0 -71.54860105707488,-16.36026152824014,0 -71.54839789777724,-16.36077430863742,0 -71.54829637956104,-16.36095533790142,0 -71.54822425585604,-16.36103700811047,0 -71.54816175369525,-16.36106430332066,0 -71.54809735305153,-16.36106250644699,0 -71.54798781721028,-16.36101687300935,0 -71.54779554255992,-16.3609610869385,0 -71.54766944264357,-16.36092515715019,0 -71.54760002418926,-16.36091945097068,0 -71.54747922640378,-16.36096115232344,0 -71.54736304701105,-16.36054678630121,0 -71.54724351958016,-16.360135585747,0 -71.54716262421091,-16.36004104605922,0 -71.54703656449026,-16.35991606472097,0 -71.54695663685057,-16.35984257110535,0 -71.54685359665233,-16.35967660799751,0 -71.5468049024612,-16.35951537719254,0 -71.54673614440156,-16.35926744329175,0 -71.54666507540227,-16.35891767792008,0 -71.54657529836612,-16.35868708139812,0 -71.54641490271131,-16.35821833660476,0 -71.54631039627853,-16.35774233991413,0 -71.54619137764391,-16.35748198359,0 -71.54609190788379,-16.3573162046157,0 -71.54604920620936,-16.35718604181348,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Brigada 12</name>
+		<visibility>0</visibility>
+		<styleUrl>#msn_ylw-pushpin3</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-71.54356450264744,-16.35472928986594,0 -71.54559754874428,-16.35448491598963,0 -71.54564585488804,-16.35453946476027,0 -71.54575109481911,-16.35540165335197,0 -71.54572548452039,-16.35576687244106,0 -71.54585989630014,-16.35646383632312,0 -71.54595148031996,-16.35718177089671,0 -71.54609438077249,-16.35748002822692,0 -71.54619884287995,-16.35767100853614,0 -71.54628372480398,-16.35803549466118,0 -71.54669080606456,-16.35941349345998,0 -71.54686968454487,-16.35984486947873,0 -71.54712377846532,-16.36012636405275,0 -71.54721623387667,-16.36029693798028,0 -71.54748608513449,-16.36135867068291,0 -71.54689892921917,-16.36154417009442,0 -71.5467489440658,-16.36155412155897,0 -71.54650808096982,-16.36162979063389,0 -71.54574316961484,-16.3616752701673,0 -71.54507555792739,-16.36173384693355,0 -71.54404494449216,-16.36177761623344,0 -71.54397285295359,-16.36084790657716,0 -71.54391049710884,-16.35980737666505,0 -71.54381750419418,-16.35865804259258,0 -71.54373579054074,-16.35738068503365,0 -71.54361101689437,-16.35569324433571,0 -71.54356450264744,-16.35472928986594,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Brigada 13</name>
+		<visibility>0</visibility>
+		<styleUrl>#msn_ylw-pushpin4</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-71.5439109599936,-16.36227964981818,0 -71.54331249759252,-16.36242098687532,0 -71.54270432362193,-16.36251509637831,0 -71.54219951088194,-16.36264451608059,0 -71.54174913985234,-16.362741580095,0 -71.54123870316933,-16.36284544743622,0 -71.54117439667728,-16.36254269406836,0 -71.5405150403806,-16.3625637836078,0 -71.54021898458606,-16.36307866137969,0 -71.54014273681541,-16.3630508995236,0 -71.54004711334272,-16.36300507776792,0 -71.53994556123307,-16.36295816181083,0 -71.53989172742168,-16.36291184271421,0 -71.53979861201752,-16.36278579169175,0 -71.53973953238842,-16.36262855101617,0 -71.53972497068159,-16.36250620425584,0 -71.53975864471941,-16.36239717858522,0 -71.53989891146057,-16.3623880148049,0 -71.53981443938216,-16.36183631376251,0 -71.53984577786558,-16.36154326784257,0 -71.53994552854471,-16.36080775509108,0 -71.54015212915866,-16.36010630551311,0 -71.5402849997283,-16.35956353914175,0 -71.54032718676153,-16.35898855382876,0 -71.54034892186296,-16.35854544939308,0 -71.54048800723135,-16.35804729141208,0 -71.54061464213868,-16.35779527538883,0 -71.5405284401111,-16.357204576382,0 -71.54049132312453,-16.35671289836472,0 -71.54067473930894,-16.35502614849575,0 -71.54107144966582,-16.35497604027008,0 -71.54247436712994,-16.3548622869869,0 -71.54342386312857,-16.35473810068076,0 -71.54363009971443,-16.35764750022105,0 -71.5439109599936,-16.36227964981818,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Brigada 14</name>
+		<visibility>0</visibility>
+		<styleUrl>#msn_ylw-pushpin13</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-71.5441677897882,-16.36430222468685,0 -71.54405199275043,-16.36184599311095,0 -71.54516963684412,-16.36180984409806,0 -71.54634863185851,-16.36174496761574,0 -71.54694842889772,-16.36158913096361,0 -71.54745152294736,-16.36142806881296,0 -71.54754012216195,-16.36150066085313,0 -71.54757568914449,-16.36195521010312,0 -71.54759531455063,-16.36209938810287,0 -71.54755993910165,-16.36224790354889,0 -71.54751049987804,-16.36236610780027,0 -71.54742140510406,-16.3624170267206,0 -71.54721838646097,-16.36242828345507,0 -71.54708571543392,-16.36238602499182,0 -71.54700208943376,-16.36240017105263,0 -71.54695206770383,-16.36241426785269,0 -71.54688320560543,-16.3624618486491,0 -71.54683986713586,-16.36251166476123,0 -71.5468372476506,-16.3626954105778,0 -71.5468522499371,-16.36291419888321,0 -71.54702702691269,-16.36311716234513,0 -71.54717547322844,-16.36332234499337,0 -71.54756106964727,-16.36351916612742,0 -71.54775434072261,-16.36364941664328,0 -71.54791438404787,-16.36378130741221,0 -71.54806568691312,-16.36395268412361,0 -71.54831270275488,-16.36440811062885,0 -71.54841238569725,-16.36461144757333,0 -71.54858560104149,-16.36472593401476,0 -71.54870748897356,-16.36478770271746,0 -71.54882131036082,-16.36485451999277,0 -71.54888756873638,-16.36493927021109,0 -71.54894194024931,-16.36507128901124,0 -71.5489844199388,-16.36519515928178,0 -71.54898782704409,-16.36530227105365,0 -71.54891650170488,-16.36554513458798,0 -71.54886215043433,-16.36564062403204,0 -71.5487636360038,-16.36578406487711,0 -71.54867474840853,-16.36580364515564,0 -71.54862536347002,-16.36610183706821,0 -71.54835909324744,-16.3660676937199,0 -71.54815366415644,-16.36620534596966,0 -71.547855531896,-16.36630882184567,0 -71.54765240114246,-16.36622189244418,0 -71.54786019389195,-16.36598844190491,0 -71.54737156180421,-16.36559942912083,0 -71.54701084110361,-16.36526571103446,0 -71.54663739495872,-16.36552405038513,0 -71.54660935412778,-16.3658576106779,0 -71.54665270582228,-16.36597338253722,0 -71.54646683837072,-16.36605381762454,0 -71.54616495640181,-16.36559679187176,0 -71.54572917896262,-16.36585961848133,0 -71.54559628324417,-16.36605008542334,0 -71.5455212672704,-16.3666578863145,0 -71.54520286233361,-16.3666351031203,0 -71.54517559624928,-16.36690202192858,0 -71.54517071388976,-16.36695841578042,0 -71.54490964341574,-16.36698768664233,0 -71.54473040889793,-16.36685859917122,0 -71.54457923339847,-16.36677034064268,0 -71.54446241660051,-16.366728348823,0 -71.54441494235637,-16.36672553879668,0 -71.54439296509881,-16.36672835553804,0 -71.54421194819064,-16.36680838453695,0 -71.5441692241086,-16.36674000194244,0 -71.54422163192291,-16.36627505674244,0 -71.54423448562642,-16.36596101576593,0 -71.54418527502187,-16.3647836749653,0 -71.5441677897882,-16.36430222468685,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Brigada 15</name>
+		<visibility>0</visibility>
+		<styleUrl>#msn_ylw-pushpin7</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-71.54390910462705,-16.36235660735955,0 -71.54399837033517,-16.36333644573257,0 -71.54401209445312,-16.36367699454725,0 -71.54407409204727,-16.36447334138118,0 -71.54410927090869,-16.36482343067325,0 -71.54415399799213,-16.36555777122041,0 -71.54412241535148,-16.36626456806859,0 -71.54410287003904,-16.3666632310366,0 -71.54408624746226,-16.36678695882767,0 -71.54396997280051,-16.36681844692792,0 -71.54386407784978,-16.36675374998642,0 -71.54379723601554,-16.36664162490245,0 -71.54377806723723,-16.366431824804,0 -71.5437455304787,-16.36623291979583,0 -71.54378811392823,-16.36609628033371,0 -71.54383222243132,-16.36591111771596,0 -71.54375870910695,-16.36584125393618,0 -71.54371511562421,-16.36569640207104,0 -71.54375274620348,-16.36550342571816,0 -71.54373577522358,-16.36521833549562,0 -71.54360621149448,-16.36496283692698,0 -71.54348062672312,-16.36466133283089,0 -71.54344380104155,-16.36452480465719,0 -71.54341456719271,-16.36450173300251,0 -71.54333015545862,-16.36449511351433,0 -71.54327704344456,-16.36451164889748,0 -71.54326834910933,-16.36459944669162,0 -71.5432674966285,-16.36468638058666,0 -71.54329058057982,-16.3647633175459,0 -71.54330117203652,-16.36480556079166,0 -71.54332071397909,-16.3650761407353,0 -71.543281419045,-16.36521128463167,0 -71.54325360234996,-16.36529017679858,0 -71.54322943736348,-16.36536704124507,0 -71.54323793249272,-16.36549416781896,0 -71.54321070684428,-16.36563967475255,0 -71.54311677047393,-16.36575588754607,0 -71.54296507063189,-16.36592578254054,0 -71.5429337185694,-16.3659492628649,0 -71.54288603349863,-16.36590768694008,0 -71.54290037170824,-16.36579553992298,0 -71.54284968517774,-16.36578092120479,0 -71.5428225287737,-16.36563457432225,0 -71.54273201245969,-16.36565879670525,0 -71.54264517492243,-16.36541268913116,0 -71.54255229260899,-16.3652098493932,0 -71.54249330813718,-16.36512238539106,0 -71.54243199464757,-16.36493152530655,0 -71.54240454117495,-16.36458562519256,0 -71.54232050696588,-16.36443459290206,0 -71.54224231041434,-16.36435475419601,0 -71.54216033534473,-16.36439493544852,0 -71.54211569505172,-16.36451791263949,0 -71.54211102287469,-16.36480739206178,0 -71.54201597209371,-16.36524904062808,0 -71.5419577259503,-16.36554734096522,0 -71.54198847543699,-16.36566870095753,0 -71.54201485710581,-16.36574446272068,0 -71.54197480120276,-16.36582999397949,0 -71.54195541300729,-16.36591072668794,0 -71.54193664902328,-16.36603518499386,0 -71.54192523397253,-16.36611439461502,0 -71.54190065922148,-16.36616136803416,0 -71.54174124638082,-16.36620891159282,0 -71.54153043291288,-16.36624599246199,0 -71.54144850311441,-16.36617283683877,0 -71.5413785836091,-16.36611652930375,0 -71.54133678151167,-16.36602733510577,0 -71.54142765121652,-16.36595241593703,0 -71.54123004340315,-16.36529151555902,0 -71.54104674433142,-16.36532181791192,0 -71.54099832650205,-16.36512830107313,0 -71.5410142216485,-16.36504167076609,0 -71.54111193483378,-16.36499281747304,0 -71.54100624561227,-16.3647811087265,0 -71.54094163242191,-16.36479449051662,0 -71.54072244460006,-16.3646163187685,0 -71.54050614987879,-16.36434936248506,0 -71.54029861310173,-16.36400021102073,0 -71.54018379259196,-16.36401136590545,0 -71.5401734046324,-16.36377100837257,0 -71.54017722081973,-16.36361659457351,0 -71.54009053562349,-16.36356398756761,0 -71.53999414133095,-16.3634378355606,0 -71.53995764058126,-16.36325071542813,0 -71.53989284670784,-16.36323269459261,0 -71.53991802287602,-16.36305890066723,0 -71.53998101992411,-16.36304434686462,0 -71.54001339882768,-16.36301094175025,0 -71.54020952487535,-16.36312972668427,0 -71.54027125426246,-16.36314511017006,0 -71.54038155257942,-16.36290990846307,0 -71.54053881729378,-16.36261007739113,0 -71.54113210653574,-16.36259670462054,0 -71.54119969202465,-16.36291408162005,0 -71.54185995372256,-16.36278556735645,0 -71.54271152348187,-16.36263605155186,0 -71.54390910462705,-16.36235660735955,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

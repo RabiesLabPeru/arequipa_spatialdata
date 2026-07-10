@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Limites_Cluster_06_11may2023.kml</name>
+	<StyleMap id="m_ylw-pushpin1200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin12">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl12">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Limites_Cluster_06_11may2023</name>
+		<Placemark>
+			<name>ASA_01</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.53481123735008,-16.37040765019366,0 -71.53408109106648,-16.37067738920953,0 -71.53326477976469,-16.37023930087151,0 -71.53287116098168,-16.36937953460248,0 -71.53232693009662,-16.36860524710525,0 -71.53101707018114,-16.36796813765035,0 -71.52851764055987,-16.36649722795413,0 -71.52707210769445,-16.36563040199671,0 -71.52601130659852,-16.36460004476443,0 -71.52469225448966,-16.36364891094339,0 -71.52423940587481,-16.36291404656433,0 -71.52337434969363,-16.36235216807529,0 -71.52028964793439,-16.36114896515767,0 -71.5187421844461,-16.36080347186353,0 -71.51728376523063,-16.35984085946016,0 -71.51593474156896,-16.35959404171655,0 -71.51438464155433,-16.35935314035047,0 -71.51283728576033,-16.35802317381551,0 -71.51205343904535,-16.35732597947116,0 -71.51024708895959,-16.3571541200724,0 -71.50845292616096,-16.35637023582241,0 -71.50718536488769,-16.35531200149343,0 -71.50559192780764,-16.3547781699782,0 -71.50393396260515,-16.35418414678443,0 -71.50188855425638,-16.35208409247058,0 -71.50345948074352,-16.34916461058565,0 -71.50619510613618,-16.34463589842088,0 -71.50713862714071,-16.33979168110864,0 -71.51009100259346,-16.33379734946403,0 -71.51576017360864,-16.33430255209669,0 -71.52514347008338,-16.33531498602989,0 -71.52813239881438,-16.34039227002941,0 -71.53039481290674,-16.34628662209145,0 -71.53566046180777,-16.35088617871964,0 -71.5358156413545,-16.35110625865219,0 -71.5362315161919,-16.35227139118058,0 -71.53654397330489,-16.35260773640404,0 -71.53672050705035,-16.3533532293113,0 -71.53716901031029,-16.35358038881354,0 -71.53730682086453,-16.35372502000449,0 -71.53736801901658,-16.3543319136272,0 -71.53713022863496,-16.35528046725442,0 -71.53637222579654,-16.35548434370355,0 -71.53560231778181,-16.35614999038542,0 -71.53560772876415,-16.35743183961353,0 -71.53639050467913,-16.35834751124004,0 -71.53694078540582,-16.35872691962884,0 -71.53694825510362,-16.35908057276393,0 -71.53676976833697,-16.36044779425171,0 -71.53642227802663,-16.36198862142858,0 -71.53649075480988,-16.36278491269799,0 -71.53673648729708,-16.36398623752148,0 -71.53650117966571,-16.36505914521765,0 -71.53628817631029,-16.36624616231258,0 -71.53597103411887,-16.36690902051498,0 -71.53580263787245,-16.36733425950636,0 -71.53559758193698,-16.36897852292168,0 -71.53536019536641,-16.36940449223018,0 -71.5350385457869,-16.37019964133384,0 -71.53481123735008,-16.37040765019366,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>06</name>
+			<LookAt>
+				<longitude>-71.51454952787286</longitude>
+				<latitude>-16.37993937325403</latitude>
+				<altitude>0</altitude>
+				<heading>-0.04085251147504285</heading>
+				<tilt>15.96056680340856</tilt>
+				<range>17148.65933812411</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin1200</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.52070784875875,-16.35066177493573,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

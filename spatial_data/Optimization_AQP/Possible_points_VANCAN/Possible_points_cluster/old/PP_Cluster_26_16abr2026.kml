@@ -1,0 +1,3283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PP_Cluster_26_16abr2026.kml</name>
+	<Schema name="PP_Cluster_26_16abr2026" id="S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+		<SimpleField type="int" name="n_microred">
+			<displayName>&lt;b&gt;n_microred&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="microred">
+			<displayName>&lt;b&gt;microred&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="int" name="cluster">
+			<displayName>&lt;b&gt;cluster&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="point_name">
+			<displayName>&lt;b&gt;point_name&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="code_point">
+			<displayName>&lt;b&gt;code_point&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="lat">
+			<displayName>&lt;b&gt;lat&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="long">
+			<displayName>&lt;b&gt;long&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="int" name="y_proj">
+			<displayName>&lt;b&gt;y_proj&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="x_proj">
+			<displayName>&lt;b&gt;x_proj&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="type_point">
+			<displayName>&lt;b&gt;type_point&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="estratategy">
+			<displayName>&lt;b&gt;estratategy&lt;/b&gt;</displayName>
+		</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>n_microred</b></td><td>$[PP_Cluster_26_16abr2026/n_microred]</td></tr>
+  <tr><td><b>microred</b></td><td>$[PP_Cluster_26_16abr2026/microred]</td></tr>
+  <tr><td><b>cluster</b></td><td>$[PP_Cluster_26_16abr2026/cluster]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[PP_Cluster_26_16abr2026/point_name]</td></tr>
+  <tr><td><b>code_point</b></td><td>$[PP_Cluster_26_16abr2026/code_point]</td></tr>
+  <tr><td><b>lat</b></td><td>$[PP_Cluster_26_16abr2026/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[PP_Cluster_26_16abr2026/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[PP_Cluster_26_16abr2026/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[PP_Cluster_26_16abr2026/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[PP_Cluster_26_16abr2026/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[PP_Cluster_26_16abr2026/estratategy]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>n_microred</b></td><td>$[PP_Cluster_26_16abr2026/n_microred]</td></tr>
+  <tr><td><b>microred</b></td><td>$[PP_Cluster_26_16abr2026/microred]</td></tr>
+  <tr><td><b>cluster</b></td><td>$[PP_Cluster_26_16abr2026/cluster]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[PP_Cluster_26_16abr2026/point_name]</td></tr>
+  <tr><td><b>code_point</b></td><td>$[PP_Cluster_26_16abr2026/code_point]</td></tr>
+  <tr><td><b>lat</b></td><td>$[PP_Cluster_26_16abr2026/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[PP_Cluster_26_16abr2026/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[PP_Cluster_26_16abr2026/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[PP_Cluster_26_16abr2026/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[PP_Cluster_26_16abr2026/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[PP_Cluster_26_16abr2026/estratategy]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>PP_Cluster_26_16abr2026</name>
+		<Placemark>
+			<name>CL26_PP_001</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 1 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_001</SimpleData>
+					<SimpleData name="lat">-16.3377</SimpleData>
+					<SimpleData name="long">-71.5895</SimpleData>
+					<SimpleData name="y_proj">-1933218346</SimpleData>
+					<SimpleData name="x_proj">2.83308e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<gx:balloonVisibility>1</gx:balloonVisibility>
+			<Point>
+				<coordinates>-71.58953700000002,-16.33772600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_002</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 2 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_002</SimpleData>
+					<SimpleData name="lat">-16.3367</SimpleData>
+					<SimpleData name="long">-71.5888</SimpleData>
+					<SimpleData name="y_proj">-1933101352</SimpleData>
+					<SimpleData name="x_proj">2.83318e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.588826,-16.336654,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_003</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 3 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_003</SimpleData>
+					<SimpleData name="lat">-16.3359</SimpleData>
+					<SimpleData name="long">-71.5903</SimpleData>
+					<SimpleData name="y_proj">-1932999104</SimpleData>
+					<SimpleData name="x_proj">2.83302e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.59032400000001,-16.33594299999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_004</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Santa_Rosa_De_Lima</SimpleData>
+					<SimpleData name="code_point">CL26_PP_004</SimpleData>
+					<SimpleData name="lat">-16.3342</SimpleData>
+					<SimpleData name="long">-71.5885</SimpleData>
+					<SimpleData name="y_proj">-1932817781</SimpleData>
+					<SimpleData name="x_proj">2.83324e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.58854100000001,-16.33420899999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_005</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Petro_Peru</SimpleData>
+					<SimpleData name="code_point">CL26_PP_005</SimpleData>
+					<SimpleData name="lat">-16.3329</SimpleData>
+					<SimpleData name="long">-71.5923</SimpleData>
+					<SimpleData name="y_proj">-1932617874</SimpleData>
+					<SimpleData name="x_proj">2.83284e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.59225000000001,-16.33290199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_006</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Colegio_El_Gran_Poder_De_Jesus</SimpleData>
+					<SimpleData name="code_point">CL26_PP_006</SimpleData>
+					<SimpleData name="lat">-16.3297</SimpleData>
+					<SimpleData name="long">-71.5928</SimpleData>
+					<SimpleData name="y_proj">-1932233224</SimpleData>
+					<SimpleData name="x_proj">2.83282e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.59275100000002,-16.32967999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_007</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Cementerio_Municipal_Cerro_Colorado</SimpleData>
+					<SimpleData name="code_point">CL26_PP_007</SimpleData>
+					<SimpleData name="lat">-16.3292</SimpleData>
+					<SimpleData name="long">-71.5891</SimpleData>
+					<SimpleData name="y_proj">-1932223117</SimpleData>
+					<SimpleData name="x_proj">2.83325e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.58907200000002,-16.32920200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_008</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Grifo_Municipal_Cono_Norte</SimpleData>
+					<SimpleData name="code_point">CL26_PP_008</SimpleData>
+					<SimpleData name="lat">-16.3275</SimpleData>
+					<SimpleData name="long">-71.5943</SimpleData>
+					<SimpleData name="y_proj">-1931956373</SimpleData>
+					<SimpleData name="x_proj">2.83267e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.594323,-16.32749,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_009</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Posta_Ciudad_Municipal</SimpleData>
+					<SimpleData name="code_point">CL26_PP_009</SimpleData>
+					<SimpleData name="lat">-16.3256</SimpleData>
+					<SimpleData name="long">-71.5941</SimpleData>
+					<SimpleData name="y_proj">-1931742162</SimpleData>
+					<SimpleData name="x_proj">2.83273e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.59407,-16.32563899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_010</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 4 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_010</SimpleData>
+					<SimpleData name="lat">-16.3267</SimpleData>
+					<SimpleData name="long">-71.593</SimpleData>
+					<SimpleData name="y_proj">-1931879121</SimpleData>
+					<SimpleData name="x_proj">2.83283e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.593035,-16.32669499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_011</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 5 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_011</SimpleData>
+					<SimpleData name="lat">-16.3254</SimpleData>
+					<SimpleData name="long">-71.5928</SimpleData>
+					<SimpleData name="y_proj">-1931730101</SimpleData>
+					<SimpleData name="x_proj">2.83287e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.592809,-16.325402,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_012</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 6 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_012</SimpleData>
+					<SimpleData name="lat">-16.3273</SimpleData>
+					<SimpleData name="long">-71.5909</SimpleData>
+					<SimpleData name="y_proj">-1931974656</SimpleData>
+					<SimpleData name="x_proj">2.83306e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.59091799999999,-16.327283,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_013</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 7 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_013</SimpleData>
+					<SimpleData name="lat">-16.3253</SimpleData>
+					<SimpleData name="long">-71.5904</SimpleData>
+					<SimpleData name="y_proj">-1931749671</SimpleData>
+					<SimpleData name="x_proj">2.83315e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.59038999999999,-16.32531100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_014</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 8 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_014</SimpleData>
+					<SimpleData name="lat">-16.3252</SimpleData>
+					<SimpleData name="long">-71.5884</SimpleData>
+					<SimpleData name="y_proj">-1931762704</SimpleData>
+					<SimpleData name="x_proj">2.83338e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.588353,-16.32520500000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_015</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 9 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_015</SimpleData>
+					<SimpleData name="lat">-16.3233</SimpleData>
+					<SimpleData name="long">-71.5869</SimpleData>
+					<SimpleData name="y_proj">-1931554442</SimpleData>
+					<SimpleData name="x_proj">2.83357e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.586901,-16.323277,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_016</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">IEE_Ninho_De_La_Esperanza</SimpleData>
+					<SimpleData name="code_point">CL26_PP_016</SimpleData>
+					<SimpleData name="lat">-16.3234</SimpleData>
+					<SimpleData name="long">-71.5883</SimpleData>
+					<SimpleData name="y_proj">-1931555256</SimpleData>
+					<SimpleData name="x_proj">2.83341e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.58833799999999,-16.32343700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_017</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 10 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_017</SimpleData>
+					<SimpleData name="lat">-16.3223</SimpleData>
+					<SimpleData name="long">-71.5882</SimpleData>
+					<SimpleData name="y_proj">-1931428739</SimpleData>
+					<SimpleData name="x_proj">2.83344e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.58818100000001,-16.322343,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_018</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 11 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_018</SimpleData>
+					<SimpleData name="lat">-16.3208</SimpleData>
+					<SimpleData name="long">-71.5922</SimpleData>
+					<SimpleData name="y_proj">-1931200011</SimpleData>
+					<SimpleData name="x_proj">2.833e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.592234,-16.320827,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_019</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 12 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_019</SimpleData>
+					<SimpleData name="lat">-16.3233</SimpleData>
+					<SimpleData name="long">-71.5904</SimpleData>
+					<SimpleData name="y_proj">-1931515853</SimpleData>
+					<SimpleData name="x_proj">2.83317e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.59039899999999,-16.323321,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_020</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 13 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_020</SimpleData>
+					<SimpleData name="lat">-16.3233</SimpleData>
+					<SimpleData name="long">-71.5942</SimpleData>
+					<SimpleData name="y_proj">-1931468487</SimpleData>
+					<SimpleData name="x_proj">2.83274e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.594224,-16.32332500000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_021</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 14 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_021</SimpleData>
+					<SimpleData name="lat">-16.3225</SimpleData>
+					<SimpleData name="long">-71.5933</SimpleData>
+					<SimpleData name="y_proj">-1931382201</SimpleData>
+					<SimpleData name="x_proj">2.83286e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.593273,-16.32248899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_022</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 15 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_022</SimpleData>
+					<SimpleData name="lat">-16.3225</SimpleData>
+					<SimpleData name="long">-71.5917</SimpleData>
+					<SimpleData name="y_proj">-1931405175</SimpleData>
+					<SimpleData name="x_proj">2.83303e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.59172700000001,-16.32251999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_023</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 16 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_023</SimpleData>
+					<SimpleData name="lat">-16.322</SimpleData>
+					<SimpleData name="long">-71.5904</SimpleData>
+					<SimpleData name="y_proj">-1931360835</SimpleData>
+					<SimpleData name="x_proj">2.83319e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.59042700000002,-16.32200399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_024</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 17 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_024</SimpleData>
+					<SimpleData name="lat">-16.3204</SimpleData>
+					<SimpleData name="long">-71.5904</SimpleData>
+					<SimpleData name="y_proj">-1931176954</SimpleData>
+					<SimpleData name="x_proj">2.83321e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.59043399999999,-16.32043899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_025</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Comedor_Popular_Nueva_Esperanza</SimpleData>
+					<SimpleData name="code_point">CL26_PP_025</SimpleData>
+					<SimpleData name="lat">-16.3197</SimpleData>
+					<SimpleData name="long">-71.5929</SimpleData>
+					<SimpleData name="y_proj">-1931053938</SimpleData>
+					<SimpleData name="x_proj">2.83293e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.59291800000001,-16.31965600000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_026</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 18 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_026</SimpleData>
+					<SimpleData name="lat">-16.3189</SimpleData>
+					<SimpleData name="long">-71.5931</SimpleData>
+					<SimpleData name="y_proj">-1930968808</SimpleData>
+					<SimpleData name="x_proj">2.83292e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.593086,-16.31894900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_027</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 19 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_027</SimpleData>
+					<SimpleData name="lat">-16.3191</SimpleData>
+					<SimpleData name="long">-71.5903</SimpleData>
+					<SimpleData name="y_proj">-1931017663</SimpleData>
+					<SimpleData name="x_proj">2.83324e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.590334,-16.319072,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_028</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 20 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_028</SimpleData>
+					<SimpleData name="lat">-16.32</SimpleData>
+					<SimpleData name="long">-71.5877</SimpleData>
+					<SimpleData name="y_proj">-1931156086</SimpleData>
+					<SimpleData name="x_proj">2.83352e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.58773600000001,-16.31997400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_029</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Ciudad_Municipal_VII</SimpleData>
+					<SimpleData name="code_point">CL26_PP_029</SimpleData>
+					<SimpleData name="lat">-16.3183</SimpleData>
+					<SimpleData name="long">-71.5883</SimpleData>
+					<SimpleData name="y_proj">-1930951</SimpleData>
+					<SimpleData name="x_proj">2.83348e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.58826699999999,-16.31828699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_030</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 21 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_030</SimpleData>
+					<SimpleData name="lat">-16.3177</SimpleData>
+					<SimpleData name="long">-71.5867</SimpleData>
+					<SimpleData name="y_proj">-1930898785</SimpleData>
+					<SimpleData name="x_proj">2.83367e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.58668299999999,-16.31767099999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_031</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 22 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_031</SimpleData>
+					<SimpleData name="lat">-16.3172</SimpleData>
+					<SimpleData name="long">-71.5878</SimpleData>
+					<SimpleData name="y_proj">-1930824284</SimpleData>
+					<SimpleData name="x_proj">2.83355e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.587757,-16.31715100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_032</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 23 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_032</SimpleData>
+					<SimpleData name="lat">-16.3145</SimpleData>
+					<SimpleData name="long">-71.5872</SimpleData>
+					<SimpleData name="y_proj">-1930516607</SimpleData>
+					<SimpleData name="x_proj">2.83366e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.58715399999998,-16.31446700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_033</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 24 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_033</SimpleData>
+					<SimpleData name="lat">-16.3124</SimpleData>
+					<SimpleData name="long">-71.5847</SimpleData>
+					<SimpleData name="y_proj">-1930298972</SimpleData>
+					<SimpleData name="x_proj">2.83396e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.58474099999999,-16.31235699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_034</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 25 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_034</SimpleData>
+					<SimpleData name="lat">-16.3124</SimpleData>
+					<SimpleData name="long">-71.5863</SimpleData>
+					<SimpleData name="y_proj">-1930279209</SimpleData>
+					<SimpleData name="x_proj">2.83378e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.586331,-16.31235799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_035</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 26 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_035</SimpleData>
+					<SimpleData name="lat">-16.3118</SimpleData>
+					<SimpleData name="long">-71.5872</SimpleData>
+					<SimpleData name="y_proj">-1930203472</SimpleData>
+					<SimpleData name="x_proj">2.83368e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.58724100000001,-16.31181000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_036</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 27 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_036</SimpleData>
+					<SimpleData name="lat">-16.315</SimpleData>
+					<SimpleData name="long">-71.5893</SimpleData>
+					<SimpleData name="y_proj">-1930547545</SimpleData>
+					<SimpleData name="x_proj">2.83341e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.589254,-16.314954,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_037</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 28 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_037</SimpleData>
+					<SimpleData name="lat">-16.317</SimpleData>
+					<SimpleData name="long">-71.5904</SimpleData>
+					<SimpleData name="y_proj">-1930778146</SimpleData>
+					<SimpleData name="x_proj">2.83326e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.59037600000001,-16.31703700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_038</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 29 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_038</SimpleData>
+					<SimpleData name="lat">-16.3166</SimpleData>
+					<SimpleData name="long">-71.5925</SimpleData>
+					<SimpleData name="y_proj">-1930702549</SimpleData>
+					<SimpleData name="x_proj">2.83303e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.592468,-16.316616,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_039</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 30 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_039</SimpleData>
+					<SimpleData name="lat">-16.317</SimpleData>
+					<SimpleData name="long">-71.5942</SimpleData>
+					<SimpleData name="y_proj">-1930730104</SimpleData>
+					<SimpleData name="x_proj">2.83282e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.594247,-16.31704,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_040</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Villa_Cono_Norte</SimpleData>
+					<SimpleData name="code_point">CL26_PP_040</SimpleData>
+					<SimpleData name="lat">-16.3192</SimpleData>
+					<SimpleData name="long">-71.595</SimpleData>
+					<SimpleData name="y_proj">-1930972497</SimpleData>
+					<SimpleData name="x_proj">2.83271e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.594989,-16.31918300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_041</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 31 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_041</SimpleData>
+					<SimpleData name="lat">-16.3207</SimpleData>
+					<SimpleData name="long">-71.5959</SimpleData>
+					<SimpleData name="y_proj">-1931133185</SimpleData>
+					<SimpleData name="x_proj">2.83258e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.595935,-16.32065199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_042</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 32 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_042</SimpleData>
+					<SimpleData name="lat">-16.3182</SimpleData>
+					<SimpleData name="long">-71.5981</SimpleData>
+					<SimpleData name="y_proj">-1930817407</SimpleData>
+					<SimpleData name="x_proj">2.83237e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.598067,-16.31819000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_043</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Villa_El_Triunfo</SimpleData>
+					<SimpleData name="code_point">CL26_PP_043</SimpleData>
+					<SimpleData name="lat">-16.3129</SimpleData>
+					<SimpleData name="long">-71.6006</SimpleData>
+					<SimpleData name="y_proj">-1930166308</SimpleData>
+					<SimpleData name="x_proj">2.83215e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.60057,-16.31291200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_044</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 33 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_044</SimpleData>
+					<SimpleData name="lat">-16.3147</SimpleData>
+					<SimpleData name="long">-71.6007</SimpleData>
+					<SimpleData name="y_proj">-1930371633</SimpleData>
+					<SimpleData name="x_proj">2.83212e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.60066000000002,-16.31467,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_045</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_De_Granjeros_Unidos</SimpleData>
+					<SimpleData name="code_point">CL26_PP_045</SimpleData>
+					<SimpleData name="lat">-16.316</SimpleData>
+					<SimpleData name="long">-71.6001</SimpleData>
+					<SimpleData name="y_proj">-1930536992</SimpleData>
+					<SimpleData name="x_proj">2.83217e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.600114,-16.31602000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_046</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 34 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_046</SimpleData>
+					<SimpleData name="lat">-16.3174</SimpleData>
+					<SimpleData name="long">-71.6013</SimpleData>
+					<SimpleData name="y_proj">-1930689742</SimpleData>
+					<SimpleData name="x_proj">2.83201e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.60131,-16.31744800000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_047</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">IEI_San_Maximiliano_Maria_Kolbe</SimpleData>
+					<SimpleData name="code_point">CL26_PP_047</SimpleData>
+					<SimpleData name="lat">-16.3182</SimpleData>
+					<SimpleData name="long">-71.6022</SimpleData>
+					<SimpleData name="y_proj">-1930772</SimpleData>
+					<SimpleData name="x_proj">2.8319e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.60220099999999,-16.31825000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_048</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 35 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_048</SimpleData>
+					<SimpleData name="lat">-16.3206</SimpleData>
+					<SimpleData name="long">-71.603</SimpleData>
+					<SimpleData name="y_proj">-1931039251</SimpleData>
+					<SimpleData name="x_proj">2.83178e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.60301800000001,-16.320606,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_049</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Grifo_Primax_Santa_Monica</SimpleData>
+					<SimpleData name="code_point">CL26_PP_049</SimpleData>
+					<SimpleData name="lat">-16.3203</SimpleData>
+					<SimpleData name="long">-71.6001</SimpleData>
+					<SimpleData name="y_proj">-1931043605</SimpleData>
+					<SimpleData name="x_proj">2.83211e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.60009499999998,-16.32033200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_050</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 36 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_050</SimpleData>
+					<SimpleData name="lat">-16.3225</SimpleData>
+					<SimpleData name="long">-71.6</SimpleData>
+					<SimpleData name="y_proj">-1931296</SimpleData>
+					<SimpleData name="x_proj">2.83209e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.60003799999998,-16.322478,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_051</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 37 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_051</SimpleData>
+					<SimpleData name="lat">-16.3244</SimpleData>
+					<SimpleData name="long">-71.5976</SimpleData>
+					<SimpleData name="y_proj">-1931554789</SimpleData>
+					<SimpleData name="x_proj">2.83234e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.597578,-16.32441700000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_052</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 38 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_052</SimpleData>
+					<SimpleData name="lat">-16.3265</SimpleData>
+					<SimpleData name="long">-71.5961</SimpleData>
+					<SimpleData name="y_proj">-1931819546</SimpleData>
+					<SimpleData name="x_proj">2.83248e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.596127,-16.32651699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_053</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 39 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_053</SimpleData>
+					<SimpleData name="lat">-16.3286</SimpleData>
+					<SimpleData name="long">-71.5955</SimpleData>
+					<SimpleData name="y_proj">-1932068</SimpleData>
+					<SimpleData name="x_proj">2.83252e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.59552800000002,-16.32857100000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_054</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 40 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_054</SimpleData>
+					<SimpleData name="lat">-16.3375</SimpleData>
+					<SimpleData name="long">-71.5922</SimpleData>
+					<SimpleData name="y_proj">-1933163273</SimpleData>
+					<SimpleData name="x_proj">2.83278e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.59222000000001,-16.33754300000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_055</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Cancha_Deportiva_JLBYR_III</SimpleData>
+					<SimpleData name="code_point">CL26_PP_055</SimpleData>
+					<SimpleData name="lat">-16.3364</SimpleData>
+					<SimpleData name="long">-71.5933</SimpleData>
+					<SimpleData name="y_proj">-1933018016</SimpleData>
+					<SimpleData name="x_proj">2.83267e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.593317,-16.33642299999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_056</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 41 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_056</SimpleData>
+					<SimpleData name="lat">-16.337</SimpleData>
+					<SimpleData name="long">-71.5955</SimpleData>
+					<SimpleData name="y_proj">-1933059119</SimpleData>
+					<SimpleData name="x_proj">2.83242e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.595466,-16.33700199999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_057</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 42 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_057</SimpleData>
+					<SimpleData name="lat">-16.3347</SimpleData>
+					<SimpleData name="long">-71.5957</SimpleData>
+					<SimpleData name="y_proj">-1932790774</SimpleData>
+					<SimpleData name="x_proj">2.83242e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.59572000000001,-16.334744,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_058</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 43 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_058</SimpleData>
+					<SimpleData name="lat">-16.3335</SimpleData>
+					<SimpleData name="long">-71.5976</SimpleData>
+					<SimpleData name="y_proj">-1932618858</SimpleData>
+					<SimpleData name="x_proj">2.83222e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.59762499999999,-16.333483,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_059</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_JLBYR_II</SimpleData>
+					<SimpleData name="code_point">CL26_PP_059</SimpleData>
+					<SimpleData name="lat">-16.3318</SimpleData>
+					<SimpleData name="long">-71.6</SimpleData>
+					<SimpleData name="y_proj">-1932388747</SimpleData>
+					<SimpleData name="x_proj">2.83197e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.600024,-16.33177900000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_060</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 44 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_060</SimpleData>
+					<SimpleData name="lat">-16.3303</SimpleData>
+					<SimpleData name="long">-71.598</SimpleData>
+					<SimpleData name="y_proj">-1932236949</SimpleData>
+					<SimpleData name="x_proj">2.83222e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.59802999999999,-16.330274,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_061</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">IEP_Linus_Pauling</SimpleData>
+					<SimpleData name="code_point">CL26_PP_061</SimpleData>
+					<SimpleData name="lat">-16.3285</SimpleData>
+					<SimpleData name="long">-71.6027</SimpleData>
+					<SimpleData name="y_proj">-1931966503</SimpleData>
+					<SimpleData name="x_proj">2.83171e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.602688,-16.32846699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_062</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 45 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_062</SimpleData>
+					<SimpleData name="lat">-16.3248</SimpleData>
+					<SimpleData name="long">-71.5991</SimpleData>
+					<SimpleData name="y_proj">-1931582698</SimpleData>
+					<SimpleData name="x_proj">2.83217e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.599084,-16.32481499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_063</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 46 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_063</SimpleData>
+					<SimpleData name="lat">-16.3241</SimpleData>
+					<SimpleData name="long">-71.6033</SimpleData>
+					<SimpleData name="y_proj">-1931440857</SimpleData>
+					<SimpleData name="x_proj">2.8317e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.60330999999999,-16.32405700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_064</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 47 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_064</SimpleData>
+					<SimpleData name="lat">-16.326</SimpleData>
+					<SimpleData name="long">-71.605</SimpleData>
+					<SimpleData name="y_proj">-1931649266</SimpleData>
+					<SimpleData name="x_proj">2.83149e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.604966,-16.326008,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_065</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Cancha_Sintetica_El_Porvenir</SimpleData>
+					<SimpleData name="code_point">CL26_PP_065</SimpleData>
+					<SimpleData name="lat">-16.323</SimpleData>
+					<SimpleData name="long">-71.6072</SimpleData>
+					<SimpleData name="y_proj">-1931272</SimpleData>
+					<SimpleData name="x_proj">2.83128e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.60715799999998,-16.32303300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_066</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 48 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_066</SimpleData>
+					<SimpleData name="lat">-16.3221</SimpleData>
+					<SimpleData name="long">-71.6101</SimpleData>
+					<SimpleData name="y_proj">-1931129238</SimpleData>
+					<SimpleData name="x_proj">2.83096e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.61009199999998,-16.32212500000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_067</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Punto 49 (Referencial)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_067</SimpleData>
+					<SimpleData name="lat">-16.3204</SimpleData>
+					<SimpleData name="long">-71.6129</SimpleData>
+					<SimpleData name="y_proj">-1930895788</SimpleData>
+					<SimpleData name="x_proj">2.83066e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.61289399999998,-16.320435,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_068</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Loza Urb. Transoceanica Arequipa</SimpleData>
+					<SimpleData name="code_point">CL26_PP_068</SimpleData>
+					<SimpleData name="lat">-16.3351</SimpleData>
+					<SimpleData name="long">-71.5905</SimpleData>
+					<SimpleData name="y_proj">-1932894179</SimpleData>
+					<SimpleData name="x_proj">2.833e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.59054400000001,-16.33507299999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_069</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Parque Guardia Republicana</SimpleData>
+					<SimpleData name="code_point">CL26_PP_069</SimpleData>
+					<SimpleData name="lat">-16.318</SimpleData>
+					<SimpleData name="long">-71.5934</SimpleData>
+					<SimpleData name="y_proj">-1930859</SimpleData>
+					<SimpleData name="x_proj">2.8329e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.59337099999999,-16.31804900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_070</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Capilla Virgen De Chapi - Bustamante Sector 2</SimpleData>
+					<SimpleData name="code_point">CL26_PP_070</SimpleData>
+					<SimpleData name="lat">-16.3308</SimpleData>
+					<SimpleData name="long">-71.5996</SimpleData>
+					<SimpleData name="y_proj">-1932280</SimpleData>
+					<SimpleData name="x_proj">2.83203e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.59961000000001,-16.33081499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_071</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Losa Deportiva El Golazo De Los Diaz</SimpleData>
+					<SimpleData name="code_point">CL26_PP_071</SimpleData>
+					<SimpleData name="lat">-16.3169</SimpleData>
+					<SimpleData name="long">-71.5951</SimpleData>
+					<SimpleData name="y_proj">-1930699</SimpleData>
+					<SimpleData name="x_proj">2.83272e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.5951288,-16.31687505999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_072</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Parque V.R. Haya De La Torre</SimpleData>
+					<SimpleData name="code_point">CL26_PP_072</SimpleData>
+					<SimpleData name="lat">-16.3241</SimpleData>
+					<SimpleData name="long">-71.5884</SimpleData>
+					<SimpleData name="y_proj">-1931629308</SimpleData>
+					<SimpleData name="x_proj">2.83339e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.58835992999998,-16.32406987999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_073</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Minicomplejo Deportivo Ciudad Municipal Zn 7</SimpleData>
+					<SimpleData name="code_point">CL26_PP_073</SimpleData>
+					<SimpleData name="lat">-16.3223</SimpleData>
+					<SimpleData name="long">-71.5874</SimpleData>
+					<SimpleData name="y_proj">-1931430549</SimpleData>
+					<SimpleData name="x_proj">2.83353e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.58740066999999,-16.32227530000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_074</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Parque Juan Cayro B (Apipa I)</SimpleData>
+					<SimpleData name="code_point">CL26_PP_074</SimpleData>
+					<SimpleData name="lat">-16.3208</SimpleData>
+					<SimpleData name="long">-71.6073</SimpleData>
+					<SimpleData name="y_proj">-1931012</SimpleData>
+					<SimpleData name="x_proj">2.83129e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.60728984000001,-16.32083205999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_075</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Local Social V.R. Haya De La Torre</SimpleData>
+					<SimpleData name="code_point">CL26_PP_075</SimpleData>
+					<SimpleData name="lat">-16.3227</SimpleData>
+					<SimpleData name="long">-71.5887</SimpleData>
+					<SimpleData name="y_proj">-1931462631</SimpleData>
+					<SimpleData name="x_proj">2.83337e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.58873249999999,-16.32269032,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_076</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">I.E. Cristo Morado</SimpleData>
+					<SimpleData name="code_point">CL26_PP_076</SimpleData>
+					<SimpleData name="lat">-16.3197</SimpleData>
+					<SimpleData name="long">-71.5873</SimpleData>
+					<SimpleData name="y_proj">-1931126578</SimpleData>
+					<SimpleData name="x_proj">2.83358e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.5872689,-16.319673,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_077</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Estadio Ciudad Municipal Zn 8</SimpleData>
+					<SimpleData name="code_point">CL26_PP_077</SimpleData>
+					<SimpleData name="lat">-16.3158</SimpleData>
+					<SimpleData name="long">-71.5883</SimpleData>
+					<SimpleData name="y_proj">-1930655</SimpleData>
+					<SimpleData name="x_proj">2.83351e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.58828961,-16.31576807999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_078</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Parque Virgen De Chapi</SimpleData>
+					<SimpleData name="code_point">CL26_PP_078</SimpleData>
+					<SimpleData name="lat">-16.3129</SimpleData>
+					<SimpleData name="long">-71.5863</SimpleData>
+					<SimpleData name="y_proj">-1930344477</SimpleData>
+					<SimpleData name="x_proj">2.83377e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.58632347,-16.31291293999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_079</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Losa Deportiva Virgen De Chapi</SimpleData>
+					<SimpleData name="code_point">CL26_PP_079</SimpleData>
+					<SimpleData name="lat">-16.313</SimpleData>
+					<SimpleData name="long">-71.586</SimpleData>
+					<SimpleData name="y_proj">-1930356593</SimpleData>
+					<SimpleData name="x_proj">2.83381e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.58596423999998,-16.31297785,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_080</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Paradero De Colectivo Sor Ana</SimpleData>
+					<SimpleData name="code_point">CL26_PP_080</SimpleData>
+					<SimpleData name="lat">-16.3132</SimpleData>
+					<SimpleData name="long">-71.5866</SimpleData>
+					<SimpleData name="y_proj">-1930377</SimpleData>
+					<SimpleData name="x_proj">2.83373e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.58662870999999,-16.31322713,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_081</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Capilla Virgen De Chapi</SimpleData>
+					<SimpleData name="code_point">CL26_PP_081</SimpleData>
+					<SimpleData name="lat">-16.3134</SimpleData>
+					<SimpleData name="long">-71.5852</SimpleData>
+					<SimpleData name="y_proj">-1930412157</SimpleData>
+					<SimpleData name="x_proj">2.83389e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.58520611000002,-16.31337024999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_082</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Losa Deportiva La Brenha</SimpleData>
+					<SimpleData name="code_point">CL26_PP_082</SimpleData>
+					<SimpleData name="lat">-16.3231</SimpleData>
+					<SimpleData name="long">-71.5985</SimpleData>
+					<SimpleData name="y_proj">-1931390906</SimpleData>
+					<SimpleData name="x_proj">2.83226e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.59847580999998,-16.32311706000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_083</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Losa Md Cayarani</SimpleData>
+					<SimpleData name="code_point">CL26_PP_083</SimpleData>
+					<SimpleData name="lat">-16.3229</SimpleData>
+					<SimpleData name="long">-71.5978</SimpleData>
+					<SimpleData name="y_proj">-1931371112</SimpleData>
+					<SimpleData name="x_proj">2.83234e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.59781900999999,-16.32287858999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_084</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Losa Deportiva Ciudad Municipal Zn5</SimpleData>
+					<SimpleData name="code_point">CL26_PP_084</SimpleData>
+					<SimpleData name="lat">-16.3232</SimpleData>
+					<SimpleData name="long">-71.5913</SimpleData>
+					<SimpleData name="y_proj">-1931489482</SimpleData>
+					<SimpleData name="x_proj">2.83307e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.59133868000001,-16.32319652000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_085</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Parque Ciudad Municipal Zn 8</SimpleData>
+					<SimpleData name="code_point">CL26_PP_085</SimpleData>
+					<SimpleData name="lat">-16.315</SimpleData>
+					<SimpleData name="long">-71.5871</SimpleData>
+					<SimpleData name="y_proj">-1930578313</SimpleData>
+					<SimpleData name="x_proj">2.83366e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.58708611,-16.31498518,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL26_PP_086</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_26_16abr2026_ISISSDDIDSS">
+					<SimpleData name="n_microred">20</SimpleData>
+					<SimpleData name="microred">MARITZA CAMPOS</SimpleData>
+					<SimpleData name="cluster">26</SimpleData>
+					<SimpleData name="point_name">Cancha Sintetica El Estanquillo</SimpleData>
+					<SimpleData name="code_point">CL26_PP_086</SimpleData>
+					<SimpleData name="lat">-16.3256</SimpleData>
+					<SimpleData name="long">-71.5864</SimpleData>
+					<SimpleData name="y_proj">-1931829871</SimpleData>
+					<SimpleData name="x_proj">2.8336e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.5864153,-16.32557049999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
+	</Folder>
+</Document>
+</kml>

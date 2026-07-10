@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Limites_Cluster_36_11may2023.kml</name>
+	<StyleMap id="m_ylw-pushpin1200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin226">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin226</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin207</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin12">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl12">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin207">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin226">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Limites_Cluster_36_11may2023</name>
+		<Placemark>
+			<name>PEDREGAL_04</name>
+			<styleUrl>#msn_ylw-pushpin226</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-72.20140748552639,-16.33396648587145,0 -72.20201256484451,-16.33618058284237,0 -72.20181876172367,-16.33738481293241,0 -72.20192228902793,-16.33854930674929,0 -72.20229244150786,-16.33918362369703,0 -72.20251361944385,-16.33985351890393,0 -72.2030657376538,-16.34123129724235,0 -72.20361881202848,-16.34165032917339,0 -72.20379005540573,-16.34208162880149,0 -72.20432243564188,-16.343118265049,0 -72.20575810156801,-16.34375746262099,0 -72.20685998694914,-16.34475040127727,0 -72.2085809408575,-16.34592753206396,0 -72.20939082187462,-16.34707689231605,0 -72.21226150990303,-16.34879061824127,0 -72.21520967864012,-16.35311533604209,0 -72.21745921137962,-16.35445842326991,0 -72.21882474069542,-16.35591524850317,0 -72.22067184555421,-16.35706643620443,0 -72.22393862012699,-16.35806355292489,0 -72.23076693449642,-16.36360660346212,0 -72.23282400228256,-16.36868046065286,0 -72.23611167740616,-16.37041326955619,0 -72.24205329052759,-16.37547528298401,0 -72.24351927989129,-16.37977162659397,0 -72.24486607426799,-16.38441778852992,0 -72.24889140161127,-16.38797683315235,0 -72.25383225771579,-16.3931103112358,0 -72.25619470350784,-16.39862423957885,0 -72.2564190626601,-16.40499251959102,0 -72.25673142521751,-16.41481196841943,0 -72.25699809516436,-16.4242141322037,0 -72.28166181278728,-16.44092100501799,0 -72.28100087569808,-16.44623693036956,0 -72.27656549432102,-16.45782387791456,0 -72.25603090651441,-16.45040287007434,0 -72.24080902140689,-16.43978403760202,0 -72.22816615756322,-16.42139804290414,0 -72.1834495441387,-16.39401602715858,0 -72.17490646679666,-16.3865422693213,0 -72.1857643273074,-16.34999876279884,0 -72.18959932713013,-16.34735110232021,0 -72.19030011665065,-16.34685604627903,0 -72.19328850916516,-16.34358427502629,0 -72.20140748552639,-16.33396648587145,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>36</name>
+			<LookAt>
+				<longitude>-72.13008280172188</longitude>
+				<latitude>-16.35531824167627</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0006358179974083742</heading>
+				<tilt>8.957305955155753</tilt>
+				<range>55889.80067641167</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin1200</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-72.22160441275346,-16.39380494520682,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

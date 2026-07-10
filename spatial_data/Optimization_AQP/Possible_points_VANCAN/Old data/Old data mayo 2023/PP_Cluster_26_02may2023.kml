@@ -1,0 +1,2283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CL26_Zamacola_02may2023</name>
+	<Schema name="CL26_Zamacola" id="S_CL26_Zamacola_SSDDIISS">
+		<SimpleField type="string" name="code"><displayName>&lt;b&gt;code&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="point_name"><displayName>&lt;b&gt;point_name&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="lat"><displayName>&lt;b&gt;lat&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="long"><displayName>&lt;b&gt;long&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="y_proj"><displayName>&lt;b&gt;y_proj&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="x_proj"><displayName>&lt;b&gt;x_proj&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="type_point"><displayName>&lt;b&gt;type_point&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="estratategy"><displayName>&lt;b&gt;estratategy&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle24">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>code</b></td><td>$[CL26_Zamacola/code]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[CL26_Zamacola/point_name]</td></tr>
+  <tr><td><b>lat</b></td><td>$[CL26_Zamacola/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[CL26_Zamacola/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[CL26_Zamacola/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[CL26_Zamacola/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[CL26_Zamacola/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[CL26_Zamacola/estratategy]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle24">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>code</b></td><td>$[CL26_Zamacola/code]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[CL26_Zamacola/point_name]</td></tr>
+  <tr><td><b>lat</b></td><td>$[CL26_Zamacola/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[CL26_Zamacola/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[CL26_Zamacola/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[CL26_Zamacola/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[CL26_Zamacola/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[CL26_Zamacola/estratategy]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap24">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle24</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle24</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>CL26_PP_001</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_001</SimpleData>
+				<SimpleData name="point_name">Punto 1 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3377</SimpleData>
+				<SimpleData name="long">-71.5895</SimpleData>
+				<SimpleData name="y_proj">-1933218</SimpleData>
+				<SimpleData name="x_proj">2833083</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.58953668841694,-16.33772565018865,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_002</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_002</SimpleData>
+				<SimpleData name="point_name">Punto 2 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3367</SimpleData>
+				<SimpleData name="long">-71.5888</SimpleData>
+				<SimpleData name="y_proj">-1933101</SimpleData>
+				<SimpleData name="x_proj">2833178</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.58882628723418,-16.33665376743325,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_003</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_003</SimpleData>
+				<SimpleData name="point_name">Punto 3 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3359</SimpleData>
+				<SimpleData name="long">-71.5903</SimpleData>
+				<SimpleData name="y_proj">-1932999</SimpleData>
+				<SimpleData name="x_proj">2833017</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59032355069927,-16.33594308283904,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_004</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_004</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_SANTA_ROSA_DE_LIMA</SimpleData>
+				<SimpleData name="lat">-16.3342</SimpleData>
+				<SimpleData name="long">-71.5885</SimpleData>
+				<SimpleData name="y_proj">-1932817</SimpleData>
+				<SimpleData name="x_proj">2833242</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.58854109500905,-16.33420865708816,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_005</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_005</SimpleData>
+				<SimpleData name="point_name">PETRO_PERU</SimpleData>
+				<SimpleData name="lat">-16.3329</SimpleData>
+				<SimpleData name="long">-71.5922</SimpleData>
+				<SimpleData name="y_proj">-1932617</SimpleData>
+				<SimpleData name="x_proj">2832838</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59224974182273,-16.33290244840055,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_006</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_006</SimpleData>
+				<SimpleData name="point_name">COLEGIO_EL_GRAN_PODER_DE_JESUS</SimpleData>
+				<SimpleData name="lat">-16.3297</SimpleData>
+				<SimpleData name="long">-71.5928</SimpleData>
+				<SimpleData name="y_proj">-1932233</SimpleData>
+				<SimpleData name="x_proj">2832823</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59275138036705,-16.32967977307587,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_007</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_007</SimpleData>
+				<SimpleData name="point_name">CEMENTERIO_MUNICIPAL_CERRO_COLORADO</SimpleData>
+				<SimpleData name="lat">-16.3292</SimpleData>
+				<SimpleData name="long">-71.5891</SimpleData>
+				<SimpleData name="y_proj">-1932223</SimpleData>
+				<SimpleData name="x_proj">2833247</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.58907192294431,-16.32920227850583,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_008</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_008</SimpleData>
+				<SimpleData name="point_name">GRIFO_MUNICIPAL_CONO_NORTE</SimpleData>
+				<SimpleData name="lat">-16.3275</SimpleData>
+				<SimpleData name="long">-71.5943</SimpleData>
+				<SimpleData name="y_proj">-1931956</SimpleData>
+				<SimpleData name="x_proj">2832673</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5943226606845,-16.32749042421293,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_009</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_009</SimpleData>
+				<SimpleData name="point_name">POSTA_CIUDAD_MUNICIPAL</SimpleData>
+				<SimpleData name="lat">-16.3256</SimpleData>
+				<SimpleData name="long">-71.5941</SimpleData>
+				<SimpleData name="y_proj">-1931742</SimpleData>
+				<SimpleData name="x_proj">2832726</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59407006782011,-16.32563940821885,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_010</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_010</SimpleData>
+				<SimpleData name="point_name">Punto 4 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3267</SimpleData>
+				<SimpleData name="long">-71.593</SimpleData>
+				<SimpleData name="y_proj">-1931879</SimpleData>
+				<SimpleData name="x_proj">2832830</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59303548174981,-16.32669482287204,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_011</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_011</SimpleData>
+				<SimpleData name="point_name">Punto 5 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3254</SimpleData>
+				<SimpleData name="long">-71.5928</SimpleData>
+				<SimpleData name="y_proj">-1931730</SimpleData>
+				<SimpleData name="x_proj">2832872</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5928092317497,-16.32540150690482,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_012</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_012</SimpleData>
+				<SimpleData name="point_name">Punto 6 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3273</SimpleData>
+				<SimpleData name="long">-71.5909</SimpleData>
+				<SimpleData name="y_proj">-1931974</SimpleData>
+				<SimpleData name="x_proj">2833062</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59091801192837,-16.32728339254018,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_013</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_013</SimpleData>
+				<SimpleData name="point_name">Punto 7 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3253</SimpleData>
+				<SimpleData name="long">-71.5904</SimpleData>
+				<SimpleData name="y_proj">-1931749</SimpleData>
+				<SimpleData name="x_proj">2833148</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59038985914424,-16.32531078019799,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_014</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_014</SimpleData>
+				<SimpleData name="point_name">Punto 8 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3252</SimpleData>
+				<SimpleData name="long">-71.5884</SimpleData>
+				<SimpleData name="y_proj">-1931762</SimpleData>
+				<SimpleData name="x_proj">2833380</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.58835340689234,-16.32520489310388,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_015</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_015</SimpleData>
+				<SimpleData name="point_name">Punto 9 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3233</SimpleData>
+				<SimpleData name="long">-71.5869</SimpleData>
+				<SimpleData name="y_proj">-1931554</SimpleData>
+				<SimpleData name="x_proj">2833570</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.58690096859824,-16.32327733901425,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_016</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_016</SimpleData>
+				<SimpleData name="point_name">IEE_NINHO_DE_LA_ESPERANZA</SimpleData>
+				<SimpleData name="lat">-16.3234</SimpleData>
+				<SimpleData name="long">-71.5883</SimpleData>
+				<SimpleData name="y_proj">-1931555</SimpleData>
+				<SimpleData name="x_proj">2833405</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.58833831066794,-16.32343683086912,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_017</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_017</SimpleData>
+				<SimpleData name="point_name">Punto 10 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3223</SimpleData>
+				<SimpleData name="long">-71.5882</SimpleData>
+				<SimpleData name="y_proj">-1931428</SimpleData>
+				<SimpleData name="x_proj">2833437</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.58818088925401,-16.32234274140805,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_018</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_018</SimpleData>
+				<SimpleData name="point_name">Punto 11 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3208</SimpleData>
+				<SimpleData name="long">-71.5922</SimpleData>
+				<SimpleData name="y_proj">-1931200</SimpleData>
+				<SimpleData name="x_proj">2832997</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59223437714979,-16.32082711557245,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_019</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_019</SimpleData>
+				<SimpleData name="point_name">Punto 12 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3233</SimpleData>
+				<SimpleData name="long">-71.5904</SimpleData>
+				<SimpleData name="y_proj">-1931515</SimpleData>
+				<SimpleData name="x_proj">2833172</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59039914255564,-16.3233214460211,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_020</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_020</SimpleData>
+				<SimpleData name="point_name">Punto 13 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3233</SimpleData>
+				<SimpleData name="long">-71.5942</SimpleData>
+				<SimpleData name="y_proj">-1931468</SimpleData>
+				<SimpleData name="x_proj">2832739</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59422427800585,-16.32332507774592,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_021</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_021</SimpleData>
+				<SimpleData name="point_name">Punto 14 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3225</SimpleData>
+				<SimpleData name="long">-71.5933</SimpleData>
+				<SimpleData name="y_proj">-1931382</SimpleData>
+				<SimpleData name="x_proj">2832857</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59327269464558,-16.32248857670741,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_022</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_022</SimpleData>
+				<SimpleData name="point_name">Punto 15 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3225</SimpleData>
+				<SimpleData name="long">-71.5917</SimpleData>
+				<SimpleData name="y_proj">-1931405</SimpleData>
+				<SimpleData name="x_proj">2833032</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59172712415635,-16.32251956068317,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_023</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_023</SimpleData>
+				<SimpleData name="point_name">Punto 16 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.322</SimpleData>
+				<SimpleData name="long">-71.5904</SimpleData>
+				<SimpleData name="y_proj">-1931360</SimpleData>
+				<SimpleData name="x_proj">2833186</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59042692185844,-16.32200426533684,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_024</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_024</SimpleData>
+				<SimpleData name="point_name">Punto 17 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3204</SimpleData>
+				<SimpleData name="long">-71.5904</SimpleData>
+				<SimpleData name="y_proj">-1931177</SimpleData>
+				<SimpleData name="x_proj">2833206</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59043422588221,-16.32043949441334,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_025</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_025</SimpleData>
+				<SimpleData name="point_name">COMEDOR_POPULAR_NUEVA_ESPERANZA</SimpleData>
+				<SimpleData name="lat">-16.3197</SimpleData>
+				<SimpleData name="long">-71.5929</SimpleData>
+				<SimpleData name="y_proj">-1931053</SimpleData>
+				<SimpleData name="x_proj">2832934</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59291788650091,-16.3196564707469,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_026</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_026</SimpleData>
+				<SimpleData name="point_name">Punto 18 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3189</SimpleData>
+				<SimpleData name="long">-71.5931</SimpleData>
+				<SimpleData name="y_proj">-1930968</SimpleData>
+				<SimpleData name="x_proj">2832924</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59308579637467,-16.31894876689841,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_027</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_027</SimpleData>
+				<SimpleData name="point_name">Punto 19 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3191</SimpleData>
+				<SimpleData name="long">-71.5903</SimpleData>
+				<SimpleData name="y_proj">-1931017</SimpleData>
+				<SimpleData name="x_proj">2833235</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59033404072588,-16.31907165427724,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_028</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_028</SimpleData>
+				<SimpleData name="point_name">Punto 20 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.32</SimpleData>
+				<SimpleData name="long">-71.5877</SimpleData>
+				<SimpleData name="y_proj">-1931156</SimpleData>
+				<SimpleData name="x_proj">2833518</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.58773597669139,-16.31997439604717,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_029</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_029</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_CIUDAD_MUNICIPAL_VII</SimpleData>
+				<SimpleData name="lat">-16.3183</SimpleData>
+				<SimpleData name="long">-71.5883</SimpleData>
+				<SimpleData name="y_proj">-1930951</SimpleData>
+				<SimpleData name="x_proj">2833479</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.58826679329577,-16.318287036739,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_030</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_030</SimpleData>
+				<SimpleData name="point_name">Punto 21 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3177</SimpleData>
+				<SimpleData name="long">-71.5867</SimpleData>
+				<SimpleData name="y_proj">-1930898</SimpleData>
+				<SimpleData name="x_proj">2833667</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5866831450073,-16.31767138390689,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_031</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_031</SimpleData>
+				<SimpleData name="point_name">Punto 22 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3172</SimpleData>
+				<SimpleData name="long">-71.5878</SimpleData>
+				<SimpleData name="y_proj">-1930824</SimpleData>
+				<SimpleData name="x_proj">2833552</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.58775668841824,-16.31715071335276,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_032</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_032</SimpleData>
+				<SimpleData name="point_name">Punto 23 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3145</SimpleData>
+				<SimpleData name="long">-71.5872</SimpleData>
+				<SimpleData name="y_proj">-1930516</SimpleData>
+				<SimpleData name="x_proj">2833655</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5871542133399,-16.3144670268951,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_033</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_033</SimpleData>
+				<SimpleData name="point_name">Punto 24 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3124</SimpleData>
+				<SimpleData name="long">-71.5847</SimpleData>
+				<SimpleData name="y_proj">-1930298</SimpleData>
+				<SimpleData name="x_proj">2833956</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.58474069695467,-16.31235691782664,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_034</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_034</SimpleData>
+				<SimpleData name="point_name">Punto 25 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3124</SimpleData>
+				<SimpleData name="long">-71.5863</SimpleData>
+				<SimpleData name="y_proj">-1930279</SimpleData>
+				<SimpleData name="x_proj">2833776</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5863306824605,-16.31235816616799,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_035</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_035</SimpleData>
+				<SimpleData name="point_name">Punto 26 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3118</SimpleData>
+				<SimpleData name="long">-71.5872</SimpleData>
+				<SimpleData name="y_proj">-1930203</SimpleData>
+				<SimpleData name="x_proj">2833680</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.58724087169534,-16.3118099535644,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_036</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_036</SimpleData>
+				<SimpleData name="point_name">Punto 27 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.315</SimpleData>
+				<SimpleData name="long">-71.5893</SimpleData>
+				<SimpleData name="y_proj">-1930547</SimpleData>
+				<SimpleData name="x_proj">2833411</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.58925434827705,-16.31495422919506,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_037</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_037</SimpleData>
+				<SimpleData name="point_name">Punto 28 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.317</SimpleData>
+				<SimpleData name="long">-71.5904</SimpleData>
+				<SimpleData name="y_proj">-1930778</SimpleData>
+				<SimpleData name="x_proj">2833256</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59037602047174,-16.31703733405289,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_038</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_038</SimpleData>
+				<SimpleData name="point_name">Punto 29 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3166</SimpleData>
+				<SimpleData name="long">-71.5925</SimpleData>
+				<SimpleData name="y_proj">-1930702</SimpleData>
+				<SimpleData name="x_proj">2833025</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.592467731531,-16.31661588478489,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_039</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_039</SimpleData>
+				<SimpleData name="point_name">Punto 30 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.317</SimpleData>
+				<SimpleData name="long">-71.5942</SimpleData>
+				<SimpleData name="y_proj">-1930730</SimpleData>
+				<SimpleData name="x_proj">2832817</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59424687996463,-16.31704030047959,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_040</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_040</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_VILLA_CONO_NORTE</SimpleData>
+				<SimpleData name="lat">-16.3192</SimpleData>
+				<SimpleData name="long">-71.595</SimpleData>
+				<SimpleData name="y_proj">-1930972</SimpleData>
+				<SimpleData name="x_proj">2832705</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59498861998867,-16.31918330650681,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_041</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_041</SimpleData>
+				<SimpleData name="point_name">Punto 31 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3207</SimpleData>
+				<SimpleData name="long">-71.5959</SimpleData>
+				<SimpleData name="y_proj">-1931133</SimpleData>
+				<SimpleData name="x_proj">2832579</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59593547754962,-16.32065228863499,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_042</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_042</SimpleData>
+				<SimpleData name="point_name">Punto 32 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3182</SimpleData>
+				<SimpleData name="long">-71.5981</SimpleData>
+				<SimpleData name="y_proj">-1930817</SimpleData>
+				<SimpleData name="x_proj">2832369</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59806679978054,-16.31819020831153,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_043</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_043</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_VILLA_EL_TRIUNFO</SimpleData>
+				<SimpleData name="lat">-16.3129</SimpleData>
+				<SimpleData name="long">-71.6006</SimpleData>
+				<SimpleData name="y_proj">-1930166</SimpleData>
+				<SimpleData name="x_proj">2832154</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.60057025168375,-16.31291227998968,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_044</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_044</SimpleData>
+				<SimpleData name="point_name">Punto 33 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3147</SimpleData>
+				<SimpleData name="long">-71.6007</SimpleData>
+				<SimpleData name="y_proj">-1930371</SimpleData>
+				<SimpleData name="x_proj">2832121</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.600659593085,-16.31466962136218,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_045</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_045</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_DE_GRANJEROS_UNIDOS</SimpleData>
+				<SimpleData name="lat">-16.316</SimpleData>
+				<SimpleData name="long">-71.6001</SimpleData>
+				<SimpleData name="y_proj">-1930537</SimpleData>
+				<SimpleData name="x_proj">2832165</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.60011386131686,-16.31602007037134,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_046</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_046</SimpleData>
+				<SimpleData name="point_name">Punto 34 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3174</SimpleData>
+				<SimpleData name="long">-71.6013</SimpleData>
+				<SimpleData name="y_proj">-1930689</SimpleData>
+				<SimpleData name="x_proj">2832011</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.6013102116669,-16.31744806601273,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_047</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_047</SimpleData>
+				<SimpleData name="point_name">IEI_SAN_MAXIMILIANO_MARIA_KOLBE</SimpleData>
+				<SimpleData name="lat">-16.3182</SimpleData>
+				<SimpleData name="long">-71.6022</SimpleData>
+				<SimpleData name="y_proj">-1930772</SimpleData>
+				<SimpleData name="x_proj">2831900</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.60220097858733,-16.31824971960027,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_048</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_048</SimpleData>
+				<SimpleData name="point_name">Punto 35 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3206</SimpleData>
+				<SimpleData name="long">-71.603</SimpleData>
+				<SimpleData name="y_proj">-1931039</SimpleData>
+				<SimpleData name="x_proj">2831777</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.60301753349866,-16.32060608280241,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_049</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_049</SimpleData>
+				<SimpleData name="point_name">GRIFO_PRIMAX_SANTA_MONICA</SimpleData>
+				<SimpleData name="lat">-16.3203</SimpleData>
+				<SimpleData name="long">-71.6001</SimpleData>
+				<SimpleData name="y_proj">-1931043</SimpleData>
+				<SimpleData name="x_proj">2832111</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.60009529172483,-16.32033180646651,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_050</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_050</SimpleData>
+				<SimpleData name="point_name">Punto 36 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3225</SimpleData>
+				<SimpleData name="long">-71.6</SimpleData>
+				<SimpleData name="y_proj">-1931296</SimpleData>
+				<SimpleData name="x_proj">2832090</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.60003831236776,-16.32247819347953,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_051</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_051</SimpleData>
+				<SimpleData name="point_name">Punto 37 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3244</SimpleData>
+				<SimpleData name="long">-71.5976</SimpleData>
+				<SimpleData name="y_proj">-1931554</SimpleData>
+				<SimpleData name="x_proj">2832344</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59757756907061,-16.32441658068444,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_052</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_052</SimpleData>
+				<SimpleData name="point_name">Punto 38 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3265</SimpleData>
+				<SimpleData name="long">-71.5961</SimpleData>
+				<SimpleData name="y_proj">-1931819</SimpleData>
+				<SimpleData name="x_proj">2832481</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59612664743698,-16.32651666626044,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_053</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_053</SimpleData>
+				<SimpleData name="point_name">Punto 39 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3286</SimpleData>
+				<SimpleData name="long">-71.5955</SimpleData>
+				<SimpleData name="y_proj">-1932068</SimpleData>
+				<SimpleData name="x_proj">2832523</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59552794929608,-16.32857055375661,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_054</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_054</SimpleData>
+				<SimpleData name="point_name">Punto 40 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3375</SimpleData>
+				<SimpleData name="long">-71.5922</SimpleData>
+				<SimpleData name="y_proj">-1933163</SimpleData>
+				<SimpleData name="x_proj">2832782</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59222007026391,-16.3375429678242,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_055</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_055</SimpleData>
+				<SimpleData name="point_name">CANCHA_DEPORTIVA_JLByR_III</SimpleData>
+				<SimpleData name="lat">-16.3364</SimpleData>
+				<SimpleData name="long">-71.5933</SimpleData>
+				<SimpleData name="y_proj">-1933018</SimpleData>
+				<SimpleData name="x_proj">2832672</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5933171393922,-16.33642300162369,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_056</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_056</SimpleData>
+				<SimpleData name="point_name">Punto 41 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.337</SimpleData>
+				<SimpleData name="long">-71.5955</SimpleData>
+				<SimpleData name="y_proj">-1933059</SimpleData>
+				<SimpleData name="x_proj">2832420</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59546642196608,-16.33700200945668,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_057</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_057</SimpleData>
+				<SimpleData name="point_name">Punto 42 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3347</SimpleData>
+				<SimpleData name="long">-71.5957</SimpleData>
+				<SimpleData name="y_proj">-1932790</SimpleData>
+				<SimpleData name="x_proj">2832421</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59571996472627,-16.33474444255935,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_058</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_058</SimpleData>
+				<SimpleData name="point_name">Punto 43 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3335</SimpleData>
+				<SimpleData name="long">-71.5976</SimpleData>
+				<SimpleData name="y_proj">-1932618</SimpleData>
+				<SimpleData name="x_proj">2832221</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59762475092903,-16.33348307137539,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_059</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_059</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_JLByR_II</SimpleData>
+				<SimpleData name="lat">-16.3318</SimpleData>
+				<SimpleData name="long">-71.6</SimpleData>
+				<SimpleData name="y_proj">-1932388</SimpleData>
+				<SimpleData name="x_proj">2831971</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.60002394696224,-16.331778703445,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_060</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_060</SimpleData>
+				<SimpleData name="point_name">Punto 44 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3303</SimpleData>
+				<SimpleData name="long">-71.598</SimpleData>
+				<SimpleData name="y_proj">-1932236</SimpleData>
+				<SimpleData name="x_proj">2832217</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59802951858154,-16.33027354763701,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_061</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_061</SimpleData>
+				<SimpleData name="point_name">IEP_LINUS_PAULING</SimpleData>
+				<SimpleData name="lat">-16.3285</SimpleData>
+				<SimpleData name="long">-71.6027</SimpleData>
+				<SimpleData name="y_proj">-1931966</SimpleData>
+				<SimpleData name="x_proj">2831712</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.60268844895296,-16.32846702495454,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_062</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_062</SimpleData>
+				<SimpleData name="point_name">Punto 45 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3248</SimpleData>
+				<SimpleData name="long">-71.5991</SimpleData>
+				<SimpleData name="y_proj">-1931582</SimpleData>
+				<SimpleData name="x_proj">2832168</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.59908413609041,-16.32481503918097,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_063</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_063</SimpleData>
+				<SimpleData name="point_name">Punto 46 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3241</SimpleData>
+				<SimpleData name="long">-71.6033</SimpleData>
+				<SimpleData name="y_proj">-1931440</SimpleData>
+				<SimpleData name="x_proj">2831699</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.60331018137492,-16.32405650317361,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_064</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_064</SimpleData>
+				<SimpleData name="point_name">Punto 47 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.326</SimpleData>
+				<SimpleData name="long">-71.605</SimpleData>
+				<SimpleData name="y_proj">-1931649</SimpleData>
+				<SimpleData name="x_proj">2831486</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.60496623378518,-16.32600800895662,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_065</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_065</SimpleData>
+				<SimpleData name="point_name">CANCHA_SINTETICA_EL_PORVENIR</SimpleData>
+				<SimpleData name="lat">-16.323</SimpleData>
+				<SimpleData name="long">-71.6072</SimpleData>
+				<SimpleData name="y_proj">-1931272</SimpleData>
+				<SimpleData name="x_proj">2831276</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.6071577859707,-16.32303313683695,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_066</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_066</SimpleData>
+				<SimpleData name="point_name">Punto 48 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3221</SimpleData>
+				<SimpleData name="long">-71.6101</SimpleData>
+				<SimpleData name="y_proj">-1931129</SimpleData>
+				<SimpleData name="x_proj">2830955</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.61009204740701,-16.32212450200772,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL26_PP_067</name>
+		<styleUrl>#pointStyleMap24</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL26_Zamacola_SSDDIISS">
+				<SimpleData name="code">CL26_PP_067</SimpleData>
+				<SimpleData name="point_name">Punto 49 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3204</SimpleData>
+				<SimpleData name="long">-71.6129</SimpleData>
+				<SimpleData name="y_proj">-1930895</SimpleData>
+				<SimpleData name="x_proj">2830659</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.61289398347591,-16.32043458115142,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

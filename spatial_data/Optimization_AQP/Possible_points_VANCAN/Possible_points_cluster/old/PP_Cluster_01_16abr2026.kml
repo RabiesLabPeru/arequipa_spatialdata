@@ -1,0 +1,5132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PP_Cluster_01_16abr2026.kml</name>
+	<Schema name="PP_Cluster_01_03mar2026" id="S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+		<SimpleField type="int" name="n_microred">
+			<displayName>&lt;b&gt;n_microred&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="microred">
+			<displayName>&lt;b&gt;microred&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="int" name="cluster">
+			<displayName>&lt;b&gt;cluster&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="code_point">
+			<displayName>&lt;b&gt;code_point&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="point_name">
+			<displayName>&lt;b&gt;point_name&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="lat">
+			<displayName>&lt;b&gt;lat&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="long">
+			<displayName>&lt;b&gt;long&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="y_proj">
+			<displayName>&lt;b&gt;y_proj&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="x_proj">
+			<displayName>&lt;b&gt;x_proj&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="type_point">
+			<displayName>&lt;b&gt;type_point&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="strategy">
+			<displayName>&lt;b&gt;strategy&lt;/b&gt;</displayName>
+		</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>n_microred</b></td><td>$[PP_Cluster_01_03mar2026/n_microred]</td></tr>
+  <tr><td><b>microred</b></td><td>$[PP_Cluster_01_03mar2026/microred]</td></tr>
+  <tr><td><b>cluster</b></td><td>$[PP_Cluster_01_03mar2026/cluster]</td></tr>
+  <tr><td><b>code_point</b></td><td>$[PP_Cluster_01_03mar2026/code_point]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[PP_Cluster_01_03mar2026/point_name]</td></tr>
+  <tr><td><b>lat</b></td><td>$[PP_Cluster_01_03mar2026/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[PP_Cluster_01_03mar2026/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[PP_Cluster_01_03mar2026/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[PP_Cluster_01_03mar2026/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[PP_Cluster_01_03mar2026/type_point]</td></tr>
+  <tr><td><b>strategy</b></td><td>$[PP_Cluster_01_03mar2026/strategy]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>n_microred</b></td><td>$[PP_Cluster_01_03mar2026/n_microred]</td></tr>
+  <tr><td><b>microred</b></td><td>$[PP_Cluster_01_03mar2026/microred]</td></tr>
+  <tr><td><b>cluster</b></td><td>$[PP_Cluster_01_03mar2026/cluster]</td></tr>
+  <tr><td><b>code_point</b></td><td>$[PP_Cluster_01_03mar2026/code_point]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[PP_Cluster_01_03mar2026/point_name]</td></tr>
+  <tr><td><b>lat</b></td><td>$[PP_Cluster_01_03mar2026/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[PP_Cluster_01_03mar2026/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[PP_Cluster_01_03mar2026/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[PP_Cluster_01_03mar2026/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[PP_Cluster_01_03mar2026/type_point]</td></tr>
+  <tr><td><b>strategy</b></td><td>$[PP_Cluster_01_03mar2026/strategy]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>PP_Cluster_01_16abr2026</name>
+		<Placemark>
+			<name>CL01_PP_001</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_001</SimpleData>
+					<SimpleData name="point_name">Interseccion Calle Jorge Chavez Con Av. Salaverry</SimpleData>
+					<SimpleData name="lat">-16.431</SimpleData>
+					<SimpleData name="long">-71.5364</SimpleData>
+					<SimpleData name="y_proj">-1.94484e+09</SimpleData>
+					<SimpleData name="x_proj">2.83789e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<gx:balloonVisibility>1</gx:balloonVisibility>
+			<Point>
+				<coordinates>-71.53644799999999,-16.43100100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_002</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_002</SimpleData>
+					<SimpleData name="point_name">Interssecion Calle Sanchez Trujillo Con Av. Salaverry</SimpleData>
+					<SimpleData name="lat">-16.4323</SimpleData>
+					<SimpleData name="long">-71.5368</SimpleData>
+					<SimpleData name="y_proj">-1.94499e+09</SimpleData>
+					<SimpleData name="x_proj">2.83783e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.536793,-16.43232499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_003</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_003</SimpleData>
+					<SimpleData name="point_name">El Mirador De Salaverry Av. Salaverry Con Fernandini</SimpleData>
+					<SimpleData name="lat">-16.4339</SimpleData>
+					<SimpleData name="long">-71.5374</SimpleData>
+					<SimpleData name="y_proj">-1.94517e+09</SimpleData>
+					<SimpleData name="x_proj">2.83774e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53744,-16.433889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_004</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_004</SimpleData>
+					<SimpleData name="point_name">Interseccion Calle Fernandini Con Calle Sanchez Trujillo</SimpleData>
+					<SimpleData name="lat">-16.4337</SimpleData>
+					<SimpleData name="long">-71.5389</SimpleData>
+					<SimpleData name="y_proj">-1.94513e+09</SimpleData>
+					<SimpleData name="x_proj">2.83757e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53891099999998,-16.433719,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_005</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_005</SimpleData>
+					<SimpleData name="point_name">Interseccion Sanchez Cerro Con Av. Salaverry (Parque)</SimpleData>
+					<SimpleData name="lat">-16.4349</SimpleData>
+					<SimpleData name="long">-71.5382</SimpleData>
+					<SimpleData name="y_proj">-1.94528e+09</SimpleData>
+					<SimpleData name="x_proj">2.83764e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53819300000002,-16.434946,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_006</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_006</SimpleData>
+					<SimpleData name="point_name">Interseccion Calle Sanchez Trujillo Con Calle Miguel Grau</SimpleData>
+					<SimpleData name="lat">-16.4363</SimpleData>
+					<SimpleData name="long">-71.5398</SimpleData>
+					<SimpleData name="y_proj">-1.94542e+09</SimpleData>
+					<SimpleData name="x_proj">2.83743e+06</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.539849,-16.43631700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_007</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_007</SimpleData>
+					<SimpleData name="point_name">Cancha_Mariscal_Castilla</SimpleData>
+					<SimpleData name="lat">-16.4362</SimpleData>
+					<SimpleData name="long">-71.5385</SimpleData>
+					<SimpleData name="y_proj">-1.94542e+06</SimpleData>
+					<SimpleData name="x_proj">2.83759e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.538516,-16.43619599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_008</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_008</SimpleData>
+					<SimpleData name="point_name">Puesto De Salud Salaverry/ Av. Las Peï¿½as</SimpleData>
+					<SimpleData name="lat">-16.4351</SimpleData>
+					<SimpleData name="long">-71.5365</SimpleData>
+					<SimpleData name="y_proj">-1.94532e+09</SimpleData>
+					<SimpleData name="x_proj">2.83783e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53647300000002,-16.43505500000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_009</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_009</SimpleData>
+					<SimpleData name="point_name">El Porvenir Interseccion Condesuyos Con Calle Camana</SimpleData>
+					<SimpleData name="lat">-16.4361</SimpleData>
+					<SimpleData name="long">-71.5353</SimpleData>
+					<SimpleData name="y_proj">-1.94546e+09</SimpleData>
+					<SimpleData name="x_proj">2.83795e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53528900000001,-16.43613700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_010</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_010</SimpleData>
+					<SimpleData name="point_name">Capilla_Santisima_Virgen_De_Chapi</SimpleData>
+					<SimpleData name="lat">-16.4373</SimpleData>
+					<SimpleData name="long">-71.5371</SimpleData>
+					<SimpleData name="y_proj">-1.94557e+09</SimpleData>
+					<SimpleData name="x_proj">2.83773e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.537119,-16.43725499999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_011</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_011</SimpleData>
+					<SimpleData name="point_name">Interseccion Calle Chiclayo Con Calle Abancay</SimpleData>
+					<SimpleData name="lat">-16.4359</SimpleData>
+					<SimpleData name="long">-71.532</SimpleData>
+					<SimpleData name="y_proj">-1.94547e+09</SimpleData>
+					<SimpleData name="x_proj">2.83833e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.532028,-16.43589600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_012</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_012</SimpleData>
+					<SimpleData name="point_name">Interseccion Calle Los Alamos Con Calle Los Geranios</SimpleData>
+					<SimpleData name="lat">-16.4385</SimpleData>
+					<SimpleData name="long">-71.5341</SimpleData>
+					<SimpleData name="y_proj">-1.94575e+09</SimpleData>
+					<SimpleData name="x_proj">2.83805e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53414900000001,-16.43849000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_013</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_013</SimpleData>
+					<SimpleData name="point_name">Campo Deportivo La Bombonera (Calle Camana Con Chachapoyas</SimpleData>
+					<SimpleData name="lat">-16.4398</SimpleData>
+					<SimpleData name="long">-71.534</SimpleData>
+					<SimpleData name="y_proj">-1.9459e+09</SimpleData>
+					<SimpleData name="x_proj">2.83805e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53397900000002,-16.439784,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_014</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_014</SimpleData>
+					<SimpleData name="point_name">Centro De Salud San Martin</SimpleData>
+					<SimpleData name="lat">-16.439</SimpleData>
+					<SimpleData name="long">-71.5301</SimpleData>
+					<SimpleData name="y_proj">-1.94586e+09</SimpleData>
+					<SimpleData name="x_proj">2.8385e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.530141,-16.439008,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_015</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_015</SimpleData>
+					<SimpleData name="point_name">Parque De La Familia (Calle Chimbote)</SimpleData>
+					<SimpleData name="lat">-16.4397</SimpleData>
+					<SimpleData name="long">-71.5309</SimpleData>
+					<SimpleData name="y_proj">-1.94594e+09</SimpleData>
+					<SimpleData name="x_proj">2.8384e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53093599999998,-16.439739,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_016</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_016</SimpleData>
+					<SimpleData name="point_name">Interseccion Calle Mollendo Con Calle Nazca</SimpleData>
+					<SimpleData name="lat">-16.4414</SimpleData>
+					<SimpleData name="long">-71.5338</SimpleData>
+					<SimpleData name="y_proj">-1.9461e+09</SimpleData>
+					<SimpleData name="x_proj">2.83805e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53379399999999,-16.44143,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_017</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_017</SimpleData>
+					<SimpleData name="point_name">Interseccion Calle Talara Con Calle Zarumilla</SimpleData>
+					<SimpleData name="lat">-16.4437</SimpleData>
+					<SimpleData name="long">-71.5356</SimpleData>
+					<SimpleData name="y_proj">-1.94634e+09</SimpleData>
+					<SimpleData name="x_proj">2.83782e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53557400000001,-16.443667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_018</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_018</SimpleData>
+					<SimpleData name="point_name">Villa Olimpica San Martin De Socabaya (Calle Ferreï¿½afe)</SimpleData>
+					<SimpleData name="lat">-16.4432</SimpleData>
+					<SimpleData name="long">-71.5319</SimpleData>
+					<SimpleData name="y_proj">-1.94633e+09</SimpleData>
+					<SimpleData name="x_proj">2.83824e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53194500000001,-16.44317799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_019</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_019</SimpleData>
+					<SimpleData name="point_name">Venta De Gas (Calle Huancayo)</SimpleData>
+					<SimpleData name="lat">-16.4417</SimpleData>
+					<SimpleData name="long">-71.528</SimpleData>
+					<SimpleData name="y_proj">-1.94621e+09</SimpleData>
+					<SimpleData name="x_proj">2.83871e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52796699999999,-16.44171700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_020</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_020</SimpleData>
+					<SimpleData name="point_name">Calle Lircay Con Calle Huacho</SimpleData>
+					<SimpleData name="lat">-16.4434</SimpleData>
+					<SimpleData name="long">-71.5266</SimpleData>
+					<SimpleData name="y_proj">-1.94642e+09</SimpleData>
+					<SimpleData name="x_proj">2.83884e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.526584,-16.44337799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_021</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_021</SimpleData>
+					<SimpleData name="point_name">Trebol De Santa Clara</SimpleData>
+					<SimpleData name="lat">-16.4447</SimpleData>
+					<SimpleData name="long">-71.5262</SimpleData>
+					<SimpleData name="y_proj">-1.94658e+09</SimpleData>
+					<SimpleData name="x_proj">2.83887e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52618099999998,-16.44471899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_022</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_022</SimpleData>
+					<SimpleData name="point_name">Esq. Agustin Gamarra/ Garcilazo De La Vega</SimpleData>
+					<SimpleData name="lat">-16.4459</SimpleData>
+					<SimpleData name="long">-71.5269</SimpleData>
+					<SimpleData name="y_proj">-1.94671e+09</SimpleData>
+					<SimpleData name="x_proj">2.83878e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52685999999999,-16.445885,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_023</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_023</SimpleData>
+					<SimpleData name="point_name">Parque Alto Alianza</SimpleData>
+					<SimpleData name="lat">-16.4453</SimpleData>
+					<SimpleData name="long">-71.5242</SimpleData>
+					<SimpleData name="y_proj">-1.94668e+09</SimpleData>
+					<SimpleData name="x_proj">2.83909e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.524158,-16.44533999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_024</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_024</SimpleData>
+					<SimpleData name="point_name">Parque Chavez Castillo</SimpleData>
+					<SimpleData name="lat">-16.4439</SimpleData>
+					<SimpleData name="long">-71.5229</SimpleData>
+					<SimpleData name="y_proj">-1.94653e+09</SimpleData>
+					<SimpleData name="x_proj">2.83925e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52294999999999,-16.443918,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_025</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_025</SimpleData>
+					<SimpleData name="point_name">Colegio Belgica</SimpleData>
+					<SimpleData name="lat">-16.4442</SimpleData>
+					<SimpleData name="long">-71.5215</SimpleData>
+					<SimpleData name="y_proj">-1.94658e+09</SimpleData>
+					<SimpleData name="x_proj">2.83941e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.521541,-16.44420600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_026</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_026</SimpleData>
+					<SimpleData name="point_name">Parque_Comite_7</SimpleData>
+					<SimpleData name="lat">-16.4442</SimpleData>
+					<SimpleData name="long">-71.5194</SimpleData>
+					<SimpleData name="y_proj">-1.94661e+09</SimpleData>
+					<SimpleData name="x_proj">2.83965e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.519368,-16.44423200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_027</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_027</SimpleData>
+					<SimpleData name="point_name">Parque_Corazon_De_Jesus_1</SimpleData>
+					<SimpleData name="lat">-16.4455</SimpleData>
+					<SimpleData name="long">-71.5223</SimpleData>
+					<SimpleData name="y_proj">-1.94672e+09</SimpleData>
+					<SimpleData name="x_proj">2.8393e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52231399999999,-16.44548000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_028</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_028</SimpleData>
+					<SimpleData name="point_name">Parque La Union</SimpleData>
+					<SimpleData name="lat">-16.4471</SimpleData>
+					<SimpleData name="long">-71.5199</SimpleData>
+					<SimpleData name="y_proj">-1.94694e+09</SimpleData>
+					<SimpleData name="x_proj">2.83955e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51991299999999,-16.447125,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_029</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_029</SimpleData>
+					<SimpleData name="point_name">Parque Corazon De Jesus</SimpleData>
+					<SimpleData name="lat">-16.4467</SimpleData>
+					<SimpleData name="long">-71.523</SimpleData>
+					<SimpleData name="y_proj">-1.94685e+09</SimpleData>
+					<SimpleData name="x_proj">2.83921e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52299500000001,-16.44666399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_030</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_030</SimpleData>
+					<SimpleData name="point_name">Parque Jesus Nazareno</SimpleData>
+					<SimpleData name="lat">-16.4487</SimpleData>
+					<SimpleData name="long">-71.5223</SimpleData>
+					<SimpleData name="y_proj">-1.9471e+09</SimpleData>
+					<SimpleData name="x_proj">2.83926e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52231999999999,-16.44874899999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_031</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_031</SimpleData>
+					<SimpleData name="point_name">El Ensueï¿½o</SimpleData>
+					<SimpleData name="lat">-16.451</SimpleData>
+					<SimpleData name="long">-71.5223</SimpleData>
+					<SimpleData name="y_proj">-1.94736e+09</SimpleData>
+					<SimpleData name="x_proj">2.83923e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52234,-16.45096200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_032</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_032</SimpleData>
+					<SimpleData name="point_name">Residencial El Golf</SimpleData>
+					<SimpleData name="lat">-16.4519</SimpleData>
+					<SimpleData name="long">-71.5245</SimpleData>
+					<SimpleData name="y_proj">-1.94745e+09</SimpleData>
+					<SimpleData name="x_proj">2.83897e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52445799999998,-16.451885,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_033</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_033</SimpleData>
+					<SimpleData name="point_name">Colegio Villa El Golf</SimpleData>
+					<SimpleData name="lat">-16.4514</SimpleData>
+					<SimpleData name="long">-71.5244</SimpleData>
+					<SimpleData name="y_proj">-1.94739e+09</SimpleData>
+					<SimpleData name="x_proj">2.83899e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52435699999998,-16.45138000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_034</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_034</SimpleData>
+					<SimpleData name="point_name">Esq. Las Americas Con Argentina</SimpleData>
+					<SimpleData name="lat">-16.4498</SimpleData>
+					<SimpleData name="long">-71.5243</SimpleData>
+					<SimpleData name="y_proj">-1.9472e+09</SimpleData>
+					<SimpleData name="x_proj">2.83902e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52434599999999,-16.44976399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_035</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_035</SimpleData>
+					<SimpleData name="point_name">Parque_Numero_5</SimpleData>
+					<SimpleData name="lat">-16.4482</SimpleData>
+					<SimpleData name="long">-71.5232</SimpleData>
+					<SimpleData name="y_proj">-1.94703e+09</SimpleData>
+					<SimpleData name="x_proj">2.83916e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.523242,-16.448227,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_036</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_036</SimpleData>
+					<SimpleData name="point_name">Parque_Numero_3_Corazon_De_Jesus</SimpleData>
+					<SimpleData name="lat">-16.4472</SimpleData>
+					<SimpleData name="long">-71.5244</SimpleData>
+					<SimpleData name="y_proj">-1.94689e+09</SimpleData>
+					<SimpleData name="x_proj">2.83905e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52437200000001,-16.44715699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_037</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_037</SimpleData>
+					<SimpleData name="point_name">Av. Peru Con Calle Sanchez Carrion</SimpleData>
+					<SimpleData name="lat">-16.4479</SimpleData>
+					<SimpleData name="long">-71.5254</SimpleData>
+					<SimpleData name="y_proj">-1.94697e+09</SimpleData>
+					<SimpleData name="x_proj">2.83893e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.525351,-16.4479,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_038</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_038</SimpleData>
+					<SimpleData name="point_name">Parque Independencia</SimpleData>
+					<SimpleData name="lat">-16.449</SimpleData>
+					<SimpleData name="long">-71.5263</SimpleData>
+					<SimpleData name="y_proj">-1.94708e+09</SimpleData>
+					<SimpleData name="x_proj">2.83881e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52628300000001,-16.448991,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_039</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_039</SimpleData>
+					<SimpleData name="point_name">Centro De Salud 4 De Octubre</SimpleData>
+					<SimpleData name="lat">-16.4475</SimpleData>
+					<SimpleData name="long">-71.5274</SimpleData>
+					<SimpleData name="y_proj">-1.9469e+09</SimpleData>
+					<SimpleData name="x_proj">2.8387e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.527359,-16.44752299999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_040</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_040</SimpleData>
+					<SimpleData name="point_name">Villa Orfelina</SimpleData>
+					<SimpleData name="lat">-16.4463</SimpleData>
+					<SimpleData name="long">-71.5295</SimpleData>
+					<SimpleData name="y_proj">-1.94672e+09</SimpleData>
+					<SimpleData name="x_proj">2.83848e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52946700000001,-16.44627900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_041</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_041</SimpleData>
+					<SimpleData name="point_name">Parque Mirador (Calle Paruro)</SimpleData>
+					<SimpleData name="lat">-16.4461</SimpleData>
+					<SimpleData name="long">-71.5326</SimpleData>
+					<SimpleData name="y_proj">-1.94666e+09</SimpleData>
+					<SimpleData name="x_proj">2.83813e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.532601,-16.44609600000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_042</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_042</SimpleData>
+					<SimpleData name="point_name">Parque Rimac (Rimac Con Lourdes)</SimpleData>
+					<SimpleData name="lat">-16.447</SimpleData>
+					<SimpleData name="long">-71.5351</SimpleData>
+					<SimpleData name="y_proj">-1.94673e+09</SimpleData>
+					<SimpleData name="x_proj">2.83783e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53513,-16.44695999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_043</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_043</SimpleData>
+					<SimpleData name="point_name">Parque San Jose (San Jose Con Basadre)</SimpleData>
+					<SimpleData name="lat">-16.4474</SimpleData>
+					<SimpleData name="long">-71.5358</SimpleData>
+					<SimpleData name="y_proj">-1.94677e+09</SimpleData>
+					<SimpleData name="x_proj">2.83775e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53577200000001,-16.447386,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_044</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_044</SimpleData>
+					<SimpleData name="point_name">Parque 15 De Enero (Dallas Con Republica)</SimpleData>
+					<SimpleData name="lat">-16.4484</SimpleData>
+					<SimpleData name="long">-71.5352</SimpleData>
+					<SimpleData name="y_proj">-1.9469e+09</SimpleData>
+					<SimpleData name="x_proj">2.8378e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.535223,-16.448377,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_045</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_045</SimpleData>
+					<SimpleData name="point_name">Puesto De Salud Ciudad Mi Trabajo</SimpleData>
+					<SimpleData name="lat">-16.4477</SimpleData>
+					<SimpleData name="long">-71.5342</SimpleData>
+					<SimpleData name="y_proj">-1.94683e+09</SimpleData>
+					<SimpleData name="x_proj">2.83793e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.534194,-16.44769400000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_046</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_046</SimpleData>
+					<SimpleData name="point_name">Parque_Los_Angeles</SimpleData>
+					<SimpleData name="lat">-16.4475</SimpleData>
+					<SimpleData name="long">-71.5328</SimpleData>
+					<SimpleData name="y_proj">-1.94683e+09</SimpleData>
+					<SimpleData name="x_proj">2.83808e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53282799999999,-16.44751400000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_047</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_047</SimpleData>
+					<SimpleData name="point_name">Parque De La Madre (Av. Independencia)</SimpleData>
+					<SimpleData name="lat">-16.4477</SimpleData>
+					<SimpleData name="long">-71.5317</SimpleData>
+					<SimpleData name="y_proj">-1.94686e+06</SimpleData>
+					<SimpleData name="x_proj">2.83821e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53173200000001,-16.447651,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_048</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_048</SimpleData>
+					<SimpleData name="point_name">Esq. Mariano Melgar/Asencio Segura</SimpleData>
+					<SimpleData name="lat">-16.4478</SimpleData>
+					<SimpleData name="long">-71.5301</SimpleData>
+					<SimpleData name="y_proj">-1.94689e+09</SimpleData>
+					<SimpleData name="x_proj">2.83839e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53013300000002,-16.447779,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_049</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_049</SimpleData>
+					<SimpleData name="point_name">Estadio_Valeriano_Lopez</SimpleData>
+					<SimpleData name="lat">-16.4476</SimpleData>
+					<SimpleData name="long">-71.5285</SimpleData>
+					<SimpleData name="y_proj">-1.94689e+09</SimpleData>
+					<SimpleData name="x_proj">2.83857e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.528526,-16.44760199999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_050</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_050</SimpleData>
+					<SimpleData name="point_name">Parque_Juan_Velasco_Alvarado</SimpleData>
+					<SimpleData name="lat">-16.4502</SimpleData>
+					<SimpleData name="long">-71.527</SimpleData>
+					<SimpleData name="y_proj">-1.94722e+09</SimpleData>
+					<SimpleData name="x_proj">2.8387e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52704799999999,-16.45024799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_051</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_051</SimpleData>
+					<SimpleData name="point_name">Parque Tematico Villa El Golf</SimpleData>
+					<SimpleData name="lat">-16.4516</SimpleData>
+					<SimpleData name="long">-71.5268</SimpleData>
+					<SimpleData name="y_proj">-1.94738e+09</SimpleData>
+					<SimpleData name="x_proj">2.83871e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52679400000001,-16.45159499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_052</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_052</SimpleData>
+					<SimpleData name="point_name">Parque Tupac Amaru</SimpleData>
+					<SimpleData name="lat">-16.4497</SimpleData>
+					<SimpleData name="long">-71.5289</SimpleData>
+					<SimpleData name="y_proj">-1.94713e+06</SimpleData>
+					<SimpleData name="x_proj">2.8385e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52888400000001,-16.44965500000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_053</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_053</SimpleData>
+					<SimpleData name="point_name">Esq. Lopez Albujar Con Av. Cesar Vallejo</SimpleData>
+					<SimpleData name="lat">-16.4511</SimpleData>
+					<SimpleData name="long">-71.5297</SimpleData>
+					<SimpleData name="y_proj">-1.94728e+09</SimpleData>
+					<SimpleData name="x_proj">2.83839e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.529689,-16.451072,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_054</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_054</SimpleData>
+					<SimpleData name="point_name">Grifo Milagritos</SimpleData>
+					<SimpleData name="lat">-16.4525</SimpleData>
+					<SimpleData name="long">-71.5311</SimpleData>
+					<SimpleData name="y_proj">-1.94743e+09</SimpleData>
+					<SimpleData name="x_proj">2.83822e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53105500000001,-16.452483,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_055</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_055</SimpleData>
+					<SimpleData name="point_name">Puesto De Salud Lara</SimpleData>
+					<SimpleData name="lat">-16.4536</SimpleData>
+					<SimpleData name="long">-71.5285</SimpleData>
+					<SimpleData name="y_proj">-1.94759e+09</SimpleData>
+					<SimpleData name="x_proj">2.8385e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52848500000002,-16.45356200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_056</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_056</SimpleData>
+					<SimpleData name="point_name">Parque El Comercio (Puesto Itinerante)</SimpleData>
+					<SimpleData name="lat">-16.4537</SimpleData>
+					<SimpleData name="long">-71.518</SimpleData>
+					<SimpleData name="y_proj">-1.94774e+09</SimpleData>
+					<SimpleData name="x_proj">2.83969e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51797599999999,-16.45369700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_057</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_057</SimpleData>
+					<SimpleData name="point_name">Parque Iv Sector (Av. La Campiï¿½a Con Capulies)</SimpleData>
+					<SimpleData name="lat">-16.4553</SimpleData>
+					<SimpleData name="long">-71.5165</SimpleData>
+					<SimpleData name="y_proj">-1.94794e+09</SimpleData>
+					<SimpleData name="x_proj">2.83984e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51646999999998,-16.45527799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_058</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_058</SimpleData>
+					<SimpleData name="point_name">Los Sauces (Prolongacion Ciruelos)</SimpleData>
+					<SimpleData name="lat">-16.4567</SimpleData>
+					<SimpleData name="long">-71.5156</SimpleData>
+					<SimpleData name="y_proj">-1.94812e+09</SimpleData>
+					<SimpleData name="x_proj">2.83992e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51559899999998,-16.45666099999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_059</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_059</SimpleData>
+					<SimpleData name="point_name">Parque Las Rocas (Puesto Itinerante)</SimpleData>
+					<SimpleData name="lat">-16.4557</SimpleData>
+					<SimpleData name="long">-71.5202</SimpleData>
+					<SimpleData name="y_proj">-1.94795e+09</SimpleData>
+					<SimpleData name="x_proj">2.8394e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.520239,-16.455702,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_060</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_060</SimpleData>
+					<SimpleData name="point_name">Capilla De La Campiï¿½a (Av. La Campiï¿½a Con Las Azucenas)</SimpleData>
+					<SimpleData name="lat">-16.4577</SimpleData>
+					<SimpleData name="long">-71.5188</SimpleData>
+					<SimpleData name="y_proj">-1.9482e+09</SimpleData>
+					<SimpleData name="x_proj">2.83954e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51878499999998,-16.457662,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_061</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_061</SimpleData>
+					<SimpleData name="point_name">Parque Colegio El Rosario (Av. Primavera Con Las Campanillas)</SimpleData>
+					<SimpleData name="lat">-16.4594</SimpleData>
+					<SimpleData name="long">-71.5183</SimpleData>
+					<SimpleData name="y_proj">-1.94841e+09</SimpleData>
+					<SimpleData name="x_proj">2.83958e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51827400000002,-16.45941099999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_062</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_062</SimpleData>
+					<SimpleData name="point_name">San Cristobal (Puesto Movil)</SimpleData>
+					<SimpleData name="lat">-16.4605</SimpleData>
+					<SimpleData name="long">-71.5194</SimpleData>
+					<SimpleData name="y_proj">-1.94852e+09</SimpleData>
+					<SimpleData name="x_proj">2.83944e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51935600000002,-16.460494,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_063</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_063</SimpleData>
+					<SimpleData name="point_name">Parque_De_Los_Serenos</SimpleData>
+					<SimpleData name="lat">-16.458</SimpleData>
+					<SimpleData name="long">-71.521</SimpleData>
+					<SimpleData name="y_proj">-1.9482e+09</SimpleData>
+					<SimpleData name="x_proj">2.83928e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.521024,-16.457963,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_064</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_064</SimpleData>
+					<SimpleData name="point_name">Complejo Deportivo La Palizada (Puesto Itinerante)</SimpleData>
+					<SimpleData name="lat">-16.4568</SimpleData>
+					<SimpleData name="long">-71.522</SimpleData>
+					<SimpleData name="y_proj">-1.94806e+09</SimpleData>
+					<SimpleData name="x_proj">2.83919e+09</SimpleData>
+					<SimpleData name="type_point">Moblie</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52196600000002,-16.45681999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_065</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_065</SimpleData>
+					<SimpleData name="point_name">Parque Mikey (Puesto Itinerante)</SimpleData>
+					<SimpleData name="lat">-16.458</SimpleData>
+					<SimpleData name="long">-71.5239</SimpleData>
+					<SimpleData name="y_proj">-1.94817e+09</SimpleData>
+					<SimpleData name="x_proj">2.83896e+06</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52391900000002,-16.45800700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_066</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_066</SimpleData>
+					<SimpleData name="point_name">Parque_El_Triangulo</SimpleData>
+					<SimpleData name="lat">-16.4593</SimpleData>
+					<SimpleData name="long">-71.5222</SimpleData>
+					<SimpleData name="y_proj">-1.94834e+09</SimpleData>
+					<SimpleData name="x_proj">2.83913e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52223499999999,-16.45926399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_067</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_067</SimpleData>
+					<SimpleData name="point_name">Antena Tim (Av. La Campiï¿½a Con Pasaje Los Eucaliptos)</SimpleData>
+					<SimpleData name="lat">-16.4603</SimpleData>
+					<SimpleData name="long">-71.5214</SimpleData>
+					<SimpleData name="y_proj">-1.94848e+09</SimpleData>
+					<SimpleData name="x_proj">2.83921e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52140300000002,-16.46033099999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_068</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_068</SimpleData>
+					<SimpleData name="point_name">Colegio Primario La Campiï¿½a 40639 ( Calle Los Manglares Con Arequipa)</SimpleData>
+					<SimpleData name="lat">-16.4599</SimpleData>
+					<SimpleData name="long">-71.5239</SimpleData>
+					<SimpleData name="y_proj">-1.9484e+09</SimpleData>
+					<SimpleData name="x_proj">2.83894e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.523878,-16.459922,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_069</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_069</SimpleData>
+					<SimpleData name="point_name">San Cristobal-Loza Deportiva(La Campiï¿½a) (Puesto Movil)</SimpleData>
+					<SimpleData name="lat">-16.4623</SimpleData>
+					<SimpleData name="long">-71.5231</SimpleData>
+					<SimpleData name="y_proj">-1.94869e+09</SimpleData>
+					<SimpleData name="x_proj">2.839e+06</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52305800000001,-16.46233499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_070</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_070</SimpleData>
+					<SimpleData name="point_name">Paradero Final De Micros La Campiï¿½a (Calle Las Retamas)</SimpleData>
+					<SimpleData name="lat">-16.4618</SimpleData>
+					<SimpleData name="long">-71.5248</SimpleData>
+					<SimpleData name="y_proj">-1.94861e+09</SimpleData>
+					<SimpleData name="x_proj">2.83881e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.524764,-16.461844,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_071</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_071</SimpleData>
+					<SimpleData name="point_name">Parque_Colibri</SimpleData>
+					<SimpleData name="lat">-16.4606</SimpleData>
+					<SimpleData name="long">-71.5256</SimpleData>
+					<SimpleData name="y_proj">-1.94845e+09</SimpleData>
+					<SimpleData name="x_proj">2.83873e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52557299999999,-16.460601,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_072</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_072</SimpleData>
+					<SimpleData name="point_name">Recepciones Rocoto Arequipeï¿½o (Av. Salaverry) (Puesto Itinerante)</SimpleData>
+					<SimpleData name="lat">-16.4615</SimpleData>
+					<SimpleData name="long">-71.5282</SimpleData>
+					<SimpleData name="y_proj">-1.94853e+09</SimpleData>
+					<SimpleData name="x_proj">2.83843e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.528195,-16.46148700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_073</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_073</SimpleData>
+					<SimpleData name="point_name">Colegio Santisimo Salvador (Av. Salaverry) (Puesto Itinerante)</SimpleData>
+					<SimpleData name="lat">-16.4571</SimpleData>
+					<SimpleData name="long">-71.5293</SimpleData>
+					<SimpleData name="y_proj">-1.948e+09</SimpleData>
+					<SimpleData name="x_proj">2.83836e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52925300000001,-16.45714699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_074</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_074</SimpleData>
+					<SimpleData name="point_name">Parque De La Paloma (Puesto Itinerante)</SimpleData>
+					<SimpleData name="lat">-16.4555</SimpleData>
+					<SimpleData name="long">-71.5295</SimpleData>
+					<SimpleData name="y_proj">-1.9478e+09</SimpleData>
+					<SimpleData name="x_proj">2.83835e+06</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.529512,-16.45549100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_075</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_075</SimpleData>
+					<SimpleData name="point_name">Coliseo Lara</SimpleData>
+					<SimpleData name="lat">-16.454</SimpleData>
+					<SimpleData name="long">-71.5312</SimpleData>
+					<SimpleData name="y_proj">-1.94761e+09</SimpleData>
+					<SimpleData name="x_proj">2.83818e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53123400000001,-16.45399800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_076</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_076</SimpleData>
+					<SimpleData name="point_name">Parque_Lara</SimpleData>
+					<SimpleData name="lat">-16.4519</SimpleData>
+					<SimpleData name="long">-71.5331</SimpleData>
+					<SimpleData name="y_proj">-1.94734e+09</SimpleData>
+					<SimpleData name="x_proj">2.838e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53305400000001,-16.451885,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_077</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_077</SimpleData>
+					<SimpleData name="point_name">Plaza_De_Bellapampa</SimpleData>
+					<SimpleData name="lat">-16.451</SimpleData>
+					<SimpleData name="long">-71.5363</SimpleData>
+					<SimpleData name="y_proj">-1.94719e+06</SimpleData>
+					<SimpleData name="x_proj">2.83765e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53627400000001,-16.450965,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_078</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_078</SimpleData>
+					<SimpleData name="point_name">Estadio Bellapampa (Calle Los Geranios Con Atahualpa)</SimpleData>
+					<SimpleData name="lat">-16.4492</SimpleData>
+					<SimpleData name="long">-71.5382</SimpleData>
+					<SimpleData name="y_proj">-1.94695e+09</SimpleData>
+					<SimpleData name="x_proj">2.83745e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53821899999998,-16.44917200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_079</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_079</SimpleData>
+					<SimpleData name="point_name">Interseccion Calle Tumbes Con Av. Las Peï¿½as</SimpleData>
+					<SimpleData name="lat">-16.451</SimpleData>
+					<SimpleData name="long">-71.54</SimpleData>
+					<SimpleData name="y_proj">-1.94715e+09</SimpleData>
+					<SimpleData name="x_proj">2.83722e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.54004999999999,-16.451019,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_080</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_080</SimpleData>
+					<SimpleData name="point_name">Interseccion Calle Sucre Con Av. Paisajista</SimpleData>
+					<SimpleData name="lat">-16.4533</SimpleData>
+					<SimpleData name="long">-71.5388</SimpleData>
+					<SimpleData name="y_proj">-1.94744e+09</SimpleData>
+					<SimpleData name="x_proj">2.83733e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53876899999999,-16.45334700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_081</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_081</SimpleData>
+					<SimpleData name="point_name">Interseccion Lencio Prado Con Calle America</SimpleData>
+					<SimpleData name="lat">-16.4533</SimpleData>
+					<SimpleData name="long">-71.5365</SimpleData>
+					<SimpleData name="y_proj">-1.94746e+09</SimpleData>
+					<SimpleData name="x_proj">2.83759e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53650399999999,-16.45328399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_082</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_082</SimpleData>
+					<SimpleData name="point_name">Urb. Las Magnolias- Ingreso Principal</SimpleData>
+					<SimpleData name="lat">-16.454</SimpleData>
+					<SimpleData name="long">-71.535</SimpleData>
+					<SimpleData name="y_proj">-1.94756e+09</SimpleData>
+					<SimpleData name="x_proj">2.83775e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.535043,-16.454006,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_083</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_083</SimpleData>
+					<SimpleData name="point_name">Urb. Abelardo Quiï¿½ones Capilla</SimpleData>
+					<SimpleData name="lat">-16.4554</SimpleData>
+					<SimpleData name="long">-71.5372</SimpleData>
+					<SimpleData name="y_proj">-1.94769e+09</SimpleData>
+					<SimpleData name="x_proj">2.83748e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.537223,-16.455353,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_084</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_084</SimpleData>
+					<SimpleData name="point_name">Puesto De Salud Jean Frechet (Parque)</SimpleData>
+					<SimpleData name="lat">-16.4559</SimpleData>
+					<SimpleData name="long">-71.5387</SimpleData>
+					<SimpleData name="y_proj">-1.94774e+09</SimpleData>
+					<SimpleData name="x_proj">2.83731e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53867200000001,-16.455931,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_085</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_085</SimpleData>
+					<SimpleData name="point_name">Asoc_Urbanizacion</SimpleData>
+					<SimpleData name="lat">-16.457</SimpleData>
+					<SimpleData name="long">-71.5377</SimpleData>
+					<SimpleData name="y_proj">-1.94787e+06</SimpleData>
+					<SimpleData name="x_proj">2.8374e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.537723,-16.45695799999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_086</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_086</SimpleData>
+					<SimpleData name="point_name">Urb. Los Claveles (Paradero Final De Combis)</SimpleData>
+					<SimpleData name="lat">-16.4588</SimpleData>
+					<SimpleData name="long">-71.5406</SimpleData>
+					<SimpleData name="y_proj">-1.94806e+09</SimpleData>
+					<SimpleData name="x_proj">2.83706e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.540554,-16.458844,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_087</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_087</SimpleData>
+					<SimpleData name="point_name">Cancha_Sintetica_Eco</SimpleData>
+					<SimpleData name="lat">-16.4603</SimpleData>
+					<SimpleData name="long">-71.5412</SimpleData>
+					<SimpleData name="y_proj">-1.94822e+09</SimpleData>
+					<SimpleData name="x_proj">2.83696e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.541222,-16.46025399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_088</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_088</SimpleData>
+					<SimpleData name="point_name">Parque Los Sapos</SimpleData>
+					<SimpleData name="lat">-16.449</SimpleData>
+					<SimpleData name="long">-71.5347</SimpleData>
+					<SimpleData name="y_proj">-1.94698e+09</SimpleData>
+					<SimpleData name="x_proj">2.83785e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.534744,-16.449034,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_089</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_089</SimpleData>
+					<SimpleData name="point_name">Parque_El_Mistiano</SimpleData>
+					<SimpleData name="lat">-16.449</SimpleData>
+					<SimpleData name="long">-71.5451</SimpleData>
+					<SimpleData name="y_proj">-1.94685e+09</SimpleData>
+					<SimpleData name="x_proj">2.83667e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.54508099999998,-16.44901699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_090</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_090</SimpleData>
+					<SimpleData name="point_name">La Rinocnada (Frontera Hunter)</SimpleData>
+					<SimpleData name="lat">-16.4514</SimpleData>
+					<SimpleData name="long">-71.5492</SimpleData>
+					<SimpleData name="y_proj">-1.94708e+06</SimpleData>
+					<SimpleData name="x_proj">2.83617e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.549227,-16.45140399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_091</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_091</SimpleData>
+					<SimpleData name="point_name">Mirador De Bellapampa-Los Molles (Movil)</SimpleData>
+					<SimpleData name="lat">-16.4596</SimpleData>
+					<SimpleData name="long">-71.5483</SimpleData>
+					<SimpleData name="y_proj">-1.94805e+09</SimpleData>
+					<SimpleData name="x_proj">2.83617e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.548328,-16.45956999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_092</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_092</SimpleData>
+					<SimpleData name="point_name">2 Cuadras Abajo De La Comisaria Ciudad Mi Trabajo</SimpleData>
+					<SimpleData name="lat">-16.4489</SimpleData>
+					<SimpleData name="long">-71.5337</SimpleData>
+					<SimpleData name="y_proj">-1.94698e+09</SimpleData>
+					<SimpleData name="x_proj">2.83797e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53368,-16.44892400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_093</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_093</SimpleData>
+					<SimpleData name="point_name">Parque La Pradera I</SimpleData>
+					<SimpleData name="lat">-16.4588</SimpleData>
+					<SimpleData name="long">-71.5282</SimpleData>
+					<SimpleData name="y_proj">-1.94821e+09</SimpleData>
+					<SimpleData name="x_proj">2.83846e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52821,-16.45883900000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_094</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_094</SimpleData>
+					<SimpleData name="point_name">2 Cuadras Del Terminal De 3 De Octubre</SimpleData>
+					<SimpleData name="lat">-16.461</SimpleData>
+					<SimpleData name="long">-71.5238</SimpleData>
+					<SimpleData name="y_proj">-1.94852e+09</SimpleData>
+					<SimpleData name="x_proj">2.83893e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52384000000001,-16.46100799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_095</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_095</SimpleData>
+					<SimpleData name="point_name">Parque Virgendel Carmen</SimpleData>
+					<SimpleData name="lat">-16.461</SimpleData>
+					<SimpleData name="long">-71.5228</SimpleData>
+					<SimpleData name="y_proj">-1.94853e+09</SimpleData>
+					<SimpleData name="x_proj">2.83905e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52277799999999,-16.46097700000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_096</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_096</SimpleData>
+					<SimpleData name="point_name">Santa Cruz</SimpleData>
+					<SimpleData name="lat">-16.4615</SimpleData>
+					<SimpleData name="long">-71.5212</SimpleData>
+					<SimpleData name="y_proj">-1.94861e+09</SimpleData>
+					<SimpleData name="x_proj">2.83921e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.521227,-16.46149399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_097</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_097</SimpleData>
+					<SimpleData name="point_name">Parque Escondido La Campiï¿½a</SimpleData>
+					<SimpleData name="lat">-16.4579</SimpleData>
+					<SimpleData name="long">-71.5181</SimpleData>
+					<SimpleData name="y_proj">-1.94824e+09</SimpleData>
+					<SimpleData name="x_proj">2.83962e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51809500000002,-16.45794799999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_098</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_098</SimpleData>
+					<SimpleData name="point_name">Colegio La Campiï¿½a</SimpleData>
+					<SimpleData name="lat">-16.4565</SimpleData>
+					<SimpleData name="long">-71.5174</SimpleData>
+					<SimpleData name="y_proj">-1.94808e+09</SimpleData>
+					<SimpleData name="x_proj">2.83972e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.517385,-16.45652000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_099</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_099</SimpleData>
+					<SimpleData name="point_name">2 Cuadras Del Terminal De 4 De Octubre</SimpleData>
+					<SimpleData name="lat">-16.4516</SimpleData>
+					<SimpleData name="long">-71.5149</SimpleData>
+					<SimpleData name="y_proj">-1.94753e+09</SimpleData>
+					<SimpleData name="x_proj">2.84007e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.514864,-16.451563,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_100</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_100</SimpleData>
+					<SimpleData name="point_name">Polleria El Juanito</SimpleData>
+					<SimpleData name="lat">-16.4541</SimpleData>
+					<SimpleData name="long">-71.5169</SimpleData>
+					<SimpleData name="y_proj">-1.9478e+09</SimpleData>
+					<SimpleData name="x_proj">2.8398e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51692,-16.454136,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_101</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_101</SimpleData>
+					<SimpleData name="point_name">Parque</SimpleData>
+					<SimpleData name="lat">-16.4553</SimpleData>
+					<SimpleData name="long">-71.5176</SimpleData>
+					<SimpleData name="y_proj">-1.94794e+09</SimpleData>
+					<SimpleData name="x_proj">2.8397e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.517622,-16.45534399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_102</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_102</SimpleData>
+					<SimpleData name="point_name">Terminal De Combis Correcaminos</SimpleData>
+					<SimpleData name="lat">-16.4551</SimpleData>
+					<SimpleData name="long">-71.5181</SimpleData>
+					<SimpleData name="y_proj">-1.9479e+09</SimpleData>
+					<SimpleData name="x_proj">2.83966e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51805899999999,-16.455053,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_103</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_103</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva La Palizada</SimpleData>
+					<SimpleData name="lat">-16.4558</SimpleData>
+					<SimpleData name="long">-71.5212</SimpleData>
+					<SimpleData name="y_proj">-1.94795e+09</SimpleData>
+					<SimpleData name="x_proj">2.83929e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.521226,-16.45584400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_104</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_104</SimpleData>
+					<SimpleData name="point_name">Cancha Jesus Nazareno</SimpleData>
+					<SimpleData name="lat">-16.4479</SimpleData>
+					<SimpleData name="long">-71.5208</SimpleData>
+					<SimpleData name="y_proj">-1.94703e+09</SimpleData>
+					<SimpleData name="x_proj">2.83944e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52084499999999,-16.44793100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_105</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_105</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva Residencial El Golf</SimpleData>
+					<SimpleData name="lat">-16.453</SimpleData>
+					<SimpleData name="long">-71.5262</SimpleData>
+					<SimpleData name="y_proj">-1.94756e+09</SimpleData>
+					<SimpleData name="x_proj">2.83876e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52619600000001,-16.45303899999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_106</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_106</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva Corredores Del Golf</SimpleData>
+					<SimpleData name="lat">-16.4524</SimpleData>
+					<SimpleData name="long">-71.5265</SimpleData>
+					<SimpleData name="y_proj">-1.94748e+09</SimpleData>
+					<SimpleData name="x_proj">2.83874e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52648000000001,-16.452382,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_107</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_107</SimpleData>
+					<SimpleData name="point_name">Parque Trebol De Santa Clara</SimpleData>
+					<SimpleData name="lat">-16.4452</SimpleData>
+					<SimpleData name="long">-71.5275</SimpleData>
+					<SimpleData name="y_proj">-1.94663e+06</SimpleData>
+					<SimpleData name="x_proj">2.83872e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.527484,-16.445235,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_108</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_108</SimpleData>
+					<SimpleData name="point_name">Calle Coscollo</SimpleData>
+					<SimpleData name="lat">-16.444</SimpleData>
+					<SimpleData name="long">-71.5271</SimpleData>
+					<SimpleData name="y_proj">-1.94649e+09</SimpleData>
+					<SimpleData name="x_proj">2.83878e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52709,-16.444044,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_109</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_109</SimpleData>
+					<SimpleData name="point_name">Grifo Tasahuayo</SimpleData>
+					<SimpleData name="lat">-16.441</SimpleData>
+					<SimpleData name="long">-71.5257</SimpleData>
+					<SimpleData name="y_proj">-1.94615e+09</SimpleData>
+					<SimpleData name="x_proj">2.83897e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52573400000001,-16.44102599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_110</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_110</SimpleData>
+					<SimpleData name="point_name">Colegio San Benito De Palermo</SimpleData>
+					<SimpleData name="lat">-16.4402</SimpleData>
+					<SimpleData name="long">-71.5269</SimpleData>
+					<SimpleData name="y_proj">-1.94604e+09</SimpleData>
+					<SimpleData name="x_proj">2.83885e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.526943,-16.44021399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_111</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_111</SimpleData>
+					<SimpleData name="point_name">Una Cuadra Del Mercado San Martin Desocabaya</SimpleData>
+					<SimpleData name="lat">-16.4401</SimpleData>
+					<SimpleData name="long">-71.5286</SimpleData>
+					<SimpleData name="y_proj">-1.946e+06</SimpleData>
+					<SimpleData name="x_proj">2.83865e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52864900000002,-16.44005899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_112</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_112</SimpleData>
+					<SimpleData name="point_name">Parque Los Toritos</SimpleData>
+					<SimpleData name="lat">-16.4378</SimpleData>
+					<SimpleData name="long">-71.5301</SimpleData>
+					<SimpleData name="y_proj">-1.94572e+09</SimpleData>
+					<SimpleData name="x_proj">2.83852e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53006499999998,-16.43777900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_113</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_113</SimpleData>
+					<SimpleData name="point_name">Una Cuadra Ante De Llegar Al Grifo J&amp;P</SimpleData>
+					<SimpleData name="lat">-16.43</SimpleData>
+					<SimpleData name="long">-71.5363</SimpleData>
+					<SimpleData name="y_proj">-1.94473e+09</SimpleData>
+					<SimpleData name="x_proj">2.83792e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53628,-16.43003799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_114</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_114</SimpleData>
+					<SimpleData name="point_name">Parque Pasaje San Martin</SimpleData>
+					<SimpleData name="lat">-16.4312</SimpleData>
+					<SimpleData name="long">-71.5359</SimpleData>
+					<SimpleData name="y_proj">-1.94487e+09</SimpleData>
+					<SimpleData name="x_proj">2.83795e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.535865,-16.43117200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_115</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_115</SimpleData>
+					<SimpleData name="point_name">Colegio 72 Cerro Salaverry</SimpleData>
+					<SimpleData name="lat">-16.436</SimpleData>
+					<SimpleData name="long">-71.5367</SimpleData>
+					<SimpleData name="y_proj">-1.94542e+09</SimpleData>
+					<SimpleData name="x_proj">2.8378e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53667900000001,-16.435957,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_116</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_116</SimpleData>
+					<SimpleData name="point_name">Cancha Pedortiva Ciudad Mi Trabajo</SimpleData>
+					<SimpleData name="lat">-16.4458</SimpleData>
+					<SimpleData name="long">-71.5352</SimpleData>
+					<SimpleData name="y_proj">-1.9466e+09</SimpleData>
+					<SimpleData name="x_proj">2.83784e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53515400000001,-16.445805,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_117</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_117</SimpleData>
+					<SimpleData name="point_name">Colegio San Martin De Ocabaya</SimpleData>
+					<SimpleData name="lat">-16.4435</SimpleData>
+					<SimpleData name="long">-71.5302</SimpleData>
+					<SimpleData name="y_proj">-1.94638e+09</SimpleData>
+					<SimpleData name="x_proj">2.83844e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53016599999999,-16.443468,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_118</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_118</SimpleData>
+					<SimpleData name="point_name">Complejo Deportivo La Bombonera</SimpleData>
+					<SimpleData name="lat">-16.4394</SimpleData>
+					<SimpleData name="long">-71.5326</SimpleData>
+					<SimpleData name="y_proj">-1.94588e+09</SimpleData>
+					<SimpleData name="x_proj">2.83822e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.532569,-16.43943100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_119</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_119</SimpleData>
+					<SimpleData name="point_name">Santisima Cruz Del Espiritu Santo</SimpleData>
+					<SimpleData name="lat">-16.4406</SimpleData>
+					<SimpleData name="long">-71.5334</SimpleData>
+					<SimpleData name="y_proj">-1.94601e+09</SimpleData>
+					<SimpleData name="x_proj">2.83811e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53342599999999,-16.44064000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_120</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_120</SimpleData>
+					<SimpleData name="point_name">I.E.I San Martin De Socabaya</SimpleData>
+					<SimpleData name="lat">-16.4423</SimpleData>
+					<SimpleData name="long">-71.5297</SimpleData>
+					<SimpleData name="y_proj">-1.94625e+09</SimpleData>
+					<SimpleData name="x_proj">2.8385e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52971700000001,-16.442315,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_121</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_121</SimpleData>
+					<SimpleData name="point_name">Parque Zona B Bellapampa</SimpleData>
+					<SimpleData name="lat">-16.4538</SimpleData>
+					<SimpleData name="long">-71.5358</SimpleData>
+					<SimpleData name="y_proj">-1.94753e+09</SimpleData>
+					<SimpleData name="x_proj">2.83767e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53578899999999,-16.45381000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_122</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_122</SimpleData>
+					<SimpleData name="point_name">Parque Recreativo La Union</SimpleData>
+					<SimpleData name="lat">-16.4468</SimpleData>
+					<SimpleData name="long">-71.5192</SimpleData>
+					<SimpleData name="y_proj">-1.94691e+09</SimpleData>
+					<SimpleData name="x_proj">2.83964e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51916418,-16.44677114999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_123</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_123</SimpleData>
+					<SimpleData name="point_name">Parque Infantil - El Bosque (4 De Octubre)</SimpleData>
+					<SimpleData name="lat">-16.4451</SimpleData>
+					<SimpleData name="long">-71.5231</SimpleData>
+					<SimpleData name="y_proj">-1.94666e+09</SimpleData>
+					<SimpleData name="x_proj">2.83922e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52309710999999,-16.44507142000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_124</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_124</SimpleData>
+					<SimpleData name="point_name">Parque Tercer Sector La Campiï¿½a</SimpleData>
+					<SimpleData name="lat">-16.458</SimpleData>
+					<SimpleData name="long">-71.5191</SimpleData>
+					<SimpleData name="y_proj">-1.94823e+09</SimpleData>
+					<SimpleData name="x_proj">2.8395e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51912759999999,-16.45796977999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_125</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_125</SimpleData>
+					<SimpleData name="point_name">Cancha De Tierra</SimpleData>
+					<SimpleData name="lat">-16.4561</SimpleData>
+					<SimpleData name="long">-71.5153</SimpleData>
+					<SimpleData name="y_proj">-1.94806e+06</SimpleData>
+					<SimpleData name="x_proj">2.83996e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51528111,-16.45611496000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_126</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_126</SimpleData>
+					<SimpleData name="point_name">Parque Entre Claveles Y Av. Primavera</SimpleData>
+					<SimpleData name="lat">-16.4591</SimpleData>
+					<SimpleData name="long">-71.5185</SimpleData>
+					<SimpleData name="y_proj">-1.94837e+09</SimpleData>
+					<SimpleData name="x_proj">2.83956e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51845141,-16.45910064000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_127</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_127</SimpleData>
+					<SimpleData name="point_name">Parque Entre Dalias Y Gardenias</SimpleData>
+					<SimpleData name="lat">-16.4592</SimpleData>
+					<SimpleData name="long">-71.5193</SimpleData>
+					<SimpleData name="y_proj">-1.94837e+09</SimpleData>
+					<SimpleData name="x_proj">2.83947e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51926441000001,-16.45922278,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_128</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_128</SimpleData>
+					<SimpleData name="point_name">Gran Parque Los Bosques</SimpleData>
+					<SimpleData name="lat">-16.455</SimpleData>
+					<SimpleData name="long">-71.5186</SimpleData>
+					<SimpleData name="y_proj">-1.94789e+06</SimpleData>
+					<SimpleData name="x_proj">2.83959e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51863283999998,-16.45502983,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_129</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_129</SimpleData>
+					<SimpleData name="point_name">Parque 3 Corredores El Golf</SimpleData>
+					<SimpleData name="lat">-16.4493</SimpleData>
+					<SimpleData name="long">-71.5216</SimpleData>
+					<SimpleData name="y_proj">-1.94717e+09</SimpleData>
+					<SimpleData name="x_proj">2.83933e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52163794000001,-16.44925197000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_130</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_130</SimpleData>
+					<SimpleData name="point_name">Parque 2 Corredores El Golf</SimpleData>
+					<SimpleData name="lat">-16.4505</SimpleData>
+					<SimpleData name="long">-71.5234</SimpleData>
+					<SimpleData name="y_proj">-1.9473e+09</SimpleData>
+					<SimpleData name="x_proj">2.83911e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52339459,-16.45049954000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_131</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_131</SimpleData>
+					<SimpleData name="point_name">Plaza De La Poesia</SimpleData>
+					<SimpleData name="lat">-16.4368</SimpleData>
+					<SimpleData name="long">-71.5304</SimpleData>
+					<SimpleData name="y_proj">-1.9456e+06</SimpleData>
+					<SimpleData name="x_proj">2.8385e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53040666999999,-16.43684301999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_132</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_132</SimpleData>
+					<SimpleData name="point_name">Parque Ecologico El Bosque</SimpleData>
+					<SimpleData name="lat">-16.4479</SimpleData>
+					<SimpleData name="long">-71.5378</SimpleData>
+					<SimpleData name="y_proj">-1.94681e+09</SimpleData>
+					<SimpleData name="x_proj">2.83751e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53782218000001,-16.44787833000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_133</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_133</SimpleData>
+					<SimpleData name="point_name">Parque Manuel Seone</SimpleData>
+					<SimpleData name="lat">-16.4483</SimpleData>
+					<SimpleData name="long">-71.5339</SimpleData>
+					<SimpleData name="y_proj">-1.94691e+09</SimpleData>
+					<SimpleData name="x_proj">2.83795e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53387901999999,-16.44832635000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_134</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_134</SimpleData>
+					<SimpleData name="point_name">Parque Jose Abelardo Quiï¿½ones</SimpleData>
+					<SimpleData name="lat">-16.4555</SimpleData>
+					<SimpleData name="long">-71.5369</SimpleData>
+					<SimpleData name="y_proj">-1.94771e+09</SimpleData>
+					<SimpleData name="x_proj">2.83752e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53690951999999,-16.4554521,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_135</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_135</SimpleData>
+					<SimpleData name="point_name">Parque (Villa Campo Ferial)</SimpleData>
+					<SimpleData name="lat">-16.4557</SimpleData>
+					<SimpleData name="long">-71.5373</SimpleData>
+					<SimpleData name="y_proj">-1.94773e+09</SimpleData>
+					<SimpleData name="x_proj">2.83747e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53731450999999,-16.45571073,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL01_PP_136</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_01_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">5</SimpleData>
+					<SimpleData name="microred">SAN MARTIN DE SOCABAYA</SimpleData>
+					<SimpleData name="cluster">1</SimpleData>
+					<SimpleData name="code_point">CL01_PP_136</SimpleData>
+					<SimpleData name="point_name">Parque La Paloma</SimpleData>
+					<SimpleData name="lat">-16.4544</SimpleData>
+					<SimpleData name="long">-71.53</SimpleData>
+					<SimpleData name="y_proj">-1.94767e+09</SimpleData>
+					<SimpleData name="x_proj">2.83831e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.53000679,-16.45437799000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
+	</Folder>
+</Document>
+</kml>

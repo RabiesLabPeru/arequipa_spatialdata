@@ -1,0 +1,3562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PP_Cluster_27_03mar2026</name>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1094"></atom:link>
+	<Schema name="PP_Cluster_27_03mar2026" id="S_PP_Cluster_27_03mar2026_SSDDDD">
+		<SimpleField type="string" name="name_point">
+			<displayName>&lt;b&gt;name_point&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="ident">
+			<displayName>&lt;b&gt;ident&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="lat">
+			<displayName>&lt;b&gt;lat&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="long">
+			<displayName>&lt;b&gt;long&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="y_proj">
+			<displayName>&lt;b&gt;y_proj&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="x_proj">
+			<displayName>&lt;b&gt;x_proj&lt;/b&gt;</displayName>
+		</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>name_point</b></td><td>$[PP_Cluster_27_03mar2026/name_point]</td></tr>
+  <tr><td><b>ident</b></td><td>$[PP_Cluster_27_03mar2026/ident]</td></tr>
+  <tr><td><b>lat</b></td><td>$[PP_Cluster_27_03mar2026/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[PP_Cluster_27_03mar2026/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[PP_Cluster_27_03mar2026/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[PP_Cluster_27_03mar2026/x_proj]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>name_point</b></td><td>$[PP_Cluster_27_03mar2026/name_point]</td></tr>
+  <tr><td><b>ident</b></td><td>$[PP_Cluster_27_03mar2026/ident]</td></tr>
+  <tr><td><b>lat</b></td><td>$[PP_Cluster_27_03mar2026/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[PP_Cluster_27_03mar2026/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[PP_Cluster_27_03mar2026/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[PP_Cluster_27_03mar2026/x_proj]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>PP_Cluster_27_03mar2026</name>
+		<open>1</open>
+		<Placemark>
+			<name>CL27_PP_001</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 1 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_001</SimpleData>
+					<SimpleData name="lat">-16.3227</SimpleData>
+					<SimpleData name="long">-71.6153</SimpleData>
+					<SimpleData name="y_proj">-1.93114e+06</SimpleData>
+					<SimpleData name="x_proj">2.83036e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.615251,-16.32273399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_002</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 2 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_002</SimpleData>
+					<SimpleData name="lat">-16.3249</SimpleData>
+					<SimpleData name="long">-71.6167</SimpleData>
+					<SimpleData name="y_proj">-1.93137e+06</SimpleData>
+					<SimpleData name="x_proj">2.83017e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.616724,-16.32491200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_003</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Losa_Deportiva_Apipa_VI</SimpleData>
+					<SimpleData name="ident">CL27_PP_003</SimpleData>
+					<SimpleData name="lat">-16.3265</SimpleData>
+					<SimpleData name="long">-71.6183</SimpleData>
+					<SimpleData name="y_proj">-1.93154e+06</SimpleData>
+					<SimpleData name="x_proj">2.82996e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.61834600000002,-16.32653300000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_004</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 3 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_004</SimpleData>
+					<SimpleData name="lat">-16.3304</SimpleData>
+					<SimpleData name="long">-71.6206</SimpleData>
+					<SimpleData name="y_proj">-1.93197e+06</SimpleData>
+					<SimpleData name="x_proj">2.82966e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.62057600000001,-16.330432,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_005</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 4 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_005</SimpleData>
+					<SimpleData name="lat">-16.3331</SimpleData>
+					<SimpleData name="long">-71.6179</SimpleData>
+					<SimpleData name="y_proj">-1.93232e+06</SimpleData>
+					<SimpleData name="x_proj">2.82993e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.61788900000001,-16.33305700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_006</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">La_Capilla_Sector_VIII</SimpleData>
+					<SimpleData name="ident">CL27_PP_006</SimpleData>
+					<SimpleData name="lat">-16.3337</SimpleData>
+					<SimpleData name="long">-71.6164</SimpleData>
+					<SimpleData name="y_proj">-1.93241e+06</SimpleData>
+					<SimpleData name="x_proj">2.83009e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.61638000000001,-16.33367799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_007</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 5 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_007</SimpleData>
+					<SimpleData name="lat">-16.3296</SimpleData>
+					<SimpleData name="long">-71.6174</SimpleData>
+					<SimpleData name="y_proj">-1.93192e+06</SimpleData>
+					<SimpleData name="x_proj">2.83004e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.61735300000001,-16.32960500000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_008</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 6 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_008</SimpleData>
+					<SimpleData name="lat">-16.3282</SimpleData>
+					<SimpleData name="long">-71.6153</SimpleData>
+					<SimpleData name="y_proj">-1.93177e+06</SimpleData>
+					<SimpleData name="x_proj">2.83029e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.61527599999999,-16.32816099999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_009</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 7 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_009</SimpleData>
+					<SimpleData name="lat">-16.3283</SimpleData>
+					<SimpleData name="long">-71.6131</SimpleData>
+					<SimpleData name="y_proj">-1.93182e+06</SimpleData>
+					<SimpleData name="x_proj">2.83054e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.61305,-16.32831300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_010</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 8 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_010</SimpleData>
+					<SimpleData name="lat">-16.3258</SimpleData>
+					<SimpleData name="long">-71.6134</SimpleData>
+					<SimpleData name="y_proj">-1.93152e+06</SimpleData>
+					<SimpleData name="x_proj">2.83053e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.61343099999999,-16.325786,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_011</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 9 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_011</SimpleData>
+					<SimpleData name="lat">-16.3258</SimpleData>
+					<SimpleData name="long">-71.6112</SimpleData>
+					<SimpleData name="y_proj">-1.93155e+06</SimpleData>
+					<SimpleData name="x_proj">2.83078e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.611231,-16.325808,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_012</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 10 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_012</SimpleData>
+					<SimpleData name="lat">-16.3279</SimpleData>
+					<SimpleData name="long">-71.6066</SimpleData>
+					<SimpleData name="y_proj">-1.93185e+06</SimpleData>
+					<SimpleData name="x_proj">2.83128e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.60660399999999,-16.327879,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_013</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 11 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_013</SimpleData>
+					<SimpleData name="lat">-16.3295</SimpleData>
+					<SimpleData name="long">-71.6067</SimpleData>
+					<SimpleData name="y_proj">-1.93204e+06</SimpleData>
+					<SimpleData name="x_proj">2.83124e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.60671499999999,-16.32949600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_014</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 12 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_014</SimpleData>
+					<SimpleData name="lat">-16.3298</SimpleData>
+					<SimpleData name="long">-71.6085</SimpleData>
+					<SimpleData name="y_proj">-1.93205e+06</SimpleData>
+					<SimpleData name="x_proj">2.83104e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.60850399999998,-16.32982899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_015</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Colegio_Inicial_Porvenir_Apipa</SimpleData>
+					<SimpleData name="ident">CL27_PP_015</SimpleData>
+					<SimpleData name="lat">-16.3288</SimpleData>
+					<SimpleData name="long">-71.61</SimpleData>
+					<SimpleData name="y_proj">-1.93192e+06</SimpleData>
+					<SimpleData name="x_proj">2.83087e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.610034,-16.328835,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_016</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 13 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_016</SimpleData>
+					<SimpleData name="lat">-16.3318</SimpleData>
+					<SimpleData name="long">-71.6105</SimpleData>
+					<SimpleData name="y_proj">-1.93226e+06</SimpleData>
+					<SimpleData name="x_proj">2.83078e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.61054199999998,-16.33181999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_017</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Cepromet</SimpleData>
+					<SimpleData name="ident">CL27_PP_017</SimpleData>
+					<SimpleData name="lat">-16.3322</SimpleData>
+					<SimpleData name="long">-71.6131</SimpleData>
+					<SimpleData name="y_proj">-1.93228e+06</SimpleData>
+					<SimpleData name="x_proj">2.83048e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.61312299999999,-16.33220499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_018</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 14 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_018</SimpleData>
+					<SimpleData name="lat">-16.3341</SimpleData>
+					<SimpleData name="long">-71.6123</SimpleData>
+					<SimpleData name="y_proj">-1.93251e+06</SimpleData>
+					<SimpleData name="x_proj">2.83055e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.612314,-16.33409699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_019</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 15 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_019</SimpleData>
+					<SimpleData name="lat">-16.3345</SimpleData>
+					<SimpleData name="long">-71.6107</SimpleData>
+					<SimpleData name="y_proj">-1.93258e+06</SimpleData>
+					<SimpleData name="x_proj">2.83073e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.61066599999999,-16.334544,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_020</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 16 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_020</SimpleData>
+					<SimpleData name="lat">-16.3362</SimpleData>
+					<SimpleData name="long">-71.6098</SimpleData>
+					<SimpleData name="y_proj">-1.93278e+06</SimpleData>
+					<SimpleData name="x_proj">2.83081e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.60975499999999,-16.33615900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_021</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Losa_Deportiva_JLBYR_IV_3</SimpleData>
+					<SimpleData name="ident">CL27_PP_021</SimpleData>
+					<SimpleData name="lat">-16.3352</SimpleData>
+					<SimpleData name="long">-71.6081</SimpleData>
+					<SimpleData name="y_proj">-1.93269e+06</SimpleData>
+					<SimpleData name="x_proj">2.83101e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.608088,-16.33521300000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_022</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 17 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_022</SimpleData>
+					<SimpleData name="lat">-16.332</SimpleData>
+					<SimpleData name="long">-71.6061</SimpleData>
+					<SimpleData name="y_proj">-1.93234e+06</SimpleData>
+					<SimpleData name="x_proj">2.83128e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.606115,-16.33204699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_023</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Losa_Deportiva_JLBYR_V_1</SimpleData>
+					<SimpleData name="ident">CL27_PP_023</SimpleData>
+					<SimpleData name="lat">-16.3326</SimpleData>
+					<SimpleData name="long">-71.6045</SimpleData>
+					<SimpleData name="y_proj">-1.93243e+06</SimpleData>
+					<SimpleData name="x_proj">2.83146e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.60448,-16.332629,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_024</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 18 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_024</SimpleData>
+					<SimpleData name="lat">-16.3328</SimpleData>
+					<SimpleData name="long">-71.6032</SimpleData>
+					<SimpleData name="y_proj">-1.93247e+06</SimpleData>
+					<SimpleData name="x_proj">2.8316e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.60317599999999,-16.33277799999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_025</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 19 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_025</SimpleData>
+					<SimpleData name="lat">-16.3344</SimpleData>
+					<SimpleData name="long">-71.6046</SimpleData>
+					<SimpleData name="y_proj">-1.93264e+06</SimpleData>
+					<SimpleData name="x_proj">2.83142e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.60460999999999,-16.334407,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_026</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 20 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_026</SimpleData>
+					<SimpleData name="lat">-16.3372</SimpleData>
+					<SimpleData name="long">-71.6031</SimpleData>
+					<SimpleData name="y_proj">-1.93298e+06</SimpleData>
+					<SimpleData name="x_proj">2.83156e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.603055,-16.33715599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_027</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 21 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_027</SimpleData>
+					<SimpleData name="lat">-16.3371</SimpleData>
+					<SimpleData name="long">-71.6069</SimpleData>
+					<SimpleData name="y_proj">-1.93293e+06</SimpleData>
+					<SimpleData name="x_proj">2.83112e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.606921,-16.337095,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_028</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Losa_Deportiva_Princesa_Paloma</SimpleData>
+					<SimpleData name="ident">CL27_PP_028</SimpleData>
+					<SimpleData name="lat">-16.338</SimpleData>
+					<SimpleData name="long">-71.6055</SimpleData>
+					<SimpleData name="y_proj">-1.93306e+06</SimpleData>
+					<SimpleData name="x_proj">2.83127e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.605503,-16.33803699999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_029</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Colegio_JLBYR</SimpleData>
+					<SimpleData name="ident">CL27_PP_029</SimpleData>
+					<SimpleData name="lat">-16.34</SimpleData>
+					<SimpleData name="long">-71.6046</SimpleData>
+					<SimpleData name="y_proj">-1.9333e+06</SimpleData>
+					<SimpleData name="x_proj">2.83135e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.604596,-16.34004899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_030</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Losa_Deportiva_JLBYR_V_5</SimpleData>
+					<SimpleData name="ident">CL27_PP_030</SimpleData>
+					<SimpleData name="lat">-16.3409</SimpleData>
+					<SimpleData name="long">-71.608</SimpleData>
+					<SimpleData name="y_proj">-1.93336e+06</SimpleData>
+					<SimpleData name="x_proj">2.83095e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.607992,-16.340914,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_031</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Losa_Deportiva_JLBYR_VII_1</SimpleData>
+					<SimpleData name="ident">CL27_PP_031</SimpleData>
+					<SimpleData name="lat">-16.3424</SimpleData>
+					<SimpleData name="long">-71.6097</SimpleData>
+					<SimpleData name="y_proj">-1.93352e+06</SimpleData>
+					<SimpleData name="x_proj">2.83073e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.609719,-16.34243699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_032</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 22 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_032</SimpleData>
+					<SimpleData name="lat">-16.3424</SimpleData>
+					<SimpleData name="long">-71.611</SimpleData>
+					<SimpleData name="y_proj">-1.9335e+06</SimpleData>
+					<SimpleData name="x_proj">2.83059e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.611031,-16.34237800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_033</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 23 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_033</SimpleData>
+					<SimpleData name="lat">-16.3419</SimpleData>
+					<SimpleData name="long">-71.6128</SimpleData>
+					<SimpleData name="y_proj">-1.93341e+06</SimpleData>
+					<SimpleData name="x_proj">2.83039e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.612816,-16.34185199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_034</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Losa_Deportiva_JLBYR_VII_2</SimpleData>
+					<SimpleData name="ident">CL27_PP_034</SimpleData>
+					<SimpleData name="lat">-16.3418</SimpleData>
+					<SimpleData name="long">-71.6141</SimpleData>
+					<SimpleData name="y_proj">-1.93339e+06</SimpleData>
+					<SimpleData name="x_proj">2.83024e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.614119,-16.341771,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_035</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 24 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_035</SimpleData>
+					<SimpleData name="lat">-16.339</SimpleData>
+					<SimpleData name="long">-71.6108</SimpleData>
+					<SimpleData name="y_proj">-1.9331e+06</SimpleData>
+					<SimpleData name="x_proj">2.83066e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.61077700000001,-16.33896200000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_036</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 25 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_036</SimpleData>
+					<SimpleData name="lat">-16.3371</SimpleData>
+					<SimpleData name="long">-71.614</SimpleData>
+					<SimpleData name="y_proj">-1.93284e+06</SimpleData>
+					<SimpleData name="x_proj">2.83032e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.614014,-16.337095,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_037</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 26 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_037</SimpleData>
+					<SimpleData name="lat">-16.3387</SimpleData>
+					<SimpleData name="long">-71.6143</SimpleData>
+					<SimpleData name="y_proj">-1.93303e+06</SimpleData>
+					<SimpleData name="x_proj">2.83027e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.614265,-16.338749,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_038</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Losa_Deportiva_Sector_XI</SimpleData>
+					<SimpleData name="ident">CL27_PP_038</SimpleData>
+					<SimpleData name="lat">-16.3398</SimpleData>
+					<SimpleData name="long">-71.6159</SimpleData>
+					<SimpleData name="y_proj">-1.93313e+06</SimpleData>
+					<SimpleData name="x_proj">2.83007e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.61590000000001,-16.33979199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_039</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 27 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_039</SimpleData>
+					<SimpleData name="lat">-16.3394</SimpleData>
+					<SimpleData name="long">-71.6188</SimpleData>
+					<SimpleData name="y_proj">-1.93305e+06</SimpleData>
+					<SimpleData name="x_proj">2.82974e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.618819,-16.33943799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_040</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 28 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_040</SimpleData>
+					<SimpleData name="lat">-16.3371</SimpleData>
+					<SimpleData name="long">-71.6168</SimpleData>
+					<SimpleData name="y_proj">-1.93281e+06</SimpleData>
+					<SimpleData name="x_proj">2.83e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.616795,-16.33712899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_041</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 29 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_041</SimpleData>
+					<SimpleData name="lat">-16.3363</SimpleData>
+					<SimpleData name="long">-71.6194</SimpleData>
+					<SimpleData name="y_proj">-1.93268e+06</SimpleData>
+					<SimpleData name="x_proj">2.82971e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.61944800000001,-16.33634300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_042</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Losa_Deportiva_Apipa_XII</SimpleData>
+					<SimpleData name="ident">CL27_PP_042</SimpleData>
+					<SimpleData name="lat">-16.3368</SimpleData>
+					<SimpleData name="long">-71.6215</SimpleData>
+					<SimpleData name="y_proj">-1.93271e+06</SimpleData>
+					<SimpleData name="x_proj">2.82948e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.62145599999999,-16.33682099999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_043</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 30 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_043</SimpleData>
+					<SimpleData name="lat">-16.3389</SimpleData>
+					<SimpleData name="long">-71.6208</SimpleData>
+					<SimpleData name="y_proj">-1.93296e+06</SimpleData>
+					<SimpleData name="x_proj">2.82952e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.62080400000001,-16.33888200000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_044</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 31 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_044</SimpleData>
+					<SimpleData name="lat">-16.3374</SimpleData>
+					<SimpleData name="long">-71.6243</SimpleData>
+					<SimpleData name="y_proj">-1.93275e+06</SimpleData>
+					<SimpleData name="x_proj">2.82915e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.624302,-16.33743000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_045</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Losa_Deportiva_Apipa_VIII</SimpleData>
+					<SimpleData name="ident">CL27_PP_045</SimpleData>
+					<SimpleData name="lat">-16.3388</SimpleData>
+					<SimpleData name="long">-71.6253</SimpleData>
+					<SimpleData name="y_proj">-1.93289e+06</SimpleData>
+					<SimpleData name="x_proj">2.82902e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.625297,-16.33877300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_046</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Losa_Deportiva_Apipa_XV</SimpleData>
+					<SimpleData name="ident">CL27_PP_046</SimpleData>
+					<SimpleData name="lat">-16.3402</SimpleData>
+					<SimpleData name="long">-71.6232</SimpleData>
+					<SimpleData name="y_proj">-1.93309e+06</SimpleData>
+					<SimpleData name="x_proj">2.82924e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.62320199999999,-16.34018,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_047</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 32 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_047</SimpleData>
+					<SimpleData name="lat">-16.3405</SimpleData>
+					<SimpleData name="long">-71.6243</SimpleData>
+					<SimpleData name="y_proj">-1.93311e+06</SimpleData>
+					<SimpleData name="x_proj">2.8291e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.624336,-16.34052500000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_048</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Kinder_Blessed</SimpleData>
+					<SimpleData name="ident">CL27_PP_048</SimpleData>
+					<SimpleData name="lat">-16.3412</SimpleData>
+					<SimpleData name="long">-71.6275</SimpleData>
+					<SimpleData name="y_proj">-1.93316e+06</SimpleData>
+					<SimpleData name="x_proj">2.82873e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.62754499999998,-16.34124700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_049</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 33 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_049</SimpleData>
+					<SimpleData name="lat">-16.3434</SimpleData>
+					<SimpleData name="long">-71.6287</SimpleData>
+					<SimpleData name="y_proj">-1.9334e+06</SimpleData>
+					<SimpleData name="x_proj">2.82857e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.62873699999999,-16.343437,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_050</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 34 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_050</SimpleData>
+					<SimpleData name="lat">-16.3447</SimpleData>
+					<SimpleData name="long">-71.6269</SimpleData>
+					<SimpleData name="y_proj">-1.93357e+06</SimpleData>
+					<SimpleData name="x_proj">2.82876e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.62687799999999,-16.344664,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_051</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Capilla_Virgen_De_Copacabana</SimpleData>
+					<SimpleData name="ident">CL27_PP_051</SimpleData>
+					<SimpleData name="lat">-16.3454</SimpleData>
+					<SimpleData name="long">-71.6259</SimpleData>
+					<SimpleData name="y_proj">-1.93367e+06</SimpleData>
+					<SimpleData name="x_proj">2.82886e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.625924,-16.34543799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_052</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Iep_Iluminadora_Virgen_Del_Carmen</SimpleData>
+					<SimpleData name="ident">CL27_PP_052</SimpleData>
+					<SimpleData name="lat">-16.3454</SimpleData>
+					<SimpleData name="long">-71.6281</SimpleData>
+					<SimpleData name="y_proj">-1.93363e+06</SimpleData>
+					<SimpleData name="x_proj">2.82861e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.628113,-16.345356,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_053</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 35 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_053</SimpleData>
+					<SimpleData name="lat">-16.3471</SimpleData>
+					<SimpleData name="long">-71.6277</SimpleData>
+					<SimpleData name="y_proj">-1.93384e+06</SimpleData>
+					<SimpleData name="x_proj">2.82864e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.627691,-16.347071,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_054</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">IEP_Iluminadora_Virgen_Del_Carmen</SimpleData>
+					<SimpleData name="ident">CL27_PP_054</SimpleData>
+					<SimpleData name="lat">-16.3475</SimpleData>
+					<SimpleData name="long">-71.6293</SimpleData>
+					<SimpleData name="y_proj">-1.93387e+06</SimpleData>
+					<SimpleData name="x_proj">2.82845e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.62929900000002,-16.34752599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_055</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 36 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_055</SimpleData>
+					<SimpleData name="lat">-16.3507</SimpleData>
+					<SimpleData name="long">-71.6295</SimpleData>
+					<SimpleData name="y_proj">-1.93425e+06</SimpleData>
+					<SimpleData name="x_proj">2.82838e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.629538,-16.350741,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_056</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 37 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_056</SimpleData>
+					<SimpleData name="lat">-16.3508</SimpleData>
+					<SimpleData name="long">-71.6315</SimpleData>
+					<SimpleData name="y_proj">-1.93423e+06</SimpleData>
+					<SimpleData name="x_proj">2.82815e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.63152600000001,-16.35081800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_057</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Losa_Deportiva_Las_Lomas</SimpleData>
+					<SimpleData name="ident">CL27_PP_057</SimpleData>
+					<SimpleData name="lat">-16.354</SimpleData>
+					<SimpleData name="long">-71.631</SimpleData>
+					<SimpleData name="y_proj">-1.93461e+06</SimpleData>
+					<SimpleData name="x_proj">2.82818e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.63095999999999,-16.35398900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_058</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 38 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_058</SimpleData>
+					<SimpleData name="lat">-16.3553</SimpleData>
+					<SimpleData name="long">-71.6321</SimpleData>
+					<SimpleData name="y_proj">-1.93475e+06</SimpleData>
+					<SimpleData name="x_proj">2.82803e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.63212900000002,-16.35533900000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_059</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 39 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_059</SimpleData>
+					<SimpleData name="lat">-16.3531</SimpleData>
+					<SimpleData name="long">-71.6284</SimpleData>
+					<SimpleData name="y_proj">-1.93454e+06</SimpleData>
+					<SimpleData name="x_proj">2.82847e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.628443,-16.353129,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_060</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Parque_El_Rosario_Apipa</SimpleData>
+					<SimpleData name="ident">CL27_PP_060</SimpleData>
+					<SimpleData name="lat">-16.3517</SimpleData>
+					<SimpleData name="long">-71.6275</SimpleData>
+					<SimpleData name="y_proj">-1.93438e+06</SimpleData>
+					<SimpleData name="x_proj">2.82859e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.627546,-16.35170899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_061</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 40 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_061</SimpleData>
+					<SimpleData name="lat">-16.3502</SimpleData>
+					<SimpleData name="long">-71.6259</SimpleData>
+					<SimpleData name="y_proj">-1.93423e+06</SimpleData>
+					<SimpleData name="x_proj">2.8288e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.62592199999999,-16.35020700000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_062</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 41 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_062</SimpleData>
+					<SimpleData name="lat">-16.3469</SimpleData>
+					<SimpleData name="long">-71.6231</SimpleData>
+					<SimpleData name="y_proj">-1.93388e+06</SimpleData>
+					<SimpleData name="x_proj">2.82916e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.623135,-16.34691100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_063</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 42 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_063</SimpleData>
+					<SimpleData name="lat">-16.3439</SimpleData>
+					<SimpleData name="long">-71.6204</SimpleData>
+					<SimpleData name="y_proj">-1.93356e+06</SimpleData>
+					<SimpleData name="x_proj">2.8295e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.62042099999999,-16.34395,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_064</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 43 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_064</SimpleData>
+					<SimpleData name="lat">-16.3438</SimpleData>
+					<SimpleData name="long">-71.6166</SimpleData>
+					<SimpleData name="y_proj">-1.93359e+06</SimpleData>
+					<SimpleData name="x_proj">2.82993e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.616632,-16.34381300000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_065</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">IEI_Sor_Ana_B</SimpleData>
+					<SimpleData name="ident">CL27_PP_065</SimpleData>
+					<SimpleData name="lat">-16.3456</SimpleData>
+					<SimpleData name="long">-71.6178</SimpleData>
+					<SimpleData name="y_proj">-1.93379e+06</SimpleData>
+					<SimpleData name="x_proj">2.82977e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.617823,-16.345632,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_066</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 44 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_066</SimpleData>
+					<SimpleData name="lat">-16.3441</SimpleData>
+					<SimpleData name="long">-71.6135</SimpleData>
+					<SimpleData name="y_proj">-1.93366e+06</SimpleData>
+					<SimpleData name="x_proj">2.83028e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.613519,-16.34406000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_067</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 45 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_067</SimpleData>
+					<SimpleData name="lat">-16.3446</SimpleData>
+					<SimpleData name="long">-71.6117</SimpleData>
+					<SimpleData name="y_proj">-1.93375e+06</SimpleData>
+					<SimpleData name="x_proj">2.83048e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.611687,-16.344592,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_068</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 46 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_068</SimpleData>
+					<SimpleData name="lat">-16.3458</SimpleData>
+					<SimpleData name="long">-71.6095</SimpleData>
+					<SimpleData name="y_proj">-1.93391e+06</SimpleData>
+					<SimpleData name="x_proj">2.83072e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.609489,-16.34576499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_069</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 47 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_069</SimpleData>
+					<SimpleData name="lat">-16.3463</SimpleData>
+					<SimpleData name="long">-71.6124</SimpleData>
+					<SimpleData name="y_proj">-1.93394e+06</SimpleData>
+					<SimpleData name="x_proj">2.83038e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.612433,-16.34634800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_070</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 48 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_070</SimpleData>
+					<SimpleData name="lat">-16.3484</SimpleData>
+					<SimpleData name="long">-71.6142</SimpleData>
+					<SimpleData name="y_proj">-1.93417e+06</SimpleData>
+					<SimpleData name="x_proj">2.83015e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.614175,-16.348441,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_071</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Losa_Deportiva_JLBYR_IX</SimpleData>
+					<SimpleData name="ident">CL27_PP_071</SimpleData>
+					<SimpleData name="lat">-16.3476</SimpleData>
+					<SimpleData name="long">-71.6148</SimpleData>
+					<SimpleData name="y_proj">-1.93406e+06</SimpleData>
+					<SimpleData name="x_proj">2.83009e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.61483099999998,-16.34758299999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_072</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 49 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_072</SimpleData>
+					<SimpleData name="lat">-16.3479</SimpleData>
+					<SimpleData name="long">-71.6192</SimpleData>
+					<SimpleData name="y_proj">-1.93404e+06</SimpleData>
+					<SimpleData name="x_proj">2.82959e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.61922399999999,-16.34786099999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_073</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 50 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_073</SimpleData>
+					<SimpleData name="lat">-16.3504</SimpleData>
+					<SimpleData name="long">-71.6188</SimpleData>
+					<SimpleData name="y_proj">-1.93434e+06</SimpleData>
+					<SimpleData name="x_proj">2.8296e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.61880499999999,-16.350366,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_074</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Losa_Deportiva</SimpleData>
+					<SimpleData name="ident">CL27_PP_074</SimpleData>
+					<SimpleData name="lat">-16.3502</SimpleData>
+					<SimpleData name="long">-71.6218</SimpleData>
+					<SimpleData name="y_proj">-1.93428e+06</SimpleData>
+					<SimpleData name="x_proj">2.82926e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.621849,-16.35023799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_075</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Losa_Deportiva_Del_Sector_IX</SimpleData>
+					<SimpleData name="ident">CL27_PP_075</SimpleData>
+					<SimpleData name="lat">-16.3529</SimpleData>
+					<SimpleData name="long">-71.6194</SimpleData>
+					<SimpleData name="y_proj">-1.93463e+06</SimpleData>
+					<SimpleData name="x_proj">2.82951e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.61936,-16.352944,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_076</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 51 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_076</SimpleData>
+					<SimpleData name="lat">-16.3536</SimpleData>
+					<SimpleData name="long">-71.6241</SimpleData>
+					<SimpleData name="y_proj">-1.93464e+06</SimpleData>
+					<SimpleData name="x_proj">2.82896e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.62413600000001,-16.35355899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_077</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Juan_Mercado</SimpleData>
+					<SimpleData name="ident">CL27_PP_077</SimpleData>
+					<SimpleData name="lat">-16.3548</SimpleData>
+					<SimpleData name="long">-71.6257</SimpleData>
+					<SimpleData name="y_proj">-1.93477e+06</SimpleData>
+					<SimpleData name="x_proj">2.82876e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.625685,-16.35481300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_078</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 52 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_078</SimpleData>
+					<SimpleData name="lat">-16.3581</SimpleData>
+					<SimpleData name="long">-71.628</SimpleData>
+					<SimpleData name="y_proj">-1.93513e+06</SimpleData>
+					<SimpleData name="x_proj">2.82846e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.62802900000001,-16.358146,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_079</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Losa_Deportiva_Las_Lomas_IV</SimpleData>
+					<SimpleData name="ident">CL27_PP_079</SimpleData>
+					<SimpleData name="lat">-16.3593</SimpleData>
+					<SimpleData name="long">-71.6282</SimpleData>
+					<SimpleData name="y_proj">-1.93527e+06</SimpleData>
+					<SimpleData name="x_proj">2.82842e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.62820199999999,-16.35928799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_080</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Losa_Deportiva_Las_Lomas_II</SimpleData>
+					<SimpleData name="ident">CL27_PP_080</SimpleData>
+					<SimpleData name="lat">-16.3587</SimpleData>
+					<SimpleData name="long">-71.6319</SimpleData>
+					<SimpleData name="y_proj">-1.93515e+06</SimpleData>
+					<SimpleData name="x_proj">2.82801e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.631855,-16.35865699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_081</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 53 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_081</SimpleData>
+					<SimpleData name="lat">-16.3608</SimpleData>
+					<SimpleData name="long">-71.6347</SimpleData>
+					<SimpleData name="y_proj">-1.93536e+06</SimpleData>
+					<SimpleData name="x_proj">2.82766e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.634732,-16.36081400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_082</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Las_Lomas_Sector_K</SimpleData>
+					<SimpleData name="ident">CL27_PP_082</SimpleData>
+					<SimpleData name="lat">-16.3616</SimpleData>
+					<SimpleData name="long">-71.6356</SimpleData>
+					<SimpleData name="y_proj">-1.93544e+06</SimpleData>
+					<SimpleData name="x_proj">2.82755e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.63558599999999,-16.36155500000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_083</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Punto 54 (Referencial)</SimpleData>
+					<SimpleData name="ident">CL27_PP_083</SimpleData>
+					<SimpleData name="lat">-16.3641</SimpleData>
+					<SimpleData name="long">-71.6348</SimpleData>
+					<SimpleData name="y_proj">-1.93575e+06</SimpleData>
+					<SimpleData name="x_proj">2.82762e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.63475099999999,-16.36413500000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_084</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Loza Deportiva</SimpleData>
+					<SimpleData name="ident">CL27_PP_084</SimpleData>
+					<SimpleData name="lat">-16.3274</SimpleData>
+					<SimpleData name="long">-71.6089</SimpleData>
+					<SimpleData name="y_proj">-1.93176e+06</SimpleData>
+					<SimpleData name="x_proj">2.83102e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.60888100000001,-16.32740999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_085</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Parque</SimpleData>
+					<SimpleData name="ident">CL27_PP_085</SimpleData>
+					<SimpleData name="lat">-16.3515</SimpleData>
+					<SimpleData name="long">-71.6199</SimpleData>
+					<SimpleData name="y_proj">-1.93446e+06</SimpleData>
+					<SimpleData name="x_proj">2.82946e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.61992199999999,-16.351498,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_086</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Paradero Final De Combis</SimpleData>
+					<SimpleData name="ident">CL27_PP_086</SimpleData>
+					<SimpleData name="lat">-16.3599</SimpleData>
+					<SimpleData name="long">-71.6343</SimpleData>
+					<SimpleData name="y_proj">-1.93527e+06</SimpleData>
+					<SimpleData name="x_proj">2.82772e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.634311,-16.35993999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_087</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Loza Deportiva</SimpleData>
+					<SimpleData name="ident">CL27_PP_087</SimpleData>
+					<SimpleData name="lat">-16.3295</SimpleData>
+					<SimpleData name="long">-71.6198</SimpleData>
+					<SimpleData name="y_proj">-1.93187e+06</SimpleData>
+					<SimpleData name="x_proj">2.82976e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.619755,-16.329463,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_088</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Local Social Apipa Sector 4</SimpleData>
+					<SimpleData name="ident">CL27_PP_088</SimpleData>
+					<SimpleData name="lat">-16.3254</SimpleData>
+					<SimpleData name="long">-71.6121</SimpleData>
+					<SimpleData name="y_proj">-1.93149e+06</SimpleData>
+					<SimpleData name="x_proj">2.83069e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.612059,-16.325401,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_089</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Avenida</SimpleData>
+					<SimpleData name="ident">CL27_PP_089</SimpleData>
+					<SimpleData name="lat">-16.3269</SimpleData>
+					<SimpleData name="long">-71.61</SimpleData>
+					<SimpleData name="y_proj">-1.93169e+06</SimpleData>
+					<SimpleData name="x_proj">2.83091e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.60996300000001,-16.32692399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_090</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Capilla Setor 7 Jose Luis Bustamante Y Rivero</SimpleData>
+					<SimpleData name="ident">CL27_PP_090</SimpleData>
+					<SimpleData name="lat">-16.3407</SimpleData>
+					<SimpleData name="long">-71.6119</SimpleData>
+					<SimpleData name="y_proj">-1.93329e+06</SimpleData>
+					<SimpleData name="x_proj">2.83051e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.611929,-16.34073399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_091</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Local Social Sector 4</SimpleData>
+					<SimpleData name="ident">CL27_PP_091</SimpleData>
+					<SimpleData name="lat">-16.3368</SimpleData>
+					<SimpleData name="long">-71.6103</SimpleData>
+					<SimpleData name="y_proj">-1.93285e+06</SimpleData>
+					<SimpleData name="x_proj">2.83075e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.610254,-16.33675600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_092</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Colegio Sagrada Familia De Apipa</SimpleData>
+					<SimpleData name="ident">CL27_PP_092</SimpleData>
+					<SimpleData name="lat">-16.3375</SimpleData>
+					<SimpleData name="long">-71.6148</SimpleData>
+					<SimpleData name="y_proj">-1.93288e+06</SimpleData>
+					<SimpleData name="x_proj">2.83022e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.61477400000001,-16.33752699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_093</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">I. E. Angeles Del Sur</SimpleData>
+					<SimpleData name="ident">CL27_PP_093</SimpleData>
+					<SimpleData name="lat">-16.3337</SimpleData>
+					<SimpleData name="long">-71.613</SimpleData>
+					<SimpleData name="y_proj">-1.93246e+06</SimpleData>
+					<SimpleData name="x_proj">2.83048e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.612984,-16.33374699999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_094</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Cancha Deportiva</SimpleData>
+					<SimpleData name="ident">CL27_PP_094</SimpleData>
+					<SimpleData name="lat">-16.3355</SimpleData>
+					<SimpleData name="long">-71.6111</SimpleData>
+					<SimpleData name="y_proj">-1.93268e+06</SimpleData>
+					<SimpleData name="x_proj">2.83067e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.61106999999998,-16.335455,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_095</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Colegio Senhor De La Canha</SimpleData>
+					<SimpleData name="ident">CL27_PP_095</SimpleData>
+					<SimpleData name="lat">-16.335</SimpleData>
+					<SimpleData name="long">-71.6037</SimpleData>
+					<SimpleData name="y_proj">-1.93272e+06</SimpleData>
+					<SimpleData name="x_proj">2.83152e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.603668,-16.334984,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_096</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Loza</SimpleData>
+					<SimpleData name="ident">CL27_PP_096</SimpleData>
+					<SimpleData name="lat">-16.3298</SimpleData>
+					<SimpleData name="long">-71.603</SimpleData>
+					<SimpleData name="y_proj">-1.93212e+06</SimpleData>
+					<SimpleData name="x_proj">2.83166e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.603027,-16.32979399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_097</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Avenida</SimpleData>
+					<SimpleData name="ident">CL27_PP_097</SimpleData>
+					<SimpleData name="lat">-16.3312</SimpleData>
+					<SimpleData name="long">-71.6052</SimpleData>
+					<SimpleData name="y_proj">-1.93226e+06</SimpleData>
+					<SimpleData name="x_proj">2.83139e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.60524200000002,-16.33121,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_098</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Avenida</SimpleData>
+					<SimpleData name="ident">CL27_PP_098</SimpleData>
+					<SimpleData name="lat">-16.3325</SimpleData>
+					<SimpleData name="long">-71.6082</SimpleData>
+					<SimpleData name="y_proj">-1.93237e+06</SimpleData>
+					<SimpleData name="x_proj">2.83104e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.608194,-16.33248700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_099</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Loza Deportiva Apipa Sector 17</SimpleData>
+					<SimpleData name="ident">CL27_PP_099</SimpleData>
+					<SimpleData name="lat">-16.3497</SimpleData>
+					<SimpleData name="long">-71.6299</SimpleData>
+					<SimpleData name="y_proj">-1.93412e+06</SimpleData>
+					<SimpleData name="x_proj">2.82835e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.62991100000001,-16.34974099999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_100</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Talleres Y Granjas &quot; Horeb &quot; Entrada</SimpleData>
+					<SimpleData name="ident">CL27_PP_100</SimpleData>
+					<SimpleData name="lat">-16.3678</SimpleData>
+					<SimpleData name="long">-71.6363</SimpleData>
+					<SimpleData name="y_proj">-1.93616e+06</SimpleData>
+					<SimpleData name="x_proj">2.8274e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.63627499999998,-16.367765,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_101</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Parque (JLBYR IV)</SimpleData>
+					<SimpleData name="ident">CL27_PP_101</SimpleData>
+					<SimpleData name="lat">-16.3394</SimpleData>
+					<SimpleData name="long">-71.6104</SimpleData>
+					<SimpleData name="y_proj">-1.93315e+06</SimpleData>
+					<SimpleData name="x_proj">2.83069e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.61042994,-16.33935491999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_102</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">I.E Bustamante Sector IV</SimpleData>
+					<SimpleData name="ident">CL27_PP_102</SimpleData>
+					<SimpleData name="lat">-16.337</SimpleData>
+					<SimpleData name="long">-71.6096</SimpleData>
+					<SimpleData name="y_proj">-1.93288e+06</SimpleData>
+					<SimpleData name="x_proj">2.83082e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.60961206,-16.33700773000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_103</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Losa Deportiva Apipa Sector VIII</SimpleData>
+					<SimpleData name="ident">CL27_PP_103</SimpleData>
+					<SimpleData name="lat">-16.3332</SimpleData>
+					<SimpleData name="long">-71.6157</SimpleData>
+					<SimpleData name="y_proj">-1.93236e+06</SimpleData>
+					<SimpleData name="x_proj">2.83018e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.61565763,-16.33316930000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_104</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Local Social Tupac Amaru Sector 17 Apipa</SimpleData>
+					<SimpleData name="ident">CL27_PP_104</SimpleData>
+					<SimpleData name="lat">-16.3504</SimpleData>
+					<SimpleData name="long">-71.6299</SimpleData>
+					<SimpleData name="y_proj">-1.93421e+06</SimpleData>
+					<SimpleData name="x_proj">2.82834e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.62988618999999,-16.35044083,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_105</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Losa Apipa</SimpleData>
+					<SimpleData name="ident">CL27_PP_105</SimpleData>
+					<SimpleData name="lat">-16.3413</SimpleData>
+					<SimpleData name="long">-71.6245</SimpleData>
+					<SimpleData name="y_proj">-1.9332e+06</SimpleData>
+					<SimpleData name="x_proj">2.82908e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.62446117999998,-16.34126197000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_106</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Parque Sector V</SimpleData>
+					<SimpleData name="ident">CL27_PP_106</SimpleData>
+					<SimpleData name="lat">-16.3385</SimpleData>
+					<SimpleData name="long">-71.6035</SimpleData>
+					<SimpleData name="y_proj">-1.93313e+06</SimpleData>
+					<SimpleData name="x_proj">2.83149e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.60346761,-16.33849473999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_107</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Local Social Sector XI Asociacion De Vivienda</SimpleData>
+					<SimpleData name="ident">CL27_PP_107</SimpleData>
+					<SimpleData name="lat">-16.3514</SimpleData>
+					<SimpleData name="long">-71.622</SimpleData>
+					<SimpleData name="y_proj">-1.93442e+06</SimpleData>
+					<SimpleData name="x_proj">2.82923e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.62200788,-16.35137980999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_108</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Local Social De Usos Multiples JLBYR VIII</SimpleData>
+					<SimpleData name="ident">CL27_PP_108</SimpleData>
+					<SimpleData name="lat">-16.3459</SimpleData>
+					<SimpleData name="long">-71.6179</SimpleData>
+					<SimpleData name="y_proj">-1.93383e+06</SimpleData>
+					<SimpleData name="x_proj">2.82976e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.61794343,-16.3459412,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL27_PP_109</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_27_03mar2026_SSDDDD">
+					<SimpleData name="name_point">Local Social Sector 18 Apipa</SimpleData>
+					<SimpleData name="ident">CL27_PP_109</SimpleData>
+					<SimpleData name="lat">-16.3512</SimpleData>
+					<SimpleData name="long">-71.6272</SimpleData>
+					<SimpleData name="y_proj">-1.93433e+06</SimpleData>
+					<SimpleData name="x_proj">2.82863e+06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<gx:balloonVisibility>1</gx:balloonVisibility>
+			<Point>
+				<coordinates>-71.62723763999999,-16.35120881,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

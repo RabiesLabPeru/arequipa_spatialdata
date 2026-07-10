@@ -1,0 +1,3356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PP_Cluster_12_16abr2026.kml</name>
+	<Schema name="PP_Cluster_12_03mar2026" id="S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+		<SimpleField type="int" name="n_microred">
+			<displayName>&lt;b&gt;n_microred&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="microred">
+			<displayName>&lt;b&gt;microred&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="int" name="cluster">
+			<displayName>&lt;b&gt;cluster&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="point_name">
+			<displayName>&lt;b&gt;point_name&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="code_point">
+			<displayName>&lt;b&gt;code_point&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="lat">
+			<displayName>&lt;b&gt;lat&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="long">
+			<displayName>&lt;b&gt;long&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="y_proj">
+			<displayName>&lt;b&gt;y_proj&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="x_proj">
+			<displayName>&lt;b&gt;x_proj&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="type_point">
+			<displayName>&lt;b&gt;type_point&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="strategy">
+			<displayName>&lt;b&gt;strategy&lt;/b&gt;</displayName>
+		</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>n_microred</b></td><td>$[PP_Cluster_12_03mar2026/n_microred]</td></tr>
+  <tr><td><b>microred</b></td><td>$[PP_Cluster_12_03mar2026/microred]</td></tr>
+  <tr><td><b>cluster</b></td><td>$[PP_Cluster_12_03mar2026/cluster]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[PP_Cluster_12_03mar2026/point_name]</td></tr>
+  <tr><td><b>code_point</b></td><td>$[PP_Cluster_12_03mar2026/code_point]</td></tr>
+  <tr><td><b>lat</b></td><td>$[PP_Cluster_12_03mar2026/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[PP_Cluster_12_03mar2026/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[PP_Cluster_12_03mar2026/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[PP_Cluster_12_03mar2026/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[PP_Cluster_12_03mar2026/type_point]</td></tr>
+  <tr><td><b>strategy</b></td><td>$[PP_Cluster_12_03mar2026/strategy]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>n_microred</b></td><td>$[PP_Cluster_12_03mar2026/n_microred]</td></tr>
+  <tr><td><b>microred</b></td><td>$[PP_Cluster_12_03mar2026/microred]</td></tr>
+  <tr><td><b>cluster</b></td><td>$[PP_Cluster_12_03mar2026/cluster]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[PP_Cluster_12_03mar2026/point_name]</td></tr>
+  <tr><td><b>code_point</b></td><td>$[PP_Cluster_12_03mar2026/code_point]</td></tr>
+  <tr><td><b>lat</b></td><td>$[PP_Cluster_12_03mar2026/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[PP_Cluster_12_03mar2026/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[PP_Cluster_12_03mar2026/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[PP_Cluster_12_03mar2026/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[PP_Cluster_12_03mar2026/type_point]</td></tr>
+  <tr><td><b>strategy</b></td><td>$[PP_Cluster_12_03mar2026/strategy]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>PP_Cluster_12_16abr2026</name>
+		<Placemark>
+			<name>CL12_PP_001</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva Tahuantinsuyo</SimpleData>
+					<SimpleData name="code_point">CL12_PP_001</SimpleData>
+					<SimpleData name="lat">-16.3847</SimpleData>
+					<SimpleData name="long">-71.5101</SimpleData>
+					<SimpleData name="y_proj">-1.93974e+06</SimpleData>
+					<SimpleData name="x_proj">2.84149e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51005099999999,-16.384719,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_002</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">CS Salud Edificadores Misti</SimpleData>
+					<SimpleData name="code_point">CL12_PP_002</SimpleData>
+					<SimpleData name="lat">-16.3832</SimpleData>
+					<SimpleData name="long">-71.511</SimpleData>
+					<SimpleData name="y_proj">-1.93955e+09</SimpleData>
+					<SimpleData name="x_proj">2.84139e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.511044,-16.38321300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_003</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Colegio Nuestra Senhora Del Carmen</SimpleData>
+					<SimpleData name="code_point">CL12_PP_003</SimpleData>
+					<SimpleData name="lat">-16.382</SimpleData>
+					<SimpleData name="long">-71.5128</SimpleData>
+					<SimpleData name="y_proj">-1.93939e+06</SimpleData>
+					<SimpleData name="x_proj">2.84121e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.512805,-16.38204899999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_004</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Parque Divino Ninho</SimpleData>
+					<SimpleData name="code_point">CL12_PP_004</SimpleData>
+					<SimpleData name="lat">-16.3803</SimpleData>
+					<SimpleData name="long">-71.5126</SimpleData>
+					<SimpleData name="y_proj">-1.93918e+09</SimpleData>
+					<SimpleData name="x_proj">2.84125e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51262300000002,-16.38028,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_005</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Caja Arequipa</SimpleData>
+					<SimpleData name="code_point">CL12_PP_005</SimpleData>
+					<SimpleData name="lat">-16.3812</SimpleData>
+					<SimpleData name="long">-71.5105</SimpleData>
+					<SimpleData name="y_proj">-1.93931e+09</SimpleData>
+					<SimpleData name="x_proj">2.84148e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51050099999999,-16.38115500000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_006</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Reservorio Villa Goyenche</SimpleData>
+					<SimpleData name="code_point">CL12_PP_006</SimpleData>
+					<SimpleData name="lat">-16.3825</SimpleData>
+					<SimpleData name="long">-71.5097</SimpleData>
+					<SimpleData name="y_proj">-1.93948e+09</SimpleData>
+					<SimpleData name="x_proj">2.84156e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50969499999999,-16.38249200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_007</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Local Social Tahuantinsuyo</SimpleData>
+					<SimpleData name="code_point">CL12_PP_007</SimpleData>
+					<SimpleData name="lat">-16.3833</SimpleData>
+					<SimpleData name="long">-71.509</SimpleData>
+					<SimpleData name="y_proj">-1.93958e+09</SimpleData>
+					<SimpleData name="x_proj">2.84162e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.509022,-16.383295,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_008</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Parque Fuerte Arica</SimpleData>
+					<SimpleData name="code_point">CL12_PP_008</SimpleData>
+					<SimpleData name="lat">-16.384</SimpleData>
+					<SimpleData name="long">-71.5082</SimpleData>
+					<SimpleData name="y_proj">-1.93968e+09</SimpleData>
+					<SimpleData name="x_proj">2.84171e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50818900000002,-16.384001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_009</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Movil Villa Arica</SimpleData>
+					<SimpleData name="code_point">CL12_PP_009</SimpleData>
+					<SimpleData name="lat">-16.3833</SimpleData>
+					<SimpleData name="long">-71.5066</SimpleData>
+					<SimpleData name="y_proj">-1.93961e+06</SimpleData>
+					<SimpleData name="x_proj">2.84189e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50664500000002,-16.383251,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_010</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Carlos Garcia Ronceros Edificios</SimpleData>
+					<SimpleData name="code_point">CL12_PP_010</SimpleData>
+					<SimpleData name="lat">-16.3824</SimpleData>
+					<SimpleData name="long">-71.5084</SimpleData>
+					<SimpleData name="y_proj">-1.93948e+09</SimpleData>
+					<SimpleData name="x_proj">2.8417e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.508402,-16.38238999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_011</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Los Incas</SimpleData>
+					<SimpleData name="code_point">CL12_PP_011</SimpleData>
+					<SimpleData name="lat">-16.3824</SimpleData>
+					<SimpleData name="long">-71.5079</SimpleData>
+					<SimpleData name="y_proj">-1.93949e+09</SimpleData>
+					<SimpleData name="x_proj">2.84176e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.507887,-16.38236,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_012</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Nuevo Amanecer</SimpleData>
+					<SimpleData name="code_point">CL12_PP_012</SimpleData>
+					<SimpleData name="lat">-16.3816</SimpleData>
+					<SimpleData name="long">-71.5078</SimpleData>
+					<SimpleData name="y_proj">-1.93939e+09</SimpleData>
+					<SimpleData name="x_proj">2.84178e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.507783,-16.38155799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_013</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Estadio_Edificadores_Misti</SimpleData>
+					<SimpleData name="code_point">CL12_PP_013</SimpleData>
+					<SimpleData name="lat">-16.3805</SimpleData>
+					<SimpleData name="long">-71.5078</SimpleData>
+					<SimpleData name="y_proj">-1.93927e+09</SimpleData>
+					<SimpleData name="x_proj">2.8418e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50781000000001,-16.380507,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_014</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Piscina La Familia</SimpleData>
+					<SimpleData name="code_point">CL12_PP_014</SimpleData>
+					<SimpleData name="lat">-16.3807</SimpleData>
+					<SimpleData name="long">-71.5087</SimpleData>
+					<SimpleData name="y_proj">-1.93928e+09</SimpleData>
+					<SimpleData name="x_proj">2.8417e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50867,-16.380671,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_015</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Parroquia_Cristo_Obrero</SimpleData>
+					<SimpleData name="code_point">CL12_PP_015</SimpleData>
+					<SimpleData name="lat">-16.38</SimpleData>
+					<SimpleData name="long">-71.5095</SimpleData>
+					<SimpleData name="y_proj">-1.93919e+09</SimpleData>
+					<SimpleData name="x_proj">2.84161e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50951499999999,-16.38002499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_016</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Parque Villa Esperanza</SimpleData>
+					<SimpleData name="code_point">CL12_PP_016</SimpleData>
+					<SimpleData name="lat">-16.3793</SimpleData>
+					<SimpleData name="long">-71.5096</SimpleData>
+					<SimpleData name="y_proj">-1.9391e+09</SimpleData>
+					<SimpleData name="x_proj">2.84161e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.509626,-16.37929600000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_017</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Parque_Villa_Esperanza</SimpleData>
+					<SimpleData name="code_point">CL12_PP_017</SimpleData>
+					<SimpleData name="lat">-16.3786</SimpleData>
+					<SimpleData name="long">-71.5096</SimpleData>
+					<SimpleData name="y_proj">-1.93903e+09</SimpleData>
+					<SimpleData name="x_proj">2.84161e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.509629,-16.378639,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_018</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva Villa Esperanza</SimpleData>
+					<SimpleData name="code_point">CL12_PP_018</SimpleData>
+					<SimpleData name="lat">-16.3787</SimpleData>
+					<SimpleData name="long">-71.5086</SimpleData>
+					<SimpleData name="y_proj">-1.93904e+09</SimpleData>
+					<SimpleData name="x_proj">2.84172e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.508645,-16.37866600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_019</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Leoncio Prado Con Angamos</SimpleData>
+					<SimpleData name="code_point">CL12_PP_019</SimpleData>
+					<SimpleData name="lat">-16.3778</SimpleData>
+					<SimpleData name="long">-71.5108</SimpleData>
+					<SimpleData name="y_proj">-1.93891e+09</SimpleData>
+					<SimpleData name="x_proj">2.84149e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51084099999999,-16.37776400000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_020</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Iglesia_Adventista</SimpleData>
+					<SimpleData name="code_point">CL12_PP_020</SimpleData>
+					<SimpleData name="lat">-16.3772</SimpleData>
+					<SimpleData name="long">-71.5102</SimpleData>
+					<SimpleData name="y_proj">-1.93885e+09</SimpleData>
+					<SimpleData name="x_proj">2.84157e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.510178,-16.377182,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_021</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Comisaria Porvenir</SimpleData>
+					<SimpleData name="code_point">CL12_PP_021</SimpleData>
+					<SimpleData name="lat">-16.3772</SimpleData>
+					<SimpleData name="long">-71.5086</SimpleData>
+					<SimpleData name="y_proj">-1.93887e+09</SimpleData>
+					<SimpleData name="x_proj">2.84175e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.508607,-16.37717599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_022</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Colegio_El_Gran_Amauta</SimpleData>
+					<SimpleData name="code_point">CL12_PP_022</SimpleData>
+					<SimpleData name="lat">-16.3756</SimpleData>
+					<SimpleData name="long">-71.5071</SimpleData>
+					<SimpleData name="y_proj">-1.9387e+09</SimpleData>
+					<SimpleData name="x_proj">2.84194e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50710599999999,-16.37560200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_023</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Torrentera De Provenir</SimpleData>
+					<SimpleData name="code_point">CL12_PP_023</SimpleData>
+					<SimpleData name="lat">-16.3748</SimpleData>
+					<SimpleData name="long">-71.5074</SimpleData>
+					<SimpleData name="y_proj">-1.93861e+09</SimpleData>
+					<SimpleData name="x_proj">2.84191e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50743499999999,-16.37481400000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_024</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Iglesia Los Mormones</SimpleData>
+					<SimpleData name="code_point">CL12_PP_024</SimpleData>
+					<SimpleData name="lat">-16.3752</SimpleData>
+					<SimpleData name="long">-71.5059</SimpleData>
+					<SimpleData name="y_proj">-1.93867e+09</SimpleData>
+					<SimpleData name="x_proj">2.84208e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.505886,-16.37515800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_025</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Plaza Porvenir</SimpleData>
+					<SimpleData name="code_point">CL12_PP_025</SimpleData>
+					<SimpleData name="lat">-16.3749</SimpleData>
+					<SimpleData name="long">-71.5046</SimpleData>
+					<SimpleData name="y_proj">-1.93865e+09</SimpleData>
+					<SimpleData name="x_proj">2.84224e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50457299999999,-16.37491199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_026</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Puente Revolucion</SimpleData>
+					<SimpleData name="code_point">CL12_PP_026</SimpleData>
+					<SimpleData name="lat">-16.3761</SimpleData>
+					<SimpleData name="long">-71.5027</SimpleData>
+					<SimpleData name="y_proj">-1.93882e+09</SimpleData>
+					<SimpleData name="x_proj">2.84243e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50272699999999,-16.37610799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_027</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Ceo Guaman Poma</SimpleData>
+					<SimpleData name="code_point">CL12_PP_027</SimpleData>
+					<SimpleData name="lat">-16.3765</SimpleData>
+					<SimpleData name="long">-71.5041</SimpleData>
+					<SimpleData name="y_proj">-1.93885e+06</SimpleData>
+					<SimpleData name="x_proj">2.84227e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50410700000002,-16.37650700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_028</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Parque Entre Porvenir Y Juan 23</SimpleData>
+					<SimpleData name="code_point">CL12_PP_028</SimpleData>
+					<SimpleData name="lat">-16.378</SimpleData>
+					<SimpleData name="long">-71.5048</SimpleData>
+					<SimpleData name="y_proj">-1.93901e+09</SimpleData>
+					<SimpleData name="x_proj">2.84217e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50479000000001,-16.37798900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_029</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Urich_Neisser</SimpleData>
+					<SimpleData name="code_point">CL12_PP_029</SimpleData>
+					<SimpleData name="lat">-16.3775</SimpleData>
+					<SimpleData name="long">-71.5072</SimpleData>
+					<SimpleData name="y_proj">-1.93892e+09</SimpleData>
+					<SimpleData name="x_proj">2.8419e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50723399999998,-16.377499,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_030</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Cancha Deportiva Paulet Mostajo</SimpleData>
+					<SimpleData name="code_point">CL12_PP_030</SimpleData>
+					<SimpleData name="lat">-16.3783</SimpleData>
+					<SimpleData name="long">-71.5067</SimpleData>
+					<SimpleData name="y_proj">-1.93903e+09</SimpleData>
+					<SimpleData name="x_proj">2.84194e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50675,-16.37831800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_031</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">La Isla</SimpleData>
+					<SimpleData name="code_point">CL12_PP_031</SimpleData>
+					<SimpleData name="lat">-16.3793</SimpleData>
+					<SimpleData name="long">-71.5053</SimpleData>
+					<SimpleData name="y_proj">-1.93916e+09</SimpleData>
+					<SimpleData name="x_proj">2.8421e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50526600000001,-16.37932899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_032</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva Prolg. Goyeneche</SimpleData>
+					<SimpleData name="code_point">CL12_PP_032</SimpleData>
+					<SimpleData name="lat">-16.3798</SimpleData>
+					<SimpleData name="long">-71.5068</SimpleData>
+					<SimpleData name="y_proj">-1.9392e+09</SimpleData>
+					<SimpleData name="x_proj">2.84192e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50682500000001,-16.379772,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_033</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva Zona A Juan 23</SimpleData>
+					<SimpleData name="code_point">CL12_PP_033</SimpleData>
+					<SimpleData name="lat">-16.381</SimpleData>
+					<SimpleData name="long">-71.5054</SimpleData>
+					<SimpleData name="y_proj">-1.93936e+09</SimpleData>
+					<SimpleData name="x_proj">2.84206e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.505437,-16.381008,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_034</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Minimarket Cony Villa La Pradera Y Juan 23</SimpleData>
+					<SimpleData name="code_point">CL12_PP_034</SimpleData>
+					<SimpleData name="lat">-16.382</SimpleData>
+					<SimpleData name="long">-71.5043</SimpleData>
+					<SimpleData name="y_proj">-1.93949e+09</SimpleData>
+					<SimpleData name="x_proj">2.84217e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.504336,-16.38197800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_035</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Villa La Pradera Zona B A Dos Cuadras Del Reservorio</SimpleData>
+					<SimpleData name="code_point">CL12_PP_035</SimpleData>
+					<SimpleData name="lat">-16.3822</SimpleData>
+					<SimpleData name="long">-71.5022</SimpleData>
+					<SimpleData name="y_proj">-1.93954e+09</SimpleData>
+					<SimpleData name="x_proj">2.84241e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50221500000001,-16.38219300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_036</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Complejo Deportivo Zona B Juan 23</SimpleData>
+					<SimpleData name="code_point">CL12_PP_036</SimpleData>
+					<SimpleData name="lat">-16.3811</SimpleData>
+					<SimpleData name="long">-71.5019</SimpleData>
+					<SimpleData name="y_proj">-1.93941e+09</SimpleData>
+					<SimpleData name="x_proj">2.84245e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.501948,-16.38106700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_037</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Loza_Deportia_Juan_XXIII</SimpleData>
+					<SimpleData name="code_point">CL12_PP_037</SimpleData>
+					<SimpleData name="lat">-16.3799</SimpleData>
+					<SimpleData name="long">-71.5028</SimpleData>
+					<SimpleData name="y_proj">-1.93926e+09</SimpleData>
+					<SimpleData name="x_proj">2.84238e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50276599999999,-16.37987100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_038</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Cancha Alto Juan 23 Zona C</SimpleData>
+					<SimpleData name="code_point">CL12_PP_038</SimpleData>
+					<SimpleData name="lat">-16.3802</SimpleData>
+					<SimpleData name="long">-71.5008</SimpleData>
+					<SimpleData name="y_proj">-1.93932e+09</SimpleData>
+					<SimpleData name="x_proj">2.8426e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.500795,-16.380214,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_039</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Pronoi_Gotitas_Del_Saber</SimpleData>
+					<SimpleData name="code_point">CL12_PP_039</SimpleData>
+					<SimpleData name="lat">-16.3794</SimpleData>
+					<SimpleData name="long">-71.4985</SimpleData>
+					<SimpleData name="y_proj">-1.93926e+09</SimpleData>
+					<SimpleData name="x_proj">2.84286e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49851200000001,-16.37940700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_040</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Plaza_Las_Galaxias</SimpleData>
+					<SimpleData name="code_point">CL12_PP_040</SimpleData>
+					<SimpleData name="lat">-16.3787</SimpleData>
+					<SimpleData name="long">-71.4965</SimpleData>
+					<SimpleData name="y_proj">-1.9392e+09</SimpleData>
+					<SimpleData name="x_proj">2.8431e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49648500000001,-16.37867399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_041</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Parque De Galaxia Zona A</SimpleData>
+					<SimpleData name="code_point">CL12_PP_041</SimpleData>
+					<SimpleData name="lat">-16.378</SimpleData>
+					<SimpleData name="long">-71.4942</SimpleData>
+					<SimpleData name="y_proj">-1.93914e+09</SimpleData>
+					<SimpleData name="x_proj">2.84337e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.494235,-16.37795199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_042</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Galaxia Zona A Paradero De Colectivos</SimpleData>
+					<SimpleData name="code_point">CL12_PP_042</SimpleData>
+					<SimpleData name="lat">-16.3798</SimpleData>
+					<SimpleData name="long">-71.4918</SimpleData>
+					<SimpleData name="y_proj">-1.93939e+09</SimpleData>
+					<SimpleData name="x_proj">2.84362e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49180800000002,-16.37981500000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_043</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Galaxia Zona B Auna Cuadra De La Loza Deportiva</SimpleData>
+					<SimpleData name="code_point">CL12_PP_043</SimpleData>
+					<SimpleData name="lat">-16.3803</SimpleData>
+					<SimpleData name="long">-71.4906</SimpleData>
+					<SimpleData name="y_proj">-1.93946e+09</SimpleData>
+					<SimpleData name="x_proj">2.84375e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.490644,-16.38028,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_044</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva Vista Alegre</SimpleData>
+					<SimpleData name="code_point">CL12_PP_044</SimpleData>
+					<SimpleData name="lat">-16.38</SimpleData>
+					<SimpleData name="long">-71.4882</SimpleData>
+					<SimpleData name="y_proj">-1.93946e+09</SimpleData>
+					<SimpleData name="x_proj">2.84402e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48824500000002,-16.38003700000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_045</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Terminal_De_Combis_Girasoles</SimpleData>
+					<SimpleData name="code_point">CL12_PP_045</SimpleData>
+					<SimpleData name="lat">-16.3777</SimpleData>
+					<SimpleData name="long">-71.4886</SimpleData>
+					<SimpleData name="y_proj">-1.93918e+09</SimpleData>
+					<SimpleData name="x_proj">2.84401e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48859400000002,-16.37765500000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_046</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Girasoles Parte Baja Zona De Terrenos Artesanalaes</SimpleData>
+					<SimpleData name="code_point">CL12_PP_046</SimpleData>
+					<SimpleData name="lat">-16.3767</SimpleData>
+					<SimpleData name="long">-71.4898</SimpleData>
+					<SimpleData name="y_proj">-1.93905e+09</SimpleData>
+					<SimpleData name="x_proj">2.84389e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.489766,-16.376731,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_047</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva</SimpleData>
+					<SimpleData name="code_point">CL12_PP_047</SimpleData>
+					<SimpleData name="lat">-16.3756</SimpleData>
+					<SimpleData name="long">-71.4935</SimpleData>
+					<SimpleData name="y_proj">-1.93887e+09</SimpleData>
+					<SimpleData name="x_proj">2.84348e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49350099999998,-16.37558799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_048</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Paradero De Las Combis Tomasa Tito Condemayta</SimpleData>
+					<SimpleData name="code_point">CL12_PP_048</SimpleData>
+					<SimpleData name="lat">-16.3772</SimpleData>
+					<SimpleData name="long">-71.4988</SimpleData>
+					<SimpleData name="y_proj">-1.939e+09</SimpleData>
+					<SimpleData name="x_proj">2.84287e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49875500000002,-16.37724800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_049</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Capilla Heroes Del Pacifico</SimpleData>
+					<SimpleData name="code_point">CL12_PP_049</SimpleData>
+					<SimpleData name="lat">-16.3758</SimpleData>
+					<SimpleData name="long">-71.4976</SimpleData>
+					<SimpleData name="y_proj">-1.93885e+09</SimpleData>
+					<SimpleData name="x_proj">2.84301e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49763300000001,-16.375798,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_050</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Cristo Blanco Parte Baja</SimpleData>
+					<SimpleData name="code_point">CL12_PP_050</SimpleData>
+					<SimpleData name="lat">-16.3749</SimpleData>
+					<SimpleData name="long">-71.499</SimpleData>
+					<SimpleData name="y_proj">-1.93872e+09</SimpleData>
+					<SimpleData name="x_proj">2.84287e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49902400000001,-16.37486899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_051</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">IE_Padre_Eloy_Arrivas_Lazaro</SimpleData>
+					<SimpleData name="code_point">CL12_PP_051</SimpleData>
+					<SimpleData name="lat">-16.3752</SimpleData>
+					<SimpleData name="long">-71.4998</SimpleData>
+					<SimpleData name="y_proj">-1.93875e+09</SimpleData>
+					<SimpleData name="x_proj">2.84278e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.499785,-16.37519599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_052</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Cristo Blanco Parte Alta De La Cruz</SimpleData>
+					<SimpleData name="code_point">CL12_PP_052</SimpleData>
+					<SimpleData name="lat">-16.374</SimpleData>
+					<SimpleData name="long">-71.4994</SimpleData>
+					<SimpleData name="y_proj">-1.93861e+09</SimpleData>
+					<SimpleData name="x_proj">2.84283e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49942500000002,-16.37396999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_053</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva Tomasa Tito Condemayta</SimpleData>
+					<SimpleData name="code_point">CL12_PP_053</SimpleData>
+					<SimpleData name="lat">-16.3752</SimpleData>
+					<SimpleData name="long">-71.5005</SimpleData>
+					<SimpleData name="y_proj">-1.93874e+09</SimpleData>
+					<SimpleData name="x_proj">2.8427e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.500469,-16.37518599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_054</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Torre_De_Control_De_Serenasgo</SimpleData>
+					<SimpleData name="code_point">CL12_PP_054</SimpleData>
+					<SimpleData name="lat">-16.3735</SimpleData>
+					<SimpleData name="long">-71.5011</SimpleData>
+					<SimpleData name="y_proj">-1.93853e+09</SimpleData>
+					<SimpleData name="x_proj">2.84265e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50110599999999,-16.37349599999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_055</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Estadio Porvenir</SimpleData>
+					<SimpleData name="code_point">CL12_PP_055</SimpleData>
+					<SimpleData name="lat">-16.3727</SimpleData>
+					<SimpleData name="long">-71.5018</SimpleData>
+					<SimpleData name="y_proj">-1.93843e+09</SimpleData>
+					<SimpleData name="x_proj">2.84258e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50177499999998,-16.372678,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_056</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Grifo Porvenir</SimpleData>
+					<SimpleData name="code_point">CL12_PP_056</SimpleData>
+					<SimpleData name="lat">-16.373</SimpleData>
+					<SimpleData name="long">-71.5029</SimpleData>
+					<SimpleData name="y_proj">-1.93845e+09</SimpleData>
+					<SimpleData name="x_proj">2.84245e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50291199999999,-16.37303500000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_057</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Parque_Porvenir</SimpleData>
+					<SimpleData name="code_point">CL12_PP_057</SimpleData>
+					<SimpleData name="lat">-16.3727</SimpleData>
+					<SimpleData name="long">-71.5028</SimpleData>
+					<SimpleData name="y_proj">-1.93841e+09</SimpleData>
+					<SimpleData name="x_proj">2.84246e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50284399999998,-16.37267,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_058</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Puente Porvenir</SimpleData>
+					<SimpleData name="code_point">CL12_PP_058</SimpleData>
+					<SimpleData name="lat">-16.3725</SimpleData>
+					<SimpleData name="long">-71.5042</SimpleData>
+					<SimpleData name="y_proj">-1.93837e+09</SimpleData>
+					<SimpleData name="x_proj">2.84231e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50420500000001,-16.37248600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_059</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Parque De Mateo Pumacahua</SimpleData>
+					<SimpleData name="code_point">CL12_PP_059</SimpleData>
+					<SimpleData name="lat">-16.3708</SimpleData>
+					<SimpleData name="long">-71.5008</SimpleData>
+					<SimpleData name="y_proj">-1.93822e+09</SimpleData>
+					<SimpleData name="x_proj">2.84272e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.500816,-16.37082799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_060</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Parque_Mateo_Pumacahua</SimpleData>
+					<SimpleData name="code_point">CL12_PP_060</SimpleData>
+					<SimpleData name="lat">-16.372</SimpleData>
+					<SimpleData name="long">-71.5003</SimpleData>
+					<SimpleData name="y_proj">-1.93837e+09</SimpleData>
+					<SimpleData name="x_proj">2.84276e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.500283,-16.372036,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_061</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva Mateo Pumacahua</SimpleData>
+					<SimpleData name="code_point">CL12_PP_061</SimpleData>
+					<SimpleData name="lat">-16.3706</SimpleData>
+					<SimpleData name="long">-71.4987</SimpleData>
+					<SimpleData name="y_proj">-1.93822e+09</SimpleData>
+					<SimpleData name="x_proj">2.84295e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.498745,-16.37058200000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_062</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva El Salvador</SimpleData>
+					<SimpleData name="code_point">CL12_PP_062</SimpleData>
+					<SimpleData name="lat">-16.3726</SimpleData>
+					<SimpleData name="long">-71.4975</SimpleData>
+					<SimpleData name="y_proj">-1.93847e+09</SimpleData>
+					<SimpleData name="x_proj">2.84307e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.497517,-16.37262,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_063</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Av Villa El Salvador</SimpleData>
+					<SimpleData name="code_point">CL12_PP_063</SimpleData>
+					<SimpleData name="lat">-16.373</SimpleData>
+					<SimpleData name="long">-71.4964</SimpleData>
+					<SimpleData name="y_proj">-1.93853e+09</SimpleData>
+					<SimpleData name="x_proj">2.84319e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49638,-16.37297699999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_064</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Villa Salvador Bajada Avenida</SimpleData>
+					<SimpleData name="code_point">CL12_PP_064</SimpleData>
+					<SimpleData name="lat">-16.373</SimpleData>
+					<SimpleData name="long">-71.4951</SimpleData>
+					<SimpleData name="y_proj">-1.93855e+09</SimpleData>
+					<SimpleData name="x_proj">2.84333e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49514600000001,-16.37304499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_065</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Girasoles</SimpleData>
+					<SimpleData name="code_point">CL12_PP_065</SimpleData>
+					<SimpleData name="lat">-16.3745</SimpleData>
+					<SimpleData name="long">-71.4956</SimpleData>
+					<SimpleData name="y_proj">-1.93871e+09</SimpleData>
+					<SimpleData name="x_proj">2.84326e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.495566,-16.374459,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_066</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Villa_Pacifico</SimpleData>
+					<SimpleData name="code_point">CL12_PP_066</SimpleData>
+					<SimpleData name="lat">-16.3755</SimpleData>
+					<SimpleData name="long">-71.4959</SimpleData>
+					<SimpleData name="y_proj">-1.93883e+09</SimpleData>
+					<SimpleData name="x_proj">2.84321e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49594700000002,-16.37553099999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_067</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Cementerio</SimpleData>
+					<SimpleData name="code_point">CL12_PP_067</SimpleData>
+					<SimpleData name="lat">-16.3739</SimpleData>
+					<SimpleData name="long">-71.4939</SimpleData>
+					<SimpleData name="y_proj">-1.93867e+09</SimpleData>
+					<SimpleData name="x_proj">2.84345e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49395000000001,-16.3739,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_068</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Senhor_De_Los_Milagros</SimpleData>
+					<SimpleData name="code_point">CL12_PP_068</SimpleData>
+					<SimpleData name="lat">-16.3725</SimpleData>
+					<SimpleData name="long">-71.493</SimpleData>
+					<SimpleData name="y_proj">-1.93851e+09</SimpleData>
+					<SimpleData name="x_proj">2.84358e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.493009,-16.37245899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_069</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Villa El Salvador</SimpleData>
+					<SimpleData name="code_point">CL12_PP_069</SimpleData>
+					<SimpleData name="lat">-16.3711</SimpleData>
+					<SimpleData name="long">-71.4952</SimpleData>
+					<SimpleData name="y_proj">-1.93832e+09</SimpleData>
+					<SimpleData name="x_proj">2.84335e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.495159,-16.37108499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_070</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Los Sauces</SimpleData>
+					<SimpleData name="code_point">CL12_PP_070</SimpleData>
+					<SimpleData name="lat">-16.3687</SimpleData>
+					<SimpleData name="long">-71.4956</SimpleData>
+					<SimpleData name="y_proj">-1.93804e+09</SimpleData>
+					<SimpleData name="x_proj">2.84333e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.495643,-16.36870400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_072</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva Estrellitas Del Misti</SimpleData>
+					<SimpleData name="code_point">CL12_PP_072</SimpleData>
+					<SimpleData name="lat">-16.3684</SimpleData>
+					<SimpleData name="long">-71.4903</SimpleData>
+					<SimpleData name="y_proj">-1.93807e+06</SimpleData>
+					<SimpleData name="x_proj">2.84394e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49028800000001,-16.36843300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_071</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Cancha_De_Tierra_Nuevo_Amanecer</SimpleData>
+					<SimpleData name="code_point">CL12_PP_071</SimpleData>
+					<SimpleData name="lat">-16.3702</SimpleData>
+					<SimpleData name="long">-71.4909</SimpleData>
+					<SimpleData name="y_proj">-1.93827e+09</SimpleData>
+					<SimpleData name="x_proj">2.84385e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="strategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49085700000001,-16.37018000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_073</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">La Galaxia</SimpleData>
+					<SimpleData name="code_point">CL12_PP_073</SimpleData>
+					<SimpleData name="lat">-16.3805</SimpleData>
+					<SimpleData name="long">-71.496</SimpleData>
+					<SimpleData name="y_proj">-1.93942e+09</SimpleData>
+					<SimpleData name="x_proj">2.84313e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.496005,-16.38054800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_074</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva</SimpleData>
+					<SimpleData name="code_point">CL12_PP_074</SimpleData>
+					<SimpleData name="lat">-16.3782</SimpleData>
+					<SimpleData name="long">-71.4921</SimpleData>
+					<SimpleData name="y_proj">-1.9392e+09</SimpleData>
+					<SimpleData name="x_proj">2.8436e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49214800000001,-16.37821099999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_075</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">P.J Brigadier Mateo Pumacahua</SimpleData>
+					<SimpleData name="code_point">CL12_PP_075</SimpleData>
+					<SimpleData name="lat">-16.3715</SimpleData>
+					<SimpleData name="long">-71.5015</SimpleData>
+					<SimpleData name="y_proj">-1.9383e+09</SimpleData>
+					<SimpleData name="x_proj">2.84263e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.501486,-16.371543,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_076</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Recervorio Senhor De Los Milagros</SimpleData>
+					<SimpleData name="code_point">CL12_PP_076</SimpleData>
+					<SimpleData name="lat">-16.3709</SimpleData>
+					<SimpleData name="long">-71.4928</SimpleData>
+					<SimpleData name="y_proj">-1.93833e+09</SimpleData>
+					<SimpleData name="x_proj">2.84362e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49284400000001,-16.37087400000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_077</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Asociacion Los Girasoles Zona D</SimpleData>
+					<SimpleData name="code_point">CL12_PP_077</SimpleData>
+					<SimpleData name="lat">-16.3752</SimpleData>
+					<SimpleData name="long">-71.4856</SimpleData>
+					<SimpleData name="y_proj">-1.93893e+06</SimpleData>
+					<SimpleData name="x_proj">2.84439e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48555000000002,-16.375222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_078</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Cancha Deportiva (Villa La Pradera B)</SimpleData>
+					<SimpleData name="code_point">CL12_PP_078</SimpleData>
+					<SimpleData name="lat">-16.3796</SimpleData>
+					<SimpleData name="long">-71.4983</SimpleData>
+					<SimpleData name="y_proj">-1.93928e+09</SimpleData>
+					<SimpleData name="x_proj">2.84289e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49829773,-16.37959588000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_079</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Cancha (Corazon De Jesus)</SimpleData>
+					<SimpleData name="code_point">CL12_PP_079</SimpleData>
+					<SimpleData name="lat">-16.3737</SimpleData>
+					<SimpleData name="long">-71.4962</SimpleData>
+					<SimpleData name="y_proj">-1.93861e+09</SimpleData>
+					<SimpleData name="x_proj">2.8432e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49623097,-16.37366403999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_080</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Local Social Girasoles</SimpleData>
+					<SimpleData name="code_point">CL12_PP_080</SimpleData>
+					<SimpleData name="lat">-16.3776</SimpleData>
+					<SimpleData name="long">-71.4922</SimpleData>
+					<SimpleData name="y_proj">-1.93912e+09</SimpleData>
+					<SimpleData name="x_proj">2.8436e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49221726,-16.37755749000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_081</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Local Social Parroquia CIAI</SimpleData>
+					<SimpleData name="code_point">CL12_PP_081</SimpleData>
+					<SimpleData name="lat">-16.3706</SimpleData>
+					<SimpleData name="long">-71.4997</SimpleData>
+					<SimpleData name="y_proj">-1.93821e+09</SimpleData>
+					<SimpleData name="x_proj">2.84284e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49973206,-16.37058630000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_082</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Centro De Salud Mateo Pumacahua</SimpleData>
+					<SimpleData name="code_point">CL12_PP_082</SimpleData>
+					<SimpleData name="lat">-16.3718</SimpleData>
+					<SimpleData name="long">-71.5003</SimpleData>
+					<SimpleData name="y_proj">-1.93834e+09</SimpleData>
+					<SimpleData name="x_proj">2.84276e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50028985999998,-16.37175461999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_083</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Cancha De Futbol (Frente Al C.S Mateo Pumacahua)</SimpleData>
+					<SimpleData name="code_point">CL12_PP_083</SimpleData>
+					<SimpleData name="lat">-16.3716</SimpleData>
+					<SimpleData name="long">-71.5005</SimpleData>
+					<SimpleData name="y_proj">-1.93832e+09</SimpleData>
+					<SimpleData name="x_proj">2.84274e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50048620000001,-16.37159965000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_084</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Centro De Salud Porvenir</SimpleData>
+					<SimpleData name="code_point">CL12_PP_084</SimpleData>
+					<SimpleData name="lat">-16.3765</SimpleData>
+					<SimpleData name="long">-71.5085</SimpleData>
+					<SimpleData name="y_proj">-1.9388e+09</SimpleData>
+					<SimpleData name="x_proj">2.84177e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50849318,-16.37654404,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_085</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Complejo Deportivo Penhon Alfonso Ugarte</SimpleData>
+					<SimpleData name="code_point">CL12_PP_085</SimpleData>
+					<SimpleData name="lat">-16.38</SimpleData>
+					<SimpleData name="long">-71.5123</SimpleData>
+					<SimpleData name="y_proj">-1.93915e+09</SimpleData>
+					<SimpleData name="x_proj">2.84129e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.512349,-16.3800071,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_086</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Ovalo Tahuantinsuyo</SimpleData>
+					<SimpleData name="code_point">CL12_PP_086</SimpleData>
+					<SimpleData name="lat">-16.3839</SimpleData>
+					<SimpleData name="long">-71.5099</SimpleData>
+					<SimpleData name="y_proj">-1.93964e+09</SimpleData>
+					<SimpleData name="x_proj">2.84151e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50994021,-16.38390697,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_087</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Capilla Fuerte Arica</SimpleData>
+					<SimpleData name="code_point">CL12_PP_087</SimpleData>
+					<SimpleData name="lat">-16.3852</SimpleData>
+					<SimpleData name="long">-71.5094</SimpleData>
+					<SimpleData name="y_proj">-1.9398e+09</SimpleData>
+					<SimpleData name="x_proj">2.84156e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50938936,-16.38521332999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL12_PP_088</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_12_03mar2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">11</SimpleData>
+					<SimpleData name="microred">EDIFICADORES MISTI</SimpleData>
+					<SimpleData name="cluster">12</SimpleData>
+					<SimpleData name="point_name">Posta Tomasa Tito Condemayta</SimpleData>
+					<SimpleData name="code_point">CL12_PP_088</SimpleData>
+					<SimpleData name="lat">-16.3757</SimpleData>
+					<SimpleData name="long">-71.5005</SimpleData>
+					<SimpleData name="y_proj">-1.9388e+09</SimpleData>
+					<SimpleData name="x_proj">2.84269e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="strategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50046963,-16.37569624,0</coordinates>
+			</Point>
+		</Placemark>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
+	</Folder>
+</Document>
+</kml>

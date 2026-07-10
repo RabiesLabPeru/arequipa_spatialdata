@@ -1,0 +1,2288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CL16_15_de_agosto_03mar2026</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<Schema name="CL16_15_de_agosto" id="S_CL16_15_de_agosto_SSDDIISS0">
+		<SimpleField type="string" name="code"><displayName>&lt;b&gt;code&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="point_name"><displayName>&lt;b&gt;point_name&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="lat"><displayName>&lt;b&gt;lat&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="long"><displayName>&lt;b&gt;long&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="y_proj"><displayName>&lt;b&gt;y_proj&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="x_proj"><displayName>&lt;b&gt;x_proj&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="type_point"><displayName>&lt;b&gt;type_point&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="estratategy"><displayName>&lt;b&gt;estratategy&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle110">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>code</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/code]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/point_name]</td></tr>
+  <tr><td><b>lat</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/estratategy]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="normPointStyle230">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>code</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/code]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/point_name]</td></tr>
+  <tr><td><b>lat</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/estratategy]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="pointStyleMap23">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle230</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>CL16_PP_001</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_001</SimpleData>
+				<SimpleData name="point_name">Parque independencia 15 de enero</SimpleData>
+				<SimpleData name="lat">-16.4124</SimpleData>
+				<SimpleData name="long">-71.5114</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.51137249999998,-16.41238279999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_002</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_002</SimpleData>
+				<SimpleData name="point_name">GRIFO_PETRO_AMERICA</SimpleData>
+				<SimpleData name="lat">-16.414</SimpleData>
+				<SimpleData name="long">-71.5098</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.50984200000001,-16.41398300000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_003</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_003</SimpleData>
+				<SimpleData name="point_name">Iglesia de francisco Mostajo</SimpleData>
+				<SimpleData name="lat">-16.4111</SimpleData>
+				<SimpleData name="long">-71.5095</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.509474,-16.41113960000002,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_004</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_004</SimpleData>
+				<SimpleData name="point_name">CANCHA_DE_VOLEY</SimpleData>
+				<SimpleData name="lat">-16.411</SimpleData>
+				<SimpleData name="long">-71.5087</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.508672,-16.41097300000002,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_005</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_005</SimpleData>
+				<SimpleData name="point_name">IE_INMACULADA_CIRCA</SimpleData>
+				<SimpleData name="lat">-16.4115</SimpleData>
+				<SimpleData name="long">-71.5081</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.508116,-16.41146499999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_006</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_006</SimpleData>
+				<SimpleData name="point_name">Av. Arequipa con los angeles</SimpleData>
+				<SimpleData name="lat">-16.4128</SimpleData>
+				<SimpleData name="long">-71.5078</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.507756,-16.412811,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_007</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_007</SimpleData>
+				<SimpleData name="point_name">ESTADIO_PROGRESISTA</SimpleData>
+				<SimpleData name="lat">-16.4112</SimpleData>
+				<SimpleData name="long">-71.505</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.505036,-16.41115999999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_008</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_008</SimpleData>
+				<SimpleData name="point_name">Colegio progresista</SimpleData>
+				<SimpleData name="lat">-16.4118</SimpleData>
+				<SimpleData name="long">-71.5036</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.50362099999998,-16.41175899999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_009</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_009</SimpleData>
+				<SimpleData name="point_name">Av industrial con chicago</SimpleData>
+				<SimpleData name="lat">-16.4138</SimpleData>
+				<SimpleData name="long">-71.5061</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.50612,-16.41376400000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_010</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_010</SimpleData>
+				<SimpleData name="point_name">Parque de la urb Jose Carlos Mariategui con Carlos Marx</SimpleData>
+				<SimpleData name="lat">-16.4161</SimpleData>
+				<SimpleData name="long">-71.5053</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.50529299999999,-16.41606500000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_011</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_011</SimpleData>
+				<SimpleData name="point_name">PARQUE_INCA_AMAUTA</SimpleData>
+				<SimpleData name="lat">-16.417</SimpleData>
+				<SimpleData name="long">-71.5053</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.50526600000001,-16.41703300000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_012</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_012</SimpleData>
+				<SimpleData name="point_name">Parque de la urb manco capac (biblioteca)</SimpleData>
+				<SimpleData name="lat">-16.4184</SimpleData>
+				<SimpleData name="long">-71.5022</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.502236,-16.418419,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_013</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_013</SimpleData>
+				<SimpleData name="point_name">IE_SAN_JUAN_BAUTISTA_DE_JESUS</SimpleData>
+				<SimpleData name="lat">-16.4173</SimpleData>
+				<SimpleData name="long">-71.5021</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.50206,-16.41730000000002,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_014</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_014</SimpleData>
+				<SimpleData name="point_name">Parque principal de la urb jose carlos mariategui</SimpleData>
+				<SimpleData name="lat">-16.416</SimpleData>
+				<SimpleData name="long">-71.502</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.501987,-16.41595899999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_015</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_015</SimpleData>
+				<SimpleData name="point_name">ESTADIO_PEDRO_P_DIAZ</SimpleData>
+				<SimpleData name="lat">-16.4147</SimpleData>
+				<SimpleData name="long">-71.5016</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.501634,-16.41466099999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_016</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_016</SimpleData>
+				<SimpleData name="point_name">COMPLEJO_15_DE_AGOSTO</SimpleData>
+				<SimpleData name="lat">-16.4129</SimpleData>
+				<SimpleData name="long">-71.5013</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.501307,-16.41293999999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_017</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_017</SimpleData>
+				<SimpleData name="point_name">PARQUE_INFANTIL_15_DE_AGOSTO</SimpleData>
+				<SimpleData name="lat">-16.4132</SimpleData>
+				<SimpleData name="long">-71.5008</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.500832,-16.41323399999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_018</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_018</SimpleData>
+				<SimpleData name="point_name">CENTRO_MEDICO_UNIVERSITARIO_PP_DIAZ</SimpleData>
+				<SimpleData name="lat">-16.4147</SimpleData>
+				<SimpleData name="long">-71.5006</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.500613,-16.41471699999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_019</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_019</SimpleData>
+				<SimpleData name="point_name">PARQUE_ALEGRE_DESPERTAR</SimpleData>
+				<SimpleData name="lat">-16.4169</SimpleData>
+				<SimpleData name="long">-71.4996</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49961699999999,-16.41692499999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_020</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_020</SimpleData>
+				<SimpleData name="point_name">COLEGIO_SAN_SEBASTIAN</SimpleData>
+				<SimpleData name="lat">-16.4189</SimpleData>
+				<SimpleData name="long">-71.4999</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49985700000001,-16.41894400000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_021</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_021</SimpleData>
+				<SimpleData name="point_name">Iglesia de la urb califormia (costado de CIRCA)</SimpleData>
+				<SimpleData name="lat">-16.4196</SimpleData>
+				<SimpleData name="long">-71.4991</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49908899999998,-16.41964799999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_022</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_022</SimpleData>
+				<SimpleData name="point_name">COLEGIO_PARTICULAR_LATINOAMERICANO</SimpleData>
+				<SimpleData name="lat">-16.4194</SimpleData>
+				<SimpleData name="long">-71.4983</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.498282,-16.41937600000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_023</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_023</SimpleData>
+				<SimpleData name="point_name">PARQUE_DE_LA_JIRAFA</SimpleData>
+				<SimpleData name="lat">-16.4168</SimpleData>
+				<SimpleData name="long">-71.4982</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.498206,-16.416844,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_024</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_024</SimpleData>
+				<SimpleData name="point_name">Parque principal pedro p diaz</SimpleData>
+				<SimpleData name="lat">-16.4157</SimpleData>
+				<SimpleData name="long">-71.4987</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.498694,-16.41574900000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_025</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_025</SimpleData>
+				<SimpleData name="point_name">CAMPO_DEPORTIVO_PP_DIAZ</SimpleData>
+				<SimpleData name="lat">-16.4153</SimpleData>
+				<SimpleData name="long">-71.4989</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49892,-16.41534000000002,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_026</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_026</SimpleData>
+				<SimpleData name="point_name">Javier luna pizarro con mariano Melgar</SimpleData>
+				<SimpleData name="lat">-16.4172</SimpleData>
+				<SimpleData name="long">-71.4969</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.496937,-16.41715600000002,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_027</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_027</SimpleData>
+				<SimpleData name="point_name">PARQUE_VILLA_PORONGOCHE</SimpleData>
+				<SimpleData name="lat">-16.4175</SimpleData>
+				<SimpleData name="long">-71.4966</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49658599999998,-16.41754600000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_028</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_028</SimpleData>
+				<SimpleData name="point_name">PARQUE_RECREATIVO_CALIFORNIA</SimpleData>
+				<SimpleData name="lat">-16.4186</SimpleData>
+				<SimpleData name="long">-71.4962</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.496201,-16.418577,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_029</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_029</SimpleData>
+				<SimpleData name="point_name">Cesar vallejo con av arequipa</SimpleData>
+				<SimpleData name="lat">-16.4172</SimpleData>
+				<SimpleData name="long">-71.4949</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.494923,-16.41724600000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_030</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_030</SimpleData>
+				<SimpleData name="point_name">Angeles negros</SimpleData>
+				<SimpleData name="lat">-16.4175</SimpleData>
+				<SimpleData name="long">-71.4944</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49440900000002,-16.41746599999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_031</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_031</SimpleData>
+				<SimpleData name="point_name">Calle cusco con jorge chavez</SimpleData>
+				<SimpleData name="lat">-16.4155</SimpleData>
+				<SimpleData name="long">-71.4962</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49615800000001,-16.415491,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_032</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_032</SimpleData>
+				<SimpleData name="point_name">PARQUE_SOCABAYA</SimpleData>
+				<SimpleData name="lat">-16.4159</SimpleData>
+				<SimpleData name="long">-71.4934</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.493382,-16.41586599999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_033</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_033</SimpleData>
+				<SimpleData name="point_name">Parque terminal de colectivos urb jorge chavez</SimpleData>
+				<SimpleData name="lat">-16.4148</SimpleData>
+				<SimpleData name="long">-71.4923</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.492323,-16.41482,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_034</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_034</SimpleData>
+				<SimpleData name="point_name">Amazonas con alpes</SimpleData>
+				<SimpleData name="lat">-16.4139</SimpleData>
+				<SimpleData name="long">-71.4946</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49455500000001,-16.41390699999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_035</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_035</SimpleData>
+				<SimpleData name="point_name">COAR</SimpleData>
+				<SimpleData name="lat">-16.4119</SimpleData>
+				<SimpleData name="long">-71.4988</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49882599999999,-16.411948,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_036</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_036</SimpleData>
+				<SimpleData name="point_name">CENTRO_DE_SALUD_15_DE_AGOSTO</SimpleData>
+				<SimpleData name="lat">-16.4129</SimpleData>
+				<SimpleData name="long">-71.5002</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.50018799999999,-16.41288399999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_037</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_037</SimpleData>
+				<SimpleData name="point_name">PARQUE_15_DE_AGOSTO</SimpleData>
+				<SimpleData name="lat">-16.4119</SimpleData>
+				<SimpleData name="long">-71.5023</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.50234600000002,-16.41192799999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_038</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_038</SimpleData>
+				<SimpleData name="point_name">Mercado 15 agosto</SimpleData>
+				<SimpleData name="lat">-16.4115</SimpleData>
+				<SimpleData name="long">-71.5008</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.50084300000002,-16.41149999999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_039</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_039</SimpleData>
+				<SimpleData name="point_name">IE_FRAY_MARTIN_DE_PORRES</SimpleData>
+				<SimpleData name="lat">-16.4106</SimpleData>
+				<SimpleData name="long">-71.5006</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.500625,-16.410607,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_040</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_040</SimpleData>
+				<SimpleData name="point_name">Estadio la bombonera</SimpleData>
+				<SimpleData name="lat">-16.4099</SimpleData>
+				<SimpleData name="long">-71.5023</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.502329,-16.409944,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_041</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_041</SimpleData>
+				<SimpleData name="point_name">ESTADIO_LA_BOMBONERA</SimpleData>
+				<SimpleData name="lat">-16.4098</SimpleData>
+				<SimpleData name="long">-71.5017</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.50167500000001,-16.40984900000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_042</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_042</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_LA_CANCHITA</SimpleData>
+				<SimpleData name="lat">-16.4097</SimpleData>
+				<SimpleData name="long">-71.4993</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49934600000002,-16.40974499999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_043</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_043</SimpleData>
+				<SimpleData name="point_name">IGLESIA_ADVENTISTA_PROGRESISTA</SimpleData>
+				<SimpleData name="lat">-16.409</SimpleData>
+				<SimpleData name="long">-71.4993</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.499314,-16.40899100000002,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_044</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_044</SimpleData>
+				<SimpleData name="point_name">Av arequipa con independencia</SimpleData>
+				<SimpleData name="lat">-16.4082</SimpleData>
+				<SimpleData name="long">-71.4964</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49635499999999,-16.408207,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_045</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_045</SimpleData>
+				<SimpleData name="point_name">Puesto de salud modulo A</SimpleData>
+				<SimpleData name="lat">-16.4084</SimpleData>
+				<SimpleData name="long">-71.4942</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49422300000001,-16.40841699999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_046</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_046</SimpleData>
+				<SimpleData name="point_name">PARQUE_BACKUS</SimpleData>
+				<SimpleData name="lat">-16.4095</SimpleData>
+				<SimpleData name="long">-71.4953</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.495289,-16.40950100000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_047</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_047</SimpleData>
+				<SimpleData name="point_name">CE_SAN_PEDRO_SAN_PABLO</SimpleData>
+				<SimpleData name="lat">-16.4105</SimpleData>
+				<SimpleData name="long">-71.4968</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.496825,-16.41047499999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_048</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_048</SimpleData>
+				<SimpleData name="point_name">Parque de la urb jorge chavez (frente a la comisaria juan de dios colqueapaza)</SimpleData>
+				<SimpleData name="lat">-16.4121</SimpleData>
+				<SimpleData name="long">-71.4966</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49659799999999,-16.412147,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_049</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_049</SimpleData>
+				<SimpleData name="point_name">CANCHA_DE_FUTBOL_JORGE_CHAVEZ</SimpleData>
+				<SimpleData name="lat">-16.4118</SimpleData>
+				<SimpleData name="long">-71.4958</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49575400000001,-16.41178899999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_050</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_050</SimpleData>
+				<SimpleData name="point_name">COLISEO_MIGUEL_GRAU</SimpleData>
+				<SimpleData name="lat">-16.4121</SimpleData>
+				<SimpleData name="long">-71.494</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49403199999999,-16.41208099999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_051</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_051</SimpleData>
+				<SimpleData name="point_name">Mercado morro de arica</SimpleData>
+				<SimpleData name="lat">-16.4117</SimpleData>
+				<SimpleData name="long">-71.4929</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49294699999999,-16.411663,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_052</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_052</SimpleData>
+				<SimpleData name="point_name">Colegio paola fraisenetti</SimpleData>
+				<SimpleData name="lat">-16.4128</SimpleData>
+				<SimpleData name="long">-71.4916</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.491552,-16.41279900000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_053</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_053</SimpleData>
+				<SimpleData name="point_name">IEP_MIGUEL_GRAU</SimpleData>
+				<SimpleData name="lat">-16.4144</SimpleData>
+				<SimpleData name="long">-71.491</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.490996,-16.414413,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_054</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_054</SimpleData>
+				<SimpleData name="point_name">Villa belen</SimpleData>
+				<SimpleData name="lat">-16.4131</SimpleData>
+				<SimpleData name="long">-71.4877</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.487685,-16.413059,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_055</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_055</SimpleData>
+				<SimpleData name="point_name">Av el sol miguel grau zona B (Pileta)</SimpleData>
+				<SimpleData name="lat">-16.4123</SimpleData>
+				<SimpleData name="long">-71.4879</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48787900000001,-16.412269,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_056</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_056</SimpleData>
+				<SimpleData name="point_name">IGLESIA_EVANGELICA_SANTOS_DEL_SETIMO_DIA</SimpleData>
+				<SimpleData name="lat">-16.4123</SimpleData>
+				<SimpleData name="long">-71.4873</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.487301,-16.41228000000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_057</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_057</SimpleData>
+				<SimpleData name="point_name">ESTADIO_MONUMENTAL_DE_MIGUEL_GRAU</SimpleData>
+				<SimpleData name="lat">-16.4114</SimpleData>
+				<SimpleData name="long">-71.4891</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.489127,-16.411358,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_058</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_058</SimpleData>
+				<SimpleData name="point_name">Av miguel grau - cruz primera cuadra</SimpleData>
+				<SimpleData name="lat">-16.4097</SimpleData>
+				<SimpleData name="long">-71.4926</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.492649,-16.40965499999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_059</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_059</SimpleData>
+				<SimpleData name="point_name">PARQUE_8_DE_OCTUBRE</SimpleData>
+				<SimpleData name="lat">-16.4071</SimpleData>
+				<SimpleData name="long">-71.4918</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.491827,-16.40707700000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_060</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_060</SimpleData>
+				<SimpleData name="point_name">Parque de 9 de octure con 8 de octubre</SimpleData>
+				<SimpleData name="lat">-16.4075</SimpleData>
+				<SimpleData name="long">-71.4902</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.490228,-16.407537,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_061</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_061</SimpleData>
+				<SimpleData name="point_name">IE_DE_LA_MANO_CON_MARIA</SimpleData>
+				<SimpleData name="lat">-16.4085</SimpleData>
+				<SimpleData name="long">-71.4893</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48931899999999,-16.40849700000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_062</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_062</SimpleData>
+				<SimpleData name="point_name">Mercado zonal miguel grau</SimpleData>
+				<SimpleData name="lat">-16.4093</SimpleData>
+				<SimpleData name="long">-71.4882</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48819899999998,-16.40932399999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_063</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_063</SimpleData>
+				<SimpleData name="point_name">Tupac amaru cn pucalpa</SimpleData>
+				<SimpleData name="lat">-16.4107</SimpleData>
+				<SimpleData name="long">-71.4862</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.486199,-16.41073,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_064</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_064</SimpleData>
+				<SimpleData name="point_name">Av el sol con pasaje melgar</SimpleData>
+				<SimpleData name="lat">-16.4119</SimpleData>
+				<SimpleData name="long">-71.4851</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.485106,-16.411933,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_065</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_065</SimpleData>
+				<SimpleData name="point_name">Gran unidad escolar miguel grau</SimpleData>
+				<SimpleData name="lat">-16.4108</SimpleData>
+				<SimpleData name="long">-71.4833</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.483322,-16.41084100000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_066</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_066</SimpleData>
+				<SimpleData name="point_name">PNP canina</SimpleData>
+				<SimpleData name="lat">-16.4088</SimpleData>
+				<SimpleData name="long">-71.485</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48503700000001,-16.40875199999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_067</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_067</SimpleData>
+				<SimpleData name="point_name">COlegio juan XXIII</SimpleData>
+				<SimpleData name="lat">-16.4072</SimpleData>
+				<SimpleData name="long">-71.4872</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48715300000001,-16.40717899999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_068</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_068</SimpleData>
+				<SimpleData name="point_name">PARROQUIA_SAN_PEDRO_NOLASCO</SimpleData>
+				<SimpleData name="lat">-16.4086</SimpleData>
+				<SimpleData name="long">-71.4868</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.486795,-16.40855099999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_069</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_069</SimpleData>
+				<SimpleData name="point_name">IE_JUAN_XXIII</SimpleData>
+				<SimpleData name="lat">-16.4077</SimpleData>
+				<SimpleData name="long">-71.4871</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.487056,-16.40765199999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_070</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_070</SimpleData>
+				<SimpleData name="point_name">CANCHA_SISTETICA_BENGALA</SimpleData>
+				<SimpleData name="lat">-16.4062</SimpleData>
+				<SimpleData name="long">-71.4873</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48734899999999,-16.406169,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_071</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_071</SimpleData>
+				<SimpleData name="point_name">Calle bolognesi con mariategui</SimpleData>
+				<SimpleData name="lat">-16.4058</SimpleData>
+				<SimpleData name="long">-71.4866</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.486565,-16.40583799999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_072</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_072</SimpleData>
+				<SimpleData name="point_name">IEP_JUANIO_BOSCO</SimpleData>
+				<SimpleData name="lat">-16.4062</SimpleData>
+				<SimpleData name="long">-71.4864</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48636800000001,-16.40618499999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_073</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_073</SimpleData>
+				<SimpleData name="point_name">Prolongacion fco bolognesi con venezuela</SimpleData>
+				<SimpleData name="lat">-16.4054</SimpleData>
+				<SimpleData name="long">-71.4841</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48413200000002,-16.40540200000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_074</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_074</SimpleData>
+				<SimpleData name="point_name">Av arequipa con venezuela</SimpleData>
+				<SimpleData name="lat">-16.407</SimpleData>
+				<SimpleData name="long">-71.484</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.483958,-16.40696299999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_075</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_075</SimpleData>
+				<SimpleData name="point_name">Calle argentina con nicaragua</SimpleData>
+				<SimpleData name="lat">-16.4088</SimpleData>
+				<SimpleData name="long">-71.482</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48200900000002,-16.40877299999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_076</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_076</SimpleData>
+				<SimpleData name="point_name">Canchita deportiva cale mexico</SimpleData>
+				<SimpleData name="lat">-16.4097</SimpleData>
+				<SimpleData name="long">-71.4821</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.482096,-16.40966299999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_077</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_077</SimpleData>
+				<SimpleData name="point_name">Calle 68 con pasaje 15</SimpleData>
+				<SimpleData name="lat">-16.4118</SimpleData>
+				<SimpleData name="long">-71.4819</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48188000000002,-16.41183200000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_078</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_078</SimpleData>
+				<SimpleData name="point_name">Loza deportiva calle paraguay</SimpleData>
+				<SimpleData name="lat">-16.4102</SimpleData>
+				<SimpleData name="long">-71.481</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.480963,-16.41016,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_079</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_079</SimpleData>
+				<SimpleData name="point_name">Villa miguel grau</SimpleData>
+				<SimpleData name="lat">-16.4112</SimpleData>
+				<SimpleData name="long">-71.4797</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.47966399999999,-16.411184,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_080</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_080</SimpleData>
+				<SimpleData name="point_name">Parque calle misti con honduras</SimpleData>
+				<SimpleData name="lat">-16.4098</SimpleData>
+				<SimpleData name="long">-71.4796</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.47956999999998,-16.40981299999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_081</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_081</SimpleData>
+				<SimpleData name="point_name">ESTADIO_ALMIRANTE_MIGUEL_GRAU</SimpleData>
+				<SimpleData name="lat">-16.4085</SimpleData>
+				<SimpleData name="long">-71.4786</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.478602,-16.40854600000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_082</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_082</SimpleData>
+				<SimpleData name="point_name">Feria dominical (costado puesto de salud)</SimpleData>
+				<SimpleData name="lat">-16.4079</SimpleData>
+				<SimpleData name="long">-71.4797</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.479675,-16.407895,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_083</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_083</SimpleData>
+				<SimpleData name="point_name">IE_NUESTRA_SENIORA_DE_LOURDES</SimpleData>
+				<SimpleData name="lat">-16.4069</SimpleData>
+				<SimpleData name="long">-71.4801</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.480075,-16.40689599999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_084</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_084</SimpleData>
+				<SimpleData name="point_name">Av villa hermosa con brasil</SimpleData>
+				<SimpleData name="lat">-16.4072</SimpleData>
+				<SimpleData name="long">-71.4811</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48111000000002,-16.40723500000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_085</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_085</SimpleData>
+				<SimpleData name="point_name">PARQUE_29_DE_AGOSTO</SimpleData>
+				<SimpleData name="lat">-16.4047</SimpleData>
+				<SimpleData name="long">-71.4828</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48285,-16.40473900000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_086</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_086</SimpleData>
+				<SimpleData name="point_name">Calle pacifico con av brasil</SimpleData>
+				<SimpleData name="lat">-16.4047</SimpleData>
+				<SimpleData name="long">-71.4815</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.481452,-16.404703,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_087</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_087</SimpleData>
+				<SimpleData name="point_name">CEVICHERIA_PUERTO_88</SimpleData>
+				<SimpleData name="lat">-16.4053</SimpleData>
+				<SimpleData name="long">-71.4786</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.47863099999999,-16.405259,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_088</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_088</SimpleData>
+				<SimpleData name="point_name">La pacifico con charcani</SimpleData>
+				<SimpleData name="lat">-16.4044</SimpleData>
+				<SimpleData name="long">-71.4783</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.47825800000001,-16.40439100000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_089</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_089</SimpleData>
+				<SimpleData name="point_name">PARQUE_TEMATICO_DINOSAURIOS</SimpleData>
+				<SimpleData name="lat">-16.4054</SimpleData>
+				<SimpleData name="long">-71.4775</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.47748400000002,-16.40543999999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_090</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_090</SimpleData>
+				<SimpleData name="point_name">Jardin d ela prolongacion arequipa</SimpleData>
+				<SimpleData name="lat">-16.4064</SimpleData>
+				<SimpleData name="long">-71.4771</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.477138,-16.40638599999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_091</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_091</SimpleData>
+				<SimpleData name="point_name">Ovalo miguel grau</SimpleData>
+				<SimpleData name="lat">-16.4079</SimpleData>
+				<SimpleData name="long">-71.478</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.478004,-16.40785500000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_092</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_092</SimpleData>
+				<SimpleData name="point_name">Calle rosedal primera cuadra</SimpleData>
+				<SimpleData name="lat">-16.4094</SimpleData>
+				<SimpleData name="long">-71.4778</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.47778299999999,-16.409405,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_093</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_093</SimpleData>
+				<SimpleData name="point_name">Calle santa rosa 2da cuadra</SimpleData>
+				<SimpleData name="lat">-16.4088</SimpleData>
+				<SimpleData name="long">-71.4758</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.475775,-16.408797,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_094</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_094</SimpleData>
+				<SimpleData name="point_name">Ricardo palma con 9 de enero</SimpleData>
+				<SimpleData name="lat">-16.4074</SimpleData>
+				<SimpleData name="long">-71.4759</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.47590200000002,-16.40743499999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_095</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_095</SimpleData>
+				<SimpleData name="point_name">La pacigico Mz H</SimpleData>
+				<SimpleData name="lat">-16.4044</SimpleData>
+				<SimpleData name="long">-71.4756</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.475647,-16.40440899999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_096</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_096</SimpleData>
+				<SimpleData name="point_name">Von humbolt mz g</SimpleData>
+				<SimpleData name="lat">-16.4037</SimpleData>
+				<SimpleData name="long">-71.4742</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.47424100000001,-16.403747,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_097</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_097</SimpleData>
+				<SimpleData name="point_name">CANCHA_SINTETICA_BARCELONA</SimpleData>
+				<SimpleData name="lat">-16.4047</SimpleData>
+				<SimpleData name="long">-71.4725</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.472517,-16.40471099999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_098</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_098</SimpleData>
+				<SimpleData name="point_name">Von humbolt con villa hermosa</SimpleData>
+				<SimpleData name="lat">-16.4068</SimpleData>
+				<SimpleData name="long">-71.4741</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.474144,-16.40677899999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_099</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL16_15_de_agosto_SSDDIISS0">
+				<SimpleData name="code">CL16_PP_099</SimpleData>
+				<SimpleData name="point_name">Marca de posicion sin titulo</SimpleData>
+				<SimpleData name="lat">-16.4094</SimpleData>
+				<SimpleData name="long">-71.4741</SimpleData>
+				<SimpleData name="y_proj">-2147483648</SimpleData>
+				<SimpleData name="x_proj">2147483647</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.474051,-16.40935200000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_100</name>
+		<visibility>0</visibility>
+		<description>colegio</description>
+		<LookAt>
+			<longitude>-71.49437026905734</longitude>
+			<latitude>-16.41346481532198</latitude>
+			<altitude>0</altitude>
+			<heading>-0.003079039103928938</heading>
+			<tilt>7.812817122256915</tilt>
+			<range>553.7441890226116</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.49544634535411,-16.41329816594691,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_101</name>
+		<visibility>0</visibility>
+		<description>loza deportiva los andes</description>
+		<LookAt>
+			<longitude>-71.47738397576872</longitude>
+			<latitude>-16.40946720579207</latitude>
+			<altitude>0</altitude>
+			<heading>-0.00787824392527533</heading>
+			<tilt>7.812817122256915</tilt>
+			<range>553.7441890244103</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.47677948234031,-16.40983418965679,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_102</name>
+		<visibility>0</visibility>
+		<description>loza deportiva el mirador</description>
+		<LookAt>
+			<longitude>-71.47220205809643</longitude>
+			<latitude>-16.40808062685992</latitude>
+			<altitude>0</altitude>
+			<heading>-0.009342149207466788</heading>
+			<tilt>7.812817122256963</tilt>
+			<range>553.744189023544</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.47213448533255,-16.40770338937079,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_103</name>
+		<visibility>0</visibility>
+		<description>colegio santo domingo</description>
+		<LookAt>
+			<longitude>-71.46959728985254</longitude>
+			<latitude>-16.4052887879487</latitude>
+			<altitude>0</altitude>
+			<heading>-0.01007793793730424</heading>
+			<tilt>7.812817122257056</tilt>
+			<range>553.7441890226638</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.46870369434527,-16.4049879997544,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_104</name>
+		<visibility>0</visibility>
+		<description>loza deportiva</description>
+		<LookAt>
+			<longitude>-71.4798348219243</longitude>
+			<latitude>-16.40369032959617</latitude>
+			<altitude>0</altitude>
+			<heading>-0.007194564877139807</heading>
+			<tilt>16.55363916477268</tilt>
+			<range>308.7815086367312</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.48025168136839,-16.40281225332881,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_105</name>
+		<visibility>0</visibility>
+		<description>coval dent</description>
+		<LookAt>
+			<longitude>-71.48603040181172</longitude>
+			<latitude>-16.40779422698346</latitude>
+			<altitude>0</altitude>
+			<heading>-0.005465062312484921</heading>
+			<tilt>20.08319615841986</tilt>
+			<range>280.8276936054497</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.48603040181172,-16.40779422698346,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_106</name>
+		<visibility>0</visibility>
+		<description>pisina paucarpata</description>
+		<LookAt>
+			<longitude>-71.48797836715559</longitude>
+			<latitude>-16.40714059226251</latitude>
+			<altitude>0</altitude>
+			<heading>-0.004932358774130754</heading>
+			<tilt>21.69354062722502</tilt>
+			<range>372.5205316326541</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.48828634542852,-16.40724721935675,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_107</name>
+		<visibility>0</visibility>
+		<description>loza deportiva</description>
+		<LookAt>
+			<longitude>-71.49000159044753</longitude>
+			<latitude>-16.40662074313259</latitude>
+			<altitude>0</altitude>
+			<heading>-0.004360866360932509</heading>
+			<tilt>21.69354062722505</tilt>
+			<range>372.5205316324652</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.49008019525465,-16.40648865947787,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_108</name>
+		<visibility>0</visibility>
+		<description>loza deportiva andres sanchez abarca</description>
+		<LookAt>
+			<longitude>-71.49624647401117</longitude>
+			<latitude>-16.40767413477048</latitude>
+			<altitude>0</altitude>
+			<heading>-0.002596899286690702</heading>
+			<tilt>21.69354062722502</tilt>
+			<range>372.5205316313512</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.4969309156015,-16.40701149045318,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_109</name>
+		<visibility>0</visibility>
+		<description>loza deportiva</description>
+		<LookAt>
+			<longitude>-71.49807124014298</longitude>
+			<latitude>-16.40836125718915</latitude>
+			<altitude>0</altitude>
+			<heading>-0.002069839181128396</heading>
+			<tilt>20.63002697952033</tilt>
+			<range>368.5335111396985</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.49872998954939,-16.40754310817343,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_110</name>
+		<visibility>0</visibility>
+		<description>parque</description>
+		<LookAt>
+			<longitude>-71.50007878819005</longitude>
+			<latitude>-16.40850409165654</latitude>
+			<altitude>0</altitude>
+			<heading>-0.00150275532016585</heading>
+			<tilt>20.6300269795203</tilt>
+			<range>368.5335111349546</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.50015693475196,-16.40809221283498,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL16_PP_111</name>
+		<visibility>0</visibility>
+		<description>PUENTE 8 DE OCTUBRE</description>
+		<LookAt>
+			<longitude>-71.49102980243499</longitude>
+			<latitude>-16.40588259432133</latitude>
+			<altitude>0</altitude>
+			<heading>18.8488968078641</heading>
+			<tilt>28.42996044433615</tilt>
+			<range>586.4514816897509</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.49103090551138,-16.40509785289927,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

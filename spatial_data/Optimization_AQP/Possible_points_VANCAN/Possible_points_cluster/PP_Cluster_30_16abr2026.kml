@@ -1,0 +1,3691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PP_Cluster_30_16abr2026.kml</name>
+	<Schema name="PP_Cluster_30_16abr2026" id="S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+		<SimpleField type="int" name="n_microred">
+			<displayName>&lt;b&gt;n_microred&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="microred">
+			<displayName>&lt;b&gt;microred&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="int" name="cluster">
+			<displayName>&lt;b&gt;cluster&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="point_name">
+			<displayName>&lt;b&gt;point_name&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="code_point">
+			<displayName>&lt;b&gt;code_point&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="lat">
+			<displayName>&lt;b&gt;lat&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="long">
+			<displayName>&lt;b&gt;long&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="y_proj">
+			<displayName>&lt;b&gt;y_proj&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="x_proj">
+			<displayName>&lt;b&gt;x_proj&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="type_point">
+			<displayName>&lt;b&gt;type_point&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="estratategy">
+			<displayName>&lt;b&gt;estratategy&lt;/b&gt;</displayName>
+		</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>n_microred</b></td><td>$[PP_Cluster_30_16abr2026/n_microred]</td></tr>
+  <tr><td><b>microred</b></td><td>$[PP_Cluster_30_16abr2026/microred]</td></tr>
+  <tr><td><b>cluster</b></td><td>$[PP_Cluster_30_16abr2026/cluster]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[PP_Cluster_30_16abr2026/point_name]</td></tr>
+  <tr><td><b>code_point</b></td><td>$[PP_Cluster_30_16abr2026/code_point]</td></tr>
+  <tr><td><b>lat</b></td><td>$[PP_Cluster_30_16abr2026/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[PP_Cluster_30_16abr2026/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[PP_Cluster_30_16abr2026/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[PP_Cluster_30_16abr2026/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[PP_Cluster_30_16abr2026/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[PP_Cluster_30_16abr2026/estratategy]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>n_microred</b></td><td>$[PP_Cluster_30_16abr2026/n_microred]</td></tr>
+  <tr><td><b>microred</b></td><td>$[PP_Cluster_30_16abr2026/microred]</td></tr>
+  <tr><td><b>cluster</b></td><td>$[PP_Cluster_30_16abr2026/cluster]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[PP_Cluster_30_16abr2026/point_name]</td></tr>
+  <tr><td><b>code_point</b></td><td>$[PP_Cluster_30_16abr2026/code_point]</td></tr>
+  <tr><td><b>lat</b></td><td>$[PP_Cluster_30_16abr2026/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[PP_Cluster_30_16abr2026/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[PP_Cluster_30_16abr2026/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[PP_Cluster_30_16abr2026/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[PP_Cluster_30_16abr2026/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[PP_Cluster_30_16abr2026/estratategy]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>PP_Cluster_30_16abr2026</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>CL30_PP_001</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Parque_Yumina</SimpleData>
+					<SimpleData name="code_point">CL30_PP_001</SimpleData>
+					<SimpleData name="lat">-16.4452</SimpleData>
+					<SimpleData name="long">-71.4803</SimpleData>
+					<SimpleData name="y_proj">-1.94722e+06</SimpleData>
+					<SimpleData name="x_proj">2.84406e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.480335,-16.44523000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_002</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Plaza Principal De Yumina</SimpleData>
+					<SimpleData name="code_point">CL30_PP_002</SimpleData>
+					<SimpleData name="lat">-16.444</SimpleData>
+					<SimpleData name="long">-71.4834</SimpleData>
+					<SimpleData name="y_proj">-1.94703e+06</SimpleData>
+					<SimpleData name="x_proj">2.84374e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48337700000002,-16.44395700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_003</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Campo_Deportivo_Yumina</SimpleData>
+					<SimpleData name="code_point">CL30_PP_003</SimpleData>
+					<SimpleData name="lat">-16.4434</SimpleData>
+					<SimpleData name="long">-71.485</SimpleData>
+					<SimpleData name="y_proj">-1.94695e+06</SimpleData>
+					<SimpleData name="x_proj">2.84356e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.485004,-16.44339800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_004</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Entrada De Yumina Y Otros Sectores</SimpleData>
+					<SimpleData name="code_point">CL30_PP_004</SimpleData>
+					<SimpleData name="lat">-16.4461</SimpleData>
+					<SimpleData name="long">-71.4847</SimpleData>
+					<SimpleData name="y_proj">-1.94726e+06</SimpleData>
+					<SimpleData name="x_proj">2.84355e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48473299999999,-16.44607300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_005</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Cruce_El_Ganian</SimpleData>
+					<SimpleData name="code_point">CL30_PP_005</SimpleData>
+					<SimpleData name="lat">-16.449</SimpleData>
+					<SimpleData name="long">-71.4833</SimpleData>
+					<SimpleData name="y_proj">-1.94763e+06</SimpleData>
+					<SimpleData name="x_proj">2.84368e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.483266,-16.449034,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_006</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Curva Coripata (Casa De Lucho)</SimpleData>
+					<SimpleData name="code_point">CL30_PP_006</SimpleData>
+					<SimpleData name="lat">-16.4479</SimpleData>
+					<SimpleData name="long">-71.4915</SimpleData>
+					<SimpleData name="y_proj">-1.94739e+06</SimpleData>
+					<SimpleData name="x_proj">2.84276e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.491496,-16.44790800000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_007</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Camal_Monucipal_De_Sabandia</SimpleData>
+					<SimpleData name="code_point">CL30_PP_007</SimpleData>
+					<SimpleData name="lat">-16.4477</SimpleData>
+					<SimpleData name="long">-71.4932</SimpleData>
+					<SimpleData name="y_proj">-1.94735e+06</SimpleData>
+					<SimpleData name="x_proj">2.84257e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49323000000001,-16.44768500000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_008</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Cruce_La_Taruca</SimpleData>
+					<SimpleData name="code_point">CL30_PP_008</SimpleData>
+					<SimpleData name="lat">-16.4494</SimpleData>
+					<SimpleData name="long">-71.4942</SimpleData>
+					<SimpleData name="y_proj">-1.94753e+06</SimpleData>
+					<SimpleData name="x_proj">2.84244e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.494192,-16.449362,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_009</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva De Buena Vista</SimpleData>
+					<SimpleData name="code_point">CL30_PP_009</SimpleData>
+					<SimpleData name="lat">-16.4521</SimpleData>
+					<SimpleData name="long">-71.4923</SimpleData>
+					<SimpleData name="y_proj">-1.94788e+06</SimpleData>
+					<SimpleData name="x_proj">2.84262e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49225200000001,-16.45213500000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_010</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">La_Casa_De_Sabandia</SimpleData>
+					<SimpleData name="code_point">CL30_PP_010</SimpleData>
+					<SimpleData name="lat">-16.4535</SimpleData>
+					<SimpleData name="long">-71.4918</SimpleData>
+					<SimpleData name="y_proj">-1.94805e+06</SimpleData>
+					<SimpleData name="x_proj">2.84266e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.491781,-16.453542,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_011</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva De Coripata</SimpleData>
+					<SimpleData name="code_point">CL30_PP_011</SimpleData>
+					<SimpleData name="lat">-16.4453</SimpleData>
+					<SimpleData name="long">-71.4955</SimpleData>
+					<SimpleData name="y_proj">-1.94704e+06</SimpleData>
+					<SimpleData name="x_proj">2.84234e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49553400000001,-16.44529399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_012</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Plaza De Coripata Parte Arriba De La Iglesia</SimpleData>
+					<SimpleData name="code_point">CL30_PP_012</SimpleData>
+					<SimpleData name="lat">-16.4469</SimpleData>
+					<SimpleData name="long">-71.497</SimpleData>
+					<SimpleData name="y_proj">-1.94721e+06</SimpleData>
+					<SimpleData name="x_proj">2.84215e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49701600000002,-16.44694799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_013</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Puesto De Salud Sabandia</SimpleData>
+					<SimpleData name="code_point">CL30_PP_013</SimpleData>
+					<SimpleData name="lat">-16.4507</SimpleData>
+					<SimpleData name="long">-71.4959</SimpleData>
+					<SimpleData name="y_proj">-1.94766e+06</SimpleData>
+					<SimpleData name="x_proj">2.84223e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.495874,-16.45066500000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_014</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Villa_Escondida</SimpleData>
+					<SimpleData name="code_point">CL30_PP_014</SimpleData>
+					<SimpleData name="lat">-16.4516</SimpleData>
+					<SimpleData name="long">-71.4984</SimpleData>
+					<SimpleData name="y_proj">-1.94774e+06</SimpleData>
+					<SimpleData name="x_proj">2.84193e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49840500000001,-16.45156499999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_015</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Plaza Principal De Sabandia</SimpleData>
+					<SimpleData name="code_point">CL30_PP_015</SimpleData>
+					<SimpleData name="lat">-16.4567</SimpleData>
+					<SimpleData name="long">-71.4946</SimpleData>
+					<SimpleData name="y_proj">-1.94839e+06</SimpleData>
+					<SimpleData name="x_proj">2.8423e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49459499999999,-16.456723,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_016</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Colegio_San_Pablo_Sabandia</SimpleData>
+					<SimpleData name="code_point">CL30_PP_016</SimpleData>
+					<SimpleData name="lat">-16.4576</SimpleData>
+					<SimpleData name="long">-71.4944</SimpleData>
+					<SimpleData name="y_proj">-1.9485e+06</SimpleData>
+					<SimpleData name="x_proj">2.84231e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.494367,-16.45761600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_017</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Ampliacion_Sabandia</SimpleData>
+					<SimpleData name="code_point">CL30_PP_017</SimpleData>
+					<SimpleData name="lat">-16.4581</SimpleData>
+					<SimpleData name="long">-71.4862</SimpleData>
+					<SimpleData name="y_proj">-1.94865e+06</SimpleData>
+					<SimpleData name="x_proj">2.84323e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48624700000001,-16.45805700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_018</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva Del P.J. Las Rocas</SimpleData>
+					<SimpleData name="code_point">CL30_PP_018</SimpleData>
+					<SimpleData name="lat">-16.4613</SimpleData>
+					<SimpleData name="long">-71.4871</SimpleData>
+					<SimpleData name="y_proj">-1.94902e+06</SimpleData>
+					<SimpleData name="x_proj">2.84308e+06</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48711699999998,-16.461274,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_019</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Granja Con Mirador De Sabandia</SimpleData>
+					<SimpleData name="code_point">CL30_PP_019</SimpleData>
+					<SimpleData name="lat">-16.4602</SimpleData>
+					<SimpleData name="long">-71.4892</SimpleData>
+					<SimpleData name="y_proj">-1.94886e+06</SimpleData>
+					<SimpleData name="x_proj">2.84286e+06</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.489228,-16.46016499999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_020</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Curva P.J. Ampliacion La Isla</SimpleData>
+					<SimpleData name="code_point">CL30_PP_020</SimpleData>
+					<SimpleData name="lat">-16.4613</SimpleData>
+					<SimpleData name="long">-71.4894</SimpleData>
+					<SimpleData name="y_proj">-1.949e+06</SimpleData>
+					<SimpleData name="x_proj">2.84282e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.48942099999999,-16.46133700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_021</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Parque Del P.J. San Francisco (Restaurant Petita)</SimpleData>
+					<SimpleData name="code_point">CL30_PP_021</SimpleData>
+					<SimpleData name="lat">-16.4634</SimpleData>
+					<SimpleData name="long">-71.4936</SimpleData>
+					<SimpleData name="y_proj">-1.94919e+06</SimpleData>
+					<SimpleData name="x_proj">2.84232e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.493585,-16.463392,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_022</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Parque_Asovich</SimpleData>
+					<SimpleData name="code_point">CL30_PP_022</SimpleData>
+					<SimpleData name="lat">-16.4646</SimpleData>
+					<SimpleData name="long">-71.4957</SimpleData>
+					<SimpleData name="y_proj">-1.94931e+06</SimpleData>
+					<SimpleData name="x_proj">2.84206e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49573000000001,-16.464648,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_023</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Los_Napoles</SimpleData>
+					<SimpleData name="code_point">CL30_PP_023</SimpleData>
+					<SimpleData name="lat">-16.4671</SimpleData>
+					<SimpleData name="long">-71.4957</SimpleData>
+					<SimpleData name="y_proj">-1.9496e+06</SimpleData>
+					<SimpleData name="x_proj">2.84203e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.495721,-16.46712199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_024</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Parque Principal De Asovich</SimpleData>
+					<SimpleData name="code_point">CL30_PP_024</SimpleData>
+					<SimpleData name="lat">-16.4637</SimpleData>
+					<SimpleData name="long">-71.5005</SimpleData>
+					<SimpleData name="y_proj">-1.94913e+06</SimpleData>
+					<SimpleData name="x_proj">2.84153e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50054400000002,-16.46368000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_025</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva Asovich Parte Baja</SimpleData>
+					<SimpleData name="code_point">CL30_PP_025</SimpleData>
+					<SimpleData name="lat">-16.462</SimpleData>
+					<SimpleData name="long">-71.502</SimpleData>
+					<SimpleData name="y_proj">-1.94892e+06</SimpleData>
+					<SimpleData name="x_proj">2.84139e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50200100000001,-16.46203600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_026</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Parque_La_Alameda</SimpleData>
+					<SimpleData name="code_point">CL30_PP_026</SimpleData>
+					<SimpleData name="lat">-16.4605</SimpleData>
+					<SimpleData name="long">-71.4986</SimpleData>
+					<SimpleData name="y_proj">-1.94879e+06</SimpleData>
+					<SimpleData name="x_proj">2.84179e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49865,-16.46053299999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_027</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Parque_Forestal</SimpleData>
+					<SimpleData name="code_point">CL30_PP_027</SimpleData>
+					<SimpleData name="lat">-16.4581</SimpleData>
+					<SimpleData name="long">-71.501</SimpleData>
+					<SimpleData name="y_proj">-1.94847e+06</SimpleData>
+					<SimpleData name="x_proj">2.84155e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.500984,-16.45807999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_028</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Separadora</SimpleData>
+					<SimpleData name="code_point">CL30_PP_028</SimpleData>
+					<SimpleData name="lat">-16.4582</SimpleData>
+					<SimpleData name="long">-71.5037</SimpleData>
+					<SimpleData name="y_proj">-1.94845e+06</SimpleData>
+					<SimpleData name="x_proj">2.84124e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.503731,-16.458225,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_029</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Plaza_De_Toros_Umapalca</SimpleData>
+					<SimpleData name="code_point">CL30_PP_029</SimpleData>
+					<SimpleData name="lat">-16.4602</SimpleData>
+					<SimpleData name="long">-71.5096</SimpleData>
+					<SimpleData name="y_proj">-1.94861e+06</SimpleData>
+					<SimpleData name="x_proj">2.84055e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50958,-16.460201,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_030</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva De Paraiso De Chuca</SimpleData>
+					<SimpleData name="code_point">CL30_PP_030</SimpleData>
+					<SimpleData name="lat">-16.4661</SimpleData>
+					<SimpleData name="long">-71.5177</SimpleData>
+					<SimpleData name="y_proj">-1.94919e+06</SimpleData>
+					<SimpleData name="x_proj">2.83955e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.517723,-16.466057,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_031</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Chuca Avenida</SimpleData>
+					<SimpleData name="code_point">CL30_PP_031</SimpleData>
+					<SimpleData name="lat">-16.4685</SimpleData>
+					<SimpleData name="long">-71.5187</SimpleData>
+					<SimpleData name="y_proj">-1.94948e+06</SimpleData>
+					<SimpleData name="x_proj">2.83941e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51867300000001,-16.46854799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_032</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Comedor_Popular_Chuca</SimpleData>
+					<SimpleData name="code_point">CL30_PP_032</SimpleData>
+					<SimpleData name="lat">-16.469</SimpleData>
+					<SimpleData name="long">-71.52</SimpleData>
+					<SimpleData name="y_proj">-1.94951e+06</SimpleData>
+					<SimpleData name="x_proj">2.83926e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51998200000001,-16.468977,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_033</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Umapalca- Nueva Campinha</SimpleData>
+					<SimpleData name="code_point">CL30_PP_033</SimpleData>
+					<SimpleData name="lat">-16.4704</SimpleData>
+					<SimpleData name="long">-71.5187</SimpleData>
+					<SimpleData name="y_proj">-1.94969e+06</SimpleData>
+					<SimpleData name="x_proj">2.83938e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51870599999998,-16.47041699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_034</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva Las Torres De San Isidro</SimpleData>
+					<SimpleData name="code_point">CL30_PP_034</SimpleData>
+					<SimpleData name="lat">-16.4726</SimpleData>
+					<SimpleData name="long">-71.5203</SimpleData>
+					<SimpleData name="y_proj">-1.94993e+06</SimpleData>
+					<SimpleData name="x_proj">2.83918e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.520251,-16.472629,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_035</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Terminal Ex Canarios</SimpleData>
+					<SimpleData name="code_point">CL30_PP_035</SimpleData>
+					<SimpleData name="lat">-16.4752</SimpleData>
+					<SimpleData name="long">-71.5207</SimpleData>
+					<SimpleData name="y_proj">-1.95023e+06</SimpleData>
+					<SimpleData name="x_proj">2.83909e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.520743,-16.475171,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_036</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Habitaciones Para La Humanidad</SimpleData>
+					<SimpleData name="code_point">CL30_PP_036</SimpleData>
+					<SimpleData name="lat">-16.4745</SimpleData>
+					<SimpleData name="long">-71.5233</SimpleData>
+					<SimpleData name="y_proj">-1.95011e+06</SimpleData>
+					<SimpleData name="x_proj">2.83882e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.523252,-16.47445400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_037</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva Los Rosales</SimpleData>
+					<SimpleData name="code_point">CL30_PP_037</SimpleData>
+					<SimpleData name="lat">-16.4733</SimpleData>
+					<SimpleData name="long">-71.5232</SimpleData>
+					<SimpleData name="y_proj">-1.94997e+06</SimpleData>
+					<SimpleData name="x_proj">2.83884e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52315200000001,-16.473263,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_038</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Asermul</SimpleData>
+					<SimpleData name="code_point">CL30_PP_038</SimpleData>
+					<SimpleData name="lat">-16.469</SimpleData>
+					<SimpleData name="long">-71.5236</SimpleData>
+					<SimpleData name="y_proj">-1.94947e+06</SimpleData>
+					<SimpleData name="x_proj">2.83885e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.523565,-16.46901299999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_039</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Colegio Felipe Santiago Salaverry (Av. Calvario)</SimpleData>
+					<SimpleData name="code_point">CL30_PP_039</SimpleData>
+					<SimpleData name="lat">-16.4678</SimpleData>
+					<SimpleData name="long">-71.5263</SimpleData>
+					<SimpleData name="y_proj">-1.94929e+06</SimpleData>
+					<SimpleData name="x_proj">2.83856e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52631100000001,-16.46777800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_040</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Colegio_Santa_Clara</SimpleData>
+					<SimpleData name="code_point">CL30_PP_040</SimpleData>
+					<SimpleData name="lat">-16.4666</SimpleData>
+					<SimpleData name="long">-71.5277</SimpleData>
+					<SimpleData name="y_proj">-1.94914e+06</SimpleData>
+					<SimpleData name="x_proj">2.83842e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52768699999999,-16.46664899999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_041</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Plaza Socabaya</SimpleData>
+					<SimpleData name="code_point">CL30_PP_041</SimpleData>
+					<SimpleData name="lat">-16.4675</SimpleData>
+					<SimpleData name="long">-71.5287</SimpleData>
+					<SimpleData name="y_proj">-1.94923e+06</SimpleData>
+					<SimpleData name="x_proj">2.83829e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.528666,-16.467497,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_042</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Cementerio Socabaya (Parque La Estancia)</SimpleData>
+					<SimpleData name="code_point">CL30_PP_042</SimpleData>
+					<SimpleData name="lat">-16.4695</SimpleData>
+					<SimpleData name="long">-71.5264</SimpleData>
+					<SimpleData name="y_proj">-1.94949e+06</SimpleData>
+					<SimpleData name="x_proj">2.83853e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52637,-16.469485,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_043</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Complejo Deportivo Alto Buenavista</SimpleData>
+					<SimpleData name="code_point">CL30_PP_043</SimpleData>
+					<SimpleData name="lat">-16.4728</SimpleData>
+					<SimpleData name="long">-71.5288</SimpleData>
+					<SimpleData name="y_proj">-1.94985e+06</SimpleData>
+					<SimpleData name="x_proj">2.83821e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52881900000001,-16.47278800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_044</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Centro De Salud San Fernando</SimpleData>
+					<SimpleData name="code_point">CL30_PP_044</SimpleData>
+					<SimpleData name="lat">-16.4732</SimpleData>
+					<SimpleData name="long">-71.5282</SimpleData>
+					<SimpleData name="y_proj">-1.9499e+06</SimpleData>
+					<SimpleData name="x_proj">2.83827e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52822500000001,-16.473184,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_045</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Calle 4 Con Calle 13 A Una Cuadra Del Reservorio</SimpleData>
+					<SimpleData name="code_point">CL30_PP_045</SimpleData>
+					<SimpleData name="lat">-16.472</SimpleData>
+					<SimpleData name="long">-71.5249</SimpleData>
+					<SimpleData name="y_proj">-1.9498e+06</SimpleData>
+					<SimpleData name="x_proj">2.83866e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52494299999999,-16.47202200000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_046</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Parque_Wilber_J</SimpleData>
+					<SimpleData name="code_point">CL30_PP_046</SimpleData>
+					<SimpleData name="lat">-16.4745</SimpleData>
+					<SimpleData name="long">-71.5243</SimpleData>
+					<SimpleData name="y_proj">-1.9501e+06</SimpleData>
+					<SimpleData name="x_proj">2.8387e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52427800000001,-16.474494,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_047</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Balcones De Umapalca - Victoria</SimpleData>
+					<SimpleData name="code_point">CL30_PP_047</SimpleData>
+					<SimpleData name="lat">-16.4685</SimpleData>
+					<SimpleData name="long">-71.5112</SimpleData>
+					<SimpleData name="y_proj">-1.94956e+06</SimpleData>
+					<SimpleData name="x_proj">2.84026e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.511211,-16.468502,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_048</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Los Angeles(Movil)</SimpleData>
+					<SimpleData name="code_point">CL30_PP_048</SimpleData>
+					<SimpleData name="lat">-16.4694</SimpleData>
+					<SimpleData name="long">-71.4956</SimpleData>
+					<SimpleData name="y_proj">-1.94986e+06</SimpleData>
+					<SimpleData name="x_proj">2.84201e+06</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49561700000001,-16.469357,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_049</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_El_Chavito</SimpleData>
+					<SimpleData name="code_point">CL30_PP_049</SimpleData>
+					<SimpleData name="lat">-16.4738</SimpleData>
+					<SimpleData name="long">-71.4975</SimpleData>
+					<SimpleData name="y_proj">-1.95037e+06</SimpleData>
+					<SimpleData name="x_proj">2.84174e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.497531,-16.47384600000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_050</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva Villa San Juan</SimpleData>
+					<SimpleData name="code_point">CL30_PP_050</SimpleData>
+					<SimpleData name="lat">-16.4753</SimpleData>
+					<SimpleData name="long">-71.4994</SimpleData>
+					<SimpleData name="y_proj">-1.95052e+06</SimpleData>
+					<SimpleData name="x_proj">2.84151e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49938299999999,-16.47534600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_051</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Villa_Victoria</SimpleData>
+					<SimpleData name="code_point">CL30_PP_051</SimpleData>
+					<SimpleData name="lat">-16.4769</SimpleData>
+					<SimpleData name="long">-71.4994</SimpleData>
+					<SimpleData name="y_proj">-1.9507e+06</SimpleData>
+					<SimpleData name="x_proj">2.84149e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49940000000001,-16.47692100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_052</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Villa Don Favio- Villa Fortaleza</SimpleData>
+					<SimpleData name="code_point">CL30_PP_052</SimpleData>
+					<SimpleData name="lat">-16.4737</SimpleData>
+					<SimpleData name="long">-71.5016</SimpleData>
+					<SimpleData name="y_proj">-1.9503e+06</SimpleData>
+					<SimpleData name="x_proj">2.84128e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50158999999999,-16.473739,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_053</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Coliseo_De_Gallos_Maria_Magdalena</SimpleData>
+					<SimpleData name="code_point">CL30_PP_053</SimpleData>
+					<SimpleData name="lat">-16.4736</SimpleData>
+					<SimpleData name="long">-71.504</SimpleData>
+					<SimpleData name="y_proj">-1.95025e+06</SimpleData>
+					<SimpleData name="x_proj">2.84101e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50402200000002,-16.473567,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_054</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Interseccion Calle Javier Heraud Con Calle Libertad</SimpleData>
+					<SimpleData name="code_point">CL30_PP_054</SimpleData>
+					<SimpleData name="lat">-16.474</SimpleData>
+					<SimpleData name="long">-71.5052</SimpleData>
+					<SimpleData name="y_proj">-1.95029e+06</SimpleData>
+					<SimpleData name="x_proj">2.84087e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50519799999999,-16.474039,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_055</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Complejo 1 De Mayo</SimpleData>
+					<SimpleData name="code_point">CL30_PP_055</SimpleData>
+					<SimpleData name="lat">-16.4734</SimpleData>
+					<SimpleData name="long">-71.5071</SimpleData>
+					<SimpleData name="y_proj">-1.9502e+06</SimpleData>
+					<SimpleData name="x_proj">2.84066e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.507119,-16.473447,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_056</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Interseccion Calle Libertad Con Horacio</SimpleData>
+					<SimpleData name="code_point">CL30_PP_056</SimpleData>
+					<SimpleData name="lat">-16.4764</SimpleData>
+					<SimpleData name="long">-71.5087</SimpleData>
+					<SimpleData name="y_proj">-1.95053e+06</SimpleData>
+					<SimpleData name="x_proj">2.84044e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.508664,-16.476418,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_057</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Interseccion Cesar Vallejo Con 7 De Octubre</SimpleData>
+					<SimpleData name="code_point">CL30_PP_057</SimpleData>
+					<SimpleData name="lat">-16.4767</SimpleData>
+					<SimpleData name="long">-71.5058</SimpleData>
+					<SimpleData name="y_proj">-1.9506e+06</SimpleData>
+					<SimpleData name="x_proj">2.84076e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50582199999998,-16.476705,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_058</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Mercado Horacio Zevallos</SimpleData>
+					<SimpleData name="code_point">CL30_PP_058</SimpleData>
+					<SimpleData name="lat">-16.4768</SimpleData>
+					<SimpleData name="long">-71.5043</SimpleData>
+					<SimpleData name="y_proj">-1.95063e+06</SimpleData>
+					<SimpleData name="x_proj">2.84094e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50427000000001,-16.476841,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_059</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Parque Cristo Resucitado (Calle Flora Tristan Con Union)</SimpleData>
+					<SimpleData name="code_point">CL30_PP_059</SimpleData>
+					<SimpleData name="lat">-16.4775</SimpleData>
+					<SimpleData name="long">-71.5018</SimpleData>
+					<SimpleData name="y_proj">-1.95075e+06</SimpleData>
+					<SimpleData name="x_proj">2.84121e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.501789,-16.477539,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_060</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Puesto De Salud Horacio Zevallos</SimpleData>
+					<SimpleData name="code_point">CL30_PP_060</SimpleData>
+					<SimpleData name="lat">-16.4796</SimpleData>
+					<SimpleData name="long">-71.5007</SimpleData>
+					<SimpleData name="y_proj">-1.951e+06</SimpleData>
+					<SimpleData name="x_proj">2.8413e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.500738,-16.47960199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_061</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Parque Parra</SimpleData>
+					<SimpleData name="code_point">CL30_PP_061</SimpleData>
+					<SimpleData name="lat">-16.4813</SimpleData>
+					<SimpleData name="long">-71.5017</SimpleData>
+					<SimpleData name="y_proj">-1.95119e+06</SimpleData>
+					<SimpleData name="x_proj">2.84117e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.501706,-16.48131599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_062</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Parque Angamos (Cesar Vallejo)</SimpleData>
+					<SimpleData name="code_point">CL30_PP_062</SimpleData>
+					<SimpleData name="lat">-16.4791</SimpleData>
+					<SimpleData name="long">-71.5037</SimpleData>
+					<SimpleData name="y_proj">-1.9509e+06</SimpleData>
+					<SimpleData name="x_proj">2.84097e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50367999999999,-16.47905199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_063</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Colegio Gran Maestro</SimpleData>
+					<SimpleData name="code_point">CL30_PP_063</SimpleData>
+					<SimpleData name="lat">-16.4787</SimpleData>
+					<SimpleData name="long">-71.5065</SimpleData>
+					<SimpleData name="y_proj">-1.95082e+06</SimpleData>
+					<SimpleData name="x_proj">2.84066e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50649400000002,-16.47872000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_064</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Maquicentro</SimpleData>
+					<SimpleData name="code_point">CL30_PP_064</SimpleData>
+					<SimpleData name="lat">-16.4809</SimpleData>
+					<SimpleData name="long">-71.5056</SimpleData>
+					<SimpleData name="y_proj">-1.95109e+06</SimpleData>
+					<SimpleData name="x_proj">2.84073e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50561400000001,-16.48092600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_065</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Colegio Divina Providencia</SimpleData>
+					<SimpleData name="code_point">CL30_PP_065</SimpleData>
+					<SimpleData name="lat">-16.4834</SimpleData>
+					<SimpleData name="long">-71.506</SimpleData>
+					<SimpleData name="y_proj">-1.95138e+06</SimpleData>
+					<SimpleData name="x_proj">2.84066e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.505965,-16.483432,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_066</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Interseccion Calle Encinas Con Tupac Amaru</SimpleData>
+					<SimpleData name="code_point">CL30_PP_066</SimpleData>
+					<SimpleData name="lat">-16.4804</SimpleData>
+					<SimpleData name="long">-71.5084</SimpleData>
+					<SimpleData name="y_proj">-1.951e+06</SimpleData>
+					<SimpleData name="x_proj">2.84043e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50835999999998,-16.48039599999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_067</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva Villa Sbandia</SimpleData>
+					<SimpleData name="code_point">CL30_PP_067</SimpleData>
+					<SimpleData name="lat">-16.4847</SimpleData>
+					<SimpleData name="long">-71.51</SimpleData>
+					<SimpleData name="y_proj">-1.95148e+06</SimpleData>
+					<SimpleData name="x_proj">2.84018e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51001599999999,-16.48469399999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_068</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Villa Sabandia-Villa Las Gaviotas (Puesto Movil)</SimpleData>
+					<SimpleData name="code_point">CL30_PP_068</SimpleData>
+					<SimpleData name="lat">-16.484</SimpleData>
+					<SimpleData name="long">-71.5112</SimpleData>
+					<SimpleData name="y_proj">-1.95138e+06</SimpleData>
+					<SimpleData name="x_proj">2.84006e+06</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.511186,-16.483966,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_069</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Asoc_Cerrito_San_Juan</SimpleData>
+					<SimpleData name="code_point">CL30_PP_069</SimpleData>
+					<SimpleData name="lat">-16.482</SimpleData>
+					<SimpleData name="long">-71.518</SimpleData>
+					<SimpleData name="y_proj">-1.95106e+06</SimpleData>
+					<SimpleData name="x_proj">2.83931e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.518028,-16.48197400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_070</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Reserrvorio Sec E Horacio Zevallos</SimpleData>
+					<SimpleData name="code_point">CL30_PP_070</SimpleData>
+					<SimpleData name="lat">-16.4865</SimpleData>
+					<SimpleData name="long">-71.5019</SimpleData>
+					<SimpleData name="y_proj">-1.95179e+06</SimpleData>
+					<SimpleData name="x_proj">2.84108e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50192199999999,-16.48645300000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_071</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Ovalo Horacio Zevallos (Piscina)</SimpleData>
+					<SimpleData name="code_point">CL30_PP_071</SimpleData>
+					<SimpleData name="lat">-16.4897</SimpleData>
+					<SimpleData name="long">-71.5064</SimpleData>
+					<SimpleData name="y_proj">-1.95212e+06</SimpleData>
+					<SimpleData name="x_proj">2.84052e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50642999999999,-16.489723,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_072</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">IE_400701_Paz_Y_Esperanza</SimpleData>
+					<SimpleData name="code_point">CL30_PP_072</SimpleData>
+					<SimpleData name="lat">-16.4901</SimpleData>
+					<SimpleData name="long">-71.5077</SimpleData>
+					<SimpleData name="y_proj">-1.95214e+06</SimpleData>
+					<SimpleData name="x_proj">2.84038e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50766400000002,-16.490059,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_073</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Parque_Villa_Hermosa</SimpleData>
+					<SimpleData name="code_point">CL30_PP_073</SimpleData>
+					<SimpleData name="lat">-16.4871</SimpleData>
+					<SimpleData name="long">-71.5084</SimpleData>
+					<SimpleData name="y_proj">-1.95178e+06</SimpleData>
+					<SimpleData name="x_proj">2.84033e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.508421,-16.487078,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_074</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Paradero Villa Socabaya</SimpleData>
+					<SimpleData name="code_point">CL30_PP_074</SimpleData>
+					<SimpleData name="lat">-16.4888</SimpleData>
+					<SimpleData name="long">-71.5104</SimpleData>
+					<SimpleData name="y_proj">-1.95196e+06</SimpleData>
+					<SimpleData name="x_proj">2.84009e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.510368,-16.48877200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_075</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Parque_San_Fernado_De_Socabaya</SimpleData>
+					<SimpleData name="code_point">CL30_PP_075</SimpleData>
+					<SimpleData name="lat">-16.4868</SimpleData>
+					<SimpleData name="long">-71.5163</SimpleData>
+					<SimpleData name="y_proj">-1.95165e+06</SimpleData>
+					<SimpleData name="x_proj">2.83944e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.516318,-16.48677000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_076</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Colegio Corazon De Jesus</SimpleData>
+					<SimpleData name="code_point">CL30_PP_076</SimpleData>
+					<SimpleData name="lat">-16.4882</SimpleData>
+					<SimpleData name="long">-71.5194</SimpleData>
+					<SimpleData name="y_proj">-1.95177e+06</SimpleData>
+					<SimpleData name="x_proj">2.83907e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.519395,-16.48815800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_077</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Colegio San Fernando (Local Social La Pampa)</SimpleData>
+					<SimpleData name="code_point">CL30_PP_077</SimpleData>
+					<SimpleData name="lat">-16.4855</SimpleData>
+					<SimpleData name="long">-71.5196</SimpleData>
+					<SimpleData name="y_proj">-1.95145e+06</SimpleData>
+					<SimpleData name="x_proj">2.83909e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.519594,-16.485464,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_078</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Parque Canarios</SimpleData>
+					<SimpleData name="code_point">CL30_PP_078</SimpleData>
+					<SimpleData name="lat">-16.4687</SimpleData>
+					<SimpleData name="long">-71.5255</SimpleData>
+					<SimpleData name="y_proj">-1.94941e+06</SimpleData>
+					<SimpleData name="x_proj">2.83864e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52549,-16.46871700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_079</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Grifo Ava Villa Del Sur</SimpleData>
+					<SimpleData name="code_point">CL30_PP_079</SimpleData>
+					<SimpleData name="lat">-16.4884</SimpleData>
+					<SimpleData name="long">-71.5162</SimpleData>
+					<SimpleData name="y_proj">-1.95184e+06</SimpleData>
+					<SimpleData name="x_proj">2.83943e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.516192,-16.488405,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_080</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Grifo San Miguel</SimpleData>
+					<SimpleData name="code_point">CL30_PP_080</SimpleData>
+					<SimpleData name="lat">-16.4844</SimpleData>
+					<SimpleData name="long">-71.5014</SimpleData>
+					<SimpleData name="y_proj">-1.95156e+06</SimpleData>
+					<SimpleData name="x_proj">2.84116e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50139900000001,-16.484394,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_081</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Estadio Horacio Zeballos Gamez</SimpleData>
+					<SimpleData name="code_point">CL30_PP_081</SimpleData>
+					<SimpleData name="lat">-16.482</SimpleData>
+					<SimpleData name="long">-71.5052</SimpleData>
+					<SimpleData name="y_proj">-1.95122e+06</SimpleData>
+					<SimpleData name="x_proj">2.84077e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.505167,-16.48198099999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_082</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Asociacion Divino Ninho</SimpleData>
+					<SimpleData name="code_point">CL30_PP_082</SimpleData>
+					<SimpleData name="lat">-16.4847</SimpleData>
+					<SimpleData name="long">-71.5135</SimpleData>
+					<SimpleData name="y_proj">-1.95143e+06</SimpleData>
+					<SimpleData name="x_proj">2.83978e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.513516,-16.48465899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_083</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Avenida</SimpleData>
+					<SimpleData name="code_point">CL30_PP_083</SimpleData>
+					<SimpleData name="lat">-16.48</SimpleData>
+					<SimpleData name="long">-71.5099</SimpleData>
+					<SimpleData name="y_proj">-1.95093e+06</SimpleData>
+					<SimpleData name="x_proj">2.84026e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50985299999999,-16.47998500000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_084</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Parque Zona 15</SimpleData>
+					<SimpleData name="code_point">CL30_PP_084</SimpleData>
+					<SimpleData name="lat">-16.475</SimpleData>
+					<SimpleData name="long">-71.5041</SimpleData>
+					<SimpleData name="y_proj">-1.95042e+06</SimpleData>
+					<SimpleData name="x_proj">2.84098e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.504115,-16.47503,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_085</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Parque</SimpleData>
+					<SimpleData name="code_point">CL30_PP_085</SimpleData>
+					<SimpleData name="lat">-16.4658</SimpleData>
+					<SimpleData name="long">-71.4989</SimpleData>
+					<SimpleData name="y_proj">-1.9494e+06</SimpleData>
+					<SimpleData name="x_proj">2.84169e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49888300000001,-16.46576200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_086</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">I.E.P. The Koritos</SimpleData>
+					<SimpleData name="code_point">CL30_PP_086</SimpleData>
+					<SimpleData name="lat">-16.446</SimpleData>
+					<SimpleData name="long">-71.4967</SimpleData>
+					<SimpleData name="y_proj">-1.94711e+06</SimpleData>
+					<SimpleData name="x_proj">2.8422e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49666099999999,-16.446003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_087</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Institucion Educativa 40193 Florentino Portugal</SimpleData>
+					<SimpleData name="code_point">CL30_PP_087</SimpleData>
+					<SimpleData name="lat">-16.455</SimpleData>
+					<SimpleData name="long">-71.4949</SimpleData>
+					<SimpleData name="y_proj">-1.94818e+06</SimpleData>
+					<SimpleData name="x_proj">2.84228e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49494300000001,-16.45498499999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_088</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Plaza De Coripata</SimpleData>
+					<SimpleData name="code_point">CL30_PP_088</SimpleData>
+					<SimpleData name="lat">-16.4472</SimpleData>
+					<SimpleData name="long">-71.4977</SimpleData>
+					<SimpleData name="y_proj">-1.94723e+06</SimpleData>
+					<SimpleData name="x_proj">2.84207e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49770144999999,-16.44715476999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_089</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">New Gas</SimpleData>
+					<SimpleData name="code_point">CL30_PP_089</SimpleData>
+					<SimpleData name="lat">-16.4679</SimpleData>
+					<SimpleData name="long">-71.5186</SimpleData>
+					<SimpleData name="y_proj">-1.9494e+06</SimpleData>
+					<SimpleData name="x_proj">2.83943e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51858666,-16.46791094,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_090</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Cancha Deportiva Al Lado De La Parroquia Virgen De La Asunta - Rosaspata</SimpleData>
+					<SimpleData name="code_point">CL30_PP_090</SimpleData>
+					<SimpleData name="lat">-16.4729</SimpleData>
+					<SimpleData name="long">-71.5189</SimpleData>
+					<SimpleData name="y_proj">-1.94998e+06</SimpleData>
+					<SimpleData name="x_proj">2.83933e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51886761999999,-16.47286386999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_091</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Parque Menelik</SimpleData>
+					<SimpleData name="code_point">CL30_PP_091</SimpleData>
+					<SimpleData name="lat">-16.4875</SimpleData>
+					<SimpleData name="long">-71.5195</SimpleData>
+					<SimpleData name="y_proj">-1.95169e+06</SimpleData>
+					<SimpleData name="x_proj">2.83907e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51950324000001,-16.48749656999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_092</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Centro De Recreacion Guardia Republicana</SimpleData>
+					<SimpleData name="code_point">CL30_PP_092</SimpleData>
+					<SimpleData name="lat">-16.4675</SimpleData>
+					<SimpleData name="long">-71.5239</SimpleData>
+					<SimpleData name="y_proj">-1.94929e+06</SimpleData>
+					<SimpleData name="x_proj">2.83884e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52385022,-16.46754082999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_093</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Parque Socabaya</SimpleData>
+					<SimpleData name="code_point">CL30_PP_093</SimpleData>
+					<SimpleData name="lat">-16.4713</SimpleData>
+					<SimpleData name="long">-71.5263</SimpleData>
+					<SimpleData name="y_proj">-1.94971e+06</SimpleData>
+					<SimpleData name="x_proj">2.83851e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52631398999999,-16.47133224999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_094</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Parque El Sebastian</SimpleData>
+					<SimpleData name="code_point">CL30_PP_094</SimpleData>
+					<SimpleData name="lat">-16.4722</SimpleData>
+					<SimpleData name="long">-71.523</SimpleData>
+					<SimpleData name="y_proj">-1.94985e+06</SimpleData>
+					<SimpleData name="x_proj">2.83888e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52296923999999,-16.47220417,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_095</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Losa Deportiva El Herraje - Buena Vista</SimpleData>
+					<SimpleData name="code_point">CL30_PP_095</SimpleData>
+					<SimpleData name="lat">-16.4483</SimpleData>
+					<SimpleData name="long">-71.4916</SimpleData>
+					<SimpleData name="y_proj">-1.94744e+06</SimpleData>
+					<SimpleData name="x_proj">2.84274e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49163183999998,-16.44834520000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_096</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Cancha - Villa Los Jardines</SimpleData>
+					<SimpleData name="code_point">CL30_PP_096</SimpleData>
+					<SimpleData name="lat">-16.4749</SimpleData>
+					<SimpleData name="long">-71.501</SimpleData>
+					<SimpleData name="y_proj">-1.95045e+06</SimpleData>
+					<SimpleData name="x_proj">2.84134e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50096825,-16.47490619999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL30_PP_097</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_30_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">17</SimpleData>
+					<SimpleData name="microred">CHARACATO</SimpleData>
+					<SimpleData name="cluster">30</SimpleData>
+					<SimpleData name="point_name">Puesto De Salud Horacio Zeballos Gomes</SimpleData>
+					<SimpleData name="code_point">CL30_PP_097</SimpleData>
+					<SimpleData name="lat">-16.4786</SimpleData>
+					<SimpleData name="long">-71.4993</SimpleData>
+					<SimpleData name="y_proj">-1.9509e+06</SimpleData>
+					<SimpleData name="x_proj">2.84147e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49934935,-16.47861617,0</coordinates>
+			</Point>
+		</Placemark>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
+	</Folder>
+</Document>
+</kml>

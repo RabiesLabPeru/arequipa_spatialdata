@@ -1,0 +1,2285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PP_Cluster_09_16abr2026.kml</name>
+	<Schema name="PP_Cluster_09_16abr2026" id="S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+		<SimpleField type="int" name="n_microred">
+			<displayName>&lt;b&gt;n_microred&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="microred">
+			<displayName>&lt;b&gt;microred&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="int" name="cluster">
+			<displayName>&lt;b&gt;cluster&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="point_name">
+			<displayName>&lt;b&gt;point_name&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="code_point">
+			<displayName>&lt;b&gt;code_point&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="lat">
+			<displayName>&lt;b&gt;lat&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="long">
+			<displayName>&lt;b&gt;long&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="y_proj">
+			<displayName>&lt;b&gt;y_proj&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="x_proj">
+			<displayName>&lt;b&gt;x_proj&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="type_point">
+			<displayName>&lt;b&gt;type_point&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="estratategy">
+			<displayName>&lt;b&gt;estratategy&lt;/b&gt;</displayName>
+		</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>n_microred</b></td><td>$[PP_Cluster_09_16abr2026/n_microred]</td></tr>
+  <tr><td><b>microred</b></td><td>$[PP_Cluster_09_16abr2026/microred]</td></tr>
+  <tr><td><b>cluster</b></td><td>$[PP_Cluster_09_16abr2026/cluster]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[PP_Cluster_09_16abr2026/point_name]</td></tr>
+  <tr><td><b>code_point</b></td><td>$[PP_Cluster_09_16abr2026/code_point]</td></tr>
+  <tr><td><b>lat</b></td><td>$[PP_Cluster_09_16abr2026/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[PP_Cluster_09_16abr2026/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[PP_Cluster_09_16abr2026/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[PP_Cluster_09_16abr2026/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[PP_Cluster_09_16abr2026/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[PP_Cluster_09_16abr2026/estratategy]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>n_microred</b></td><td>$[PP_Cluster_09_16abr2026/n_microred]</td></tr>
+  <tr><td><b>microred</b></td><td>$[PP_Cluster_09_16abr2026/microred]</td></tr>
+  <tr><td><b>cluster</b></td><td>$[PP_Cluster_09_16abr2026/cluster]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[PP_Cluster_09_16abr2026/point_name]</td></tr>
+  <tr><td><b>code_point</b></td><td>$[PP_Cluster_09_16abr2026/code_point]</td></tr>
+  <tr><td><b>lat</b></td><td>$[PP_Cluster_09_16abr2026/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[PP_Cluster_09_16abr2026/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[PP_Cluster_09_16abr2026/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[PP_Cluster_09_16abr2026/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[PP_Cluster_09_16abr2026/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[PP_Cluster_09_16abr2026/estratategy]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>PP_Cluster_09_16abr2026</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>CL09_PP_001</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Centro Deportivo Juan Velasco Alvarado</SimpleData>
+					<SimpleData name="code_point">CL09_PP_001</SimpleData>
+					<SimpleData name="lat">-16.3753</SimpleData>
+					<SimpleData name="long">-71.5219</SimpleData>
+					<SimpleData name="y_proj">-1.93848e+09</SimpleData>
+					<SimpleData name="x_proj">2.84027e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.521889,-16.375322,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_002</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Iglesia Cristo Rey</SimpleData>
+					<SimpleData name="code_point">CL09_PP_002</SimpleData>
+					<SimpleData name="lat">-16.3745</SimpleData>
+					<SimpleData name="long">-71.5225</SimpleData>
+					<SimpleData name="y_proj">-1.93838e+09</SimpleData>
+					<SimpleData name="x_proj">2.84021e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52246700000001,-16.374479,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_003</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Parque_El_Bosque</SimpleData>
+					<SimpleData name="code_point">CL09_PP_003</SimpleData>
+					<SimpleData name="lat">-16.3725</SimpleData>
+					<SimpleData name="long">-71.5211</SimpleData>
+					<SimpleData name="y_proj">-1.93816e+09</SimpleData>
+					<SimpleData name="x_proj">2.84039e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52113900000002,-16.37247900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_004</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Rafael Hoyos Rubios</SimpleData>
+					<SimpleData name="code_point">CL09_PP_004</SimpleData>
+					<SimpleData name="lat">-16.3734</SimpleData>
+					<SimpleData name="long">-71.5206</SimpleData>
+					<SimpleData name="y_proj">-1.93828e+09</SimpleData>
+					<SimpleData name="x_proj">2.84044e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52060200000001,-16.37344300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_005</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Centro Deportivo La Bombonera</SimpleData>
+					<SimpleData name="code_point">CL09_PP_005</SimpleData>
+					<SimpleData name="lat">-16.374</SimpleData>
+					<SimpleData name="long">-71.5191</SimpleData>
+					<SimpleData name="y_proj">-1.93837e+09</SimpleData>
+					<SimpleData name="x_proj">2.8406e+06</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51911800000001,-16.37404199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_006</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Loza-Deportiva-Los-Andes</SimpleData>
+					<SimpleData name="code_point">CL09_PP_006</SimpleData>
+					<SimpleData name="lat">-16.3756</SimpleData>
+					<SimpleData name="long">-71.5196</SimpleData>
+					<SimpleData name="y_proj">-1.93855e+06</SimpleData>
+					<SimpleData name="x_proj">2.84052e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51965,-16.37561600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_007</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Colegio_San_Jose_Obrero_Circa</SimpleData>
+					<SimpleData name="code_point">CL09_PP_007</SimpleData>
+					<SimpleData name="lat">-16.3771</SimpleData>
+					<SimpleData name="long">-71.5188</SimpleData>
+					<SimpleData name="y_proj">-1.93873e+06</SimpleData>
+					<SimpleData name="x_proj">2.84059e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.518832,-16.37709200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_008</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Av. Mexivo Con Av. Obrera</SimpleData>
+					<SimpleData name="code_point">CL09_PP_008</SimpleData>
+					<SimpleData name="lat">-16.3773</SimpleData>
+					<SimpleData name="long">-71.5172</SimpleData>
+					<SimpleData name="y_proj">-1.93877e+09</SimpleData>
+					<SimpleData name="x_proj">2.84078e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51718,-16.37727599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_009</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Piscina Municipal</SimpleData>
+					<SimpleData name="code_point">CL09_PP_009</SimpleData>
+					<SimpleData name="lat">-16.3761</SimpleData>
+					<SimpleData name="long">-71.5168</SimpleData>
+					<SimpleData name="y_proj">-1.93863e+09</SimpleData>
+					<SimpleData name="x_proj">2.84084e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51678800000001,-16.37606,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_010</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Alto_Selva_Alegre_Zona_C</SimpleData>
+					<SimpleData name="code_point">CL09_PP_010</SimpleData>
+					<SimpleData name="lat">-16.3768</SimpleData>
+					<SimpleData name="long">-71.5152</SimpleData>
+					<SimpleData name="y_proj">-1.93874e+09</SimpleData>
+					<SimpleData name="x_proj">2.84101e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.515201,-16.37683000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_011</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Colegio_Joule_Alto_Selva_Alegre</SimpleData>
+					<SimpleData name="code_point">CL09_PP_011</SimpleData>
+					<SimpleData name="lat">-16.3783</SimpleData>
+					<SimpleData name="long">-71.5164</SimpleData>
+					<SimpleData name="y_proj">-1.9389e+09</SimpleData>
+					<SimpleData name="x_proj">2.84085e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.516442,-16.378306,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_012</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Complejo Arequipa O Parque Tematico Del Deporte</SimpleData>
+					<SimpleData name="code_point">CL09_PP_012</SimpleData>
+					<SimpleData name="lat">-16.3798</SimpleData>
+					<SimpleData name="long">-71.5155</SimpleData>
+					<SimpleData name="y_proj">-1.93909e+09</SimpleData>
+					<SimpleData name="x_proj">2.84093e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.515494,-16.379759,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_013</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Puente Jose Olaya</SimpleData>
+					<SimpleData name="code_point">CL09_PP_013</SimpleData>
+					<SimpleData name="lat">-16.3808</SimpleData>
+					<SimpleData name="long">-71.5139</SimpleData>
+					<SimpleData name="y_proj">-1.93923e+09</SimpleData>
+					<SimpleData name="x_proj">2.8411e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51393200000001,-16.38078999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_014</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Av. Brasil Con Av. Leticia</SimpleData>
+					<SimpleData name="code_point">CL09_PP_014</SimpleData>
+					<SimpleData name="lat">-16.3767</SimpleData>
+					<SimpleData name="long">-71.5128</SimpleData>
+					<SimpleData name="y_proj">-1.93876e+09</SimpleData>
+					<SimpleData name="x_proj">2.84128e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51277199999998,-16.376718,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_015</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Loza-Deportiva-Misti</SimpleData>
+					<SimpleData name="code_point">CL09_PP_015</SimpleData>
+					<SimpleData name="lat">-16.3738</SimpleData>
+					<SimpleData name="long">-71.5169</SimpleData>
+					<SimpleData name="y_proj">-1.93837e+06</SimpleData>
+					<SimpleData name="x_proj">2.84085e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51690000000002,-16.373839,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_016</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Parque_Asoc_Artesanal_El_Misti</SimpleData>
+					<SimpleData name="code_point">CL09_PP_016</SimpleData>
+					<SimpleData name="lat">-16.3725</SimpleData>
+					<SimpleData name="long">-71.5171</SimpleData>
+					<SimpleData name="y_proj">-1.93821e+06</SimpleData>
+					<SimpleData name="x_proj">2.84085e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51710200000001,-16.37250000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_017</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Av. Leticia Con Las Torres</SimpleData>
+					<SimpleData name="code_point">CL09_PP_017</SimpleData>
+					<SimpleData name="lat">-16.3715</SimpleData>
+					<SimpleData name="long">-71.5165</SimpleData>
+					<SimpleData name="y_proj">-1.9381e+09</SimpleData>
+					<SimpleData name="x_proj">2.84093e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51646100000001,-16.371479,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_018</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Complejo Deportivo Ronaldo Jauregui</SimpleData>
+					<SimpleData name="code_point">CL09_PP_018</SimpleData>
+					<SimpleData name="lat">-16.372</SimpleData>
+					<SimpleData name="long">-71.5152</SimpleData>
+					<SimpleData name="y_proj">-1.93818e+09</SimpleData>
+					<SimpleData name="x_proj">2.84107e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.515213,-16.372048,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_019</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Parque Av. Leticia</SimpleData>
+					<SimpleData name="code_point">CL09_PP_019</SimpleData>
+					<SimpleData name="lat">-16.3734</SimpleData>
+					<SimpleData name="long">-71.5149</SimpleData>
+					<SimpleData name="y_proj">-1.93835e+09</SimpleData>
+					<SimpleData name="x_proj">2.84108e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51493800000001,-16.373437,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_020</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Coliseo_Padre_Carlos_Pozzo</SimpleData>
+					<SimpleData name="code_point">CL09_PP_020</SimpleData>
+					<SimpleData name="lat">-16.3736</SimpleData>
+					<SimpleData name="long">-71.5138</SimpleData>
+					<SimpleData name="y_proj">-1.93838e+09</SimpleData>
+					<SimpleData name="x_proj">2.84121e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.513796,-16.37360599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_021</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Iglesia_San_Lorenzo</SimpleData>
+					<SimpleData name="code_point">CL09_PP_021</SimpleData>
+					<SimpleData name="lat">-16.3724</SimpleData>
+					<SimpleData name="long">-71.5136</SimpleData>
+					<SimpleData name="y_proj">-1.93825e+09</SimpleData>
+					<SimpleData name="x_proj">2.84125e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51356100000001,-16.37241800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_022</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Av Obrera Con Av. Lima</SimpleData>
+					<SimpleData name="code_point">CL09_PP_022</SimpleData>
+					<SimpleData name="lat">-16.3734</SimpleData>
+					<SimpleData name="long">-71.5118</SimpleData>
+					<SimpleData name="y_proj">-1.93839e+09</SimpleData>
+					<SimpleData name="x_proj">2.84144e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.511797,-16.37344800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_023</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Colegio_Guillermo_Mercado_Barroso</SimpleData>
+					<SimpleData name="code_point">CL09_PP_023</SimpleData>
+					<SimpleData name="lat">-16.3728</SimpleData>
+					<SimpleData name="long">-71.5109</SimpleData>
+					<SimpleData name="y_proj">-1.93833e+09</SimpleData>
+					<SimpleData name="x_proj">2.84155e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51089899999999,-16.37280100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_024</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Plaza San Hilarion</SimpleData>
+					<SimpleData name="code_point">CL09_PP_024</SimpleData>
+					<SimpleData name="lat">-16.3741</SimpleData>
+					<SimpleData name="long">-71.5088</SimpleData>
+					<SimpleData name="y_proj">-1.9385e+09</SimpleData>
+					<SimpleData name="x_proj">2.84177e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50880900000001,-16.374074,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_025</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Loza-Deportiva-San-Hilarion</SimpleData>
+					<SimpleData name="code_point">CL09_PP_025</SimpleData>
+					<SimpleData name="lat">-16.3734</SimpleData>
+					<SimpleData name="long">-71.5071</SimpleData>
+					<SimpleData name="y_proj">-1.93844e+09</SimpleData>
+					<SimpleData name="x_proj">2.84197e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.507065,-16.37336,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_026</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Parque_Chabuca_Grande</SimpleData>
+					<SimpleData name="code_point">CL09_PP_026</SimpleData>
+					<SimpleData name="lat">-16.3717</SimpleData>
+					<SimpleData name="long">-71.5085</SimpleData>
+					<SimpleData name="y_proj">-1.93823e+09</SimpleData>
+					<SimpleData name="x_proj">2.84184e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.508455,-16.37173,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_027</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Mercado Apurimac</SimpleData>
+					<SimpleData name="code_point">CL09_PP_027</SimpleData>
+					<SimpleData name="lat">-16.3714</SimpleData>
+					<SimpleData name="long">-71.5101</SimpleData>
+					<SimpleData name="y_proj">-1.93818e+09</SimpleData>
+					<SimpleData name="x_proj">2.84166e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51006,-16.37143299999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_028</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Loza-Deportiva-Nestor-Velasquez</SimpleData>
+					<SimpleData name="code_point">CL09_PP_028</SimpleData>
+					<SimpleData name="lat">-16.3698</SimpleData>
+					<SimpleData name="long">-71.5127</SimpleData>
+					<SimpleData name="y_proj">-1.93795e+09</SimpleData>
+					<SimpleData name="x_proj">2.84139e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51265600000001,-16.36979400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_029</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Centro Deportivo Ampliacion Apurimac</SimpleData>
+					<SimpleData name="code_point">CL09_PP_029</SimpleData>
+					<SimpleData name="lat">-16.3691</SimpleData>
+					<SimpleData name="long">-71.5104</SimpleData>
+					<SimpleData name="y_proj">-1.93789e+09</SimpleData>
+					<SimpleData name="x_proj">2.84165e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51040600000002,-16.36906799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_030</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Centro Deportivo Apurimac</SimpleData>
+					<SimpleData name="code_point">CL09_PP_030</SimpleData>
+					<SimpleData name="lat">-16.3701</SimpleData>
+					<SimpleData name="long">-71.5086</SimpleData>
+					<SimpleData name="y_proj">-1.93804e+09</SimpleData>
+					<SimpleData name="x_proj">2.84184e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50864199999999,-16.37012799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_031</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Ie_Diego_Thomson</SimpleData>
+					<SimpleData name="code_point">CL09_PP_031</SimpleData>
+					<SimpleData name="lat">-16.3679</SimpleData>
+					<SimpleData name="long">-71.5083</SimpleData>
+					<SimpleData name="y_proj">-1.93778e+09</SimpleData>
+					<SimpleData name="x_proj">2.8419e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.508308,-16.36787799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_032</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Local Social Villa Union</SimpleData>
+					<SimpleData name="code_point">CL09_PP_032</SimpleData>
+					<SimpleData name="lat">-16.3684</SimpleData>
+					<SimpleData name="long">-71.5078</SimpleData>
+					<SimpleData name="y_proj">-1.93785e+09</SimpleData>
+					<SimpleData name="x_proj">2.84196e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50776999999999,-16.36842699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_033</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Campo_Deportivo_Tripartito</SimpleData>
+					<SimpleData name="code_point">CL09_PP_033</SimpleData>
+					<SimpleData name="lat">-16.3686</SimpleData>
+					<SimpleData name="long">-71.5063</SimpleData>
+					<SimpleData name="y_proj">-1.93789e+09</SimpleData>
+					<SimpleData name="x_proj">2.84212e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50633700000002,-16.36860999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_034</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">P.S. Leones Del Misti</SimpleData>
+					<SimpleData name="code_point">CL09_PP_034</SimpleData>
+					<SimpleData name="lat">-16.37</SimpleData>
+					<SimpleData name="long">-71.507</SimpleData>
+					<SimpleData name="y_proj">-1.93805e+09</SimpleData>
+					<SimpleData name="x_proj">2.84202e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.507009,-16.37003699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_035</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Centro Deportivo Leones Del Misti</SimpleData>
+					<SimpleData name="code_point">CL09_PP_035</SimpleData>
+					<SimpleData name="lat">-16.3708</SimpleData>
+					<SimpleData name="long">-71.5055</SimpleData>
+					<SimpleData name="y_proj">-1.93816e+06</SimpleData>
+					<SimpleData name="x_proj">2.84219e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.505483,-16.37079700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_036</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Campo_Deportivo_Leones_Del_Misti</SimpleData>
+					<SimpleData name="code_point">CL09_PP_036</SimpleData>
+					<SimpleData name="lat">-16.3705</SimpleData>
+					<SimpleData name="long">-71.5046</SimpleData>
+					<SimpleData name="y_proj">-1.93813e+09</SimpleData>
+					<SimpleData name="x_proj">2.84229e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50460499999998,-16.370483,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_037</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Complejo Deportivo San Luis</SimpleData>
+					<SimpleData name="code_point">CL09_PP_037</SimpleData>
+					<SimpleData name="lat">-16.3695</SimpleData>
+					<SimpleData name="long">-71.504</SimpleData>
+					<SimpleData name="y_proj">-1.93802e+09</SimpleData>
+					<SimpleData name="x_proj">2.84237e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.504014,-16.369484,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_038</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Villa Union</SimpleData>
+					<SimpleData name="code_point">CL09_PP_038</SimpleData>
+					<SimpleData name="lat">-16.3669</SimpleData>
+					<SimpleData name="long">-71.5039</SimpleData>
+					<SimpleData name="y_proj">-1.93772e+09</SimpleData>
+					<SimpleData name="x_proj">2.84242e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50387600000001,-16.36685800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_039</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Losa_Deportiva_Avis_Javier_Heraud_Parte_Alta</SimpleData>
+					<SimpleData name="code_point">CL09_PP_039</SimpleData>
+					<SimpleData name="lat">-16.367</SimpleData>
+					<SimpleData name="long">-71.5023</SimpleData>
+					<SimpleData name="y_proj">-1.93775e+06</SimpleData>
+					<SimpleData name="x_proj">2.84259e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50233299999999,-16.36696799999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_040</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Centro Deportivo Javier Heraud</SimpleData>
+					<SimpleData name="code_point">CL09_PP_040</SimpleData>
+					<SimpleData name="lat">-16.3675</SimpleData>
+					<SimpleData name="long">-71.5006</SimpleData>
+					<SimpleData name="y_proj">-1.93784e+09</SimpleData>
+					<SimpleData name="x_proj">2.84278e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50064,-16.36753300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_041</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Terminal De Javier Heraud</SimpleData>
+					<SimpleData name="code_point">CL09_PP_041</SimpleData>
+					<SimpleData name="lat">-16.3657</SimpleData>
+					<SimpleData name="long">-71.5021</SimpleData>
+					<SimpleData name="y_proj">-1.9376e+09</SimpleData>
+					<SimpleData name="x_proj">2.84264e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50208600000001,-16.36572000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_042</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Complejo Deportivo Bella Esperanza</SimpleData>
+					<SimpleData name="code_point">CL09_PP_042</SimpleData>
+					<SimpleData name="lat">-16.3651</SimpleData>
+					<SimpleData name="long">-71.5</SimpleData>
+					<SimpleData name="y_proj">-1.93756e+09</SimpleData>
+					<SimpleData name="x_proj">2.84289e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49995800000001,-16.36509100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_043</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Cementerio_Alto_Selva_Alegre</SimpleData>
+					<SimpleData name="code_point">CL09_PP_043</SimpleData>
+					<SimpleData name="lat">-16.3634</SimpleData>
+					<SimpleData name="long">-71.4988</SimpleData>
+					<SimpleData name="y_proj">-1.93737e+09</SimpleData>
+					<SimpleData name="x_proj">2.84304e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.498833,-16.36337700000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_044</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Ameasa - Pirotecnicos</SimpleData>
+					<SimpleData name="code_point">CL09_PP_044</SimpleData>
+					<SimpleData name="lat">-16.3603</SimpleData>
+					<SimpleData name="long">-71.4961</SimpleData>
+					<SimpleData name="y_proj">-1.93704e+09</SimpleData>
+					<SimpleData name="x_proj">2.84339e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49610100000001,-16.36030800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_045</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Ampliacion Bella Esperanza</SimpleData>
+					<SimpleData name="code_point">CL09_PP_045</SimpleData>
+					<SimpleData name="lat">-16.3665</SimpleData>
+					<SimpleData name="long">-71.4983</SimpleData>
+					<SimpleData name="y_proj">-1.93775e+09</SimpleData>
+					<SimpleData name="x_proj">2.84305e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.49834900000002,-16.36653100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_046</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva Granjeros San Lazaro</SimpleData>
+					<SimpleData name="code_point">CL09_PP_046</SimpleData>
+					<SimpleData name="lat">-16.3678</SimpleData>
+					<SimpleData name="long">-71.4966</SimpleData>
+					<SimpleData name="y_proj">-1.93792e+09</SimpleData>
+					<SimpleData name="x_proj">2.84323e+09</SimpleData>
+					<SimpleData name="type_point">Mobile</SimpleData>
+					<SimpleData name="estratategy">Establecido</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.496602,-16.36782799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_047</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Parque</SimpleData>
+					<SimpleData name="code_point">CL09_PP_047</SimpleData>
+					<SimpleData name="lat">-16.3682</SimpleData>
+					<SimpleData name="long">-71.5033</SimpleData>
+					<SimpleData name="y_proj">-1.93789e+09</SimpleData>
+					<SimpleData name="x_proj">2.84247e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.503275,-16.36824600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_048</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Parque San Luis</SimpleData>
+					<SimpleData name="code_point">CL09_PP_048</SimpleData>
+					<SimpleData name="lat">-16.3692</SimpleData>
+					<SimpleData name="long">-71.5032</SimpleData>
+					<SimpleData name="y_proj">-1.93799e+09</SimpleData>
+					<SimpleData name="x_proj">2.84246e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50323400000001,-16.36916099999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_049</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Parque Victor Raul Haya De La Torre</SimpleData>
+					<SimpleData name="code_point">CL09_PP_049</SimpleData>
+					<SimpleData name="lat">-16.3688</SimpleData>
+					<SimpleData name="long">-71.5043</SimpleData>
+					<SimpleData name="y_proj">-1.93793e+09</SimpleData>
+					<SimpleData name="x_proj">2.84235e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50427000000001,-16.36876199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_050</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Parque El Leoncito</SimpleData>
+					<SimpleData name="code_point">CL09_PP_050</SimpleData>
+					<SimpleData name="lat">-16.3705</SimpleData>
+					<SimpleData name="long">-71.5074</SimpleData>
+					<SimpleData name="y_proj">-1.9381e+09</SimpleData>
+					<SimpleData name="x_proj">2.84198e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.507366,-16.37053399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_051</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Capilla</SimpleData>
+					<SimpleData name="code_point">CL09_PP_051</SimpleData>
+					<SimpleData name="lat">-16.3722</SimpleData>
+					<SimpleData name="long">-71.506</SimpleData>
+					<SimpleData name="y_proj">-1.93831e+09</SimpleData>
+					<SimpleData name="x_proj">2.84211e+06</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.50602299999998,-16.37216000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_052</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Iglesia</SimpleData>
+					<SimpleData name="code_point">CL09_PP_052</SimpleData>
+					<SimpleData name="lat">-16.3742</SimpleData>
+					<SimpleData name="long">-71.5111</SimpleData>
+					<SimpleData name="y_proj">-1.93848e+06</SimpleData>
+					<SimpleData name="x_proj">2.84151e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.511053,-16.37415999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_053</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Av. Arequipa Con Merica</SimpleData>
+					<SimpleData name="code_point">CL09_PP_053</SimpleData>
+					<SimpleData name="lat">-16.3818</SimpleData>
+					<SimpleData name="long">-71.5162</SimpleData>
+					<SimpleData name="y_proj">-1.93932e+09</SimpleData>
+					<SimpleData name="x_proj">2.84083e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.516165,-16.38180800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_054</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Loza Deportiva</SimpleData>
+					<SimpleData name="code_point">CL09_PP_054</SimpleData>
+					<SimpleData name="lat">-16.3745</SimpleData>
+					<SimpleData name="long">-71.5206</SimpleData>
+					<SimpleData name="y_proj">-1.93841e+09</SimpleData>
+					<SimpleData name="x_proj">2.84042e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52059300000001,-16.374536,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_055</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Avenida Chilina</SimpleData>
+					<SimpleData name="code_point">CL09_PP_055</SimpleData>
+					<SimpleData name="lat">-16.3728</SimpleData>
+					<SimpleData name="long">-71.5235</SimpleData>
+					<SimpleData name="y_proj">-1.93816e+09</SimpleData>
+					<SimpleData name="x_proj">2.84011e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.52354699999999,-16.37275899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_056</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Paradero Las Torres</SimpleData>
+					<SimpleData name="code_point">CL09_PP_056</SimpleData>
+					<SimpleData name="lat">-16.3722</SimpleData>
+					<SimpleData name="long">-71.5184</SimpleData>
+					<SimpleData name="y_proj">-1.93816e+09</SimpleData>
+					<SimpleData name="x_proj">2.8407e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51840300000002,-16.37221099999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_057</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Parque Juan XXIII</SimpleData>
+					<SimpleData name="code_point">CL09_PP_057</SimpleData>
+					<SimpleData name="lat">-16.3697</SimpleData>
+					<SimpleData name="long">-71.5114</SimpleData>
+					<SimpleData name="y_proj">-1.93796e+09</SimpleData>
+					<SimpleData name="x_proj">2.84152e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.51144700000002,-16.36974900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_058</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Paradero De Combis E</SimpleData>
+					<SimpleData name="code_point">CL09_PP_058</SimpleData>
+					<SimpleData name="lat">-16.3697</SimpleData>
+					<SimpleData name="long">-71.5021</SimpleData>
+					<SimpleData name="y_proj">-1.93808e+09</SimpleData>
+					<SimpleData name="x_proj">2.84259e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.502084,-16.36972600000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL09_PP_059</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PP_Cluster_09_16abr2026_ISISSDDDDSS">
+					<SimpleData name="n_microred">10</SimpleData>
+					<SimpleData name="microred">ALTO SELVA ALEGRE</SimpleData>
+					<SimpleData name="cluster">9</SimpleData>
+					<SimpleData name="point_name">Av Obrera/Av Leticia</SimpleData>
+					<SimpleData name="code_point">CL09_PP_059</SimpleData>
+					<SimpleData name="lat">-16.375</SimpleData>
+					<SimpleData name="long">-71.5139</SimpleData>
+					<SimpleData name="y_proj">-1.93855e+09</SimpleData>
+					<SimpleData name="x_proj">2.84118e+09</SimpleData>
+					<SimpleData name="type_point">Fixed</SimpleData>
+					<SimpleData name="estratategy">Propuesto</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.513907,-16.37503799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
+	</Folder>
+</Document>
+</kml>

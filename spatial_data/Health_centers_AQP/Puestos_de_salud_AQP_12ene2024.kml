@@ -1,0 +1,1941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PUESTOS_DESALUD_AQP.kml</name>
+	<StyleMap id="msn_red-circle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-circle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-circle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-circle0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-circle0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-circle0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_red-circle">
+		<IconStyle>
+			<scale>0.945455</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_red-circle0">
+		<IconStyle>
+			<scale>0.945455</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_red-circle">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_red-circle0">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>PUESTOS DE SALUD AQP</name>
+		<open>1</open>
+		<Placemark>
+			<name>C.S. MARITZA CAMPO DIAZ</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>-71.56253190656365</longitude>
+				<latitude>-16.35143135724871</latitude>
+				<altitude>0</altitude>
+				<heading>7.067107864744395</heading>
+				<tilt>45.00067725339218</tilt>
+				<range>102.8803051828481</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.56252460272249,-16.35137482554827,1859.44029367274</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. CIUDAD MUNICIPAL</name>
+			<visibility>0</visibility>
+			<Camera>
+				<longitude>-71.59402557828429</longitude>
+				<latitude>-16.32561920909956</latitude>
+				<altitude>173.4213055459857</altitude>
+				<heading>4.566018744553318</heading>
+				<tilt>3.392071842317449</tilt>
+				<roll>4.009340442906049</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.59406171295936,-16.32547389612109,1915.682798852509</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. PERUARBO</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>-71.60000992866448</longitude>
+				<latitude>-16.34538677653602</latitude>
+				<altitude>0</altitude>
+				<heading>0.6351639972162236</heading>
+				<tilt>45.81384791395811</tilt>
+				<range>147.9808521767249</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.60006121217052,-16.3453104929681,1811.745096224908</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. NAZARENO</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>-71.54956898754048</longitude>
+				<latitude>-16.32809782454015</latitude>
+				<altitude>0</altitude>
+				<heading>154.1174413070375</heading>
+				<tilt>45.82731296611078</tilt>
+				<range>99.30131383384733</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.54951254306873,-16.32817102931658,1989.068469555169</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. RAFAEL BELAUNDE</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.54236559378974</longitude>
+				<latitude>-16.33205379252693</latitude>
+				<altitude>0</altitude>
+				<heading>-105.4104670067697</heading>
+				<tilt>45.01267059677469</tilt>
+				<range>108.3091172673068</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.54221810049721,-16.33205351504164,1986.191121683725</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. FRANCISCO BOLOGNESI</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.54208017855622</longitude>
+				<latitude>-16.35479078234977</latitude>
+				<altitude>0</altitude>
+				<heading>-0.9359233707083234</heading>
+				<tilt>44.79866268956243</tilt>
+				<range>104.2618051782142</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.54209219579876,-16.35476717834615,1878.067542429987</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. LA TOMILLA</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.5444588503138</longitude>
+				<latitude>-16.36197762303474</latitude>
+				<altitude>0</altitude>
+				<heading>142.6421299105564</heading>
+				<tilt>47.14700932640427</tilt>
+				<range>98.74482310455838</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.5446130953064,-16.36189408648499,1837.241457728399</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. BUENOS AIRES</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.54932080453497</longitude>
+				<latitude>-16.35148319871077</latitude>
+				<altitude>0</altitude>
+				<heading>-59.13239609004361</heading>
+				<tilt>45.74771318739442</tilt>
+				<range>100.1688610670193</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.54936944104639,-16.35139212614448,1874.738691771239</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. DEAN VALDIVIA</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.5476535317334</longitude>
+				<latitude>-16.33352852777424</latitude>
+				<altitude>0</altitude>
+				<heading>-27.40306942721962</heading>
+				<tilt>45.63132441456319</tilt>
+				<range>197.4547405621323</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.54740725854013,-16.33344098525511,1975.667973256017</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. SAN JOSE</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>-71.55440608904857</longitude>
+				<latitude>-16.34812076703694</latitude>
+				<altitude>0</altitude>
+				<heading>47.34918359429845</heading>
+				<tilt>45.29132509389395</tilt>
+				<range>103.4547728875951</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.5544163886954,-16.34812865126197,1869.061312293417</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. CIUDAD DE DIOS</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>-71.61989850915444</longitude>
+				<latitude>-16.30544929328771</latitude>
+				<altitude>0</altitude>
+				<heading>-133.0819107266928</heading>
+				<tilt>45.68452739775473</tilt>
+				<range>114.5043511877152</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.61980051569375,-16.30532257807612,1997.315722327817</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. SALAVERRY</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.53593430367692</longitude>
+				<latitude>-16.43516076405129</latitude>
+				<altitude>0</altitude>
+				<heading>-2.551520479337069e-11</heading>
+				<tilt>0</tilt>
+				<range>443.169763609159</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.53637301365636,-16.43503336995511,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. SAN MARTIN DE SOCABAYA</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.53011488273197</longitude>
+				<latitude>-16.4391139526306</latitude>
+				<altitude>0</altitude>
+				<heading>-4.409978619046929e-06</heading>
+				<tilt>11.78608640824705</tilt>
+				<range>164.9430818869379</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.53012878925023,-16.4389320109487,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. 4 DE OCTUBRE</name>
+			<visibility>0</visibility>
+			<Camera>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.52720522043447</longitude>
+				<latitude>-16.44771710765724</latitude>
+				<altitude>208.830700532797</altitude>
+				<heading>-88.79596534963498</heading>
+				<tilt>1.300653748893941</tilt>
+				<roll>-85.78821418930414</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.52732173804262,-16.44748150047617,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. CIUDAD MI TRABAJO</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.53443911511778</longitude>
+				<latitude>-16.44781831576454</latitude>
+				<altitude>0</altitude>
+				<heading>-40.38960854397427</heading>
+				<tilt>46.14110226421664</tilt>
+				<range>318.5497853279512</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.53418493417236,-16.44758706918867,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. LARA</name>
+			<visibility>0</visibility>
+			<Camera>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.52861705950899</longitude>
+				<latitude>-16.45423334557061</latitude>
+				<altitude>74.11824897500665</altitude>
+				<heading>14.38303695646553</heading>
+				<tilt>45.1510333460278</tilt>
+				<roll>-1.830360957863264</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.5284061453879,-16.45350135043287,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. SAN FERNADO</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.52825623610897</longitude>
+				<latitude>-16.4730861069828</latitude>
+				<altitude>0</altitude>
+				<heading>59.19600393844772</heading>
+				<tilt>46.0624519188335</tilt>
+				<range>247.1728300350666</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.52819850389062,-16.47308123985087,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. HORACIO ZEVALLOS</name>
+			<visibility>0</visibility>
+			<Camera>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.49866400750984</longitude>
+				<latitude>-16.48039769963749</latitude>
+				<altitude>756.5761250046244</altitude>
+				<heading>-7.218364201001809</heading>
+				<tilt>20.02611428327219</tilt>
+				<roll>-3.815342614830188</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.49933113762631,-16.47853686449319,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. VICTOR RAUL HINOJOSA</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.51510022119426</longitude>
+				<latitude>-16.44456534081117</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0002541035044213539</heading>
+				<tilt>4.928842671612032</tilt>
+				<range>387.0321320749946</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.51547959116024,-16.44481217122208,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. LAS ESMERALDAS</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.51219567481424</longitude>
+				<latitude>-16.45026859612547</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001244147419864846</heading>
+				<tilt>22.20592975392249</tilt>
+				<range>326.075974195605</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.51246175672516,-16.45001044524221,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. 13 DE ENERO</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.53058192897797</longitude>
+				<latitude>-16.43299981452456</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2264083839712477</heading>
+				<tilt>3.317251134659668</tilt>
+				<range>199.8304047817277</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.53057833580353,-16.43282885826638,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. CERRO JULY</name>
+			<visibility>0</visibility>
+			<Camera>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.54233492628637</longitude>
+				<latitude>-16.42572573062366</latitude>
+				<altitude>157.9744420811293</altitude>
+				<heading>10.06848870457191</heading>
+				<tilt>0.9512930537414793</tilt>
+				<roll>9.698898077149389</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.54237951313215,-16.42566196847814,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. HUNTER</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.5552487283647</longitude>
+				<latitude>-16.4458245163203</latitude>
+				<altitude>0</altitude>
+				<heading>0.000166923320912642</heading>
+				<tilt>0</tilt>
+				<range>378.7434972217878</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.55481683846088,-16.44551633729317,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. CAMINOS DEL INCA</name>
+			<visibility>0</visibility>
+			<Camera>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.56355235816433</longitude>
+				<latitude>-16.43443425121911</latitude>
+				<altitude>122.0172925481122</altitude>
+				<heading>-10.45626024228528</heading>
+				<tilt>1.173020275657751</tilt>
+				<roll>-9.963671699378745</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.56364110989493,-16.43436782139105,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. DANIEL ALCIDES CARRION</name>
+			<visibility>0</visibility>
+			<Camera>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.55064688252003</longitude>
+				<latitude>-16.44897552070958</latitude>
+				<altitude>172.7455650174981</altitude>
+				<heading>-6.503105235728043</heading>
+				<tilt>13.06002525340254</tilt>
+				<roll>-4.325287864241361</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.55074825379782,-16.44868179372099,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. ALTO ALIANZA</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.55266689315668</longitude>
+				<latitude>-16.45533050827598</latitude>
+				<altitude>0</altitude>
+				<heading>-2.107069539467524e-05</heading>
+				<tilt>0</tilt>
+				<range>125.4172307837946</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.55270229440303,-16.45535679315637,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. AMP. PAMPAS DEL CUSCO</name>
+			<visibility>0</visibility>
+			<Camera>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.55736963578774</longitude>
+				<latitude>-16.45058286428824</latitude>
+				<altitude>207.6771197861281</altitude>
+				<heading>-2.674871958688228</heading>
+				<tilt>8.921864730969196</tilt>
+				<roll>-1.963111965017256</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.55760396608288,-16.45045818616466,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. UPIS PAISAJISTA</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.55554309217499</longitude>
+				<latitude>-16.46156499579404</latitude>
+				<altitude>0</altitude>
+				<heading>-118.0062032644346</heading>
+				<tilt>45.22967640466345</tilt>
+				<range>210.474870544656</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.55538610608767,-16.46147908670755,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. CHILPINILLA</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.55238943941954</longitude>
+				<latitude>-16.44021669258892</latitude>
+				<altitude>0</altitude>
+				<heading>3.266699087500621e-05</heading>
+				<tilt>17.53302798475059</tilt>
+				<range>166.1701491009314</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.55233598231202,-16.44018857459751,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. TIABAYA</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>-71.58823114866074</longitude>
+				<latitude>-16.45077027448384</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0006764403863728531</heading>
+				<tilt>11.24926853783328</tilt>
+				<range>449.642813611106</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.58912876598907,-16.45095835842532,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. CERRO VERDE</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.61460918139447</longitude>
+				<latitude>-16.45104059749896</latitude>
+				<altitude>0</altitude>
+				<heading>4.824707329647268e-05</heading>
+				<tilt>0</tilt>
+				<range>154.0015124180457</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.61466409002243,-16.45096363152119,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. CONGATA</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.61968823405094</longitude>
+				<latitude>-16.4449812820258</latitude>
+				<altitude>0</altitude>
+				<heading>-8.148469904106029e-05</heading>
+				<tilt>4.711138874804044</tilt>
+				<range>195.3806922203373</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.6198030435074,-16.44481245218232,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. UCHUMAYO</name>
+			<visibility>0</visibility>
+			<Camera>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.67323294975486</longitude>
+				<latitude>-16.42541032476314</latitude>
+				<altitude>263.6776769123799</altitude>
+				<heading>-58.14745124002255</heading>
+				<tilt>0.6996257287884636</tilt>
+				<roll>-56.74153439819673</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.67306548536189,-16.42529005199992,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. YANAHUARA</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>-71.54051825183244</longitude>
+				<latitude>-16.38602220263552</latitude>
+				<altitude>0</altitude>
+				<heading>-67.96701132481057</heading>
+				<tilt>45.08752475404178</tilt>
+				<range>102.2368737205149</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.54055921511328,-16.38596539486616,1710.757143693363</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. SACHACA</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.56633884265403</longitude>
+				<latitude>-16.42519275400626</latitude>
+				<altitude>0</altitude>
+				<heading>4.795927668571176e-05</heading>
+				<tilt>0</tilt>
+				<range>202.1975873991825</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.56637015362051,-16.42508852062889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. PAMPA DE CAMARONES</name>
+			<visibility>0</visibility>
+			<Camera>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.57200776066307</longitude>
+				<latitude>-16.4113147300026</latitude>
+				<altitude>101.1582713154012</altitude>
+				<heading>-75.41807030150166</heading>
+				<tilt>0.1919378355098257</tilt>
+				<roll>-74.97609780804243</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.57206989510902,-16.4113651942932,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. MANUEL PRADO</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-12-31</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.51270902466811</longitude>
+				<latitude>-16.41571868796737</latitude>
+				<altitude>0</altitude>
+				<heading>-2.31709735065448e-06</heading>
+				<tilt>0</tilt>
+				<range>117.962055406717</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.51267683050928,-16.4156157484296,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S AMPLIACION PAUCARPATA</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-12-31</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.5032239475409</longitude>
+				<latitude>-16.42721414622668</latitude>
+				<altitude>0</altitude>
+				<heading>178.4646492227933</heading>
+				<tilt>45.37538586349152</tilt>
+				<range>104.0528284567068</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.50320423082573,-16.42710899103838,1757.804075471231</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. CAMPO MARTE</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-12-31</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.49677087614236</longitude>
+				<latitude>-16.42708030939304</latitude>
+				<altitude>0</altitude>
+				<heading>1.151360794689793e-12</heading>
+				<tilt>0</tilt>
+				<range>196.4734382947816</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.49678340541881,-16.42726572797422,1783.621120334551</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. NUEVA ALBORADA</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-12-31</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.49137853036588</longitude>
+				<latitude>-16.43397649960395</latitude>
+				<altitude>0</altitude>
+				<heading>-170.5414202297421</heading>
+				<tilt>45.00038838935424</tilt>
+				<range>103.91172064977</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.49133356209038,-16.43390476477966,1842.314169320883</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. CIUDAD BLANCA</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-12-31</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.49127066651145</longitude>
+				<latitude>-16.41745695132846</latitude>
+				<altitude>0</altitude>
+				<heading>88.83181823884559</heading>
+				<tilt>45.00052110235234</tilt>
+				<range>102.3960715669278</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.49123104425755,-16.41742761277376,1833.49347157675</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. SAN JUAN</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-12-31</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.48222894059553</longitude>
+				<latitude>-16.41461246525969</latitude>
+				<altitude>0</altitude>
+				<heading>27.86661342245866</heading>
+				<tilt>45.0281015296986</tilt>
+				<range>102.945425737868</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.4822001148527,-16.41440057950891,1910.224625273354</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. ISRAEL</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-12-31</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.4846099135044</longitude>
+				<latitude>-16.41950104516659</latitude>
+				<altitude>0</altitude>
+				<heading>137.5991027823798</heading>
+				<tilt>45.49422356408984</tilt>
+				<range>369.1220512785623</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.48486444386269,-16.41890491041634,1929.829447847599</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. VILLA JESUS</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-12-31</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.47435518301384</longitude>
+				<latitude>-16.41925388395258</latitude>
+				<altitude>0</altitude>
+				<heading>3.738617627820512e-05</heading>
+				<tilt>14.38840392938465</tilt>
+				<range>378.8163422725308</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.47476718331944,-16.41926201332438,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. ALTO JESUS</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-12-31</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.49438242963582</longitude>
+				<latitude>-16.42276794774346</latitude>
+				<altitude>0</altitude>
+				<heading>11.09462392550602</heading>
+				<tilt>46.21236641773646</tilt>
+				<range>101.460070853348</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.49438504299863,-16.42264221773309,1821.538247739626</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. 15 DE AGOSTO</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.50018198715577</longitude>
+				<latitude>-16.41302015978439</latitude>
+				<altitude>0</altitude>
+				<heading>2.349634770931173e-12</heading>
+				<tilt>0</tilt>
+				<range>150.8956605168987</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.50020680777192,-16.41294079593443,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. MODULO A</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.49428027399755</longitude>
+				<latitude>-16.40844183010512</latitude>
+				<altitude>0</altitude>
+				<heading>28.35603376098939</heading>
+				<tilt>45.83567432316026</tilt>
+				<range>102.1664171469352</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.49422076372909,-16.40833811744931,1846.321166964724</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. MODULO B</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.48506033387837</longitude>
+				<latitude>-16.40941041116982</latitude>
+				<altitude>0</altitude>
+				<heading>-51.46992056650456</heading>
+				<tilt>45.63663297459699</tilt>
+				<range>100.0331888849693</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.4851207266933,-16.40941864958995,1900.494477843203</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. MODULO C-D</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.48026470705452</longitude>
+				<latitude>-16.407955456404</latitude>
+				<altitude>0</altitude>
+				<heading>-29.06540270730999</heading>
+				<tilt>45.39491538191656</tilt>
+				<range>102.500932289666</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.48030053969171,-16.40785164526753,1926.716042310544</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. MARIANO MELGAR</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.51223113609872</longitude>
+				<latitude>-16.40261212615582</latitude>
+				<altitude>0</altitude>
+				<heading>-22.64660947600457</heading>
+				<tilt>44.49865577348487</tilt>
+				<range>177.2848167047301</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.51201344865021,-16.402478959969,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. ATALAYA</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.50065007455292</longitude>
+				<latitude>-16.3972957473836</latitude>
+				<altitude>0</altitude>
+				<heading>-1.970592166767758e-11</heading>
+				<tilt>0</tilt>
+				<range>131.5150745311759</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.50046633864666,-16.39714642897091,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. GENERALISIMO SAN MARTIN</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.49754879321283</longitude>
+				<latitude>-16.40462857033845</latitude>
+				<altitude>0</altitude>
+				<heading>1.558072088839472e-06</heading>
+				<tilt>0</tilt>
+				<range>100.8846156081743</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.49749641643463,-16.40456069605133,1826.352256693287</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. EL MIRADOR</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.49317802167511</longitude>
+				<latitude>-16.39309694971377</latitude>
+				<altitude>0</altitude>
+				<heading>-123.7608416141119</heading>
+				<tilt>45.0352081844825</tilt>
+				<range>101.6768004862972</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.49324456189274,-16.39308666120815,1978.543400596041</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. JERUSALEN</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.48895627665918</longitude>
+				<latitude>-16.40128644175524</latitude>
+				<altitude>0</altitude>
+				<heading>70.56152324063818</heading>
+				<tilt>45.04833086920449</tilt>
+				<range>102.9077491213046</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.488889506066,-16.40126784486769,1889.078437014807</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. MIRAFLORES</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.51972580470932</longitude>
+				<latitude>-16.39051150835965</latitude>
+				<altitude>0</altitude>
+				<heading>106.5863233991587</heading>
+				<tilt>45.46143342006376</tilt>
+				<range>157.0653873263622</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.51996504503596,-16.39049157703436,1780.112266810033</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. EDIFICADORES MISTI</name>
+			<visibility>0</visibility>
+			<Camera>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.51192095016501</longitude>
+				<latitude>-16.38410317312097</latitude>
+				<altitude>170.0453382793802</altitude>
+				<heading>18.52393056632839</heading>
+				<tilt>45.52466653695046</tilt>
+				<roll>-1.688171592689234</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.51125346898945,-16.38295883948394,1848.185021123563</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. EL PORVENIR</name>
+			<visibility>0</visibility>
+			<Camera>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.50889635880741</longitude>
+				<latitude>-16.37658292463405</latitude>
+				<altitude>321.8172279887353</altitude>
+				<heading>53.61580471817136</heading>
+				<tilt>0.212153671848882</tilt>
+				<roll>53.21824529157341</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.50851618682636,-16.37646435380033,1891.915981286665</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. TOMASA T. CONDEMAYTA</name>
+			<visibility>0</visibility>
+			<Camera>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.50068065049474</longitude>
+				<latitude>-16.37567878404176</latitude>
+				<altitude>320.8865815170834</altitude>
+				<heading>46.67883525907519</heading>
+				<tilt>0.6010605578081735</tilt>
+				<roll>45.63391041674083</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.50040856225036,-16.37567096252073,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. MATEO PUMACAHUA</name>
+			<visibility>0</visibility>
+			<Camera>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.50031624979675</longitude>
+				<latitude>-16.37190776609661</latitude>
+				<altitude>234.6271895014702</altitude>
+				<heading>48.13214945062661</heading>
+				<tilt>0.3942267182054081</tilt>
+				<roll>47.44140248739729</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.50028011329847,-16.37178369828375,1960.198623621827</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. ALTO SELVA ALEGRE</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.51879809885632</longitude>
+				<latitude>-16.3810225966292</latitude>
+				<altitude>0</altitude>
+				<heading>-7.894199392222471e-06</heading>
+				<tilt>0</tilt>
+				<range>218.5800857817635</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.51888804400812,-16.38102259659607,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. APURIMAC</name>
+			<visibility>0</visibility>
+			<Camera>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.50997054826681</longitude>
+				<latitude>-16.37208270305171</latitude>
+				<altitude>513.9407228111904</altitude>
+				<heading>-7.743180179930532</heading>
+				<tilt>1.276905472455389</tilt>
+				<roll>-7.344647992525553</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.50963466375948,-16.37193397176518,1914.442228871419</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. LEONES DEL MISTI</name>
+			<visibility>0</visibility>
+			<Camera>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.50732269889262</longitude>
+				<latitude>-16.36957061342769</latitude>
+				<altitude>396.9454979009269</altitude>
+				<heading>42.15190148732931</heading>
+				<tilt>2.351007347994195</tilt>
+				<roll>38.57550665857835</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.50707751297919,-16.36985871199063,1929.963263563115</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. SAN JUAN BAUTISTA</name>
+			<visibility>0</visibility>
+			<Camera>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.5192581819594</longitude>
+				<latitude>-16.36886515769339</latitude>
+				<altitude>396.7795517100154</altitude>
+				<heading>-28.75208001842393</heading>
+				<tilt>1.297838359017893</tilt>
+				<roll>-27.29220919120496</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.51951073041204,-16.36875401343179,1852.941288986152</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. INDEPENDENCIA</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.52546575104135</longitude>
+				<latitude>-16.36781064753218</latitude>
+				<altitude>0</altitude>
+				<heading>0.0003789584551289079</heading>
+				<tilt>0</tilt>
+				<range>576.6248905963728</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.52484893910962,-16.36676130625803,1834.741736505164</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. HEROES DEL CENEPA</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.52640116332833</longitude>
+				<latitude>-16.37634922512336</latitude>
+				<altitude>0</altitude>
+				<heading>-29.20897013360825</heading>
+				<tilt>44.99998270781945</tilt>
+				<range>104.4501816859478</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.52637803005969,-16.37629681919436,1801.774370571022</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. MARISCAL CASTILLA</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>-71.5690943990616</longitude>
+				<latitude>-16.38920128868869</latitude>
+				<altitude>0</altitude>
+				<heading>-66.50540336002985</heading>
+				<tilt>45.00081986421252</tilt>
+				<range>102.3633900818424</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.56912282034997,-16.38923863951782,1695.749684858883</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. SEMI RURAL PACHACUTEC</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>-71.57299217380769</longitude>
+				<latitude>-16.39411805248693</latitude>
+				<altitude>0</altitude>
+				<heading>170.0171699723904</heading>
+				<tilt>44.99983238951747</tilt>
+				<range>105.3471117496224</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.5730140556052,-16.3941152012716,1681.800530050873</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. JOSE SANTOS ATAHUALPA</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>-71.56823486054333</longitude>
+				<latitude>-16.39834904248233</latitude>
+				<altitude>0</altitude>
+				<heading>81.49574244266083</heading>
+				<tilt>46.54399193259164</tilt>
+				<range>98.26183513940875</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.56820649132939,-16.3983494198014,1675.186220140022</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. EL CURAL</name>
+			<visibility>0</visibility>
+			<Camera>
+				<longitude>-71.60858635012329</longitude>
+				<latitude>-16.40747543950002</latitude>
+				<altitude>202.9315441527401</altitude>
+				<heading>9.000738775996185</heading>
+				<tilt>0.7357487920771894</tilt>
+				<roll>8.733588161783434</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.60830986416089,-16.40752763572898,1622.619367098614</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. CERRO COLORADO</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>-71.55821414025699</longitude>
+				<latitude>-16.37722106454806</latitude>
+				<altitude>0</altitude>
+				<heading>76.04884908710868</heading>
+				<tilt>45.0004409062641</tilt>
+				<range>103.3380813658347</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.5581834278108,-16.37722517119523,1752.54412518856</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. ALTO LIBERTAD</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>-71.57124749447945</longitude>
+				<latitude>-16.38434965266826</latitude>
+				<altitude>0</altitude>
+				<heading>23.92357635729659</heading>
+				<tilt>45.6778138108122</tilt>
+				<range>101.5824757799665</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.57114220877544,-16.3841921681221,1722.696843752726</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. CHARACATO</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>-71.4856892380644</longitude>
+				<latitude>-16.46813137914549</latitude>
+				<altitude>0</altitude>
+				<heading>0.0001469015092939741</heading>
+				<tilt>0</tilt>
+				<range>245.5762868810251</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.48538255806298,-16.46823871519847,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. POLOBAYA</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-09-21</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.36888549957544</longitude>
+				<latitude>-16.56582769184998</latitude>
+				<altitude>0</altitude>
+				<heading>6.777659480028517e-05</heading>
+				<tilt>5.692180821349666</tilt>
+				<range>146.5170449106728</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.36860705657524,-16.56602399823923,2438.589977888088</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. SABANDIA</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2016-11-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.49591850646011</longitude>
+				<latitude>-16.45070541963256</latitude>
+				<altitude>0</altitude>
+				<heading>2.895895037472532e-12</heading>
+				<tilt>0</tilt>
+				<range>168.8602801964264</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.49585696656571,-16.4505711476294,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. MOLLEBAYA</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.54990874001223</longitude>
+				<latitude>-16.53656449706253</latitude>
+				<altitude>0</altitude>
+				<heading>-121.9486770127855</heading>
+				<tilt>76.53308505073458</tilt>
+				<range>10799.25705054585</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.46650079852068,-16.48665758443934,1854.732616156557</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. MACHAHUAY</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>-71.49964790019955</longitude>
+				<latitude>-16.4965498820216</latitude>
+				<altitude>0</altitude>
+				<heading>-43.10649046407607</heading>
+				<tilt>45.75514853346445</tilt>
+				<range>104.7496302366822</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.49955960571177,-16.49659688420045,1726.990231871165</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. YARABAMBA</name>
+			<visibility>0</visibility>
+			<Camera>
+				<longitude>-71.47553566078524</longitude>
+				<latitude>-16.54698151285864</latitude>
+				<altitude>123.7206498424388</altitude>
+				<heading>-89.28875396955279</heading>
+				<tilt>0.1248364349185507</tilt>
+				<roll>-88.99853491826428</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.4755886449903,-16.54689136717601,1802.121588563385</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.S. QUEQUEÑA</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>-71.4515866185622</longitude>
+				<latitude>-16.5568054761084</latitude>
+				<altitude>0</altitude>
+				<heading>64.3753249487044</heading>
+				<tilt>47.43154411802252</tilt>
+				<range>97.10145615734808</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.4515372297238,-16.55672079443822,1905.637404860844</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.S. CHIGUATA</name>
+			<LookAt>
+				<longitude>-71.39285070341248</longitude>
+				<latitude>-16.40373142517377</latitude>
+				<altitude>0</altitude>
+				<heading>0.2746303676731917</heading>
+				<tilt>22.45845253847841</tilt>
+				<range>414.3085193544427</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.3923701240587,-16.40272920378048,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

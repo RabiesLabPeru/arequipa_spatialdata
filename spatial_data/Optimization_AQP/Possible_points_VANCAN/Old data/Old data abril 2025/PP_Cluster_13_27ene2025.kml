@@ -1,0 +1,2783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CL13_Generalisimo_san_Martin_02may2023</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Schema name="CL13_Generalisimo_san_Martin" id="S_CL13_Generalisimo_san_Martin_SSDDIISS">
+		<SimpleField type="string" name="code"><displayName>&lt;b&gt;code&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="point_name"><displayName>&lt;b&gt;point_name&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="lat"><displayName>&lt;b&gt;lat&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="long"><displayName>&lt;b&gt;long&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="y_proj"><displayName>&lt;b&gt;y_proj&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="x_proj"><displayName>&lt;b&gt;x_proj&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="type_point"><displayName>&lt;b&gt;type_point&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="estratategy"><displayName>&lt;b&gt;estratategy&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle1100">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>code</b></td><td>$[CL13_Generalisimo_san_Martin/code]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[CL13_Generalisimo_san_Martin/point_name]</td></tr>
+  <tr><td><b>lat</b></td><td>$[CL13_Generalisimo_san_Martin/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[CL13_Generalisimo_san_Martin/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[CL13_Generalisimo_san_Martin/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[CL13_Generalisimo_san_Martin/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[CL13_Generalisimo_san_Martin/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[CL13_Generalisimo_san_Martin/estratategy]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="hlightPointStyle111">
+		<IconStyle>
+			<color>ffe7ebef</color>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>code</b></td><td>$[CL13_Generalisimo_san_Martin/code]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[CL13_Generalisimo_san_Martin/point_name]</td></tr>
+  <tr><td><b>lat</b></td><td>$[CL13_Generalisimo_san_Martin/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[CL13_Generalisimo_san_Martin/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[CL13_Generalisimo_san_Martin/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[CL13_Generalisimo_san_Martin/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[CL13_Generalisimo_san_Martin/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[CL13_Generalisimo_san_Martin/estratategy]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffe7ebef</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin1011">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin99</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl911</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_placemark_circle012">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_placemark_circle110</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_placemark_circle_highlight110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_placemark_circle110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_placemark_circle1001</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_placemark_circle_highlight1000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_placemark_circle120">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_placemark_circle012</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_placemark_circle_highlight012</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="normPointStyle1100">
+		<IconStyle>
+			<color>ffe7ebef</color>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>code</b></td><td>$[CL13_Generalisimo_san_Martin/code]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[CL13_Generalisimo_san_Martin/point_name]</td></tr>
+  <tr><td><b>lat</b></td><td>$[CL13_Generalisimo_san_Martin/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[CL13_Generalisimo_san_Martin/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[CL13_Generalisimo_san_Martin/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[CL13_Generalisimo_san_Martin/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[CL13_Generalisimo_san_Martin/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[CL13_Generalisimo_san_Martin/estratategy]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffe7ebef</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+		</PolyStyle>
+	</Style>
+	<Style id="normPointStyle111">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>code</b></td><td>$[CL13_Generalisimo_san_Martin/code]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[CL13_Generalisimo_san_Martin/point_name]</td></tr>
+  <tr><td><b>lat</b></td><td>$[CL13_Generalisimo_san_Martin/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[CL13_Generalisimo_san_Martin/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[CL13_Generalisimo_san_Martin/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[CL13_Generalisimo_san_Martin/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[CL13_Generalisimo_san_Martin/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[CL13_Generalisimo_san_Martin/estratategy]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap1100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle111</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle1100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="pointStyleMap112">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle1100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle111</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin99">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl911">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_placemark_circle_highlight012">
+		<IconStyle>
+			<color>ffe7ebef</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ffe7ebef</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_placemark_circle_highlight1000">
+		<IconStyle>
+			<color>ffe7ebef</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ffe7ebef</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_placemark_circle_highlight110">
+		<IconStyle>
+			<color>ffe7ebef</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ffe7ebef</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_placemark_circle012">
+		<IconStyle>
+			<color>ffe7ebef</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ffe7ebef</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_placemark_circle1001">
+		<IconStyle>
+			<color>ffe7ebef</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ffe7ebef</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_placemark_circle110">
+		<IconStyle>
+			<color>ffe7ebef</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ffe7ebef</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>CL13_PP_001</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_001</SimpleData>
+				<SimpleData name="point_name">PISCINA MUNICIPAL</SimpleData>
+				<SimpleData name="lat">-16.4069</SimpleData>
+				<SimpleData name="long">-71.5014</SimpleData>
+				<SimpleData name="y_proj">-1942451</SimpleData>
+				<SimpleData name="x_proj">2842174</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.50143129999999,-16.40690369999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_002</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_002</SimpleData>
+				<SimpleData name="point_name">PARQUE ULRICH NEISSER</SimpleData>
+				<SimpleData name="lat">-16.405</SimpleData>
+				<SimpleData name="long">-71.5002</SimpleData>
+				<SimpleData name="y_proj">-1942242</SimpleData>
+				<SimpleData name="x_proj">2842333</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.50024537014421,-16.40499865209713,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_003</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_003</SimpleData>
+				<SimpleData name="point_name">C.S. GENERALISIMO SAN MARTIN</SimpleData>
+				<SimpleData name="lat">-16.4045</SimpleData>
+				<SimpleData name="long">-71.4976</SimpleData>
+				<SimpleData name="y_proj">-1942221</SimpleData>
+				<SimpleData name="x_proj">2842636</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49762629999999,-16.40453130000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_004</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_004</SimpleData>
+				<SimpleData name="point_name">IGLESIA_DE_JESUCRISTO</SimpleData>
+				<SimpleData name="lat">-16.4031</SimpleData>
+				<SimpleData name="long">-71.4991</SimpleData>
+				<SimpleData name="y_proj">-1942030</SimpleData>
+				<SimpleData name="x_proj">2842488</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49909780373368,-16.40306391119668,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_005</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_005</SimpleData>
+				<SimpleData name="point_name">PARQUE AV. PERU</SimpleData>
+				<SimpleData name="lat">-16.4007</SimpleData>
+				<SimpleData name="long">-71.5008</SimpleData>
+				<SimpleData name="y_proj">-1941728</SimpleData>
+				<SimpleData name="x_proj">2842323</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5008272,-16.40068020000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_006</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_006</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_SANTO_DOMINGO</SimpleData>
+				<SimpleData name="lat">-16.3989</SimpleData>
+				<SimpleData name="long">-71.5007</SimpleData>
+				<SimpleData name="y_proj">-1941524</SimpleData>
+				<SimpleData name="x_proj">2842356</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.50073938169047,-16.39893801429065,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_007</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_007</SimpleData>
+				<SimpleData name="point_name">PARQUE_GENERALISIMO_JOSE_DE_SAN_MARTIN</SimpleData>
+				<SimpleData name="lat">-16.3993</SimpleData>
+				<SimpleData name="long">-71.4992</SimpleData>
+				<SimpleData name="y_proj">-1941590</SimpleData>
+				<SimpleData name="x_proj">2842523</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49922637661473,-16.39933540923576,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_008</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_008</SimpleData>
+				<SimpleData name="point_name">COMPANHIA_DE_BOMBEROS_MARIANO_MELGAR</SimpleData>
+				<SimpleData name="lat">-16.4002</SimpleData>
+				<SimpleData name="long">-71.4972</SimpleData>
+				<SimpleData name="y_proj">-1941718</SimpleData>
+				<SimpleData name="x_proj">2842741</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49720260252236,-16.40020977600227,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_009</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_009</SimpleData>
+				<SimpleData name="point_name">MERCADO ALTO SAN MARTIN</SimpleData>
+				<SimpleData name="lat">-16.401</SimpleData>
+				<SimpleData name="long">-71.4977</SimpleData>
+				<SimpleData name="y_proj">-1941806</SimpleData>
+				<SimpleData name="x_proj">2842669</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.4977439,-16.40101670000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_010</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_010</SimpleData>
+				<SimpleData name="point_name">PARQUE NUEVO AMANECER</SimpleData>
+				<SimpleData name="lat">-16.4026</SimpleData>
+				<SimpleData name="long">-71.497</SimpleData>
+				<SimpleData name="y_proj">-1941999</SimpleData>
+				<SimpleData name="x_proj">2842728</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.4970412,-16.40258580000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_011</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_011</SimpleData>
+				<SimpleData name="point_name">COLEGIO_PARROQUIAL_PIO_XII</SimpleData>
+				<SimpleData name="lat">-16.4036</SimpleData>
+				<SimpleData name="long">-71.4954</SimpleData>
+				<SimpleData name="y_proj">-1942139</SimpleData>
+				<SimpleData name="x_proj">2842906</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49535145560104,-16.40359286325983,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_012</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_012</SimpleData>
+				<SimpleData name="point_name">CENTRO_SOCIAL_SOS_AREQUIPA</SimpleData>
+				<SimpleData name="lat">-16.4058</SimpleData>
+				<SimpleData name="long">-71.4955</SimpleData>
+				<SimpleData name="y_proj">-1942395</SimpleData>
+				<SimpleData name="x_proj">2842864</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.4954683749921,-16.40578523819606,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_013</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_013</SimpleData>
+				<SimpleData name="point_name">RADIO PATRULLA</SimpleData>
+				<SimpleData name="lat">-16.4049</SimpleData>
+				<SimpleData name="long">-71.4936</SimpleData>
+				<SimpleData name="y_proj">-1942316</SimpleData>
+				<SimpleData name="x_proj">2843084</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.4936294,-16.4049099,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_014</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_014</SimpleData>
+				<SimpleData name="point_name">PARQUE 17 DE AGOSTO</SimpleData>
+				<SimpleData name="lat">-16.4046</SimpleData>
+				<SimpleData name="long">-71.4915</SimpleData>
+				<SimpleData name="y_proj">-1942312</SimpleData>
+				<SimpleData name="x_proj">2843331</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49148860000001,-16.40464990000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_015</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_015</SimpleData>
+				<SimpleData name="point_name">MERCADO TUPAC AMARU</SimpleData>
+				<SimpleData name="lat">-16.4033</SimpleData>
+				<SimpleData name="long">-71.4906</SimpleData>
+				<SimpleData name="y_proj">-1942166</SimpleData>
+				<SimpleData name="x_proj">2843453</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.4905625,-16.40330339999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_016</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_016</SimpleData>
+				<SimpleData name="point_name">PARQUE_ALTO_ALIANZA</SimpleData>
+				<SimpleData name="lat">-16.4031</SimpleData>
+				<SimpleData name="long">-71.4895</SimpleData>
+				<SimpleData name="y_proj">-1942158</SimpleData>
+				<SimpleData name="x_proj">2843575</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48951280986395,-16.40312830923408,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_017</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_017</SimpleData>
+				<SimpleData name="point_name">PARQUE_JERUSALEN</SimpleData>
+				<SimpleData name="lat">-16.4019</SimpleData>
+				<SimpleData name="long">-71.4894</SimpleData>
+				<SimpleData name="y_proj">-1942011</SimpleData>
+				<SimpleData name="x_proj">2843607</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48937099480128,-16.40185928333788,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_018</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_018</SimpleData>
+				<SimpleData name="point_name">COMPLEJO_DEPORTIVO_SR_DE_LOS_MILAGROS</SimpleData>
+				<SimpleData name="lat">-16.4001</SimpleData>
+				<SimpleData name="long">-71.4904</SimpleData>
+				<SimpleData name="y_proj">-1941787</SimpleData>
+				<SimpleData name="x_proj">2843516</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49038654738436,-16.40005851169565,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_019</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_019</SimpleData>
+				<SimpleData name="point_name">COMISARIA_JERUSALEN</SimpleData>
+				<SimpleData name="lat">-16.4009</SimpleData>
+				<SimpleData name="long">-71.491</SimpleData>
+				<SimpleData name="y_proj">-1941884</SimpleData>
+				<SimpleData name="x_proj">2843438</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.4909654797373,-16.40094947406677,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_020</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_020</SimpleData>
+				<SimpleData name="point_name">PARQUE SANTO DOMINGO</SimpleData>
+				<SimpleData name="lat">-16.4014</SimpleData>
+				<SimpleData name="long">-71.4929</SimpleData>
+				<SimpleData name="y_proj">-1941912</SimpleData>
+				<SimpleData name="x_proj">2843211</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.4929183,-16.4014005,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_021</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_021</SimpleData>
+				<SimpleData name="point_name">CANCHA LA RINCONADA</SimpleData>
+				<SimpleData name="lat">-16.3996</SimpleData>
+				<SimpleData name="long">-71.4941</SimpleData>
+				<SimpleData name="y_proj">-1941681</SimpleData>
+				<SimpleData name="x_proj">2843099</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49411449999999,-16.39956469999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_022</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_022</SimpleData>
+				<SimpleData name="point_name">CAPILLA_BUENA_VISTA</SimpleData>
+				<SimpleData name="lat">-16.3996</SimpleData>
+				<SimpleData name="long">-71.4954</SimpleData>
+				<SimpleData name="y_proj">-1941668</SimpleData>
+				<SimpleData name="x_proj">2842957</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49536694967,-16.39958532795676,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_023</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_023</SimpleData>
+				<SimpleData name="point_name">LOCAL SOCIAL BUENA VISTA</SimpleData>
+				<SimpleData name="lat">-16.3992</SimpleData>
+				<SimpleData name="long">-71.4961</SimpleData>
+				<SimpleData name="y_proj">-1941613</SimpleData>
+				<SimpleData name="x_proj">2842876</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49612950000001,-16.39919509999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_024</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_024</SimpleData>
+				<SimpleData name="point_name">IE_SENHOR_DE_LOS_MILAGROS</SimpleData>
+				<SimpleData name="lat">-16.3985</SimpleData>
+				<SimpleData name="long">-71.4948</SimpleData>
+				<SimpleData name="y_proj">-1941550</SimpleData>
+				<SimpleData name="x_proj">2843037</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49478407616746,-16.39851521714746,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_025</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_025</SimpleData>
+				<SimpleData name="point_name">RINCONADA-VILLA MARIA DEL TRIUNFO-LOS PINOS</SimpleData>
+				<SimpleData name="lat">-16.3979</SimpleData>
+				<SimpleData name="long">-71.4937</SimpleData>
+				<SimpleData name="y_proj">-1941487</SimpleData>
+				<SimpleData name="x_proj">2843174</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49365280000002,-16.3978615,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_026</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_026</SimpleData>
+				<SimpleData name="point_name">JOSE MARIA ARGUEDAS</SimpleData>
+				<SimpleData name="lat">-16.3966</SimpleData>
+				<SimpleData name="long">-71.4914</SimpleData>
+				<SimpleData name="y_proj">-1941369</SimpleData>
+				<SimpleData name="x_proj">2843450</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.4913605,-16.3966113,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_027</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_027</SimpleData>
+				<SimpleData name="point_name">CANCHA DEPORTIVA CERRITO BELEN (GRUPO 24)</SimpleData>
+				<SimpleData name="lat">-16.397</SimpleData>
+				<SimpleData name="long">-71.4895</SimpleData>
+				<SimpleData name="y_proj">-1941438</SimpleData>
+				<SimpleData name="x_proj">2843657</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.4894912,-16.3969941,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_028</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_028</SimpleData>
+				<SimpleData name="point_name">COLEGIO_PALMER_DE_MARIANO_MELGAR</SimpleData>
+				<SimpleData name="lat">-16.3983</SimpleData>
+				<SimpleData name="long">-71.4892</SimpleData>
+				<SimpleData name="y_proj">-1941600</SimpleData>
+				<SimpleData name="x_proj">2843671</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48921367779062,-16.39834293207934,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_029</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_029</SimpleData>
+				<SimpleData name="point_name">CANCHA JUAN PABLO SEGUNDO</SimpleData>
+				<SimpleData name="lat">-16.4003</SimpleData>
+				<SimpleData name="long">-71.4889</SimpleData>
+				<SimpleData name="y_proj">-1941836</SimpleData>
+				<SimpleData name="x_proj">2843683</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.4888849,-16.40031699999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_030</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_030</SimpleData>
+				<SimpleData name="point_name">SR DE HUANCA</SimpleData>
+				<SimpleData name="lat">-16.4</SimpleData>
+				<SimpleData name="long">-71.4875</SimpleData>
+				<SimpleData name="y_proj">-1941821</SimpleData>
+				<SimpleData name="x_proj">2843841</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48751600000001,-16.40004450000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_031</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_031</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_LAS_DALIAS</SimpleData>
+				<SimpleData name="lat">-16.4011</SimpleData>
+				<SimpleData name="long">-71.4877</SimpleData>
+				<SimpleData name="y_proj">-1941942</SimpleData>
+				<SimpleData name="x_proj">2843808</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48768865395969,-16.40108843120829,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_032</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_032</SimpleData>
+				<SimpleData name="point_name">IGLESIA_DEL_NINHO</SimpleData>
+				<SimpleData name="lat">-16.4035</SimpleData>
+				<SimpleData name="long">-71.4873</SimpleData>
+				<SimpleData name="y_proj">-1942235</SimpleData>
+				<SimpleData name="x_proj">2843819</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48730648587677,-16.40354833275347,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_033</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_033</SimpleData>
+				<SimpleData name="point_name">CANCHA VIRGEN DEL ROSARIO</SimpleData>
+				<SimpleData name="lat">-16.401</SimpleData>
+				<SimpleData name="long">-71.4854</SimpleData>
+				<SimpleData name="y_proj">-1941960</SimpleData>
+				<SimpleData name="x_proj">2844074</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48535339999999,-16.4009931,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_034</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_034</SimpleData>
+				<SimpleData name="point_name">PARQUE_NUEVO_AMANECER_A</SimpleData>
+				<SimpleData name="lat">-16.3993</SimpleData>
+				<SimpleData name="long">-71.4853</SimpleData>
+				<SimpleData name="y_proj">-1941758</SimpleData>
+				<SimpleData name="x_proj">2844100</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48532606374009,-16.39927150884764,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_035</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_035</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA</SimpleData>
+				<SimpleData name="lat">-16.4008</SimpleData>
+				<SimpleData name="long">-71.4828</SimpleData>
+				<SimpleData name="y_proj">-1941967</SimpleData>
+				<SimpleData name="x_proj">2844366</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48280657112124,-16.40078385025233,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_036</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_036</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_FLOR_DE_ORO</SimpleData>
+				<SimpleData name="lat">-16.3991</SimpleData>
+				<SimpleData name="long">-71.48</SimpleData>
+				<SimpleData name="y_proj">-1941806</SimpleData>
+				<SimpleData name="x_proj">2844709</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.47997314516449,-16.39910179213266,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_037</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_037</SimpleData>
+				<SimpleData name="point_name">CANCHA DEPORTIVA ELOHIN (GRUPO 27)</SimpleData>
+				<SimpleData name="lat">-16.3984</SimpleData>
+				<SimpleData name="long">-71.4822</SimpleData>
+				<SimpleData name="y_proj">-1941693</SimpleData>
+				<SimpleData name="x_proj">2844465</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.482212,-16.39837990000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_038</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_038</SimpleData>
+				<SimpleData name="point_name">ISLA MELGAR (GRUPO 26)</SimpleData>
+				<SimpleData name="lat">-16.3977</SimpleData>
+				<SimpleData name="long">-71.4829</SimpleData>
+				<SimpleData name="y_proj">-1941606</SimpleData>
+				<SimpleData name="x_proj">2844401</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.4828504,-16.39771089999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_039</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_039</SimpleData>
+				<SimpleData name="point_name">SAN JERONIMO C Y D</SimpleData>
+				<SimpleData name="lat">-16.3976</SimpleData>
+				<SimpleData name="long">-71.4806</SimpleData>
+				<SimpleData name="y_proj">-1941624</SimpleData>
+				<SimpleData name="x_proj">2844661</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48056529999998,-16.3976178,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_040</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_040</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_FLOR_DE_ORO_I</SimpleData>
+				<SimpleData name="lat">-16.3973</SimpleData>
+				<SimpleData name="long">-71.4778</SimpleData>
+				<SimpleData name="y_proj">-1941623</SimpleData>
+				<SimpleData name="x_proj">2844980</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.47779388619675,-16.39731660321655,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_041</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_041</SimpleData>
+				<SimpleData name="point_name">COLEGIO_HEROES_DEL_CENEPA</SimpleData>
+				<SimpleData name="lat">-16.3967</SimpleData>
+				<SimpleData name="long">-71.4822</SimpleData>
+				<SimpleData name="y_proj">-1941498</SimpleData>
+				<SimpleData name="x_proj">2844490</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48217960781814,-16.39672354612941,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_042</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_042</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA</SimpleData>
+				<SimpleData name="lat">-16.3934</SimpleData>
+				<SimpleData name="long">-71.4853</SimpleData>
+				<SimpleData name="y_proj">-1941071</SimpleData>
+				<SimpleData name="x_proj">2844176</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48532860084998,-16.39342471366959,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_043</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_043</SimpleData>
+				<SimpleData name="point_name">COLEGIO_SOLARIS</SimpleData>
+				<SimpleData name="lat">-16.395</SimpleData>
+				<SimpleData name="long">-71.4862</SimpleData>
+				<SimpleData name="y_proj">-1941249</SimpleData>
+				<SimpleData name="x_proj">2844060</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48616358522253,-16.39503150036731,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_044</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_044</SimpleData>
+				<SimpleData name="point_name">CEMENTERIO EL ANGEL</SimpleData>
+				<SimpleData name="lat">-16.3945</SimpleData>
+				<SimpleData name="long">-71.4885</SimpleData>
+				<SimpleData name="y_proj">-1941152</SimpleData>
+				<SimpleData name="x_proj">2843800</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48852440000002,-16.39445630000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_045</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_045</SimpleData>
+				<SimpleData name="point_name">CANCHA DEPORTIVA LOS ANGELES (GRUPO 23)</SimpleData>
+				<SimpleData name="lat">-16.3937</SimpleData>
+				<SimpleData name="long">-71.4916</SimpleData>
+				<SimpleData name="y_proj">-1941027</SimpleData>
+				<SimpleData name="x_proj">2843466</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49155530000002,-16.39372170000002,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_046</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_046</SimpleData>
+				<SimpleData name="point_name">CANCHA DEPORTIVA PUEBLO LIBRE (GRUPO 22)</SimpleData>
+				<SimpleData name="lat">-16.3939</SimpleData>
+				<SimpleData name="long">-71.4933</SimpleData>
+				<SimpleData name="y_proj">-1941023</SimpleData>
+				<SimpleData name="x_proj">2843262</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49333420000002,-16.3938804,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_047</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_047</SimpleData>
+				<SimpleData name="point_name">CANCHA DEPORTIVA MIRADOR (GRUPO 19)</SimpleData>
+				<SimpleData name="lat">-16.3927</SimpleData>
+				<SimpleData name="long">-71.4919</SimpleData>
+				<SimpleData name="y_proj">-1940900</SimpleData>
+				<SimpleData name="x_proj">2843436</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.4919373,-16.3926817,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_048</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_048</SimpleData>
+				<SimpleData name="point_name">CARPITENRIA_SAN_LORENZO</SimpleData>
+				<SimpleData name="lat">-16.3909</SimpleData>
+				<SimpleData name="long">-71.4924</SimpleData>
+				<SimpleData name="y_proj">-1940684</SimpleData>
+				<SimpleData name="x_proj">2843406</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49241132916661,-16.39089384482634,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_049</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_049</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_EL_MIRADOR</SimpleData>
+				<SimpleData name="lat">-16.3907</SimpleData>
+				<SimpleData name="long">-71.4911</SimpleData>
+				<SimpleData name="y_proj">-1940679</SimpleData>
+				<SimpleData name="x_proj">2843556</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49110973535805,-16.39070742051229,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_050</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_050</SimpleData>
+				<SimpleData name="point_name">SAN FRANCISCO DE ASIS (GRUPO 29)</SimpleData>
+				<SimpleData name="lat">-16.3882</SimpleData>
+				<SimpleData name="long">-71.4923</SimpleData>
+				<SimpleData name="y_proj">-1940374</SimpleData>
+				<SimpleData name="x_proj">2843448</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49234480000001,-16.3882453,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_051</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_051</SimpleData>
+				<SimpleData name="point_name">TERMINAL BERLIN (GRUPO 17)</SimpleData>
+				<SimpleData name="lat">-16.3873</SimpleData>
+				<SimpleData name="long">-71.4926</SimpleData>
+				<SimpleData name="y_proj">-1940261</SimpleData>
+				<SimpleData name="x_proj">2843433</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.49258659999998,-16.38730780000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_052</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap112</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_052</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA</SimpleData>
+				<SimpleData name="lat">-16.3836</SimpleData>
+				<SimpleData name="long">-71.4891</SimpleData>
+				<SimpleData name="y_proj">-1939874</SimpleData>
+				<SimpleData name="x_proj">2843877</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48908056330393,-16.38364556956209,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_053</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_053</SimpleData>
+				<SimpleData name="point_name">ASOC</SimpleData>
+				<SimpleData name="lat">-16.3878</SimpleData>
+				<SimpleData name="long">-71.4846</SimpleData>
+				<SimpleData name="y_proj">-1940424</SimpleData>
+				<SimpleData name="x_proj">2844331</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48460436723146,-16.38783813642155,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_054</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_054</SimpleData>
+				<SimpleData name="point_name">BUEN PASTOR</SimpleData>
+				<SimpleData name="lat">-16.3897</SimpleData>
+				<SimpleData name="long">-71.4853</SimpleData>
+				<SimpleData name="y_proj">-1940630</SimpleData>
+				<SimpleData name="x_proj">2844228</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48530609999999,-16.3896681,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_055</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_055</SimpleData>
+				<SimpleData name="point_name">LOS OLIVOS-NUEVO MILENIO (GRUPO 25)</SimpleData>
+				<SimpleData name="lat">-16.3924</SimpleData>
+				<SimpleData name="long">-71.4849</SimpleData>
+				<SimpleData name="y_proj">-1940960</SimpleData>
+				<SimpleData name="x_proj">2844242</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.4848606,-16.39243279999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_056</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_056</SimpleData>
+				<SimpleData name="point_name">VILLA PANORAMICO</SimpleData>
+				<SimpleData name="lat">-16.3912</SimpleData>
+				<SimpleData name="long">-71.4834</SimpleData>
+				<SimpleData name="y_proj">-1940830</SimpleData>
+				<SimpleData name="x_proj">2844422</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48341809999999,-16.39116910000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_057</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_057</SimpleData>
+				<SimpleData name="point_name">TERMINAL_LOS_OLIVOS</SimpleData>
+				<SimpleData name="lat">-16.3929</SimpleData>
+				<SimpleData name="long">-71.4836</SimpleData>
+				<SimpleData name="y_proj">-1941034</SimpleData>
+				<SimpleData name="x_proj">2844381</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48358180124006,-16.3929205168268,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_058</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_058</SimpleData>
+				<SimpleData name="point_name">VILLA PANORAMICO (GRUPO 28)</SimpleData>
+				<SimpleData name="lat">-16.3923</SimpleData>
+				<SimpleData name="long">-71.4829</SimpleData>
+				<SimpleData name="y_proj">-1940965</SimpleData>
+				<SimpleData name="x_proj">2844462</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.4829378,-16.39226539999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_059</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_059</SimpleData>
+				<SimpleData name="point_name">SAN VALENTIN</SimpleData>
+				<SimpleData name="lat">-16.3932</SimpleData>
+				<SimpleData name="long">-71.4826</SimpleData>
+				<SimpleData name="y_proj">-1941073</SimpleData>
+				<SimpleData name="x_proj">2844485</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48263490000001,-16.3931556,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_060</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_060</SimpleData>
+				<SimpleData name="point_name">HEROES CENEPA CANCHA</SimpleData>
+				<SimpleData name="lat">-16.3946</SimpleData>
+				<SimpleData name="long">-71.4811</SimpleData>
+				<SimpleData name="y_proj">-1941261</SimpleData>
+				<SimpleData name="x_proj">2844640</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.4811009,-16.39458730000002,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_061</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_061</SimpleData>
+				<SimpleData name="point_name">PARADERO_DE_COMBIS_HEROES_DEL_CENEPA</SimpleData>
+				<SimpleData name="lat">-16.3941</SimpleData>
+				<SimpleData name="long">-71.4803</SimpleData>
+				<SimpleData name="y_proj">-1941217</SimpleData>
+				<SimpleData name="x_proj">2844741</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48026334873283,-16.39412353310017,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_062</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_062</SimpleData>
+				<SimpleData name="point_name">CRUCE_FLOR_DE_ORO</SimpleData>
+				<SimpleData name="lat">-16.3943</SimpleData>
+				<SimpleData name="long">-71.4764</SimpleData>
+				<SimpleData name="y_proj">-1941287</SimpleData>
+				<SimpleData name="x_proj">2845173</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.47643761867864,-16.39430403283038,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_063</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_063</SimpleData>
+				<SimpleData name="point_name">FLOR DE ORO LOCAL SOCIAL</SimpleData>
+				<SimpleData name="lat">-16.3925</SimpleData>
+				<SimpleData name="long">-71.4761</SimpleData>
+				<SimpleData name="y_proj">-1941079</SimpleData>
+				<SimpleData name="x_proj">2845239</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.47606589999998,-16.3924988,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_064</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_064</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA</SimpleData>
+				<SimpleData name="lat">-16.3923</SimpleData>
+				<SimpleData name="long">-71.4783</SimpleData>
+				<SimpleData name="y_proj">-1941027</SimpleData>
+				<SimpleData name="x_proj">2844989</SimpleData>
+				<SimpleData name="type_point">Mobile</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.47828864852413,-16.39229710959196,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_065</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_065</SimpleData>
+				<SimpleData name="point_name">GRAN CHAPARRAL</SimpleData>
+				<SimpleData name="lat">-16.3881</SimpleData>
+				<SimpleData name="long">-71.4821</SimpleData>
+				<SimpleData name="y_proj">-1940491</SimpleData>
+				<SimpleData name="x_proj">2844616</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48206159999999,-16.38813809999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_066</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_066</SimpleData>
+				<SimpleData name="point_name">SAN MIGUEL C Y D</SimpleData>
+				<SimpleData name="lat">-16.3859</SimpleData>
+				<SimpleData name="long">-71.4816</SimpleData>
+				<SimpleData name="y_proj">-1940229</SimpleData>
+				<SimpleData name="x_proj">2844703</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.48155730000001,-16.3858554,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_067</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_067</SimpleData>
+				<SimpleData name="point_name">ASOC_SAN_MIGUEL</SimpleData>
+				<SimpleData name="lat">-16.3878</SimpleData>
+				<SimpleData name="long">-71.4794</SimpleData>
+				<SimpleData name="y_proj">-1940487</SimpleData>
+				<SimpleData name="x_proj">2844924</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.47937724173315,-16.38781873476353,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_068</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_068</SimpleData>
+				<SimpleData name="point_name">SAN MIGUEL A Y B</SimpleData>
+				<SimpleData name="lat">-16.3885</SimpleData>
+				<SimpleData name="long">-71.4783</SimpleData>
+				<SimpleData name="y_proj">-1940585</SimpleData>
+				<SimpleData name="x_proj">2845041</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.47826360000001,-16.38853159999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_069</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_069</SimpleData>
+				<SimpleData name="point_name">CRUCE_SAN_MIGUEL</SimpleData>
+				<SimpleData name="lat">-16.3855</SimpleData>
+				<SimpleData name="long">-71.4767</SimpleData>
+				<SimpleData name="y_proj">-1940248</SimpleData>
+				<SimpleData name="x_proj">2845261</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.47667931188678,-16.38549215785262,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_070</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_070</SimpleData>
+				<SimpleData name="point_name">CRUCE</SimpleData>
+				<SimpleData name="lat">-16.3848</SimpleData>
+				<SimpleData name="long">-71.4787</SimpleData>
+				<SimpleData name="y_proj">-1940143</SimpleData>
+				<SimpleData name="x_proj">2845040</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.4787096322806,-16.38481222035705,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL13_PP_071</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap1100</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe7ebef</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL13_Generalisimo_san_Martin_SSDDIISS">
+				<SimpleData name="code">CL13_PP_071</SimpleData>
+				<SimpleData name="point_name">PARQUE</SimpleData>
+				<SimpleData name="lat">-16.383</SimpleData>
+				<SimpleData name="long">-71.4774</SimpleData>
+				<SimpleData name="y_proj">-1939950</SimpleData>
+				<SimpleData name="x_proj">2845217</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.47735486493711,-16.38302512028596,0</coordinates>
+		</Point>
+	</Placemark>
+	<Folder>
+		<name>Ad_CL13</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>CL13_PP_072</name>
+			<visibility>0</visibility>
+			<description>loza deportiva</description>
+			<LookAt>
+				<longitude>-71.48275554079869</longitude>
+				<latitude>-16.40160237078559</latitude>
+				<altitude>0</altitude>
+				<heading>-0.005314617514997755</heading>
+				<tilt>35.98634791283703</tilt>
+				<range>646.4282746704981</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_placemark_circle110</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.48206474001729,-16.40190012715268,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL13_PP_073</name>
+			<visibility>0</visibility>
+			<description>reservorio</description>
+			<LookAt>
+				<longitude>-71.4906620252406</longitude>
+				<latitude>-16.38491146536419</latitude>
+				<altitude>0</altitude>
+				<heading>0.006177429165813122</heading>
+				<tilt>0</tilt>
+				<range>216.4009089612695</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_placemark_circle012</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.49053264404505,-16.38507700476771,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL13_PP_074</name>
+			<visibility>0</visibility>
+			<description>parque</description>
+			<LookAt>
+				<longitude>-71.49388914529391</longitude>
+				<latitude>-16.40179210695591</latitude>
+				<altitude>0</altitude>
+				<heading>0.0002684042468031277</heading>
+				<tilt>10.06659729859421</tilt>
+				<range>365.1268720348085</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_placemark_circle120</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.49436108350294,-16.40187304428224,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL13_PP_075</name>
+			<visibility>0</visibility>
+			<description>Cancha los rosales</description>
+			<LookAt>
+				<longitude>-71.49423574661</longitude>
+				<latitude>-16.39739473624831</latitude>
+				<altitude>0</altitude>
+				<heading>0.0004338712764361788</heading>
+				<tilt>11.09171629722597</tilt>
+				<range>952.6853488123811</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_placemark_circle120</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.49480964067081,-16.39602088492369,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CL13_PP_076</name>
+			<visibility>0</visibility>
+			<description>Capilla San Miguel</description>
+			<LookAt>
+				<longitude>-71.47933599799899</longitude>
+				<latitude>-16.3910630610959</latitude>
+				<altitude>0</altitude>
+				<heading>3.402682708128709</heading>
+				<tilt>6.613633831820214</tilt>
+				<range>1032.432301006015</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin1011</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.47810018589512,-16.3900133793493,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

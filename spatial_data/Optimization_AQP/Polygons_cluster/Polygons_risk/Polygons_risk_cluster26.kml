@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Polygons_risk_cluster26.kml</name>
+	<StyleMap id="msn_ylw-pushpin19">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin012</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin05</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin23">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin17</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin34</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin33">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin19</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin24</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin05">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7f5500</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin24">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7f5500</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin34">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7f5500</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin012">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7f5500</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin17">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7f5500</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin19">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7f5500</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Polygons_risk_cluster26</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>1.- VIGEN DE CHAPI + CIUDAD MUNICIPAL IX ARRIBA + CIUDAD MUNICIPAL VIII</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin23</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.58412138212121,-16.31022817612761,0 -71.58476562058867,-16.31058487891793,0 -71.58554263441724,-16.31099146004442,0 -71.58592520581085,-16.31105177600117,0 -71.58724095453471,-16.31123912133647,0 -71.58732503746258,-16.31162758326716,0 -71.58766184180072,-16.31167158268514,0 -71.58777593477589,-16.31248289204582,0 -71.5879605035166,-16.31252342188852,0 -71.58792486071826,-16.31265998528576,0 -71.59021529307219,-16.31272247169267,0 -71.59022118169901,-16.31310690222241,0 -71.58898444976235,-16.31312239742993,0 -71.58797545079695,-16.31311010143937,0 -71.58731051963863,-16.31310886629985,0 -71.58412378517031,-16.31345916320576,0 -71.58383111587139,-16.31295154910793,0 -71.58367259209435,-16.31245159204374,0 -71.583427058418,-16.31223283987785,0 -71.58341429628345,-16.31065813412325,0 -71.583401395409,-16.31034686671867,0 -71.58379952701564,-16.30988553912774,0 -71.58412138212121,-16.31022817612761,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>2.- CIUDAD MUNICIPAL VIII + CIUDAD MUNICIPAL VI</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin23</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.59039122307568,-16.31661219684947,0 -71.58773141395113,-16.31655275616755,0 -71.58776092134175,-16.31318896429631,0 -71.5904143532066,-16.31319485700612,0 -71.59039122307568,-16.31661219684947,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>3.- VIGEN DE CHAPI + CIUDAD MUNICIPAL IX</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin23</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.5876497699292,-16.31661728942545,0 -71.58617016354825,-16.3165966729009,0 -71.58615195682955,-16.31633563702262,0 -71.58603494339644,-16.31625017025208,0 -71.58590961085406,-16.31628416954431,0 -71.58570075533883,-16.31643333528773,0 -71.58559527932572,-16.31628677696292,0 -71.58548500633964,-16.31607792800398,0 -71.58530284592192,-16.31576249997843,0 -71.58519023585841,-16.31559726392402,0 -71.58505578533391,-16.31539181871443,0 -71.58517977762831,-16.3152751499977,0 -71.58542639133222,-16.31532930114689,0 -71.58561492589784,-16.31519053020799,0 -71.58534241393075,-16.31477737218564,0 -71.58542645371516,-16.31469065097047,0 -71.58528089293543,-16.3145166728577,0 -71.58530119352524,-16.31442359106201,0 -71.58515952070293,-16.31427494439413,0 -71.58504677277398,-16.31415210862901,0 -71.58494151578508,-16.31398285146549,0 -71.58483972266842,-16.31387066720487,0 -71.58467846845488,-16.31381827702637,0 -71.58455000249923,-16.31375753422586,0 -71.58451373635687,-16.3135967938925,0 -71.58486407394484,-16.31353497777858,0 -71.58538745530829,-16.31343730133376,0 -71.58669334828804,-16.31331008367746,0 -71.58766409082988,-16.31321408707321,0 -71.5876497699292,-16.31661728942545,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>4.- CIUDAD MUNICIPAL VII + CIUDAD MUNICIPAL VI</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin23</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.59151484695073,-16.31988369600805,0 -71.58772669568077,-16.31985599632481,0 -71.58773676225778,-16.31665902559582,0 -71.58906205326682,-16.31667863636987,0 -71.58908160665086,-16.31707427584212,0 -71.59041480837699,-16.31712679867417,0 -71.59155249191345,-16.31713637504859,0 -71.59151484695073,-16.31988369600805,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>5.- CIUDAD MUNICIPAL VII + CIUDAD MUNICIPAL IXI</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin23</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.58762392375823,-16.3212568373626,0 -71.58631627981582,-16.32126779590784,0 -71.58629007609262,-16.32119803995648,0 -71.58585755858304,-16.32117897213449,0 -71.58591567103512,-16.32006288094803,0 -71.58610045494987,-16.31979198060256,0 -71.58613621759861,-16.31914550439974,0 -71.58613606802878,-16.31870808625802,0 -71.58619504334023,-16.3166466020235,0 -71.58765661543292,-16.31667009811862,0 -71.587616963472,-16.31712575485495,0 -71.58762392375823,-16.3212568373626,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>6.- PARTE BAJA CIUDAD MUNICIPAL VII + CIUDAD MUNICIPAL VI</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin33</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.59153909185653,-16.31995788101019,0 -71.59148193300517,-16.32129402779303,0 -71.5877166043519,-16.32127705492768,0 -71.58770420376463,-16.31996822295918,0 -71.58903021101109,-16.31993675550008,0 -71.59153909185653,-16.31995788101019,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>7.- CIUDAD MUNICIPAL V + CIUDAD MUNICIPAL IV</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin23</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.59145317078621,-16.3262532718969,0 -71.58970905885847,-16.32625327161019,0 -71.58966463582911,-16.32537561383899,0 -71.58951001259638,-16.32533895351558,0 -71.58948069442368,-16.3243573737874,0 -71.58955697343151,-16.32432918674566,0 -71.58952460507993,-16.3233272544743,0 -71.58951942222495,-16.32289954084472,0 -71.58933062177024,-16.32286464297406,0 -71.58929658494165,-16.32244355810011,0 -71.58918046596351,-16.32244155278539,0 -71.58917239508173,-16.32147901214103,0 -71.59149675819343,-16.32150737496127,0 -71.59145317078621,-16.3262532718969,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>8.- VICTOR RAUL HAYA DE LA TORRE</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin33</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.58952205379452,-16.32620355840158,0 -71.58765260739703,-16.32613545134905,0 -71.58763721313167,-16.32594619655132,0 -71.58770359715433,-16.32171645831897,0 -71.58908818387744,-16.32173937567468,0 -71.5890632394588,-16.32283128864215,0 -71.58925876543924,-16.32287975287669,0 -71.58935499915749,-16.3242072935292,0 -71.58907941731209,-16.32426219906779,0 -71.58907159652966,-16.32494714310172,0 -71.58935455890371,-16.32498501916605,0 -71.58952205379452,-16.32620355840158,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>9.- CIUDAD MUNICIPAL VII</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin33</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.58754327217544,-16.32613256554408,0 -71.58631663532336,-16.32613663899194,0 -71.58586491735728,-16.32271770606102,0 -71.58596325118985,-16.32147700064255,0 -71.58763234195962,-16.32150580802158,0 -71.58754327217544,-16.32613256554408,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>10.- CIUDAD MUNICIPAL IV + ASOC MARIANO SANTOS + ASOC SAN PEDRO  SAN PABLO</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin19</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.59229381914233,-16.32816046251291,0 -71.58799616932956,-16.33112039960277,0 -71.58733959467646,-16.32974966492302,0 -71.58728085583408,-16.32810489116531,0 -71.58667079321182,-16.32643945571975,0 -71.58934210868544,-16.32638939126345,0 -71.59125599917057,-16.32648918742643,0 -71.59229381914233,-16.32816046251291,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>11.- TRANSOCEANICA + CENTRO DE VIVIENDA LAS CANTERAS</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin23</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.59079630093652,-16.33700174997929,0 -71.58924257515177,-16.33643023601207,0 -71.58998580774404,-16.33455997639976,0 -71.58941322058672,-16.33433029020231,0 -71.58855115563668,-16.33269479718826,0 -71.58846946195142,-16.332380254209,0 -71.58842768960527,-16.33205411129752,0 -71.58835651785192,-16.33175453291998,0 -71.58815903393058,-16.33131987727322,0 -71.58856893628507,-16.33095183911852,0 -71.58865253736658,-16.3310969609006,0 -71.59078548605486,-16.32934337325475,0 -71.59262796903599,-16.32826900031446,0 -71.59392619524621,-16.32758483781349,0 -71.59419122965507,-16.32766687807525,0 -71.59437820518349,-16.32785916452293,0 -71.59079630093652,-16.33700174997929,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>12.- URB NUEVA AREQUIPA + VILLA SANJUAN ZONA B + VILLA SANTA ROSA</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin23</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.59009671681324,-16.33878232989701,0 -71.58975549100134,-16.33878647310577,0 -71.58849050354206,-16.3383433405439,0 -71.58840498856698,-16.3385387935947,0 -71.5882638615448,-16.33866048121424,0 -71.58775909323522,-16.33857963556956,0 -71.58804530938231,-16.33746162443616,0 -71.5882626557749,-16.33639781976093,0 -71.58844850329241,-16.33565022682229,0 -71.58869425058759,-16.33521747376584,0 -71.58873939587957,-16.33465948947472,0 -71.58839100683869,-16.33450350404634,0 -71.58815125167145,-16.33399204085664,0 -71.5882592568007,-16.33342109042208,0 -71.58805640058361,-16.33289063741869,0 -71.58799173972992,-16.33224520299022,0 -71.58840556108228,-16.33215503779745,0 -71.58841422116014,-16.3324534645966,0 -71.58853798548273,-16.33282342594359,0 -71.58931311198597,-16.3341959546948,0 -71.58932712543006,-16.33435198224388,0 -71.58990864472081,-16.33458892355334,0 -71.58916687204957,-16.33644491347883,0 -71.59076439747881,-16.33703890310637,0 -71.59009671681324,-16.33878232989701,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>13.- VILLA AVIACION + ZONA INDUSTRIAL PERU ARBO</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin23</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.59033640772414,-16.33932709247294,0 -71.58883710812044,-16.34061173596546,0 -71.58849958629121,-16.34046818698585,0 -71.58990148213628,-16.33925192661436,0 -71.59098016039597,-16.33749356592243,0 -71.59206758230739,-16.33431548486439,0 -71.59494882821099,-16.32725101628628,0 -71.59640525031448,-16.32800240772016,0 -71.59447828708755,-16.33185857950185,0 -71.59033640772414,-16.33932709247294,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>14.- JORGE BASADRE +  ASOC GUARDIA REPUBLICANA PARTE ARRIBA</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin23</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.5943106159814,-16.31586621689193,0 -71.59396254440311,-16.3161927430362,0 -71.59416920185687,-16.31668093149438,0 -71.59422879813982,-16.31708526713813,0 -71.59044127596813,-16.31705813974184,0 -71.59045066749295,-16.31658606888744,0 -71.59046217797327,-16.31574592964426,0 -71.59095224666537,-16.31569275814927,0 -71.59089074156526,-16.31518013415754,0 -71.5917479549705,-16.31519992632458,0 -71.59274073519151,-16.3150505138879,0 -71.59260618365238,-16.31566731512181,0 -71.59423347794586,-16.31568426593375,0 -71.5943106159814,-16.31586621689193,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>15.- ASOC GUARDIA REPUBLICANA + CIUDAD MUNICIPAL III</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin23</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.59419667240492,-16.32133642049492,0 -71.59173124143794,-16.32127372569425,0 -71.5917287091453,-16.31713325543372,0 -71.59414570179386,-16.31716522812916,0 -71.59422177321315,-16.31837986746072,0 -71.59419667240492,-16.32133642049492,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>16.- CIUDAD MUNICIPAL II</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin23</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.59503628361578,-16.32435237310626,0 -71.5916722330501,-16.32415146232435,0 -71.59166624066127,-16.32153466657938,0 -71.5941711391545,-16.32153856014384,0 -71.59579390514489,-16.32156013200311,0 -71.59625645120663,-16.32266362698644,0 -71.59595250097669,-16.32294433393514,0 -71.59573804050299,-16.3228461902133,0 -71.59532803760838,-16.32347469483829,0 -71.59526107313499,-16.32369149134874,0 -71.59541270019656,-16.32378188536216,0 -71.59503628361578,-16.32435237310626,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>17.- CIUDAD MUNICIPAL I</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin23</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.59261417354564,-16.3279634201294,0 -71.59167245778221,-16.32664670331048,0 -71.59161650292619,-16.32426589356957,0 -71.59499396821002,-16.3245488686788,0 -71.59547582684105,-16.32378036408618,0 -71.59627395744039,-16.32429315666489,0 -71.59517748721176,-16.32641100359828,0 -71.59261417354564,-16.3279634201294,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>18.- VILLA CONO NORTE</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin23</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.59635195656334,-16.32043012212213,0 -71.59574403491757,-16.32080966028393,0 -71.59576575252274,-16.3213351751928,0 -71.59428051988669,-16.32130167354637,0 -71.59426962232578,-16.32127923567321,0 -71.5942492655029,-16.31819835588779,0 -71.59433582937385,-16.318162058159,0 -71.59422619618842,-16.31784724508493,0 -71.5941824157415,-16.31718262001132,0 -71.59442254842529,-16.31712479962811,0 -71.59407638616874,-16.31628640155772,0 -71.59453970045463,-16.31615518016817,0 -71.59420654905037,-16.31530162166504,0 -71.59521802434662,-16.31472982907625,0 -71.59658177785884,-16.31775315959307,0 -71.59650175628417,-16.31905041587642,0 -71.59635195656334,-16.32043012212213,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>19.- GRANJEROS UNIDOS</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin23</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.59935930119342,-16.31609179559527,0 -71.59910909958245,-16.31619193241426,0 -71.60016919278796,-16.31897988310827,0 -71.60048138867998,-16.31947734014457,0 -71.59840830415897,-16.32105282985626,0 -71.5981465938287,-16.32134223440518,0 -71.59689687200066,-16.32335213371298,0 -71.59666719844809,-16.32315038761866,0 -71.59638297794531,-16.32233962504679,0 -71.5964920150939,-16.3207713319316,0 -71.59652406859827,-16.3194817990328,0 -71.59678775778782,-16.31773907051499,0 -71.59651981337687,-16.31748014468462,0 -71.59515846534875,-16.31431881575365,0 -71.59660119159541,-16.31441758498969,0 -71.59849059811978,-16.31387367732153,0 -71.59935930119342,-16.31609179559527,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>20.- VILLA EL TRIUNFO + GRANJEROS NUEVA VIDA</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin23</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.60252636960361,-16.31590440742201,0 -71.60135878128553,-16.31643499852087,0 -71.5997179432501,-16.31694951043702,0 -71.59938755889827,-16.31580910146325,0 -71.59930617162928,-16.3158331782837,0 -71.59859190880348,-16.31388459590611,0 -71.60108054107125,-16.31288261834374,0 -71.60252636960361,-16.31590440742201,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>21.- MONSERRAT VIRGEN DEL SOCORRO</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin23</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.60340196707455,-16.31750124840783,0 -71.60061211040588,-16.31945109643697,0 -71.60022873038913,-16.31894253347174,0 -71.60005694728414,-16.31858376328888,0 -71.59974738835449,-16.31792179882114,0 -71.59974435525173,-16.31785519906523,0 -71.59992531839995,-16.31776372362765,0 -71.59978190183644,-16.31718638432173,0 -71.60140196105998,-16.31653668497048,0 -71.6025809115698,-16.31598718814507,0 -71.60340196707455,-16.31750124840783,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>22.- LA ALBORADA APIMA + HEROES DE LA BREÑA</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin23</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.60600356050738,-16.32039280372308,0 -71.60528160048763,-16.32089573847221,0 -71.60268582869342,-16.32225681491562,0 -71.60185433069969,-16.32253543657241,0 -71.60178763566792,-16.32239191203671,0 -71.59901161678334,-16.32357496211682,0 -71.59858420809668,-16.32414251215936,0 -71.59741225930021,-16.32308291884216,0 -71.59815523793296,-16.32176124721222,0 -71.59871353089046,-16.32115982952298,0 -71.60048116867573,-16.31988081803485,0 -71.60345517523881,-16.31766113522606,0 -71.60386435814834,-16.31843268916568,0 -71.60427620350276,-16.31804369708133,0 -71.60511707887669,-16.31890212326837,0 -71.60600356050738,-16.32039280372308,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>23.- EDUARDO DE LA PINIELLA</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin23</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-71.5964222088936,-16.32797690345845,0 -71.59499036235856,-16.3271750417821,0 -71.59687134262019,-16.32391700442354,0 -71.59731601138996,-16.32306701225993,0 -71.59853731170757,-16.32421876819632,0 -71.5964222088936,-16.32797690345845,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	</Folder>
+</Document>
+</kml>

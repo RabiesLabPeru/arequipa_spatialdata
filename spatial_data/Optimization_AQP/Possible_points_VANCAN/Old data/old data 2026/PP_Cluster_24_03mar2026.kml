@@ -1,0 +1,1574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CL24_Zamacola_03mar2026</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<Schema name="CL24_Zamacola" id="S_CL24_Zamacola_SSDDIISS0">
+		<SimpleField type="string" name="code"><displayName>&lt;b&gt;code&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="point_name"><displayName>&lt;b&gt;point_name&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="lat"><displayName>&lt;b&gt;lat&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="long"><displayName>&lt;b&gt;long&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="y_proj"><displayName>&lt;b&gt;y_proj&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="x_proj"><displayName>&lt;b&gt;x_proj&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="type_point"><displayName>&lt;b&gt;type_point&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="estratategy"><displayName>&lt;b&gt;estratategy&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle110">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>code</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/code]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/point_name]</td></tr>
+  <tr><td><b>lat</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/estratategy]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="normPointStyle230">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>code</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/code]</td></tr>
+  <tr><td><b>point_name</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/point_name]</td></tr>
+  <tr><td><b>lat</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/lat]</td></tr>
+  <tr><td><b>long</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/long]</td></tr>
+  <tr><td><b>y_proj</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/y_proj]</td></tr>
+  <tr><td><b>x_proj</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/x_proj]</td></tr>
+  <tr><td><b>type_point</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/type_point]</td></tr>
+  <tr><td><b>estratategy</b></td><td>$[CL01_San_Martin_de_Socabaya_28abr2023/estratategy]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="pointStyleMap23">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle230</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>CL24_PP_001</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_001</SimpleData>
+				<SimpleData name="point_name">Punto 1 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3227</SimpleData>
+				<SimpleData name="long">-71.5441</SimpleData>
+				<SimpleData name="y_proj">-1932027</SimpleData>
+				<SimpleData name="x_proj">2838432</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54409579650451,-16.32273822919863,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_002</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_002</SimpleData>
+				<SimpleData name="point_name">Punto 2 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3231</SimpleData>
+				<SimpleData name="long">-71.5462</SimpleData>
+				<SimpleData name="y_proj">-1932047</SimpleData>
+				<SimpleData name="x_proj">2838183</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54624288358029,-16.32313748555662,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_003</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_003</SimpleData>
+				<SimpleData name="point_name">Punto 3 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3247</SimpleData>
+				<SimpleData name="long">-71.5459</SimpleData>
+				<SimpleData name="y_proj">-1932237</SimpleData>
+				<SimpleData name="x_proj">2838206</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54585702808967,-16.32471685178886,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_004</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_004</SimpleData>
+				<SimpleData name="point_name">Punto 4 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3262</SimpleData>
+				<SimpleData name="long">-71.5476</SimpleData>
+				<SimpleData name="y_proj">-1932394</SimpleData>
+				<SimpleData name="x_proj">2837992</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54757368017988,-16.32623323025803,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_005</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_005</SimpleData>
+				<SimpleData name="point_name">Punto 5 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3272</SimpleData>
+				<SimpleData name="long">-71.5499</SimpleData>
+				<SimpleData name="y_proj">-1932472</SimpleData>
+				<SimpleData name="x_proj">2837713</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54992446886031,-16.32715278327862,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_006</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_006</SimpleData>
+				<SimpleData name="point_name">Punto 6 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3282</SimpleData>
+				<SimpleData name="long">-71.5492</SimpleData>
+				<SimpleData name="y_proj">-1932602</SimpleData>
+				<SimpleData name="x_proj">2837786</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54916594990412,-16.32817753602254,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_007</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_007</SimpleData>
+				<SimpleData name="point_name">Punto 7 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3293</SimpleData>
+				<SimpleData name="long">-71.5495</SimpleData>
+				<SimpleData name="y_proj">-1932727</SimpleData>
+				<SimpleData name="x_proj">2837733</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.54950251072466,-16.32927893869536,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_008</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_008</SimpleData>
+				<SimpleData name="point_name">Punto 8 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3306</SimpleData>
+				<SimpleData name="long">-71.5519</SimpleData>
+				<SimpleData name="y_proj">-1932859</SimpleData>
+				<SimpleData name="x_proj">2837446</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55187864041972,-16.33064991503358,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_009</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_009</SimpleData>
+				<SimpleData name="point_name">Punto 9 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3318</SimpleData>
+				<SimpleData name="long">-71.5514</SimpleData>
+				<SimpleData name="y_proj">-1932998</SimpleData>
+				<SimpleData name="x_proj">2837481</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55144230393088,-16.33178897758,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_010</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_010</SimpleData>
+				<SimpleData name="point_name">Punto 10 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3364</SimpleData>
+				<SimpleData name="long">-71.555</SimpleData>
+				<SimpleData name="y_proj">-1933496</SimpleData>
+				<SimpleData name="x_proj">2837023</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55495255009734,-16.33640571169605,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_011</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_011</SimpleData>
+				<SimpleData name="point_name">Punto 11 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3346</SimpleData>
+				<SimpleData name="long">-71.5563</SimpleData>
+				<SimpleData name="y_proj">-1933269</SimpleData>
+				<SimpleData name="x_proj">2836892</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55631169240964,-16.33461417566977,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_012</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_012</SimpleData>
+				<SimpleData name="point_name">Punto 12 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3337</SimpleData>
+				<SimpleData name="long">-71.5578</SimpleData>
+				<SimpleData name="y_proj">-1933141</SimpleData>
+				<SimpleData name="x_proj">2836729</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55784967150451,-16.33369365024177,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_013</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_013</SimpleData>
+				<SimpleData name="point_name">Punto 13 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3339</SimpleData>
+				<SimpleData name="long">-71.5552</SimpleData>
+				<SimpleData name="y_proj">-1933202</SimpleData>
+				<SimpleData name="x_proj">2837026</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55520442403487,-16.33392574330122,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_014</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_014</SimpleData>
+				<SimpleData name="point_name">Punto 14 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3337</SimpleData>
+				<SimpleData name="long">-71.5535</SimpleData>
+				<SimpleData name="y_proj">-1933193</SimpleData>
+				<SimpleData name="x_proj">2837226</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55346943421821,-16.33366819466201,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_015</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_015</SimpleData>
+				<SimpleData name="point_name">IE_SR_DE_HUANCA_CIRCA</SimpleData>
+				<SimpleData name="lat">-16.3314</SimpleData>
+				<SimpleData name="long">-71.5534</SimpleData>
+				<SimpleData name="y_proj">-1932934</SimpleData>
+				<SimpleData name="x_proj">2837265</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55338692499538,-16.33144959875056,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_016</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_016</SimpleData>
+				<SimpleData name="point_name">Punto 15 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3321</SimpleData>
+				<SimpleData name="long">-71.5546</SimpleData>
+				<SimpleData name="y_proj">-1932996</SimpleData>
+				<SimpleData name="x_proj">2837113</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55464771787258,-16.33211569757264,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_017</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_017</SimpleData>
+				<SimpleData name="point_name">Punto 16 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3318</SimpleData>
+				<SimpleData name="long">-71.5566</SimpleData>
+				<SimpleData name="y_proj">-1932931</SimpleData>
+				<SimpleData name="x_proj">2836896</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55660246830601,-16.33177434937494,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_018</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_018</SimpleData>
+				<SimpleData name="point_name">Punto 17 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3295</SimpleData>
+				<SimpleData name="long">-71.5591</SimpleData>
+				<SimpleData name="y_proj">-1932630</SimpleData>
+				<SimpleData name="x_proj">2836646</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55906771110193,-16.32946755181477,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_019</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_019</SimpleData>
+				<SimpleData name="point_name">Punto 18 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3287</SimpleData>
+				<SimpleData name="long">-71.5567</SimpleData>
+				<SimpleData name="y_proj">-1932568</SimpleData>
+				<SimpleData name="x_proj">2836921</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5567287639885,-16.32869077547393,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_020</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_020</SimpleData>
+				<SimpleData name="point_name">Punto 19 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.33</SimpleData>
+				<SimpleData name="long">-71.555</SimpleData>
+				<SimpleData name="y_proj">-1932738</SimpleData>
+				<SimpleData name="x_proj">2837101</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55499785911903,-16.32996029019077,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_021</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_021</SimpleData>
+				<SimpleData name="point_name">Punto 20 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3286</SimpleData>
+				<SimpleData name="long">-71.5541</SimpleData>
+				<SimpleData name="y_proj">-1932594</SimpleData>
+				<SimpleData name="x_proj">2837216</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55413380513463,-16.32863833385101,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_022</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_022</SimpleData>
+				<SimpleData name="point_name">Punto 21 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3261</SimpleData>
+				<SimpleData name="long">-71.555</SimpleData>
+				<SimpleData name="y_proj">-1932284</SimpleData>
+				<SimpleData name="x_proj">2837153</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55498100547725,-16.32608886804604,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_023</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_023</SimpleData>
+				<SimpleData name="point_name">Punto 22 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3261</SimpleData>
+				<SimpleData name="long">-71.5583</SimpleData>
+				<SimpleData name="y_proj">-1932244</SimpleData>
+				<SimpleData name="x_proj">2836782</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55825415712151,-16.32610212901147,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_024</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_024</SimpleData>
+				<SimpleData name="point_name">Punto 23 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3249</SimpleData>
+				<SimpleData name="long">-71.557</SimpleData>
+				<SimpleData name="y_proj">-1932119</SimpleData>
+				<SimpleData name="x_proj">2836938</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55701389427433,-16.32490468975258,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_025</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_025</SimpleData>
+				<SimpleData name="point_name">Punto 24 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3249</SimpleData>
+				<SimpleData name="long">-71.5541</SimpleData>
+				<SimpleData name="y_proj">-1932152</SimpleData>
+				<SimpleData name="x_proj">2837264</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55414537438804,-16.32487349982842,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_026</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_026</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_N�1_AMAZONAS</SimpleData>
+				<SimpleData name="lat">-16.3247</SimpleData>
+				<SimpleData name="long">-71.5519</SimpleData>
+				<SimpleData name="y_proj">-1932163</SimpleData>
+				<SimpleData name="x_proj">2837518</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55191790284279,-16.32473049047751,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_027</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_027</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA</SimpleData>
+				<SimpleData name="lat">-16.3228</SimpleData>
+				<SimpleData name="long">-71.5505</SimpleData>
+				<SimpleData name="y_proj">-1931952</SimpleData>
+				<SimpleData name="x_proj">2837710</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55045429155572,-16.32278345165428,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_028</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_028</SimpleData>
+				<SimpleData name="point_name">IASD_VILLA_ESPERANZA</SimpleData>
+				<SimpleData name="lat">-16.3222</SimpleData>
+				<SimpleData name="long">-71.5534</SimpleData>
+				<SimpleData name="y_proj">-1931847</SimpleData>
+				<SimpleData name="x_proj">2837383</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55339969218164,-16.32220471105042,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_029</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_029</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA</SimpleData>
+				<SimpleData name="lat">-16.3223</SimpleData>
+				<SimpleData name="long">-71.5552</SimpleData>
+				<SimpleData name="y_proj">-1931840</SimpleData>
+				<SimpleData name="x_proj">2837173</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55523529655363,-16.32233728803527,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_030</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_030</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA</SimpleData>
+				<SimpleData name="lat">-16.3228</SimpleData>
+				<SimpleData name="long">-71.5578</SimpleData>
+				<SimpleData name="y_proj">-1931862</SimpleData>
+				<SimpleData name="x_proj">2836880</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55776615010963,-16.32279306052344,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_031</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_031</SimpleData>
+				<SimpleData name="point_name">PARQUE_VILLA_CHACHANI</SimpleData>
+				<SimpleData name="lat">-16.3221</SimpleData>
+				<SimpleData name="long">-71.5619</SimpleData>
+				<SimpleData name="y_proj">-1931724</SimpleData>
+				<SimpleData name="x_proj">2836423</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56188336297693,-16.32205697413786,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_032</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_032</SimpleData>
+				<SimpleData name="point_name">IEP_JOHN_FORBES_II</SimpleData>
+				<SimpleData name="lat">-16.3231</SimpleData>
+				<SimpleData name="long">-71.5631</SimpleData>
+				<SimpleData name="y_proj">-1931827</SimpleData>
+				<SimpleData name="x_proj">2836267</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5631439423038,-16.32306791254323,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_033</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_033</SimpleData>
+				<SimpleData name="point_name">Punto 25 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3249</SimpleData>
+				<SimpleData name="long">-71.5607</SimpleData>
+				<SimpleData name="y_proj">-1932076</SimpleData>
+				<SimpleData name="x_proj">2836518</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56071716889556,-16.32493446319887,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_034</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_034</SimpleData>
+				<SimpleData name="point_name">Punto 26 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3261</SimpleData>
+				<SimpleData name="long">-71.562</SimpleData>
+				<SimpleData name="y_proj">-1932198</SimpleData>
+				<SimpleData name="x_proj">2836360</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56197622024276,-16.32610264952596,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_035</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_035</SimpleData>
+				<SimpleData name="point_name">HOSPITAL_MARITZA_CAMPO_DIAZ</SimpleData>
+				<SimpleData name="lat">-16.3266</SimpleData>
+				<SimpleData name="long">-71.5602</SimpleData>
+				<SimpleData name="y_proj">-1932275</SimpleData>
+				<SimpleData name="x_proj">2836557</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56018523157196,-16.32656751541342,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_036</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_036</SimpleData>
+				<SimpleData name="point_name">COLEGIO_GRECOS</SimpleData>
+				<SimpleData name="lat">-16.3277</SimpleData>
+				<SimpleData name="long">-71.5629</SimpleData>
+				<SimpleData name="y_proj">-1932374</SimpleData>
+				<SimpleData name="x_proj">2836233</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56290923240132,-16.32770028655014,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_037</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_037</SimpleData>
+				<SimpleData name="point_name">Punto 27 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3287</SimpleData>
+				<SimpleData name="long">-71.5619</SimpleData>
+				<SimpleData name="y_proj">-1932502</SimpleData>
+				<SimpleData name="x_proj">2836330</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56194602456289,-16.32868509591313,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_038</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_038</SimpleData>
+				<SimpleData name="point_name">Punto 28 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.33</SimpleData>
+				<SimpleData name="long">-71.5614</SimpleData>
+				<SimpleData name="y_proj">-1932663</SimpleData>
+				<SimpleData name="x_proj">2836378</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56136671445599,-16.32999651051307,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_039</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_039</SimpleData>
+				<SimpleData name="point_name">IGLESIA_BAUTISTA_PAN_DE_VIDA</SimpleData>
+				<SimpleData name="lat">-16.3305</SimpleData>
+				<SimpleData name="long">-71.5607</SimpleData>
+				<SimpleData name="y_proj">-1932736</SimpleData>
+				<SimpleData name="x_proj">2836450</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56067687003558,-16.33054392487914,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_040</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_040</SimpleData>
+				<SimpleData name="point_name">COMPLEJO_DEPORTIVO_EL_GOLAZO</SimpleData>
+				<SimpleData name="lat">-16.3316</SimpleData>
+				<SimpleData name="long">-71.5599</SimpleData>
+				<SimpleData name="y_proj">-1932871</SimpleData>
+				<SimpleData name="x_proj">2836519</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.55993934599491,-16.3316125307199,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_041</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_041</SimpleData>
+				<SimpleData name="point_name">Punto 29 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3319</SimpleData>
+				<SimpleData name="long">-71.5617</SimpleData>
+				<SimpleData name="y_proj">-1932881</SimpleData>
+				<SimpleData name="x_proj">2836320</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56166700078097,-16.33188738154672,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_042</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_042</SimpleData>
+				<SimpleData name="point_name">PARQUE_LAS_FLORES_VIII</SimpleData>
+				<SimpleData name="lat">-16.3316</SimpleData>
+				<SimpleData name="long">-71.5644</SimpleData>
+				<SimpleData name="y_proj">-1932811</SimpleData>
+				<SimpleData name="x_proj">2836010</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56442993626268,-16.33158337932348,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_043</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_043</SimpleData>
+				<SimpleData name="point_name">Punto 30 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3313</SimpleData>
+				<SimpleData name="long">-71.5667</SimpleData>
+				<SimpleData name="y_proj">-1932750</SimpleData>
+				<SimpleData name="x_proj">2835762</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56665517740021,-16.33130211129849,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_044</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_044</SimpleData>
+				<SimpleData name="point_name">PARQUE_LAS_FLORES_VIII_II</SimpleData>
+				<SimpleData name="lat">-16.3304</SimpleData>
+				<SimpleData name="long">-71.5639</SimpleData>
+				<SimpleData name="y_proj">-1932677</SimpleData>
+				<SimpleData name="x_proj">2836082</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56393141921511,-16.33038823718828,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_045</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_045</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_LAS_FLORES_VI</SimpleData>
+				<SimpleData name="lat">-16.3295</SimpleData>
+				<SimpleData name="long">-71.5651</SimpleData>
+				<SimpleData name="y_proj">-1932556</SimpleData>
+				<SimpleData name="x_proj">2835967</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56505670349983,-16.32948255724716,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_046</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_046</SimpleData>
+				<SimpleData name="point_name">Punto 31 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3285</SimpleData>
+				<SimpleData name="long">-71.5638</SimpleData>
+				<SimpleData name="y_proj">-1932462</SimpleData>
+				<SimpleData name="x_proj">2836124</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56377394631141,-16.32854324217845,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_047</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_047</SimpleData>
+				<SimpleData name="point_name">Punto 32 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3286</SimpleData>
+				<SimpleData name="long">-71.5668</SimpleData>
+				<SimpleData name="y_proj">-1932426</SimpleData>
+				<SimpleData name="x_proj">2835778</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56682544263299,-16.32856379256731,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_048</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_048</SimpleData>
+				<SimpleData name="point_name">Punto 33 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3268</SimpleData>
+				<SimpleData name="long">-71.5664</SimpleData>
+				<SimpleData name="y_proj">-1932220</SimpleData>
+				<SimpleData name="x_proj">2835853</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56636536966012,-16.32675851933001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_049</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_049</SimpleData>
+				<SimpleData name="point_name">Punto 34 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.325</SimpleData>
+				<SimpleData name="long">-71.5664</SimpleData>
+				<SimpleData name="y_proj">-1932008</SimpleData>
+				<SimpleData name="x_proj">2835877</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56636478000443,-16.32495498021524,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_050</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_050</SimpleData>
+				<SimpleData name="point_name">Punto 35 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.325</SimpleData>
+				<SimpleData name="long">-71.5639</SimpleData>
+				<SimpleData name="y_proj">-1932039</SimpleData>
+				<SimpleData name="x_proj">2836152</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56393639804253,-16.32496285533597,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_051</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_051</SimpleData>
+				<SimpleData name="point_name">?Punto 36 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3236</SimpleData>
+				<SimpleData name="long">-71.5645</SimpleData>
+				<SimpleData name="y_proj">-1931870</SimpleData>
+				<SimpleData name="x_proj">2836102</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56454115241378,-16.32358330563761,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_052</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_052</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_LAS_TORRES</SimpleData>
+				<SimpleData name="lat">-16.3225</SimpleData>
+				<SimpleData name="long">-71.5666</SimpleData>
+				<SimpleData name="y_proj">-1931714</SimpleData>
+				<SimpleData name="x_proj">2835886</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56657200781399,-16.32247573886338,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_053</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_053</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_ALDO_MORO</SimpleData>
+				<SimpleData name="lat">-16.324</SimpleData>
+				<SimpleData name="long">-71.5679</SimpleData>
+				<SimpleData name="y_proj">-1931875</SimpleData>
+				<SimpleData name="x_proj">2835719</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56786621842167,-16.32398176204898,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_054</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_054</SimpleData>
+				<SimpleData name="point_name">PARQUE_MARIA_AUXILIADORA</SimpleData>
+				<SimpleData name="lat">-16.3254</SimpleData>
+				<SimpleData name="long">-71.5678</SimpleData>
+				<SimpleData name="y_proj">-1932047</SimpleData>
+				<SimpleData name="x_proj">2835705</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56782196808742,-16.32544358920594,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_055</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_055</SimpleData>
+				<SimpleData name="point_name">Punto 37 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3262</SimpleData>
+				<SimpleData name="long">-71.5699</SimpleData>
+				<SimpleData name="y_proj">-1932104</SimpleData>
+				<SimpleData name="x_proj">2835456</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56993567604296,-16.32615060565904,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_056</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_056</SimpleData>
+				<SimpleData name="point_name">PARQUE_ALIPIO_PONCE</SimpleData>
+				<SimpleData name="lat">-16.327</SimpleData>
+				<SimpleData name="long">-71.5714</SimpleData>
+				<SimpleData name="y_proj">-1932181</SimpleData>
+				<SimpleData name="x_proj">2835279</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.57140394443631,-16.32696840285681,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_057</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_057</SimpleData>
+				<SimpleData name="point_name">PARQUE_LAS_FLORES_I</SimpleData>
+				<SimpleData name="lat">-16.3281</SimpleData>
+				<SimpleData name="long">-71.5709</SimpleData>
+				<SimpleData name="y_proj">-1932323</SimpleData>
+				<SimpleData name="x_proj">2835322</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.57089870123549,-16.328116998051,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_058</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_058</SimpleData>
+				<SimpleData name="point_name">Punto 38 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3286</SimpleData>
+				<SimpleData name="long">-71.5685</SimpleData>
+				<SimpleData name="y_proj">-1932412</SimpleData>
+				<SimpleData name="x_proj">2835583</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56853305065924,-16.3286241995556,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_059</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_059</SimpleData>
+				<SimpleData name="point_name">Punto 39 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3293</SimpleData>
+				<SimpleData name="long">-71.5706</SimpleData>
+				<SimpleData name="y_proj">-1932470</SimpleData>
+				<SimpleData name="x_proj">2835336</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.57063630619606,-16.32934105367998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_060</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_060</SimpleData>
+				<SimpleData name="point_name">Punto 40 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3307</SimpleData>
+				<SimpleData name="long">-71.5684</SimpleData>
+				<SimpleData name="y_proj">-1932656</SimpleData>
+				<SimpleData name="x_proj">2835575</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56837487336992,-16.33068484662843,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_061</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_061</SimpleData>
+				<SimpleData name="point_name">PARQUE_ZONA_IV</SimpleData>
+				<SimpleData name="lat">-16.3316</SimpleData>
+				<SimpleData name="long">-71.5691</SimpleData>
+				<SimpleData name="y_proj">-1932755</SimpleData>
+				<SimpleData name="x_proj">2835477</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.56912745772465,-16.33161067763597,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_062</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_062</SimpleData>
+				<SimpleData name="point_name">Punto 41 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.331</SimpleData>
+				<SimpleData name="long">-71.5706</SimpleData>
+				<SimpleData name="y_proj">-1932662</SimpleData>
+				<SimpleData name="x_proj">2835322</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.57057291448272,-16.33097266914717,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_063</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_063</SimpleData>
+				<SimpleData name="point_name">LOSA_DEPORTIVA_LAS_FLORES_III</SimpleData>
+				<SimpleData name="lat">-16.3304</SimpleData>
+				<SimpleData name="long">-71.5713</SimpleData>
+				<SimpleData name="y_proj">-1932589</SimpleData>
+				<SimpleData name="x_proj">2835244</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.5713219447024,-16.33042670544474,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_064</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_064</SimpleData>
+				<SimpleData name="point_name">Punto 42 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3313</SimpleData>
+				<SimpleData name="long">-71.5723</SimpleData>
+				<SimpleData name="y_proj">-1932675</SimpleData>
+				<SimpleData name="x_proj">2835127</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.57225858944675,-16.33126471540077,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_065</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_065</SimpleData>
+				<SimpleData name="point_name">Punto 43 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.329</SimpleData>
+				<SimpleData name="long">-71.5732</SimpleData>
+				<SimpleData name="y_proj">-1932394</SimpleData>
+				<SimpleData name="x_proj">2835054</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.57316633360873,-16.32896583951304,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_066</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_066</SimpleData>
+				<SimpleData name="point_name">MERCADO_ANDRES_AVELINO_CACERES</SimpleData>
+				<SimpleData name="lat">-16.3295</SimpleData>
+				<SimpleData name="long">-71.5744</SimpleData>
+				<SimpleData name="y_proj">-1932441</SimpleData>
+				<SimpleData name="x_proj">2834911</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.57436158113454,-16.32949561850318,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_067</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_067</SimpleData>
+				<SimpleData name="point_name">Punto 44 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3311</SimpleData>
+				<SimpleData name="long">-71.5756</SimpleData>
+				<SimpleData name="y_proj">-1932609</SimpleData>
+				<SimpleData name="x_proj">2834745</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.57564497388448,-16.33106091238697,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_068</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_068</SimpleData>
+				<SimpleData name="point_name">CANCHA_SINTETICA_SPORTIMAX</SimpleData>
+				<SimpleData name="lat">-16.3327</SimpleData>
+				<SimpleData name="long">-71.5745</SimpleData>
+				<SimpleData name="y_proj">-1932814</SimpleData>
+				<SimpleData name="x_proj">2834855</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Propuesto</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.57449004614334,-16.33268113589327,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_069</name>
+		<visibility>0</visibility>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CL24_Zamacola_SSDDIISS0">
+				<SimpleData name="code">CL24_PP_069</SimpleData>
+				<SimpleData name="point_name">Punto 45 (referencial)</SimpleData>
+				<SimpleData name="lat">-16.3343</SimpleData>
+				<SimpleData name="long">-71.5791</SimpleData>
+				<SimpleData name="y_proj">-1932944</SimpleData>
+				<SimpleData name="x_proj">2834314</SimpleData>
+				<SimpleData name="type_point">Fixed</SimpleData>
+				<SimpleData name="estratategy">Establecido</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.57907689577739,-16.33427674532865,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_070</name>
+		<visibility>0</visibility>
+		<description>cancha de tierra</description>
+		<LookAt>
+			<longitude>-71.56810905219473</longitude>
+			<latitude>-16.32210543841589</latitude>
+			<altitude>0</altitude>
+			<heading>0.000396513095393735</heading>
+			<tilt>6.722683636100842</tilt>
+			<range>535.7643765931931</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.56907812794901,-16.32204784128699,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_071</name>
+		<visibility>0</visibility>
+		<description>parque</description>
+		<LookAt>
+			<longitude>-71.56926313703381</longitude>
+			<latitude>-16.32508484058445</latitude>
+			<altitude>0</altitude>
+			<heading>0.0006743754760320779</heading>
+			<tilt>11.85816650285652</tilt>
+			<range>557.298253298126</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.56973828556094,-16.32501070743111,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_072</name>
+		<visibility>0</visibility>
+		<description>Comisaria de Familia</description>
+		<LookAt>
+			<longitude>-71.55505301296982</longitude>
+			<latitude>-16.3328677871425</latitude>
+			<altitude>0</altitude>
+			<heading>-0.01395165485457711</heading>
+			<tilt>30.00110225244256</tilt>
+			<range>245.4194060159783</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.55519080984745,-16.3330295697714,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_073</name>
+		<visibility>0</visibility>
+		<description>I,E,I, LOS PATITOS</description>
+		<LookAt>
+			<longitude>-71.55562219816994</longitude>
+			<latitude>-16.33166137008308</latitude>
+			<altitude>0</altitude>
+			<heading>-0.01379159657971142</heading>
+			<tilt>30.00269278135382</tilt>
+			<range>599.542941408927</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.55649681091114,-16.33229405028291,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_074</name>
+		<visibility>0</visibility>
+		<description>Asoc las Flores Zona 7</description>
+		<LookAt>
+			<longitude>-71.56609963407666</longitude>
+			<latitude>-16.33107628293739</latitude>
+			<altitude>0</altitude>
+			<heading>-0.009533965512761795</heading>
+			<tilt>28.00197484660385</tilt>
+			<range>492.8208161513064</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.56713433464756,-16.33069206368856,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CL24_PP_075</name>
+		<visibility>0</visibility>
+		<description>I.E Jesús es mi pastor</description>
+		<LookAt>
+			<longitude>-71.56936519787256</longitude>
+			<latitude>-16.3265410550814</latitude>
+			<altitude>0</altitude>
+			<heading>-0.009862738933405779</heading>
+			<tilt>30.00218063079153</tilt>
+			<range>485.4961055643094</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#pointStyleMap23</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-71.56864658444711,-16.3267499989933,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
