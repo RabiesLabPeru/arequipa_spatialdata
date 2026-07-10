@@ -1,10 +1,14 @@
 # Spatial Data for Arequipa, Peru
 
-This repository contains spatial data files produced by the Zoonotic Disease Research Center (ZDRC) team for our research projects carried out in Arequipa City and Arequipa Region in Peru. We created these files
+## Overview
 
-If you find them useful, please use them for your own research. A DOI is available for the current version and instructions for citations.
+This repository contains spatial data files produced by the Zoonotic Disease Research Center (ZDRC) team for research projects carried out in Arequipa City and the Arequipa Region in Peru.
 
-## Contents
+These files were generated from official data sources by manually digitizing and tracing original map visualizations in Google Earth to obtain spatial representations of the mapped information.
+
+If you find these data useful, please feel free to use them for your own research. The DOI for the current version and citation instructions are provided in the **Citation** section below.
+
+## Data Contents
 
 All folders contain KML spatial layers for Arequipa (AQP).\
 | Folder | Description | Last updated |
@@ -19,10 +23,14 @@ All folders contain KML spatial layers for Arequipa (AQP).\
 | **Points_AQP** | Georeferenced points of interest used in the study. | — |
 | **Water_channels_AQP** | Rivers and stormwater channels (*torrenteras*). | 2024-01-18 |
 
-## How to cite:
+## Data Generation
 
-Zoonotic Disease Research Center. Arequipa Spatial Data
+Spatial layers were created using official sources whenever available. When source data were provided as maps or PDF visualizations rather than GIS files, the research team manually digitized and traced the information in Google Earth to generate spatial layers suitable for research applications.
 
-## Contact Information
+## Citation:
+
+ZENODO LINK: 
+
+## Contact 
 
 If you have any questions please contact one of the projects PIs and co-director of the ZDRC: Dr. Ricardo Castillo-Neyra, cricardo\@upenn.edu
