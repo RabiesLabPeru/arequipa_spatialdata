@@ -2,9 +2,9 @@
 
 ## Overview
 
-This repository contains spatial data files produced by the Zoonotic Disease Research Center (ZDRC) team for research projects carried out in Arequipa City and the Arequipa Region in Peru.
+This repository contains spatial data files produced by the Penn-Tulane-UPCH Zoonotic Disease Research Center (ZDRC) team for research projects carried out in Arequipa City and the Arequipa Region in Peru.
 
-These files were generated from official data sources by manually digitizing and tracing original map visualizations in Google Earth to obtain spatial representations of the mapped information.
+These files were generated from official data sources by manually digitizing and tracing the original map visualizations in Google Earth to obtain spatial representations of the mapped information.
 
 If you find these data useful, we encourage their use in your own research. Please provide appropriate credit to the Zoonotic Disease Research Center (ZDRC) team and cite this dataset according to the instructions provided in the Citation section below. The DOI for the current version is included there.
 
