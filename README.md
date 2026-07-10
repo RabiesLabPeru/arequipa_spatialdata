@@ -15,10 +15,10 @@ All folders contain KML spatial layers for Arequipa (AQP).
 |--------|-------------|--------------|
 | **Access_roads_AQP** | Arequipa city's road network. | 2024-01-14 |
 | **Blocks_AQP** | Urban blocks ("manzanas", Mz) organized into different spatial subdivisions, including district-level blocks, and health micro-network (*microred*) blocks. | 2025-05-22: Mz_Microred<br>2024-03-08: Mz_Distrito |
-| **Delimitation_AQP** | Administrative boundaries. | — |
-| **Economic_income_AQP** | Spatial layers of socioeconomic and household income indicators, sourced from maps published by Peru's *Instituto Nacional de Estadística e Informática* (INEI; National Institute of Statistics and Informatics). The original PDF maps were extracted and converted to KML by the research team. | — |
-| **Health_centers_AQP** | Locations of healthcare facilities, including health centers and health posts. | — |
-| **Localities_AQP** | Locations and boundaries of populated places. | — |
+| **Delimitation_AQP** | Administrative boundaries. | 2023-05-11: Delimitacion_Microred<br>2023-05-11: Delimitacion_distrito |
+| **Economic_income_AQP** | Spatial layers of socioeconomic and household income indicators, sourced from maps published by Peru's *Instituto Nacional de Estadística e Informática* (INEI; National Institute of Statistics and Informatics). | 2023-05-10 |
+| **Health_centers_AQP** | Locations of healthcare facilities, including health centers and health posts. | 2024-01-12 |
+| **Localities_AQP** | Locations and boundaries of populated places. | 2023-05-10: Localities_microred<br>2023-05-10: Localities_distrito |
 | **Water_channels_AQP** | Rivers and stormwater channels (*torrenteras*). | 2024-01-18 |
 
 ## Data Generation
