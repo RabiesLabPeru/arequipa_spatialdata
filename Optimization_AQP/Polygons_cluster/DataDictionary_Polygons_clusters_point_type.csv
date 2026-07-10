@@ -1,9 +1,0 @@
-Variable;Description;Values
-cluster;;Cluster number
-point_optimizaton_year;Year of treatment in point optimization;"1: Year 1(2023); 2: Year 2 (2024)"
-point_type;Type of vaccination point;"Fixed; Mobile"
-ident;Polygon name;
-lat;Latitude;
-long;Longitude;
-y_proj;Coordinates Y;
-x_proj;Coordinates X;
