@@ -45,7 +45,7 @@ Spatial layers were created using official sources whenever available. When sour
 
 If you use this dataset, please cite it as follows:
 
-Díaz EW, Condori-Pino CE, Arévalo-Nieto C, Castillo-Neyra R. (2026). *Spatial Data for Arequipa, Peru*. Zenodo. https://doi.org/XXXXX
+Díaz, E. W., Condori-Pino, C. E., Arévalo-Nieto, C.& Castillo-Neyra, R. (2026). Spatial Dataset for Arequipa, Peru (Version v1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21398304
 
 Please cite the specific dataset version used in your research.
 
