@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+title: "Spatial Data for Arequipa, Peru"
+
+message: "If you use this dataset, please cite it as below."
+
+type: dataset
+
+authors:
+  - family-names: "Díaz"
+    given-names: "Elvis W."
+    affiliation: "One Health Unit, School of Public Health and Administration, Universidad Peruana Cayetano Heredia, Lima, Peru"
+
+  - family-names: "Condori-Pino"
+    given-names: "Carlos E."
+    affiliation: "One Health Unit, School of Public Health and Administration, Universidad Peruana Cayetano Heredia, Lima, Peru"
+
+  - family-names: "Arévalo-Nieto"
+    given-names: "Claudia"
+    affiliation: "One Health Unit, School of Public Health and Administration, Universidad Peruana Cayetano Heredia, Lima, Peru"
+
+  - family-names: "Castillo-Neyra"
+    given-names: "Ricardo"
+    affiliation:
+      - "One Health Unit, School of Public Health and Administration, Universidad Peruana Cayetano Heredia, Lima, Peru"
+      - "Department of Biostatistics, Epidemiology & Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, USA"
+      - "Department of Pathobiology, School of Veterinary Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, USA"
+
+description: >
+  Spatial layers for Arequipa City and the Arequipa Region, Peru.
+  These datasets were created through manual digitization and tracing
+  of publicly available maps and spatial information from Peruvian
+  government institutions.
+
+version: "1.0.0"
+
+license: "CC BY 4.0"
+
+repository-code: "https://github.com/RabiesLabPeru/arequipa_spatialdata"
+
+keywords:
+  - "Arequipa"
+  - "Peru"
+  - "spatial data"
+  - "GIS"
+  - "KML"
+  - "One Health"
+
+date-released: "2026-07-16"
