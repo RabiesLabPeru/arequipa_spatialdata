@@ -1,5 +1,7 @@
 # Spatial Dataset for Arequipa, Peru
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxxxx.svg)](https://doi.org/10.5281/zenodo.xxxxxxx)
+
 **Authors**
 
 Elvis W. Díaz<sup>1</sup>, Carlos E. Condori-Pino<sup>1</sup>, Claudia Arévalo-Nieto<sup>1</sup>, Ricardo Castillo-Neyra<sup>1,2,3*</sup>
