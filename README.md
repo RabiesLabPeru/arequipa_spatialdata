@@ -24,7 +24,7 @@ This repository contains spatial data files produced by the Penn-Tulane-UPCH Zoo
 
 These files were generated from official data sources by manually digitizing and tracing the original map visualizations in Google Earth to obtain spatial representations of the mapped information.
 
-If you find these data useful, we encourage their use in your own research. Please provide appropriate credit to the authors and cite this dataset according to the instructions provided in the **How to cite** section below, or click **"Cite this repository"** in the right-hand panel.
+If you find these data useful, we encourage their use in your own research. Please provide appropriate credit to the authors and cite this dataset according to the instructions provided in the **How to cite** section below.
 
 ## Data Contents
 
